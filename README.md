@@ -8,8 +8,9 @@ Didn't quite succeed using the formalism used by Andy, especially the "forms" fe
 
 Here is a story diagram of the current chatbot:
 
--> ![ca_wk3](https://user-images.githubusercontent.com/92320638/216168429-51fca261-da3f-4b08-92ea-92435a2cce48.png) <-
-
+<center>
+![ca_wk3](https://user-images.githubusercontent.com/92320638/216168429-51fca261-da3f-4b08-92ea-92435a2cce48.png)
+</center>
 
 ## Launching
 
