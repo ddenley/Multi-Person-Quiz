@@ -17,6 +17,6 @@ Here is a story diagram of the current chatbot:
 ## Launching
 
 In a 1st terminal, run the command line : __rasa run actions__ which will allow the chatbot to read in the actions file.
-It seems that every time you edit the actions file, you will not only need to save the project, but also kill the port 5055 (by for example the command line __npx kill-port 5055__) and restart it by <rasa run actions> but I might be mistaken.
+It seems that every time you edit the actions file, you will not only need to save the project, but also kill the port 5055 (by for example the command line __npx kill-port 5055__) and restart it by __rasa run actions__ but I might be mistaken.
 
 In a 2nd terminal, __rasa train__ then __rasa shell__.
