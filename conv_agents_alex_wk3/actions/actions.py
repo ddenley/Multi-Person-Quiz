@@ -17,7 +17,7 @@ import random
 #from rasa_sdk import FormAction
 
 questions = {
-	"What is the capital of Scotland" : "Edinburgh",
+	"What is the capital of Scotland ?" : "Edinburgh",
 	"What is the capital of Belgium ?" : "Brussels",
 	"What is the capital of France ?": "Paris"
 }
@@ -84,7 +84,7 @@ class CheckAnswer(Action):
 		indx += 1
 
 		if indx == nb_question :
-			response = response + " There is no more questions, you completed the quiz ! Yous score is {}/{}".format(score, nb_question)
+			response = response + " There is no more questions, you completed the quiz ! Yours score is {}/{}.".format(score, nb_question)
 			indx = 0
 			score = 0
 
