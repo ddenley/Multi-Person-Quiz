@@ -16,7 +16,7 @@ Here is a story diagram of the current chatbot:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/92320638/216168429-51fca261-da3f-4b08-92ea-92435a2cce48.png " 
        width="500" 
-       height="500"/>
+       height="600"/>
 </p>
 
 Example of conversation :
