@@ -19,6 +19,12 @@ Here is a story diagram of the current chatbot:
   
 </center>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/92320638/216168429-51fca261-da3f-4b08-92ea-92435a2cce48.png " 
+       width="500" 
+       height="400"/>
+</p>
+
 Example of conversation :
 
 ![conv_wk3](https://user-images.githubusercontent.com/92320638/216185540-75a7fe88-5f05-41f0-838b-0e327188b065.png)
