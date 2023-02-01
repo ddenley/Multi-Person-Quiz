@@ -13,16 +13,10 @@ I am confident that we could generalize and complexify what I've done though, by
 
 Here is a story diagram of the current chatbot:
 
-<center>
-  
-![ca_wk3](https://user-images.githubusercontent.com/92320638/216168429-51fca261-da3f-4b08-92ea-92435a2cce48.png)
-  
-</center>
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/92320638/216168429-51fca261-da3f-4b08-92ea-92435a2cce48.png " 
        width="500" 
-       height="400"/>
+       height="500"/>
 </p>
 
 Example of conversation :
