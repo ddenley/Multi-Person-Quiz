@@ -1,0 +1,353 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: concur
+  examples: |
+    - yes
+    - yes it is [Bolivia](answer)
+    - yes i believe is [Guatemala](answer)
+    - y
+    - ye
+    - yeah
+    - yeah it might be [Germany](answer)
+    - yeah it is certainly [Turmenistan](answer)
+    - indeed
+    - yes indeed
+    - indeed yes
+    - indeed, it's [USA](answer)
+    - indeed it must be [South Africa](answer)
+    - it is indeed [Cameroon](answer) i think
+    - right, i think it is [Zimbabwe](answer) as well
+    - as well
+    - too
+    - i affirm
+    - i concur
+    - of course
+    - of course it must be [Nigeria](answer)
+    - that sounds good
+    - that sounds good to me
+    - correct
+    - i agree
+    - I agree with you
+    - i agree, it is [Sweden](answer)
+    - i agree with you, it must be [Finland](anwser)
+    - you are right
+    - I believe you are right, it is [India](answer)
+    - you're right
+    - your right
+    - alright
+    - Ok
+    - OK, that must be that
+    - Ok, it is certainly right
+    - I think it is [Russia](answer) as well
+    - I believe it's right
+    - i think so
+    - i think so it is [Thailand](answer)
+    - I believe you are right
+    - you're wrong ... no, wait, you're right !
+    - it's not [Brasil](answer). Oh wait actually you're right
+    - you might be right
+    - i believe so
+- intent: contest
+  examples: |
+    - wrong
+    - i think you're wrong
+    - i think you're wrong, it is [Syria](answer)
+    - you're wrong, it must be [Morocco](answer)
+    - i think not
+    - not at all
+    - i contest
+    - negative sir
+    - I deny
+    - no please
+    - no
+    - n
+    - I don't think so
+    - don't like that
+    - no way
+    - no way it is [Norway](answer)
+    - not really
+    - I disagree with you
+    - No it is not [Netherlands](answer)
+    - No, it is not [Cameroon](answer), but it is [Koweit](answer)
+    - No, it is [Myanmar](answer)
+    - its not [Japan](answer)
+    - I don't think it is [China](answer), but rather [Chili](answer)
+    - I think you are mistaken, it is [Scotland](answer)
+    - you're mistaken
+    - it is certainly not [Hungary](answer)
+    - you are mistaken, it's not [Congo](answer)
+    - you're mistaken, it is not [france](answer), but [Switzerland](answer)
+    - no way it is [Mexico](answer), it's [Argentina](answer)
+    - no it's not [andorra](answer), but [russia](answer)
+    - no it is not
+    - no i don't think it is [South Korea](answer)
+    - I don't think it is [Egypt](answer)
+    - its not
+    - i believe it isn't quite right
+    - i believe is is not incorrect
+    - incorrect
+    - you're right. No wait, you're wrong !
+    - it must be [England](answer) indeed. Actually, no, it's [Wales](answer)
+    - I believe you're correct. Wait, actually it's [Ireland](answer)
+    - i believe you're right. Wait no actually i think it is [France](answer)
+    - no i think not. It's not [Ireland](answer), but [scotland](answer)
+    - no i believe it's [eritrea](answer)
+- intent: give_answer
+  examples: |
+    - I am sure it is [Italy](answer)
+    - I believe it's [Canada](answer)
+    - [France](answer)
+    - [England](answer)
+    - I think it is [Germany](answer)
+    - Isn't it [Scotland](answer) ?
+    - Is it the [UK](answer) ?
+    - It must be [Iran](answer)
+    - I would say [United States](answer)
+    - I am certain it is [Italy](answer)
+    - certainly [Malta](answer)
+    - Is it [belgium](answer)
+    - I believe it is [Mexico](answer)
+    - [myanmar](answer)
+    - [scotland](answer)
+    - [united states](answer)
+    - i think it is [belgium](answer)
+    - is it [Thailand](answer)
+    - I think it is [andorra](answer)
+    - [france](answer)
+    - i think it is [united states](answer)
+    - i think it is [scotland](answer)
+    - i am confident it is [Benin](answer)
+    - it is [Greece](answer)
+    - It's [Turkey](answer)
+    - it's [Mongolia](answer), ah no, it is [Kirghizistan](answer)
+    - i believe it is [Singapore](answer)
+    - yes it must be [France](answer)
+    - it is certainly [unied states](answer)
+    - certainly [ireland](answer)
+    - it must be [ireland](answer) indeed
+    - it must be [belgium](answer)
+    - it is [belgium](answer)
+- lookup: answer
+  examples: |
+    - Afghanistan
+    - Albania
+    - Algeria
+    - Andorra
+    - Angola
+    - Antigua and Barbuda
+    - Argentina
+    - Armenia
+    - Australia
+    - Austria
+    - Azerbaijan
+    - Bahrain
+    - Bangladesh
+    - Barbados
+    - Belarus
+    - Belgium
+    - Belize
+    - Benin
+    - Bhutan
+    - Bolivia
+    - Bosnia and Herzegovina
+    - Botswana
+    - Brazil
+    - Brunei
+    - Bulgaria
+    - Burkina Faso
+    - Burundi
+    - Cambodia
+    - Cameroon
+    - Canada
+    - Cape Verde
+    - Central African Republic
+    - Chad
+    - Chile
+    - China
+    - Colombia
+    - Comoros
+    - Congo
+    - Congo (Democratic Republic)
+    - Costa Rica
+    - Croatia
+    - Cuba
+    - Cyprus
+    - Czechia
+    - Denmark
+    - Djibouti
+    - Dominica
+    - Dominican Republic
+    - East Timor
+    - Ecuador
+    - Egypt
+    - El Salvador
+    - Equatorial Guinea
+    - Eritrea
+    - Estonia
+    - Eswatini
+    - Ethiopia
+    - Fiji
+    - Finland
+    - France
+    - Gabon
+    - Georgia
+    - Germany
+    - Ghana
+    - Greece
+    - Grenada
+    - Guatemala
+    - Guinea
+    - Guinea-Bissau
+    - Guyana
+    - Haiti
+    - Honduras
+    - Hungary
+    - Iceland
+    - India
+    - Indonesia
+    - Iran
+    - Iraq
+    - Ireland
+    - Israel
+    - Italy
+    - Ivory Coast
+    - Jamaica
+    - Japan
+    - Jordan
+    - Kazakhstan
+    - Kenya
+    - Kiribati
+    - Kosovo
+    - Kuwait
+    - Kyrgyzstan
+    - Laos
+    - Latvia
+    - Lebanon
+    - Lesotho
+    - Liberia
+    - Libya
+    - Liechtenstein
+    - Lithuania
+    - Luxembourg
+    - Madagascar
+    - Malawi
+    - Malaysia
+    - Maldives
+    - Mali
+    - Malta
+    - Marshall Islands
+    - Mauritania
+    - Mauritius
+    - Mexico
+    - Micronesia
+    - Moldova
+    - Monaco
+    - Mongolia
+    - Montenegro
+    - Morocco
+    - Mozambique
+    - Myanmar (Burma)
+    - Namibia
+    - Nauru
+    - Nepal
+    - Netherlands
+    - New Zealand
+    - Nicaragua
+    - Niger
+    - Nigeria
+    - North Korea
+    - North Macedonia
+    - Norway
+    - Oman
+    - Pakistan
+    - Palau
+    - Panama
+    - Papua New Guinea
+    - Paraguay
+    - Peru
+    - Philippines
+    - Poland
+    - Portugal
+    - Qatar
+    - Romania
+    - Russia
+    - Rwanda
+    - Samoa
+    - San Marino
+    - Sao Tome and Principe
+    - Saudi Arabia
+    - Senegal
+    - Serbia
+    - Seychelles
+    - Sierra Leone
+    - Singapore
+    - Slovakia
+    - Slovenia
+    - Solomon Islands
+    - Somalia
+    - South Africa
+    - South Korea
+    - South Sudan
+    - Spain
+    - Sri Lanka
+    - St Kitts and Nevis
+    - St Lucia
+    - St Vincent
+    - Sudan
+    - Suriname
+    - Sweden
+    - Switzerland
+    - Syria
+    - Tajikistan
+    - Tanzania
+    - Thailand
+    - The Bahamas
+    - The Gambia
+    - Togo
+    - Tonga
+    - Trinidad and Tobago
+    - Tunisia
+    - Turkey
+    - Turkmenistan
+    - Tuvalu
+    - Uganda
+    - Ukraine
+    - United Arab Emirates
+    - United Kingdom
+    - United States
+    - Uruguay
+    - Uzbekistan
+    - Vanuatu
+    - Vatican City
+    - Venezuela
+    - Vietnam
+    - Yemen
+    - Zambia
+    - Zimbabwe

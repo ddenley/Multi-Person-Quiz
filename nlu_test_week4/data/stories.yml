@@ -1,0 +1,336 @@
+version: "3.1"
+
+stories:
+
+- story: beginning flow
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - checkpoint: ask_new_q
+  - action: action_ask_question
+  - checkpoint: listen_to_u1
+  
+  - intent: give_answer
+    entities:
+    - answer: France
+  - slot_was_set:
+    - answer: France
+  - action: action_update_answer
+  - checkpoint: listen_to_u2
+
+- story: u2 agrees
+  steps:
+    - checkpoint: listen_to_u2
+    - intent: concur
+    - action: action_check_answer
+    - action: utter_want_to_play
+    - checkpoint: play_or_not
+
+- story: u2 disagrees
+  steps:
+    - checkpoint: listen_to_u2
+    - intent: contest
+    - action: utter_please_agree
+    - checkpoint: listen_to_u1
+
+- story: want to play
+  steps:
+    - checkpoint: play_or_not
+    - intent: concur
+    - checkpoint: ask_new_q
+
+
+- story: don't want to play
+  steps:
+    - checkpoint: play_or_not
+    - intent: contest
+    - action: utter_goodbye
+
+
+
+
+
+#- story: u1 gives answer
+#  steps:
+#    - checkpoint: listen_to_u1
+#    - intent: give_answer
+#      entities:
+#      - answer: bangladesh
+#    - slot_was_set:
+#      - answer: bangladesh
+#    - action: action_update_answer
+#    - checkpoint: listen_to_u2
+
+#- story: end of flow / game
+#  steps:
+#  - checkpoint: playing_or_not
+#  - intent: contest
+#  - action: utter_goodbye
+
+
+
+
+
+#- story: ask question and listen to user 1
+#  steps:
+#    - checkpoint: play
+#    - action: action_ask_question
+#    - intent: give_answer
+#      entities:
+#      - answer: France
+#    - slot_was_set:
+#      - answer: France
+
+#    - action: update_answer
+
+#    - checkpoint: listen_to_2nd_user
+
+#- story: user 2 agrees
+#  steps:
+#    - checkpoint: listen_to_2nd_user
+#    - intent: concur
+#    - action: check_answer
+#    - checkpoint: play
+
+#- story: user 2 disagrees
+#  steps:
+#    - checkpoint: listen_to_2nd_user
+#    - intent: contest
+#    - action: utter_please_agree
+#    - checkpoint: play
+
+
+
+
+
+#- story: story 1
+#  steps:
+#    - intent: greet
+#    - action: utter_greet
+#    - action: action_ask_question
+#    - intent: give_answer
+#      entities:
+#      - answer: France
+#    - slot_was_set:
+#      - answer: France
+
+#    - action: action_update_answer
+
+#    - intent: concur
+#    - action: action_check_answer
+
+
+
+#- story: interactive_story_1
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - action: action_ask_question
+#  - intent: give_answer
+#    entities:
+#    - answer: united states
+#    - slot_was_set:
+#      - answer: united states
+#  - action: action_update_answer
+#  - intent: concur
+#  - action: action_check_answer
+
+#- story: interactive_story_1
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - action: action_ask_question
+#  - intent: give_answer
+#    entities:
+#    - answer: belgium
+#  - slot_was_set:
+#    - answer: belgium
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer: belgium
+#  - intent: concur
+#  - action: action_check_answer
+#  - slot_was_set:
+#    - answer: null
+#  - action: action_ask_question
+#  - intent: give_answer
+#    entities:
+#    - answer: Thailand
+#  - slot_was_set:
+#    - answer: Thailand
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer: Thailand
+#  - intent: concur
+#  - action: action_check_answer
+#  - slot_was_set:
+#    - answer: null
+#  - action: action_ask_question
+#  - intent: give_answer
+#    entities:
+#    - answer: andorra
+#  - slot_was_set:
+#    - answer: andorra
+
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer: andorra
+#  - intent: contest
+#    entities:
+#    - answer: andorra
+#    - answer: russia
+
+#- story: interactive_story_1
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - action: action_ask_question
+#  - intent: give_answer
+#    entities:
+#    - answer: france
+#  - slot_was_set:
+#    - answer: france
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer: france
+#  - intent: concur
+#    entities:
+#    - answer: france
+#  - action: action_check_answer
+#  - slot_was_set:
+#    - answer: null
+#  - action: action_ask_question
+#  - intent: give_answer
+#    entities:
+#    - answer: united states
+#  - slot_was_set:
+#    - answer: united states
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer: united states
+#  - intent: concur
+#  - action: action_check_answer
+#  - slot_was_set:
+#    - answer: null
+#  - action: action_ask_question
+#  - intent: give_answer
+#    entities:
+#    - answer: scotland
+#  - slot_was_set:
+#    - answer: scotland
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer: scotland
+#  - intent: contest
+#  - action: utter_please_agree
+#  - intent: give_answer
+#    entities:
+#    - answer: scotland
+#  - slot_was_set:
+#    - answer: scotland
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer: scotland
+#  - intent: concur
+#  - action: action_check_answer
+#  - slot_was_set:
+#    - answer: null
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: action_ask_question
+  - intent: give_answer
+    entities:
+    - answer: Singapore
+  - action: action_update_answer
+  - slot_was_set:
+    - answer: null
+  - intent: contest
+    entities:
+    - answer: France
+  - slot_was_set:
+    - answer: France
+  - action: utter_please_agree
+  - intent: give_answer
+    entities:
+    - answer: France
+  - slot_was_set:
+    - answer: France
+  - action: action_update_answer
+  - slot_was_set:
+    - answer: France
+  - intent: concur
+  - action: action_check_answer
+  - slot_was_set:
+    - answer: null
+  - action: utter_want_to_play
+  - intent: concur
+  - action: action_ask_question
+  - intent: give_answer
+    entities:
+    - answer: unied states
+  - slot_was_set:
+    - answer: unied states
+  - action: action_update_answer
+  - slot_was_set:
+    - answer: unied states
+  - intent: concur
+  - action: action_check_answer
+  - slot_was_set:
+    - answer: null
+  - action: utter_want_to_play
+  - intent: concur
+  - action: action_ask_question
+  - intent: give_answer
+    entities:
+    - answer: ireland
+  - action: action_update_answer
+  - slot_was_set:
+    - answer: null
+  - intent: contest
+    entities:
+    - answer: Ireland
+    - answer: scotland
+  - slot_was_set:
+    - answer: scotland
+  - action: utter_please_agree
+  - intent: give_answer
+    entities:
+    - answer: ireland
+  - action: action_update_answer
+  - slot_was_set:
+    - answer: scotland
+  - intent: concur
+  - action: action_check_answer
+  - slot_was_set:
+    - answer: null
+  - action: utter_want_to_play
+  - intent: concur
+  - action: action_ask_question
+  - intent: give_answer
+    entities:
+    - answer: belgium
+  - slot_was_set:
+    - answer: belgium
+  - action: action_update_answer
+  - slot_was_set:
+    - answer: belgium
+  - intent: contest
+    entities:
+    - answer: eritrea
+  - action: utter_please_agree
+  - intent: give_answer
+    entities:
+    - answer: belgium
+  - slot_was_set:
+    - answer: belgium
+  - action: action_update_answer
+  - slot_was_set:
+    - answer: belgium
+  - intent: concur
+  - action: action_check_answer
+  - slot_was_set:
+    - answer: null
+  - action: utter_want_to_play

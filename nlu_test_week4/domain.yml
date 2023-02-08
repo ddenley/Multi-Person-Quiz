@@ -1,0 +1,37 @@
+version: '3.1'
+intents:
+- concur
+- contest
+- give_answer
+- goodbye
+- greet
+actions:
+- action_ask_question
+- action_check_answer
+- action_update_answer
+- utter_greet
+- utter_please_agree
+- utter_want_to_play
+responses:
+  utter_greet:
+  - text: Hey! Let's play a game.
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_want_to_play:
+  - text: Do you still want to play ?
+  utter_please_agree:
+  - text: Please find an agreement
+entities:
+- answer
+slots:
+  answer:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: answer
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
