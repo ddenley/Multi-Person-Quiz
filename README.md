@@ -7,10 +7,10 @@
 - 3 main intents for the moment : give_answer, concur/agree, contest/disagree (nlu file). __WARNING__ : entities are often recognized but intents can be misclassified (overlapping intents). E.g. "Yeah I think it is [Norway](answer)" could be misclassified as "give_answer" whereas it is "concur"
 - __NOTA BENE__: May uncomment the config file part about the pipeline from RegexExtrctor to FallbackClassifier (didn't notice results improvemet though)
 
-Here is a story diagram of the current chatbot:
+Here is the ideal (without the interactive stories) story diagram of the current chatbot:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/92320638/217413660-f2ac23d7-a337-4498-a687-e06e8e7188ae.png " 
+  <img src="https://user-images.githubusercontent.com/92320638/217417787-3b14aa15-e75a-4ac5-adc8-bc9dc9a3bb09.png" 
        width="500" 
        height="600"/>
 </p>
