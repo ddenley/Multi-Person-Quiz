@@ -1,27 +1,30 @@
-# Multi-Person-Quiz
-Team repo for conversational agents and spoken language processing. Developing a multi-person quiz game.
+# Multi-Person-Quiz : NLU
 
-## Branch : Alex Week 3
+## Progress on week 4
 
-Attempted to automatize a system of question-answer based on what has been seen in previous labs and the work of Andy. 3 questions are featured about capitals.
-
-Didn't quite succeed using the formalism used by Andy, especially the "forms" feature, so I kept using only the entity "answer". 
-
-The chatbot is rather simple and uses a loop (thanks to checkpoints) to ask questions and check the answer of the user. Key part of the work is the custom actions "ask_question" and "check_answer" which keep track of the user's state (question and score). 
-
-I am confident that we could generalize and complexify what I've done though, by using multiple entities (if necessary) and forms in the future.
+- Prototype bot for testing NLU. Questions are in the form "what is the country of Edinburgh ?" since there is no option for displaying flagss yet. __NOTA BENE__ : Stories and actions are purely experimental and do not align with the real Dialogue Management part of the project (Raphaël).
+- Added lookup table for the entity answer, which gathers all the different countries (see nlu file). Have to add synonyms in the future (e.g. US = USA = United States etc.)
+- 3 main intents for the moment : give_answer, concur/agree, contest/disagree (nlu file). __WARNING__ : entities are often recognized but intents can be misclassified (overlapping intents). E.g. "Yeah I think it is [Norway](answer)" could be misclassified as "give_answer" whereas it is "concur"
+- __NOTA BENE__: May uncomment the config file part about th pipeline from RegexExtrctor to FallbackClassifier (didn't notice result evolution though)
 
 Here is a story diagram of the current chatbot:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/92320638/216168429-51fca261-da3f-4b08-92ea-92435a2cce48.png " 
+  <img src="https://user-images.githubusercontent.com/92320638/217413660-f2ac23d7-a337-4498-a687-e06e8e7188ae.png " 
        width="500" 
        height="600"/>
 </p>
 
-Example of conversation :
 
-![conv_wk3](https://user-images.githubusercontent.com/92320638/216185540-75a7fe88-5f05-41f0-838b-0e327188b065.png)
+### Points to improve
+
+- maybe add other intents to make the model more complete (eg repeatQuestion, skipQuestion, etc (see evaluation file))
+- better slot management (an answer slot for user 1 and another one for user 2) 
+- use forms as active loops to listen to the users until all required slots are filled 
+- investigate on the possibility of another model, or specifying it more, since for the moment, intent classification may occur.
+Futhermore, current model would have a lot of difficulties dealjing with complex, especially hesitant answers, such as "i think it is (answer1) ... Wait, actually i think it is rather (answer2)" or "you're wrong ... Oh, sorry, i actually think you're right".
+__NOTA BENE__ : Maybe we could have fewer intents like only give_answer, instead of concur/contest, and we could track the answers more specifically like :
+intent give answer : I don't think it is [Norway](entity: answer, role: deny), but rather [Sweden](entity: answer, role: final_answer).
 
 ## Launching
 
