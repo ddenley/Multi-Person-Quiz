@@ -68,7 +68,7 @@ the API using the following code.
 </p>
 
 ```
-intents = requests.post(url=f"http://{host}:{port}/model/parse",<br>
+intents = requests.post(url=f"http://{host}:{port}/model/parse",
                         json={"text": text, "message_id": message_id})
 ```
 
