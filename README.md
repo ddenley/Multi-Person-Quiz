@@ -58,23 +58,28 @@ Rasa has its own HTTP API which can be started from the command line.
 It is started in the bash script controlling the servers 
 (described below) in the following way:
 </p>
+
 ```rasa run -i 127.0.0.1 -p 5005 -m models --enable-api &```
+
 <p>
 This starts the server on localhost:5005, using the latest model in 
 the local "models" directory and with the HTTP api enabled. Since 
 this project only uses the Rasa NLU module, it accesses 
 the API using the following code.
 </p>
+
 ```
 intents = requests.post(url=f"http://{host}:{port}/model/parse",<br>
                         json={"text": text, "message_id": message_id})
 ```
+
 <p>
 This sends text to the NLU and receives a response containing the intents 
-and entities identified by the model, along with their probabilities.
+and entities identified by the model, along with their probabilities as in 
+the following example.
 </p>
+
 ```
-Sure, let's guess Malaysia.  - said by player 2
 {
     'text': "Sure, let's guess Malaysia.", 
     'intent': 
@@ -104,7 +109,6 @@ Sure, let's guess Malaysia.  - said by player 2
     ]
 }
 ```
-
 
 
 
