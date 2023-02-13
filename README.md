@@ -75,7 +75,7 @@ intents = requests.post(url=f"http://{host}:{port}/model/parse",
 <p>
 This sends text to the NLU and receives a response containing the intents 
 and entities identified by the model, along with their probabilities as in 
-the following example.
+the following example using model 20230207-232923-cruel-account.tar.gz.
 </p>
 
 ```
