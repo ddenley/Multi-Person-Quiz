@@ -1,5 +1,4 @@
 # Architecture Integration Concept
-#### Author: Andy Edmondson
 #### Updated: 13 Feb 2023
 ## Purpose
 
@@ -109,6 +108,25 @@ the following example.
     ]
 }
 ```
+## Controlling the servers
+<p>
+There is a bash script which can be used to start the servers. On running the script it will present a menu.
+</p>
 
+```
+1) start
+2) dialog
+3) stop
+4) quit
+Select the operation:
+```
+
+<p>
+Option 1 will start all the modules except the DM. Once the modules are all running, option 2 will 
+run the DM which, in this example, is a script that can be run multiple times. 
+</p>
+<p>
+To stop the servers choose option 3, and then option 4 to exit the script.
+</p>
 
 
