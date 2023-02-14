@@ -6,14 +6,13 @@ First version of the DM.
 The database of the flags need to be in a folder data.
 The relative path of the images is 'data/imgFlags/' and the relative path of the csv file is 'data/codes_names.csv'.
 
-For the moment, there are no links between the DM and the STT, the DM and the NLU and the DM and the NLG/GUI. That is 
+For the moment, there are no links between the DM and the STT, the DM and the NLU and the DM and the TTS/GUI. That is 
 why the functions *requestNextTurn()* and *sendAndRequestNLU()* are more close of a simulation of what can return the STT
 and the NLU than a right implementation to request the information.
 
-Moreover, the main function which makes the decision-making process is *executeRelevantAction()* in the class MainDM. 
+Moreover, the main function which makes the decision-making process is *executeRelevantAction()* in the class DecisionMaker. 
 This function doesn't cover all the possible cases (just few cases for the moment).
 
-TODO : Implement a class DecisionMaker 
 
 ## Test this version
 

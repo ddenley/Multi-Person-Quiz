@@ -2,7 +2,9 @@ import QuestionManager
 
 class Actions:
     """
-    Gather the main actions for the bot for the Multi-Person Quizz.
+    Gather the main actions for the bot for the Multi-Person Quizz, and the methods to send the output message to the
+    TTS and the GUI.
+    # TODO : Add a repository of different ways to says each message to introduce random message with the same meaning
     """
 
     def __init__(self):
@@ -12,13 +14,13 @@ class Actions:
         self.__previousAction = None
         self.__QManager = QuestionManager.QuestionManager()
 
-    def sendNLG(self, msg):
+    def sendTTS(self, msg):
         """
-        Send the message from the bot to the NLG to display the text to the users.
+        Send the message from the bot to the TTS to display the text to the users.
         :param msg: message to send
         :return:
         """
-        #TODO : Link to the NLG -> send to the NLG
+        #TODO : Link to the TTS -> send to the TTS
         print('----' * 10)
         print('-' + msg)
         print('----'*10)
@@ -39,7 +41,7 @@ class Actions:
         Introduce the quizz to the players.
         :return:
         """
-        self.sendNLG("Hey! Would you like to play a game ? You must associate each flag with its country.")
+        self.sendTTS("Hey! Would you like to play a game ? You must associate each flag with its country.")
         self.__previousAction = 'introQuizz'
 
     def askQuestion(self):
@@ -49,7 +51,7 @@ class Actions:
         """
         msg = 'What is this flag ?'
         img_path = 'image path'
-        self.sendNLG(msg)
+        self.sendTTS(msg)
         self.sendGUI(img_path)
         self.__previousAction = 'askQuestion'
         self.__QManager.nextQuestion()
@@ -74,17 +76,21 @@ class Actions:
         self.__previousAction = 'checkAns'
         if ans == self.__QManager.getCurrentFlag():
             self.__QManager.nbSuccess += 1
-            self.sendNLG("Well done, it's right ! Would you like to continue to play ?")
+            self.sendTTS("Well done, it's right ! Would you like to continue to play ?")
             return
         else:
-            self.sendNLG("Unfortunately it's not the right answer. This is the flag of {} ! Would you like to try another flag ?".format(self.__QManager.getCurrentFlag()))
+            self.sendTTS("Unfortunately it's not the right answer. This is the flag of {} ! Would you like to try another flag ?".format(self.__QManager.getCurrentFlag()))
 
     def engagePlayers(self):
         # TODO : How to engage the discussion between the payers, To be continued
         pass
 
     def skipQuestions(self):
+
          # TODO : skip question
+        pass
+
+    def paraphraseMessage(self, meaning):
         pass
 
     # Getters

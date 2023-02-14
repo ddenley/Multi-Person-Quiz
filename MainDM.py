@@ -1,21 +1,21 @@
-import Actions
-import QuestionManager
+import DecisionMaker
 
 class MainDM:
     """
     Main class of the Dialogue Management of the project Multi-Person Quizz.
     This class handle the flow of the information between the STT and the NLU to get the label, intent and the entity for each utterance,
-    and trigger the action which seems the most relevant.
+    and trigger the action which seems the most relevant using the DecisionMaker class.
     """
 
     def __init__(self):
         self.__onGoing = True                                   # boolean to indicate if a game is in progress
-        self.__questionAsked = False
+
         # Index to do a test version
         self.idxNTurn = 0
         self.idxNLU = 0
 
-        self.__Action = Actions.Actions()                        # Actions instance
+        self.__DecisionMaker = DecisionMaker.DecisionMaker()     # DecisionMaker instance
+
         self.__previousTurns = {'0': [], '1': []}                # dictionary for previous turns for each person
         self.currentLabel = '0'
         self.__currentUtt = ['', '', '']                         # list for current turn [intent, entity, label]
@@ -39,7 +39,7 @@ class MainDM:
             texts = [utt]
             labels = ['0']
         elif self.idxNTurn==1:
-            utt1 = 'Mhmm, I think it is {}, what do you think ?'.format(self.__Action.getQManager().getCurrentFlag())
+            utt1 = 'Mhmm, I think it is {}, what do you think ?'.format(self.__DecisionMaker.getAction().getQManager().getCurrentFlag())
             utt2 = 'Yes, probably'
             print('-' + utt1)
             print('-' + utt2)
@@ -63,50 +63,18 @@ class MainDM:
         elif self.idxNTurn==1:
             if self.idxNLU==0:
                 intent = 'give_answer'
-                entity = '{}'.format(self.__Action.getQManager().getCurrentFlag())
+                entity = '{}'.format(self.__DecisionMaker.getAction().getQManager().getCurrentFlag())
             elif self.idxNLU==1:
                 intent = 'agree'
                 entity = ''
         return intent, entity
-
-    def executeRelevantAction(self, i):
-        """
-        Choose and execute the action which seems the most relevant regarding the current and previous
-        information [intent, entity, label]
-        :param i: the number which correspond of the current analysis of the current turn (e.g. is the current turn has
-        a text for a first person and a text from the other one, i=0 for the first text and then i=1 for the second)
-        :return:
-        """
-        #use currentUtt and lastUtt is not None and previous action
-        previousAct = self.__Action.getPreviousAction()
-        # if no question has been asked :
-        if not self.__questionAsked:
-            if ((previousAct == 'introQuizz') or (previousAct == 'checkAns') ) and (self.nbTexts == 1):
-                if self.__currentUtt[0] == 'agree':
-                    self.__Action.askQuestion()
-                    self.__questionAsked = True
-            elif ((previousAct == 'introQuizz') or (previousAct == 'checkAns') ) and (self.nbTexts == 2):
-                if (self.__currentUtt[0] == 'agree') and (i == 2):
-                    self.__Action.askQuestion()
-                    self.__questionAsked = True
-        # if a question has been asked : check for agreement
-        else:
-            if (self.__lastUtt[0] == 'give_answer') and (self.__currentUtt[0] == 'agree'):
-                self.__currentAnswer = self.__lastUtt[1]
-                self.__Action.checkAnswer(self.__currentAnswer)
-                self.__questionAsked = False
-            elif (self.__lastUtt[0] == 'give_answer') and (self.__currentUtt[0] == 'give_answer'):
-                if self.__lastUtt[1] == self.__currentUtt[1]:
-                    self.__currentAnswer = self.__currentUtt[1]
-                    self.__Action.checkAnswer(self.__currentAnswer)
-                    self.__questionAsked = False
 
     def main(self):
         """
         Main function to execute to handle the dialogue
         :return:
         """
-        self.__Action.introduceQuizz()
+        self.__DecisionMaker.getAction().introduceQuizz()
         while self.__onGoing and self.idxNTurn<2:
             # Get the next Turn (transcription of speech to text with label from ASR)
             texts, labels = self.requestNextTurn()
@@ -116,7 +84,7 @@ class MainDM:
                 self.__currentUtt[0], self.__currentUtt[1] = self.sendAndRequestNLU()
                 self.__currentUtt[2] = labels[i]
                 # Execute the relevant action regarding the NLU response
-                self.executeRelevantAction(i+1)
+                self.__DecisionMaker.executeRelevantAction(self.__currentUtt, self.__lastUtt, self.nbTexts, i)
                 # Update the last Utt
                 self.__lastUtt[0], self.__lastUtt[1], self.__lastUtt[2] = self.__currentUtt[0], self.__currentUtt[1], self.__currentUtt[2]
                 self.idxNLU +=1
