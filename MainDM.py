@@ -21,6 +21,7 @@ class MainDM:
         self.__currentUtt = ['', '', '']                         # list for current turn [intent, entity, label]
         self.__lastUtt = ['', '', '']                            # list of the previous turn [intent, entity, label]
         self.__currentAnswer = ''                                # current Answer of the participants
+        self.nbTexts = 0                                         # number of texts in the current turn (typically 1 if just 1 of the players talks)
 
 
     def requestNextTurn(self):
@@ -57,14 +58,14 @@ class MainDM:
         intent = ''
         entity = ''
         # TEST VERSION HERE
-        if self.idxNTurn==0:
+        if self.idxNTurn == 0:
             intent = 'agree'
             entity = ''
-        elif self.idxNTurn==1:
-            if self.idxNLU==0:
+        elif self.idxNTurn == 1:
+            if self.idxNLU == 0:
                 intent = 'give_answer'
                 entity = '{}'.format(self.__DecisionMaker.getAction().getQManager().getCurrentFlag())
-            elif self.idxNLU==1:
+            elif self.idxNLU == 1:
                 intent = 'agree'
                 entity = ''
         return intent, entity
@@ -72,7 +73,6 @@ class MainDM:
     def main(self):
         """
         Main function to execute to handle the dialogue
-        :return:
         """
         self.__DecisionMaker.getAction().introduceQuizz()
         while self.__onGoing and self.idxNTurn<2:
@@ -87,8 +87,8 @@ class MainDM:
                 self.__DecisionMaker.executeRelevantAction(self.__currentUtt, self.__lastUtt, self.nbTexts, i)
                 # Update the last Utt
                 self.__lastUtt[0], self.__lastUtt[1], self.__lastUtt[2] = self.__currentUtt[0], self.__currentUtt[1], self.__currentUtt[2]
-                self.idxNLU +=1
-            self.idxNTurn +=1
+                self.idxNLU += 1
+            self.idxNTurn += 1
 
 
 if __name__=='__main__':

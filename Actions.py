@@ -49,6 +49,7 @@ class Actions:
         Ask a question to the players.
         :return:
         """
+        # TODO :  Improve the message to send to the TTS
         msg = 'What is this flag ?'
         img_path = 'image path'
         self.sendTTS(msg)
@@ -57,11 +58,21 @@ class Actions:
         self.__QManager.nextQuestion()
         choices = self.__QManager.getMultipleChoices()
         for i in range(len(choices)):
-            print('{} : {}'.format(i, choices[i]))
+            print('{} : {}'.format(i, choices[i])) # to be adapted with the way to send to the TTS the multiple choices
+        # display the flag with matplotlib.pyplot just for test but to be removed when it'll integrate with GUI
         self.__QManager.displayFlag()
 
     def repeatQuestion(self):
-        pass
+        """
+        Repeat the current question
+        :return:
+        """
+        self.sendTTS('Absolutely, I can repeat the different choices.')
+        # TODO : to be adapted with the way to send the message to the TTS
+        choices = self.__QManager.getMultipleChoices()
+        for i in range(len(choices)):
+            print('{} : {}'.format(i, choices[i]))
+
 
     def checkAgreement(self):
         #NB : This methode seems to be replaced by the methode executeRelevantAction of MainDM class
@@ -85,10 +96,9 @@ class Actions:
         # TODO : How to engage the discussion between the payers, To be continued
         pass
 
-    def skipQuestions(self):
-
-         # TODO : skip question
-        pass
+    def proposeSkipQuestions(self):
+        self.sendTTS('I see that you do not agree at all on a certain answer. Would you like to skip the question ?')
+        self.__previousAction = 'proposeSkipQ'
 
     def paraphraseMessage(self, meaning):
         pass

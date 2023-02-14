@@ -83,6 +83,7 @@ class QuestionManager:
         plt.xticks([])
         plt.yticks([])
         plt.title('Which flag is it ?')
+        plt.show()
 
     def getMulitpleChoices(self):
         """
