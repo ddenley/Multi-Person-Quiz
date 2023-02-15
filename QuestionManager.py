@@ -103,7 +103,6 @@ class QuestionManager:
         Load the data
 
         This function uses code from the proof of concept by Andy Edmondson
-
         :return:
         """
 

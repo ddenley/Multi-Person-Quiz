@@ -26,10 +26,10 @@ class MainDM:
 
     def requestNextTurn(self):
         """
-        Request the next turn of the dialogue to the SSR (IBM ASR)
+        Request the next turn of the dialogue to the STT
         :return:
         """
-        #TODO : Link to the IBM ASR to request the next turn
+        #TODO : Link to the STT to request the next turn
         #Test version
         texts = ['']                    # list of the text from different people
         labels = ['']                   # list of the labels for each text
@@ -72,10 +72,10 @@ class MainDM:
 
     def main(self):
         """
-        Main function to execute to handle the dialogue
+        Main function to handle the dialogue
         """
         self.__DecisionMaker.getAction().introduceQuizz()
-        while self.__onGoing and self.idxNTurn<2:
+        while self.__onGoing and self.idxNTurn < 2:
             # Get the next Turn (transcription of speech to text with label from ASR)
             texts, labels = self.requestNextTurn()
             self.idxNLU = 0
@@ -84,7 +84,7 @@ class MainDM:
                 self.__currentUtt[0], self.__currentUtt[1] = self.sendAndRequestNLU()
                 self.__currentUtt[2] = labels[i]
                 # Execute the relevant action regarding the NLU response
-                self.__DecisionMaker.executeRelevantAction(self.__currentUtt, self.__lastUtt, self.nbTexts, i)
+                self.__onGoing = self.__DecisionMaker.executeRelevantAction(self.__currentUtt, self.__lastUtt, self.nbTexts, i)
                 # Update the last Utt
                 self.__lastUtt[0], self.__lastUtt[1], self.__lastUtt[2] = self.__currentUtt[0], self.__currentUtt[1], self.__currentUtt[2]
                 self.idxNLU += 1

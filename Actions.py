@@ -90,13 +90,36 @@ class Actions:
             self.sendTTS("Well done, it's right ! Would you like to continue to play ?")
             return
         else:
-            self.sendTTS("Unfortunately it's not the right answer. This is the flag of {} ! Would you like to try another flag ?".format(self.__QManager.getCurrentFlag()))
+            self.sendTTS("Unfortunately it's not the right answer. This is the flag of {} ! Would you like to try "
+                         "another flag ?".format(self.__QManager.getCurrentFlag()))
 
     def engagePlayers(self):
         # TODO : How to engage the discussion between the payers, To be continued
         pass
 
-    def proposeSkipQuestions(self):
+    def endQuiz(self, pDisagree = False):
+        """
+        End of the quiz (i.e. the players asked to quit or say no when the bot asked if they want to continue)
+        :param pDisagree : boolean which indicates if just one of the player doesn't want to continue/to play
+        """
+        if pDisagree:
+            self.sendTTS("It seems that one of the player doesn't want to play. You need to be two in order to "
+                         "discuss together. Please come again when all of the players want to play")
+        else:
+            self.sendTTS('I understand, see you later !')
+        # Should the bot display the results of the quiz ?! (i.e. number/percentage of successes)
+
+    def continueSameQuestion(self):
+        """
+        Continue on the same question when the bot asked previously if the players want to skip a question
+        """
+        self.sendTTS('No problem, keep going on this question !')
+        self.__previousAction = 'keepGoing'
+
+    def proposeSkipQuestion(self):
+        """
+        Propose to the players to skip a question
+        """
         self.sendTTS('I see that you do not agree at all on a certain answer. Would you like to skip the question ?')
         self.__previousAction = 'proposeSkipQ'
 
