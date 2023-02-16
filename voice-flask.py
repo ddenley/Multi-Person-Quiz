@@ -32,7 +32,6 @@ def get_next_turn() -> Tuple[dict, int]:
 # Create a queue of test data for the test DM to get.
 # Should be defined as dicts so client can use .json() to easily recover the data.
 concept_data = [
-        {"text": "Hi", "player": 1},
         {"text": "yes, we can play", "player": 2},
         {"text": "can you repeat that?", "player": 2},
         {"text": "I think it might be Mongolia", "player": 1},
