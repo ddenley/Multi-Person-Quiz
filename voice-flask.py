@@ -25,7 +25,8 @@ def get_next_turn() -> Tuple[dict, int]:
     global concept_data
     turn_text = concept_data[count]
     count = (count + 1) % len(concept_data)                 # Use like a circular buffer
-    return turn_text, 200  # return data and 200 OK code
+    code = 404 if turn_text['player'] == 0 else 200
+    return turn_text, code  # return data and 200 OK code
 
 
 # Create a queue of test data for the test DM to get.
@@ -40,7 +41,8 @@ concept_data = [
         {"text": "I live in hope.", "player": 2},
         {"text": "Maybe it's Malaysia, shall we say Malaysia?", "player": 1},
         {"text": "Sure, let's guess Malaysia.", "player": 2},
-        {"text": "Malaysia!", "player": 1}
+        {"text": "Malaysia!", "player": 1},
+        {"text": "end", "player": 0},
     ]
 
 

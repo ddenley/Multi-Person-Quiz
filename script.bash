@@ -21,7 +21,9 @@ start_server () {
 
 start_dialog_manager() {
   echo "Starting dialog manager"
+  #python MainDM.py &
   python dialogue_manager.py &
+  MainPID=$!
 }
 
 stop_server () {
@@ -36,6 +38,9 @@ stop_server () {
 
  echo "Stopping server PID "$Server4PID
  kill $Server4PID
+
+ echo "Stopping dialog manager PID"$MainPID
+ kill $MainPID
 }
 
 
