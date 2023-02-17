@@ -15,7 +15,7 @@ class DecisionMaker:
         self.nbDisagree = 0                         # Number of turns where the players disagree on a same question
         self.nbLimitDisagree = 3                    # Limit of number of disagreements before proposing to skip the question
 
-    def executeRelevantAction(self, currentUtt, lastUtt, nbTexts, i):
+    def executeRelevantAction(self, currentUtt: list, lastUtt: list, nbTexts: int, i: int) -> bool:
         """
         Choose and execute the action which seems the most relevant regarding the current and previous
         information [intent, entity, label]
@@ -32,7 +32,7 @@ class DecisionMaker:
         if (not self.__questionAsked) or (previousAct == 'proposeSkipQ'):
             # If just one player answers when the bot asked if they want to play
             if (previousAct in ['introQuizz', 'checkAns', 'proposeSkipQ']) and (nbTexts == 1):
-                if currentUtt[0] == 'agree':
+                if currentUtt[0] == 'concur':
                     self.__Action.askQuestion()
                     self.__questionAsked = True
                     self.nbDisagree = 0
@@ -44,7 +44,7 @@ class DecisionMaker:
             # If two players answer when the bot asked if they want to play
             elif (previousAct in ['introQuizz', 'checkAns', 'proposeSkipQ']) and (nbTexts == 2):
                 # If they agree to play
-                if ((currentUtt[0] == 'agree') and (lastUtt[0] == 'agree')) and (i == 1):
+                if ((currentUtt[0] == 'concur') and (lastUtt[0] == 'concur')) and (i == 1):
                     self.__Action.askQuestion()
                     self.__questionAsked = True
                     self.nbDisagree = 0

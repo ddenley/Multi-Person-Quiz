@@ -49,7 +49,7 @@ class Actions:
         """
         # TODO :  Improve the message to send to the TTS
         msg = 'What is this flag ?'
-        img_path = 'image path'
+        img_path = 'static/data/flagImg/st.png'
         self.sendTTS(msg)
         self.sendGUI(img_path)
         self.__previousAction = 'askQuestion'

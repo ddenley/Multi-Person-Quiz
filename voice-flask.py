@@ -33,7 +33,6 @@ def get_next_turn() -> Tuple[dict, int]:
 # Should be defined as dicts so client can use .json() to easily recover the data.
 concept_data = [
         {"text": "yes, we can play", "player": 2},
-        {"text": "can you repeat that?", "player": 2},
         {"text": "I think it might be Mongolia", "player": 1},
         {"text": "No way, that's definitely Zimbabwe", "player": 2},
         {"text": "You always say Zimbabwe", "player": 1},
