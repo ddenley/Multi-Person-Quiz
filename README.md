@@ -51,6 +51,7 @@ Current story diagram (rasa visualize) :
 - Integrate Data collection work
 - introduce other variations to express more accurately intents
 - Deal with synonyms (USA = US = United States ..., Vatican city = Vatican, Myanmar = Burma etc.)
+- Answers can also be letters (__A__, __B__, __C__, __D__)
 - implement test stories, which would help for model evaluation
 
 ### Nota Bene
