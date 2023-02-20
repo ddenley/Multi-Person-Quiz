@@ -9,6 +9,7 @@ actions:
 - action_ask_question
 - action_check_answer
 - action_update_answer
+- utter_goodbye
 - utter_greet
 - utter_please_agree
 - utter_want_to_play
@@ -26,12 +27,18 @@ responses:
 entities:
 - answer
 slots:
-  answer:
+  answer1:
     type: text
     influence_conversation: false
     mappings:
     - type: from_entity
       entity: answer
+  #answer2:
+  #  type: text
+  #  influence_conversation: false
+  #  mappings:
+  #  - type: from_entity
+  #    entity: answer
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

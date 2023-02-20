@@ -2,49 +2,102 @@ version: "3.1"
 
 stories:
 
-- story: beginning flow
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - checkpoint: ask_new_q
-  - action: action_ask_question
-  - checkpoint: listen_to_u1
+#- story: beginning flow
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - checkpoint: ask_new_q
+#  - action: action_ask_question
+#  - checkpoint: listen_to_u1
   
-  - intent: give_answer
-    entities:
-    - answer: France
-  - slot_was_set:
-    - answer: France
-  - action: action_update_answer
-  - checkpoint: listen_to_u2
-
-- story: u2 agrees
-  steps:
-    - checkpoint: listen_to_u2
-    - intent: concur
-    - action: action_check_answer
-    - action: utter_want_to_play
-    - checkpoint: play_or_not
-
-- story: u2 disagrees
-  steps:
-    - checkpoint: listen_to_u2
-    - intent: contest
-    - action: utter_please_agree
-    - checkpoint: listen_to_u1
-
-- story: want to play
-  steps:
-    - checkpoint: play_or_not
-    - intent: concur
-    - checkpoint: ask_new_q
+#  - intent: give_answer
+#    entities:
+#    - answer: France
+#  - slot_was_set:
+#    - answer: France
+#  - action: action_update_answer
+#  - checkpoint: listen_to_u2
 
 
-- story: don't want to play
-  steps:
-    - checkpoint: play_or_not
-    - intent: contest
-    - action: utter_goodbye
+#- story: u2 agrees
+#  steps:
+#  - checkpoint: listen_to_u2
+#  - intent: concur
+#  - action: action_update_answer
+#  - action: action_check_answer
+#  - slot_was_set:
+#    - answer1: null
+#  - checkpoint: play_or_not
+
+#- story: u2 gives an answer (disagrees)
+#  steps:
+#  - checkpoint: listen_to_u2
+#  - intent: give_answer
+#    entities:
+#    - answer: Turkmenistan
+#  - slot_was_set:
+#    - answer1: Turkmenistan
+#  - action: action_update_answer
+#  - action: action_check_answer
+#  - slot_was_set:
+#    - answer1: null
+#  - checkpoint: listen_to_u1
+
+#- story: u2 disagrees explicitly
+#  steps:
+#    - checkpoint: listen_to_u2
+#    - intent: contest
+#      entities:
+#      - answer: poland
+#    - slot_was_set:
+#      - answer1: poland
+#    - action: action_update_answer
+#    - action: action_check_answer
+#    - slot_was_set:
+#      - answer1: null
+#    - checkpoint: listen_to_u1
+
+
+#- story: u1 agrees
+#  steps:
+#    - checkpoint: listen_to_u1
+#    - intent: concur
+#    - action: action_update_answer
+#    - action: action_check_answer
+#    - slot_was_set:
+#      - answer: null
+#    - checkpoint: play_or_not
+
+#- story: u1 gives an answer (disagrees)
+#  steps:
+#    - checkpoint: listen_to_u1
+#    - intent: give_answer
+#      entities:
+#      - answer: england
+#    - slot_was_set:
+#      - answer: england
+#    - action: action_update_answer
+#    - action: action_check_answer
+#    - slot_was_set:
+#      - answer: null
+#    - checkpoint: listen_to_u2
+
+#- story: u1 disagrees explicitly
+#  steps:
+#    - checkpoint: listen_to_u1
+#    - intent: contest
+#      entities:
+#      - answer: mexico
+#    - slot_was_set:
+#      - answer1: mexico
+#    - action: action_update_answer
+#    - action: action_check_answer
+#    - slot_was_set:
+#      - answer: null
+#    - checkpoint: listen_to_u2
+
+
+
 
 
 
@@ -236,101 +289,349 @@ stories:
 #  - slot_was_set:
 #    - answer: null
 
-- story: interactive_story_1
+#- story: interactive_story_1
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - action: action_ask_question
+#  - intent: give_answer
+#    entities:
+#    - answer: Singapore
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer: null
+#  - intent: contest
+#    entities:
+#    - answer: France
+#  - slot_was_set:
+#    - answer: France
+#  - action: utter_please_agree
+#  - intent: give_answer
+#    entities:
+#    - answer: France
+#  - slot_was_set:
+#    - answer: France
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer: France
+#  - intent: concur
+#  - action: action_check_answer
+#  - slot_was_set:
+#    - answer: null
+#  - action: utter_want_to_play
+#  - intent: concur
+#  - action: action_ask_question
+#  - intent: give_answer
+#    entities:
+#    - answer: unied states
+#  - slot_was_set:
+#    - answer: unied states
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer: unied states
+#  - intent: concur
+#  - action: action_check_answer
+#  - slot_was_set:
+#    - answer: null
+#  - action: utter_want_to_play
+#  - intent: concur
+#  - action: action_ask_question
+#  - intent: give_answer
+#    entities:
+#    - answer: ireland
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer: null
+#  - intent: contest
+#    entities:
+#    - answer: Ireland
+#    - answer: scotland
+#  - slot_was_set:
+#    - answer: scotland
+#  - action: utter_please_agree
+#  - intent: give_answer
+#    entities:
+#    - answer: ireland
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer: scotland
+#  - intent: concur
+#  - action: action_check_answer
+#  - slot_was_set:
+#    - answer: null
+#  - action: utter_want_to_play
+#  - intent: concur
+#  - action: action_ask_question
+#  - intent: give_answer
+#    entities:
+#    - answer: belgium
+#  - slot_was_set:
+#    - answer: belgium
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer: belgium
+#  - intent: contest
+#    entities:
+#    - answer: eritrea
+#  - action: utter_please_agree
+#  - intent: give_answer
+#    entities:
+#    - answer: belgium
+#  - slot_was_set:
+#    - answer: belgium
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer: belgium
+#  - intent: concur
+#  - action: action_check_answer
+#  - slot_was_set:
+#    - answer: null
+#  - action: utter_want_to_play
+
+
+- story: story agree
   steps:
-  - intent: greet
-  - action: utter_greet
-  - action: action_ask_question
-  - intent: give_answer
-    entities:
-    - answer: Singapore
-  - action: action_update_answer
-  - slot_was_set:
-    - answer: null
-  - intent: contest
-    entities:
-    - answer: France
-  - slot_was_set:
-    - answer: France
-  - action: utter_please_agree
-  - intent: give_answer
-    entities:
-    - answer: France
-  - slot_was_set:
-    - answer: France
-  - action: action_update_answer
-  - slot_was_set:
-    - answer: France
-  - intent: concur
-  - action: action_check_answer
-  - slot_was_set:
-    - answer: null
-  - action: utter_want_to_play
-  - intent: concur
-  - action: action_ask_question
-  - intent: give_answer
-    entities:
-    - answer: unied states
-  - slot_was_set:
-    - answer: unied states
-  - action: action_update_answer
-  - slot_was_set:
-    - answer: unied states
-  - intent: concur
-  - action: action_check_answer
-  - slot_was_set:
-    - answer: null
-  - action: utter_want_to_play
-  - intent: concur
-  - action: action_ask_question
-  - intent: give_answer
-    entities:
-    - answer: ireland
-  - action: action_update_answer
-  - slot_was_set:
-    - answer: null
-  - intent: contest
-    entities:
-    - answer: Ireland
-    - answer: scotland
-  - slot_was_set:
-    - answer: scotland
-  - action: utter_please_agree
-  - intent: give_answer
-    entities:
-    - answer: ireland
-  - action: action_update_answer
-  - slot_was_set:
-    - answer: scotland
-  - intent: concur
-  - action: action_check_answer
-  - slot_was_set:
-    - answer: null
-  - action: utter_want_to_play
-  - intent: concur
-  - action: action_ask_question
-  - intent: give_answer
-    entities:
-    - answer: belgium
-  - slot_was_set:
-    - answer: belgium
-  - action: action_update_answer
-  - slot_was_set:
-    - answer: belgium
-  - intent: contest
-    entities:
-    - answer: eritrea
-  - action: utter_please_agree
-  - intent: give_answer
-    entities:
-    - answer: belgium
-  - slot_was_set:
-    - answer: belgium
-  - action: action_update_answer
-  - slot_was_set:
-    - answer: belgium
-  - intent: concur
-  - action: action_check_answer
-  - slot_was_set:
-    - answer: null
-  - action: utter_want_to_play
+    - intent: greet
+    - action: utter_greet
+    - action: action_ask_question
+    - intent: give_answer
+      entities:
+        - answer: france
+    - slot_was_set: 
+        - answer1: france
+    - action: action_update_answer
+    - intent: concur
+    - action: action_check_answer
+    - action: utter_goodbye
+
+- story: story agree with an answer
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - action: action_ask_question
+    - intent: give_answer
+      entities:
+        - answer: france
+    - slot_was_set: 
+        - answer1: france
+    - action: action_update_answer
+    - intent: concur
+    # what happens if agree with a different answer ?
+      entities:
+        - answer: france
+    #- slot_was_set: 
+    #    - answer1: france
+    - action: action_check_answer
+    - action: utter_goodbye
+
+
+- story: story give answer (disagrees implicitly), then u1 agrees
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - action: action_ask_question
+    - intent: give_answer
+      entities:
+        - answer: france
+    - slot_was_set: 
+        - answer1: france
+    - action: action_update_answer
+    - intent: give_answer
+      entities:
+        - answer: Turkmenistan
+    - slot_was_set: 
+        - answer1: Turkmenistan
+    - action: action_check_answer
+    - intent: concur
+    - action: action_check_answer
+    - action: utter_goodbye
+
+- story: story give answer (disagrees implicitly), then u1 agrees with an entity
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - action: action_ask_question
+    - intent: give_answer
+      entities:
+        - answer: france
+    - slot_was_set: 
+        - answer1: france
+    - action: action_update_answer
+    - intent: give_answer
+      entities:
+        - answer: Turkmenistan
+    - slot_was_set: 
+        - answer1: Turkmenistan
+    - action: action_check_answer
+    - intent: concur
+      entities:
+        - answer: Turkmenistan
+    #- slot_was_set: 
+    #    - answer1: Turkmenistan
+    - action: action_check_answer
+    - action: utter_goodbye
+
+- story: story disagree explicitly, then u1 agrees
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - action: action_ask_question
+    - intent: give_answer
+      entities:
+        - answer: france
+    - slot_was_set: 
+        - answer1: france
+    - action: action_update_answer
+    - intent: contest
+      entities:
+        - answer: China
+    - slot_was_set: 
+        - answer1: China
+    - action: action_check_answer
+    - intent: contest
+      entities:
+        - answer: Scotland
+    - action: action_check_answer
+    - intent: concur
+    - action: action_check_answer
+    - action: utter_goodbye
+
+
+- story: story disagree explicitly, then u1 agrees with an answer
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - action: action_ask_question
+    - intent: give_answer
+      entities:
+        - answer: france
+    - slot_was_set: 
+        - answer1: france
+    - action: action_update_answer
+    - intent: contest
+      entities:
+        - answer: China
+    - slot_was_set: 
+        - answer1: China
+    - action: action_check_answer
+    - intent: contest
+      entities:
+        - answer: Scotland
+    - action: action_check_answer
+    - intent: concur
+      entities:
+        - answer: Turkmenistan
+    #- slot_was_set: 
+    #    - answer1: Turkmenistan
+    - action: action_check_answer
+    - action: utter_goodbye
+
+- story: story disagree explicitly, then u1 suggests another answer to which u2 agrees
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - action: action_ask_question
+    - intent: give_answer
+      entities:
+        - answer: france
+    - slot_was_set: 
+        - answer1: france
+    - action: action_update_answer
+    - intent: contest
+      entities:
+        - answer: China
+    - slot_was_set: 
+        - answer1: China
+    - action: action_check_answer
+    - intent: contest
+      entities:
+        - answer: Scotland
+    - action: action_check_answer
+    - intent: give_answer
+      entities:
+        - answer: Japan
+    - slot_was_set: 
+        - answer1: Japan
+    - action: action_check_answer
+    - intent: agree
+    - action: action_check_answer
+    - action: utter_goodbye
+
+- story: story disagree explicitly, then u1 disagrees again and suggests to which u2 agrees
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - action: action_ask_question
+    - intent: give_answer
+      entities:
+        - answer: france
+    - slot_was_set: 
+        - answer1: france
+    - action: action_update_answer
+    - intent: contest
+      entities:
+        - answer: China
+    - slot_was_set: 
+        - answer1: China
+    - action: action_check_answer
+    - intent: contest
+      entities:
+        - answer: Scotland
+    - action: action_check_answer
+    - intent: contest
+      entities:
+        - answer: Japan
+    - slot_was_set: 
+        - answer1: Japan
+    - action: action_check_answer
+    - intent: agree
+    - action: action_check_answer
+    - action: utter_goodbye
+
+
+
+#- story: want to play
+#  steps:
+#    - checkpoint: play_or_not
+#    - intent: concur
+#    - checkpoint: ask_new_q
+
+
+#- story: don't want to play
+#  steps:
+#    - checkpoint: play_or_not
+#    - intent: contest
+#    - action: utter_goodbye
+
+#- story: beginning flow
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - checkpoint: ask_new_q
+#  - action: action_ask_question
+#  - checkpoint: listen_to_u1
+  
+#  - intent: give_answer
+#    entities:
+#    - answer: France
+#  - slot_was_set:
+#    - answer: France
+#  - action: action_update_answer
+#  - checkpoint: listen_to_u2
+
+#- story: interactive_story_1
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - action: action_ask_question
+#  - intent: give_answer
+#    entities:
+#    - answer: norway
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer1: null
+#  - intent: give_answer
+#    entities:
+#    - answer: nigeria
+#  - action: action_check_answer
+#  - action: utter_goodbye
