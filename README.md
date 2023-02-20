@@ -39,7 +39,7 @@ __PERSONAL THOUGHT__ : Maybe we could have fewer intents like only give_answer, 
 Current story diagram (rasa visualize) :
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/92320638/220175096-4ceda7f4-83e0-4765-8b01-5a5d10290257.png" 
+  <img src="https://user-images.githubusercontent.com/92320638/220176031-b84ebe69-282a-46cb-be16-8a6082790c3b.png" 
        width="500" 
        height="600"/>
 </p>
