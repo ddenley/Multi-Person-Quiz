@@ -34,7 +34,7 @@ __PERSONAL THOUGHT__ : Maybe we could have fewer intents like only give_answer, 
 - Simplified version of chatbot, with no checkpoint anymore. They were indeed hard to read and induced too much training time. Furthermore we do not work on the DM part so we just need some simple stories which can be verified easily
 - One quiz question taken randomly and asked to the users
 - Turn by turn system which signals who has spoken and who must speak. Stories don't go further than ~3 turns though
-- Technically, we use an 2-element list in the custom actions file. The first element stores the answer of user 1, while the second one stores the answer of user 2. check_answer then assesses whether or not these elements match, if not the bot continues to listen
+- We use a 2-element list __current_answers__ in the custom actions file. The first element stores the answer of user 1, while the second one stores the answer of user 2. __check_answer__ then assesses whether or not these elements match, if so, it displays the correct answer; if not, the bot continues to listen
 - A lot more examples for each of the 3 previous intents, labelled automatically and in such a way that we reduce intent overlapping (same countries for all intents)
 
 
@@ -54,7 +54,7 @@ Current story diagram (rasa visualize) :
 - implement test stories, which would help for model evaluation
 
 ### Nota Bene
-The action "action_update_answer" is in fact the registering of the first answer (therefore, made by "user 1"). It doesn't check anything (since "user 2" hasn't spoken yet). Afterward, it is never used again, we use rather check_answer to do the next updates and answer checks (to see if the answers of each match). May have to rename it in "initial answer update".
+The action __action_update_answer__ is in fact the registering of the first answer (therefore, made by "user 1"). It doesn't check anything (since "user 2" hasn't spoken yet). Afterward, it is never used again, we use rather __action_check_answer__ to do the next updates and answer checks (to see if the answers of each match). May have to rename it in __initial_answer_update__ for example.
 
 ## Launching
 
