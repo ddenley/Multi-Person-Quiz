@@ -27,6 +27,30 @@ Futhermore, current model would have a lot of difficulties dealling with complex
 __PERSONAL THOUGHT__ : Maybe we could have fewer intents like only give_answer, instead of concur/contest, and we could track the answers more specifically like :
 (intent give answer) I don't think it is [Norway](entity: answer, role: deny), but rather [Sweden](entity: answer, role: final_answer). It could be easier then to track the final answer of a user, and ignore the others.
 
+
+
+## Progress on week 4
+
+- Simplified version of chatbot, with no checkpoint anymore. They were indeed hard to read and induced too much training time. Furthermore we do not work on the DM part so we just need some simple stories which can be verified easily
+- One quiz question taken randomly and asked to the users
+- A lot more examples for each of the 3 previous intents, labelled automatically and in such a way that we reduce intent overlapping (same countries for all intents)
+- Turn by turn system which signals who has spoken and who must speak. Stories don't go further than ~3 turns though
+
+Current story diagram (rasa visualize) :
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/92320638/220175096-4ceda7f4-83e0-4765-8b01-5a5d10290257.png" 
+       width="500" 
+       height="600"/>
+</p>
+
+### Points to improve / do
+
+- Integrate Data collection work
+- introduce other variations to express more accurately intents
+- Deal with synonyms (USA = US = United States ..., Vatican city = Vatican, Myanmar = Burma etc.)
+- implement test stories, which would help for model evaluation
+
 ## Launching
 
 In a 1st terminal, run the command line : __rasa run actions__ which will allow the chatbot to read in the actions file.
