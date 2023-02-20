@@ -29,7 +29,7 @@ __PERSONAL THOUGHT__ : Maybe we could have fewer intents like only give_answer, 
 
 
 
-## Progress on week 4
+## Progress on week 5
 
 - Simplified version of chatbot, with no checkpoint anymore. They were indeed hard to read and induced too much training time. Furthermore we do not work on the DM part so we just need some simple stories which can be verified easily
 - One quiz question taken randomly and asked to the users
