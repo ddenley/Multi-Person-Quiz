@@ -1,31 +1,35 @@
-# Multi-Person-Quiz
-Team repo for conversational agents and spoken language processing. Developing a multi-person quiz game.
+# Multi-Person-Quiz : NLU
 
-## Branch : Alex Week 3
+## Progress on week 4
 
-Attempted to automatize a system of question-answer based on what has been seen in previous labs and the work of Andy. 3 questions are featured about capitals.
+- Prototype bot for testing NLU. Questions are in the form "what is the country of Edinburgh ?" since there is no option for displaying flags yet. __NOTA BENE__ : Stories and actions are purely experimental and do not align with the real Dialogue Management part of the project (Raphaël).
+- Added lookup table for the entity answer, which gathers all the different countries (see nlu file). Have to add synonyms in the future (e.g. US = USA = United States etc.)
+- 3 main intents for the moment : give_answer, concur/agree, contest/disagree (nlu file). __WARNING__ : entities are often recognized but intents can be misclassified (overlapping intents). E.g. "Yeah I think it is [Norway](answer)" could be misclassified as "give_answer" whereas it is "concur"
+- __NOTA BENE__: May uncomment the config file part about the pipeline from RegexExtrctor to FallbackClassifier (didn't notice results improvemet though)
 
-Didn't quite succeed using the formalism used by Andy, especially the "forms" feature, so I kept using only the entity "answer". 
-
-The chatbot is rather simple and uses a loop (thanks to checkpoints) to ask questions and check the answer of the user. Key part of the work is the custom actions "ask_question" and "check_answer" which keep track of the user's state (question and score). 
-
-I am confident that we could generalize and complexify what I've done though, by using multiple entities (if necessary) and forms in the future.
-
-Here is a story diagram of the current chatbot:
+Here is the ideal (without the interactive stories) story diagram of the current chatbot:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/92320638/216168429-51fca261-da3f-4b08-92ea-92435a2cce48.png " 
+  <img src="https://user-images.githubusercontent.com/92320638/217417787-3b14aa15-e75a-4ac5-adc8-bc9dc9a3bb09.png" 
        width="500" 
        height="600"/>
 </p>
 
-Example of conversation :
 
-![conv_wk3](https://user-images.githubusercontent.com/92320638/216185540-75a7fe88-5f05-41f0-838b-0e327188b065.png)
+### Points to improve
+
+- maybe add other intents to make the model more complete (eg repeatQuestion, skipQuestion, etc (see evaluation file))
+- better slot management (eg an answer slot for user 1 and another one for user 2) 
+- use forms as active loops to listen to the users until all required slots (eventually yet to be defined) are filled 
+- investigate on the possibility of another model, or specifying it more, since for the moment intent misclassification may occur.
+Futhermore, current model would have a lot of difficulties dealling with complex, especially hesitant, answers, such as "i think it is (answer1) ... Wait, actually i think it is rather (answer2)" or "you're wrong ... Oh, sorry, i actually think you're right".
+
+__PERSONAL THOUGHT__ : Maybe we could have fewer intents like only give_answer, instead of concur/contest, and we could track the answers more specifically like :
+(intent give answer) I don't think it is [Norway](entity: answer, role: deny), but rather [Sweden](entity: answer, role: final_answer). It could be easier then to track the final answer of a user, and ignore the others.
 
 ## Launching
 
 In a 1st terminal, run the command line : __rasa run actions__ which will allow the chatbot to read in the actions file.
 It seems that every time you edit the actions file, you will not only need to save the project, but also kill the port 5055 (by for example the command line __npx kill-port 5055__) and restart it by __rasa run actions__ but I might be mistaken.
 
-In a 2nd terminal, __rasa train__ then __rasa shell__.
+In a 2nd terminal, __rasa train__ then __rasa shell__ (or __rasa interactive__ to have interactive options).
