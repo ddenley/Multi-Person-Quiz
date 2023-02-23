@@ -16,7 +16,7 @@ class QuestionManager:
         Constructor of the class QuestionManager which initializes the main attributes and load the data
         """
         # Attributes related to the database of the flags
-        self.img_path = 'static/data/flagImg/'
+        self.img_path = 'static/data/img/'
         self.img_list = None
         self.__currentImgPath = None
         self.name_lookup = None

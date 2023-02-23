@@ -13,7 +13,7 @@ class DecisionMaker:
         self.__questionAsked = False
         self.__currentAnswer = None
         self.nbDisagree = 0                         # Number of turns where the players disagree on a same question
-        self.nbLimitDisagree = 3                    # Limit of number of disagreements before proposing to skip the question
+        self.nbLimitDisagree = 2                    # Limit of number of disagreements before proposing to skip the question
 
     def executeRelevantAction(self, currentUtt: list, lastUtt: list, nbTexts: int, i: int) -> bool:
         """
@@ -36,9 +36,9 @@ class DecisionMaker:
                     self.__Action.askQuestion()
                     self.__questionAsked = True
                     self.nbDisagree = 0
-                elif previousAct == 'proposeSkipQ' and currentUtt[0] == 'disagree':
+                elif previousAct == 'proposeSkipQ' and currentUtt[0] == 'contest':
                     self.__Action.continueSameQuestion()
-                elif currentUtt[0] == 'disagree':
+                elif currentUtt[0] == 'contest':
                     self.__Action.endQuiz()
                     onGoing = False
             # If two players answer when the bot asked if they want to play
@@ -57,23 +57,23 @@ class DecisionMaker:
         else:
             if currentUtt[0] == 'repeat':
                 self.__Action.repeatQuestion()
-            elif (lastUtt[0] == 'give_answer') and (currentUtt[0] == 'agree'):
-                self.__currentAnswer = lastUtt[1]
+            elif (lastUtt[0] == 'give_answer') and (currentUtt[0] == 'concur'):
+                self.__currentAnswer = lastUtt[2]
                 self.__Action.checkAnswer(self.__currentAnswer)
                 self.__questionAsked = False
             elif (lastUtt[0] == 'give_answer') and (currentUtt[0] == 'give_answer'):
-                if lastUtt[1] == currentUtt[1]:
+                if lastUtt[2] == currentUtt[2]:
                     self.__currentAnswer = currentUtt[1]
                     self.__Action.checkAnswer(self.__currentAnswer)
                     self.__questionAsked = False
                 else:
                     # Disagreement between the players
-                    self.__currentAnswer = currentUtt[1]    # Update the current answer
+                    self.__currentAnswer = currentUtt[2]    # Update the current answer
                     self.nbDisagree += 1
                     # If too many disagreements, propose to skip a question
                     if self.nbDisagree >= self.nbLimitDisagree:
                         self.__Action.proposeSkipQuestion()
-            elif (lastUtt[0] == 'give_answer') and (currentUtt[0] == 'disagree'):
+            elif (lastUtt[0] == 'give_answer') and (currentUtt[0] == 'contest'):
                 # Disagreement between the players
                 self.nbDisagree += 1
                 # If too many disagreements, propose to skip a question (we can probably add a probability to ask to

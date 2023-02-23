@@ -84,7 +84,7 @@ class Actions:
         # TODO : to be adapted with the way to send the message to the TTS
         choices = self.__QManager.getMultipleChoices()
         for i in range(len(choices)):
-            print('{} : {}'.format(i, choices[i]))
+            self.sendTTS('{} : {}'.format(i, choices[i]))
 
 
     def checkAgreement(self):
@@ -105,6 +105,10 @@ class Actions:
         else:
             self.sendTTS("Unfortunately it's not the right answer. This is the flag of {} ! Would you like to try "
                          "another flag ?".format(self.__QManager.getCurrentFlag()))
+
+    def ask_finalAnswer(self, ans):
+        self.sendTTS("So, is {} your final answer ?".format(ans))
+        self.__previousAction = 'ask_finalAnswer'
 
     def engagePlayers(self):
         # TODO : How to engage the discussion between the payers, To be continued

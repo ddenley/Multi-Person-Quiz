@@ -27,6 +27,29 @@ class MainDM:
         self.nbTexts = 0  # number of texts in the current turn
         # (typically 1 if just 1 of the players talks)
 
+    def initialize(self):
+        """
+        Initialize the instances variables before playing a game (avoid the need to kill each PID and restart the
+        server for each game)
+
+        :return:
+        """
+        self.__onGoing = True  # boolean to indicate if a game is in progress
+
+        # Index to do a test version
+        self.idxNTurn = 0
+        self.idxNLU = 0
+
+        self.__DecisionMaker = DecisionMaker.DecisionMaker()  # DecisionMaker instance
+
+        self.__previousTurns = {'0': [], '1': []}  # dictionary for previous turns for each person
+        self.currentLabel = '0'
+        self.__currentUtt = ['', '', '']  # list for current turn [intent, entity, label]
+        self.__lastUtt = ['', '', '']  # list of the previous turn [intent, entity, label]
+        self.__currentAnswer = ''  # current Answer of the participants
+        self.nbTexts = 0  # number of texts in the current turn
+        # (typically 1 if just 1 of the players talks)
+
     def requestNextTurn(self) -> list:
         """
         Request the next turn of the dialogue to the STT
@@ -67,6 +90,7 @@ class MainDM:
         """
         Main function to handle the dialogue
         """
+        self.initialize()
         self.__DecisionMaker.getAction().introduceQuizz()
 
         while self.__onGoing:
@@ -83,15 +107,16 @@ class MainDM:
                     break
 
                 self.__currentUtt = self.sendAndRequestNLU(text, person)
+
+                # For debug (display the text and the NLU analysis before the action is triggered):
+                print(text, self.__currentUtt)
+
                 self.__onGoing = self.__DecisionMaker.executeRelevantAction(self.__currentUtt,
                                                                      self.__lastUtt, 1, person)
                 if not self.__onGoing:
                     break
 
                 self.__lastUtt = self.__currentUtt
-
-                # For debug:
-                print(text, self.__lastUtt)
 
 
 if __name__ == '__main__':
