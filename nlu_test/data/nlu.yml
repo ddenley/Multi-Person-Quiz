@@ -1,3 +1,4 @@
+version: "3.1"
 nlu:
 - intent: greet
   examples: |
@@ -26,61 +27,14 @@ nlu:
     - see you around
     - bye bye
     - see you later
-#- intent: concur
-#  examples: |
-#    - yes
-#    - yes it is [Bolivia](answer)
-#    - yes i believe is [Guatemala](answer)
-#    - y
-#    - ye
-#    - yeah
-#    - yeah it might be [Germany](answer)
-#    - yeah it is certainly [Turmenistan](answer)
-#    - indeed
-#    - yes indeed
-#    - indeed yes
-#    - indeed, it's [USA](answer)
-#    - indeed it must be [South Africa](answer)
-#    - it is indeed [Cameroon](answer) i think
-#    - right, i think it is [Zimbabwe](answer) as well
-#    - as well
-#    - too
-#    - i affirm
-#    - i concur
-#    - of course
-#    - of course it must be [Nigeria](answer)
-#    - that sounds good
-#    - that sounds good to me
-#    - correct
-#    - i agree
-#    - I agree with you
-#    - i agree, it is [Sweden](answer)
-#    - i agree with you, it must be [Finland](answser)
-#    - you are right
-#    - I believe you are right, it is [India](answer)
-#    - you're right
-#    - your right
-#    - alright
-#    - Ok
-#    - OK, that must be that
-#    - Ok, it is certainly right
-#    - I think it is [Russia](answer) as well
-#    - I believe it's right
-#    - i think so
-#    - i think so it is [Thailand](answer)
-#    - I believe you are right
-#    - you're wrong ... no, wait, you're right !
-#    - it's not [Brasil](answer). Oh wait actually you're right
-#    - you might be right
-#    - i believe so
-
 - intent: concur
-  examples : |
+  examples: |
     - yes
     - i agree
     - i concur
     - it is right
     - indeed
+    - yes it is [Norway](answer)
     - yes it is [Afghanistan](answer)
     - yes it is [Azerbaijan](answer)
     - yes it is [Bosnia and Herzegovina](answer)
@@ -241,10 +195,40 @@ nlu:
     - I think so it is [Tajikistan](answer)
     - I think so it is [Turkmenistan](answer)
     - I think so it is [Vatican City](answer)
-
+    - yes it is [A](answer)
+    - yes it is [B](answer)
+    - yes it is [C](answer)
+    - yes it is [D](answer)
+    - indeed it is [A](answer)
+    - indeed it is [B](answer)
+    - indeed it is [C](answer)
+    - indeed it is [D](answer)
+    - yes it is indeed [A](answer)
+    - yes it is indeed [B](answer)
+    - yes it is indeed [C](answer)
+    - yes it is indeed [D](answer)
+    - i agree it's [A](answer)
+    - i agree it's [B](answer)
+    - i agree it's [C](answer)
+    - i agree it's [D](answer)
+    - i concur it is [A](answer)
+    - i concur it is [B](answer)
+    - i concur it is [C](answer)
+    - i concur it is [D](answer)
+    - i believe as well it is [A](answer)
+    - i believe as well it is [B](answer)
+    - i believe as well it is [C](answer)
+    - i believe as well it is [D](answer)
+    - you are right it is [A](answer)
+    - you are right it is [B](answer)
+    - you are right it is [C](answer)
+    - you are right it is [D](answer)
+    - I think so it is [A](answer)
+    - I think so it is [B](answer)
+    - I think so it is [C](answer)
+    - I think so it is [D](answer)
 - intent: contest
   examples: |
-
     - you are wrong, it is [Afghanistan](answer)
     - you are wrong, it is [Azerbaijan](answer)
     - you are wrong, it is [Bosnia and Herzegovina](answer)
@@ -305,6 +289,7 @@ nlu:
     - I disagree, it must be [Tajikistan](answer)
     - I disagree, it must be [Turkmenistan](answer)
     - I disagree, it must be [Vatican City](answer)
+    - No it is [Norway](answer)
     - No it is [Afghanistan](answer)
     - No it is [Azerbaijan](answer)
     - No it is [Bosnia and Herzegovina](answer)
@@ -345,26 +330,6 @@ nlu:
     - you are mistaken, it is [Tajikistan](answer)
     - you are mistaken, it is [Turkmenistan](answer)
     - you are mistaken, it is [Vatican City](answer)
-    - no way, it is [Afghanistan](answer)
-    - no way, it is [Azerbaijan](answer)
-    - no way, it is [Bosnia and Herzegovina](answer)
-    - no way, it is [Cape Verde](answer)
-    - no way, it is [Croatia](answer)
-    - no way, it is [Egypt](answer)
-    - no way, it is [Gabon](answer)
-    - no way, it is [Haiti](answer)
-    - no way, it is [Italy](answer)
-    - no way, it is [Kyrgyzstan](answer)
-    - no way, it is [Madagascar](answer)
-    - no way, it is [Micronesia](answer)
-    - no way, it is [Nauru](answer)
-    - no way, it is [Oman](answer)
-    - no way, it is [Qatar](answer)
-    - no way, it is [Seychelles](answer)
-    - no way, it is [Spain](answer)
-    - no way, it is [Tajikistan](answer)
-    - no way, it is [Turkmenistan](answer)
-    - no way, it is [Vatican City](answer)
     - i think not, it must be [Afghanistan](answer)
     - i think not, it must be [Azerbaijan](answer)
     - i think not, it must be [Bosnia and Herzegovina](answer)
@@ -425,54 +390,45 @@ nlu:
     - i don't think it is [Tajikistan](answer), but rather [Qatar](answer)
     - i don't think it is [Turkmenistan](answer), but rather [Italy](answer)
     - i don't think it is [Vatican City](answer), but rather [Spain](answer)
-#heylink
-    #- wrong
-    #- i think you're wrong
-    #- i think you're wrong, it is [Syria](answer)
-    #- you're wrong, it must be [Morocco](answer)
-    #- i think not
-    #- not at all
-    #- i contest
-    #- negative sir
-    #- I deny
-    #- no please
-    #- no
-    #- n
-    #- I don't think so
-    #- don't like that
-    #- no way
-    #- no way it is [Norway](answer)
-    #- not really
-    #- I disagree with you
-    #- No it is not [Netherlands](answer)
-    #- No, it is not [Cameroon](answer), but it is [Koweit](answer)
-    #- No, it is [Myanmar](answer)
-    #- its not [Japan](answer)
-    #- I don't think it is [China](answer), but rather [Chili](answer)
-    #- I think you are mistaken, it is [Scotland](answer)
-    #- you're mistaken
-    #- it is certainly not [Hungary](answer)
-    #- you are mistaken, it's not [Congo](answer)
-    #- you're mistaken, it is not [france](answer), but [Switzerland](answer)
-    #- no way it is [Mexico](answer), it's [Argentina](answer)
-    #- no it's not [andorra](answer), but [russia](answer)
-    #- no it is not
-    #- no i don't think it is [South Korea](answer)
-    #- I don't think it is [Egypt](answer)
-    #- its not
-    #- i believe it isn't quite right
-    #- i believe is is not incorrect
-    #- incorrect
-    #- you're right. No wait, you're wrong !
-    #- it must be [England](answer) indeed. Actually, no, it's [Wales](answer)
-    #- I believe you're correct. Wait, actually it's [Ireland](answer)
-    #- i believe you're right. Wait no actually i think it is [France](answer)
-    #- no i think not. It's not [Ireland](answer), but [scotland](answer)
-    #- no i believe it's [eritrea](answer)
-
+    - you are wrong, it is [A](answer)
+    - you are wrong, it is [B](answer)
+    - you are wrong, it is [C](answer)
+    - you are wrong, it is [D](answer)
+    - I don't think so, it is [A](answer)
+    - I don't think so, it is [B](answer)
+    - I don't think so, it is [C](answer)
+    - I don't think so, it is [D](answer)
+    - I disagree, it must be [A](answer)
+    - I disagree, it must be [B](answer)
+    - I disagree, it must be [C](answer)
+    - I disagree, it must be [D](answer)
+    - No it is [A](answer)
+    - No it is [B](answer)
+    - No it is [C](answer)
+    - No it is [D](answer)
+    - you are mistaken, it is [A](answer)
+    - you are mistaken, it is [B](answer)
+    - you are mistaken, it is [C](answer)
+    - you are mistaken, it is [D](answer)
+    - no way, it is [A](answer)
+    - no way, it is [B](answer)
+    - no way, it is [C](answer)
+    - no way, it is [D](answer)
+    - i think not, it must be [A](answer)
+    - i think not, it must be [B](answer)
+    - i think not, it must be [C](answer)
+    - i think not, it must be [D](answer)
+    - it is not [A](answer), but rather [B](answer)
+    - it is not [B](answer), but rather [C](answer)
+    - it is not [C](answer), but rather [D](answer)
+    - it is not [D](answer), but rather [A](answer)
+    - i don't think it is [A](answer), but rather [B](answer)
+    - i don't think it is [B](answer), but rather [C](answer)
+    - i don't think it is [C](answer), but rather [D](answer)
+    - i don't think it is [D](answer), but rather [A](answer)
 - intent: give_answer
   examples: |
-
+    - It is [Norway](answer)
     - It is [Afghanistan](answer)
     - It is [Azerbaijan](answer)
     - It is [Bosnia and Herzegovina](answer)
@@ -633,40 +589,39 @@ nlu:
     - [Tajikistan](answer)
     - [Turkmenistan](answer)
     - [Vatican City](answer)
-#heylink
-    #- I am sure it is [Italy](answer)
-    #- I believe it's [Canada](answer)
-    #- [France](answer)
-    #- [England](answer)
-    #- I think it is [Germany](answer)
-    #- Isn't it [Scotland](answer) ?
-    #- Is it the [UK](answer) ?
-    #- It must be [Iran](answer)
-    #- I would say [United States](answer)
-    #- I am certain it is [Italy](answer)
-    #- certainly [Malta](answer)
-    #- Is it [belgium](answer)
-    #- I believe it is [Mexico](answer)
-    #- [myanmar](answer)
-    #- [scotland](answer)
-    #- [united states](answer)
-    #- i think it is [belgium](answer)
-    #- is it [Thailand](answer)
-    #- I think it is [andorra](answer)
-    #- [france](answer)
-    #- i think it is [united states](answer)
-    #- i think it is [scotland](answer)
-    #- i am confident it is [Benin](answer)
-    #- it is [Greece](answer)
-    #- It's [Turkey](answer)
-    #- it's [Mongolia](answer), ah no, it is [Kirghizistan](answer)
-    #- i believe it is [Singapore](answer)
-    #- yes it must be [France](answer)
-    #- it is certainly [unied states](answer)
-    #- certainly [ireland](answer)
-    #- it must be [ireland](answer) indeed
-    #- it must be [belgium](answer)
-    #- it is [belgium](answer)
+    - [Norway](answer)
+    - It is [A](answer)
+    - It is [B](answer)
+    - It is [C](answer)
+    - It is [D](answer)
+    - I am sure it is [A](answer)
+    - I am sure it is [B](answer)
+    - I am sure it is [C](answer)
+    - I am sure it is [D](answer)
+    - I believe it's [A](answer)
+    - I believe it's [B](answer)
+    - I believe it's [C](answer)
+    - I believe it's [D](answer)
+    - I think it is [A](answer)
+    - I think it is [B](answer)
+    - I think it is [C](answer)
+    - I think it is [D](answer)
+    - It must be [A](answer)
+    - It must be [B](answer)
+    - It must be [C](answer)
+    - It must be [D](answer)
+    - It's certainly [A](answer)
+    - It's certainly [B](answer)
+    - It's certainly [C](answer)
+    - It's certainly [D](answer)
+    - surely it is [A](answer)
+    - surely it is [B](answer)
+    - surely it is [C](answer)
+    - surely it is [D](answer)
+    - [A](answer)
+    - [B](answer)
+    - [C](answer)
+    - [D](answer)
 - lookup: answer
   examples: |
     - Afghanistan
@@ -864,3 +819,7 @@ nlu:
     - Yemen
     - Zambia
     - Zimbabwe
+    - A
+    - B
+    - C
+    - D

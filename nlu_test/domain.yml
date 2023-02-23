@@ -33,12 +33,6 @@ slots:
     mappings:
     - type: from_entity
       entity: answer
-  #answer2:
-  #  type: text
-  #  influence_conversation: false
-  #  mappings:
-  #  - type: from_entity
-  #    entity: answer
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

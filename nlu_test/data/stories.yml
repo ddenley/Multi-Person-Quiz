@@ -635,3 +635,41 @@ stories:
 #    - answer: nigeria
 #  - action: action_check_answer
 #  - action: utter_goodbye
+
+#- story: interactive_story_1
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - action: action_ask_question
+#  - intent: give_answer
+#    entities:
+#    - answer: A
+#    - answer: A
+#  - slot_was_set:
+#    - answer1: A
+#  - action: action_update_answer
+#  - slot_was_set:
+#    - answer1: null
+#  - intent: contest
+#    entities:
+#    - answer: B
+#    - answer: B
+#  - slot_was_set:
+#    - answer1: B
+#  - action: action_check_answer
+#  - slot_was_set:
+#    - answer1: null
+#  - intent: contest
+#    entities:
+#    - answer: Afghanistan
+#    - answer: Afghanistan
+#  - slot_was_set:
+#    - answer1: Afghanistan
+#  - action: action_check_answer
+#  - slot_was_set:
+#    - answer1: null
+#  - intent: concur
+#  - action: action_check_answer
+#  - slot_was_set:
+#    - answer1: null
+#  - action: utter_goodbye
