@@ -17,25 +17,34 @@ This version uses rasa, so it can import an NLU model by placing it in the
 
 To test this version of the DM, use ./script.bash to start the dummy module servers 
 and rasa, and then run the MainDM.py file. To stop the severs, enter '3' in the 
-script window.
+script window. Before, you must have a NLU model in the folder 'models' (with at least the intents 'give_answer', 'concur', 'contest'). 
+
 
 This should simulate a dialogue like this one:
 
-- Hey! Would you like to play a game ? You must associate each flag with its country.
+-  Hey! Would you like to play a game ? You must associate each flag with its country.
 
-- Yes, for sure
+P1 : yes, we can play ['concur', None, None]
 
 - What is this flag ?
+-  0 : The Philippines
+-  1 : Gibraltar
+-  2 : Isle of Man
+-  3 : Saudi Arabia
 
-    0 : South Africa
+P1 : I think it might be Mongolia ['give_answer', 'answer', 'Mongolia']
 
-    1 : Iceland
+P2 : No way, that's definitely Zimbabwe ['contest', 'answer', 'Zimbabwe']
 
-    2 : United Kingdom
+P1 : You always say Zimbabwe ['contest', 'answer', 'Zimbabwe']
 
-    3 : Trinidad and Tobago
+P2 : I live in hope. ['greet', None, None]
 
-- Mhmm, I think it is United Kingdom, what do you think ?
-- Yes, probably
-- Well done, it's right ! Would you like to continue to play ?
+P1 : Maybe it's Malaysia, shall we say Malaysia? ['concur', 'answer', 'Malaysia']
+
+P2 : Sure, let's guess Malaysia. ['give_answer', 'answer', 'Malaysia']
+
+P1 : Malaysia! ['give_answer', 'answer', 'Malaysia']
+-  Unfortunately it's not the right answer. This is the flag of Isle of Man ! Would you like to try another flag ?
+
 
