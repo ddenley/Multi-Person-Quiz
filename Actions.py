@@ -46,7 +46,7 @@ class Actions:
         Introduce the quizz to the players.
         :return:
         """
-        self.sendTTS("Hey! Would you like to play a game ? You must associate each flag with its country.")
+        self.sendTTS(do.greeting_options())
         self.__previousAction = 'introQuizz'
 
     def askQuestion(self):
@@ -57,9 +57,7 @@ class Actions:
         self.__previousAction = 'askQuestion'
         self.__QManager.nextQuestion()
 
-        choices = self.__QManager.getMultipleChoices()
-        # self.sendTTS(self.createQuizOptionsMessage(choices))
-        self.sendTTS(do.question_options(choices))
+        self.sendTTS(do.question_options(self.__QManager.getMultipleChoices()))
 
         # display the flag with matplotlib.pyplot just for test but to be removed when it'll integrate with GUI
         self.__QManager.displayFlag()
@@ -67,24 +65,14 @@ class Actions:
         # Send flag image to the GUI server
         self.sendGUI(self.__QManager.getFlagPath())
 
-    def createQuizOptionsMessage(self, pOptions: list) -> str:
-        """Function to create options message for tts."""
-        # TODO - Update to generate messages from a bank of options
-        #return random.randint
-        return f"The next flag is up. Is this the flag of {pOptions[0]}, {pOptions[1]}, " \
-            f"{pOptions[2]} or {pOptions[3]}? " \
-            f"Discuss it with your quiz team and give me your best guess."
 
     def repeatQuestion(self):
         """
-        Repeat the current question
+        Repeat the current question - it will ask using different phrasing.
         :return:
         """
         self.sendTTS('Absolutely, I can repeat the different choices.')
-        # TODO : to be adapted with the way to send the message to the TTS
-        choices = self.__QManager.getMultipleChoices()
-        for i in range(len(choices)):
-            self.sendTTS('{} : {}'.format(i, choices[i]))
+        self.sendTTS(do.question_options(self.__QManager.getMultipleChoices()))
 
 
     def checkAgreement(self):

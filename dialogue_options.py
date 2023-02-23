@@ -129,3 +129,30 @@ def question_options(options: list) -> str:
 
     return f"{questions[random.randint(0, len(questions)-1)]} {middle} {end_phrase[random.randint(0,len(end_phrase) -1)]}"
 
+
+def greeting_options():
+    """Provide some randomisation of the greeting at the start of the quiz."""
+    greetings = [
+        "Up for a team challenge? Let's see if you can match each flag to its country!",
+        "Fancy a cooperative game? Put your knowledge to the test by associating each flag with its country!",
+        "Care to join in? Match the flag with its respective country and let's see how you do!",
+        "Are you game for a game? Show us your skills by matching the flag to its country.",
+        "Feeling up for a group game? See if you can identify the country by the flag!",
+        "Care to take a shot? Try to connect each flag with the right nation!",
+        "Shall we give it a go? Pick which country each flag represents!",
+        "Up for a game? See if you can match the flag to the country it belongs to!",
+        "Shall we start? See if your knowledge is up to par by matching each flag to its home nation!",
+        "Do you think you can do it? Connect the flag with the correct country!",
+        "Ready to play? Let's test your knowledge by matching the flag to the nation!",
+        "Want to give it a shot? Link each flag with its corresponding country!",
+        "Would you like to take a chance? Can you identify the country by the flag?",
+        "Would you be daring enough to try? Uncover the nation hidden behind the flag!",
+        "Are you ready? See if you can recognize the country from the flag!",
+        "Are you game? See if you can identify the flag's country of origin!",
+        "Would you like to play? Match the flag with the corresponding country to complete the puzzle!",
+        "Up for a challenge? Try to recognize each flag's country!",
+        "Would you like to try a game? See if you figure out the country of each flag.",
+        "Are you ready? See if you can connect the flag to its home nation!",
+    ]
+    return greetings[random.randint(0, len(greetings)-1)]
+
