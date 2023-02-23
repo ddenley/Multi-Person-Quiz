@@ -1,5 +1,8 @@
 import QuestionManager
 import connection_manager as cm
+import dialogue_options as do
+import requests
+import random
 
 
 class Actions:
@@ -23,7 +26,9 @@ class Actions:
         :return:
         """
         code = cm.tts_post(msg)
-        # TODO - Error checks
+        if code != 200:
+            print("Error sending path to TTS module.")
+            exit(1)
 
     def sendGUI(self, img_path):
         """
@@ -32,7 +37,9 @@ class Actions:
         :return:
         """
         code = cm.gui_post(img_path)
-        # TODO - Error checks
+        if code != 200:
+            print("Error sending path to GUI module.")
+            exit(1)
 
     def introduceQuizz(self):
         """
@@ -47,18 +54,26 @@ class Actions:
         Ask a question to the players.
         :return:
         """
-        # TODO :  Improve the message to send to the TTS
-        msg = 'What is this flag ?'
-        img_path = 'static/data/flagImg/st.png'
-        self.sendTTS(msg)
-        self.sendGUI(img_path)
         self.__previousAction = 'askQuestion'
         self.__QManager.nextQuestion()
+
         choices = self.__QManager.getMultipleChoices()
-        for i in range(len(choices)):
-            print('{} : {}'.format(i, choices[i])) # to be adapted with the way to send to the TTS the multiple choices
+        # self.sendTTS(self.createQuizOptionsMessage(choices))
+        self.sendTTS(do.question_options(choices))
+
         # display the flag with matplotlib.pyplot just for test but to be removed when it'll integrate with GUI
         self.__QManager.displayFlag()
+
+        # Send flag image to the GUI server
+        self.sendGUI(self.__QManager.getFlagPath())
+
+    def createQuizOptionsMessage(self, pOptions: list) -> str:
+        """Function to create options message for tts."""
+        # TODO - Update to generate messages from a bank of options
+        #return random.randint
+        return f"The next flag is up. Is this the flag of {pOptions[0]}, {pOptions[1]}, " \
+            f"{pOptions[2]} or {pOptions[3]}? " \
+            f"Discuss it with your quiz team and give me your best guess."
 
     def repeatQuestion(self):
         """
