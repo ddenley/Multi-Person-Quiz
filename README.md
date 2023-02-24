@@ -46,6 +46,7 @@ Current story diagram (rasa visualize) :
        height="600"/>
 </p>
 
+
 ### Points to improve / do
 
 - Integrate Data collection work
@@ -56,6 +57,18 @@ Current story diagram (rasa visualize) :
 
 ### Nota Bene
 The action __action_update_answer__ is in fact the registering of the first answer (therefore, made by "user 1"). It doesn't check anything (since "user 2" hasn't spoken yet). Afterward, it is never used again, we use rather __action_check_answer__ to do the next updates and answer checks (to see if the answers of each match). May have to rename it in __initial_answer_update__ for example.
+
+## Progress on week 6
+
+### 23/02
+- Detecting Option A, ..., Option D as answers
+- removing a confusing example "no way it is ..." because it didn't recognize well any intent with the entity "Norway"
+
+### Plan for the week end
+- No need to specify slots examples or their quantity in story, use rather tracker.get_latest_message to store in a slot list
+- When someone suggests multiple choices like "Maybe it is (denmark) or (sweden)", we store both in a suggestion list for each player
+- use roles : Accepted & Denied. indeed we have to differenciate answers in cases like "I think it is (France)(answer:accepted)" and "I don't think it is (france)(answer:denied)"
+- Discussion intent. __WARNING__ : Likely to overlap other intents 
 
 ## Launching
 
