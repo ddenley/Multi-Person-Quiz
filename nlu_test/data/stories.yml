@@ -388,6 +388,7 @@ stories:
 #    - answer: null
 #  - action: utter_want_to_play
 
+############################################################
 
 - story: story agree
   steps:
@@ -553,7 +554,7 @@ stories:
     - slot_was_set: 
         - answer1: Japan
     - action: action_check_answer
-    - intent: agree
+    - intent: concur
     - action: action_check_answer
     - action: utter_goodbye
 
@@ -584,9 +585,27 @@ stories:
     - slot_was_set: 
         - answer1: Japan
     - action: action_check_answer
-    - intent: agree
+    - intent: concur
     - action: action_check_answer
     - action: utter_goodbye
+
+
+############################################################
+
+#- story: story agree
+#  steps:
+#    - intent: greet
+#    - action: utter_greet
+#    - action: action_ask_question
+#    - intent: give_answer
+#    #  entities:
+#    #    - answer: france
+#    #- slot_was_set: 
+#    #    - answer1: france
+#    - action: action_update_answer
+#    - intent: concur
+#    - action: action_check_answer
+#    - action: utter_goodbye
 
 
 

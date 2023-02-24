@@ -1,0 +1,46 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-answer",
+      "2": "I-answer",
+      "3": "L-answer",
+      "4": "U-answer",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-answer": 1,
+      "I-answer": 2,
+      "L-answer": 3,
+      "U-answer": 4,
+      "O": 0
+    },
+    "num_tags": 5
+  },
+  {
+    "tag_name": "role",
+    "ids_to_tags": {
+      "1": "B-accepted",
+      "2": "I-accepted",
+      "3": "L-accepted",
+      "4": "U-accepted",
+      "5": "B-denied",
+      "6": "I-denied",
+      "7": "L-denied",
+      "8": "U-denied",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-accepted": 1,
+      "I-accepted": 2,
+      "L-accepted": 3,
+      "U-accepted": 4,
+      "B-denied": 5,
+      "I-denied": 6,
+      "L-denied": 7,
+      "U-denied": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

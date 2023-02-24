@@ -26,6 +26,9 @@ responses:
   - text: Please find an agreement
 entities:
 - answer
+    #roles :
+    #  - accepted
+    #  - denied
 slots:
   answer1:
     type: text
@@ -33,6 +36,9 @@ slots:
     mappings:
     - type: from_entity
       entity: answer
+  #answers:
+  #  type: list
+  #  influence_conversation: false
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
