@@ -9,3 +9,5 @@ Issues:
 
 Future Work:
 - Google API can improve prediction by giving list of expected words
+
+Please be carefull when utilising - limited in amount of minutes we can send audio to the Google API
