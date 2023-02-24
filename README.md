@@ -13,6 +13,11 @@ in the voice-flask.py file.
 This version uses rasa, so it can import an NLU model by placing it in the 
 './models' directory.
 
+## Decision-making process
+
+For the moment the decision-making process is as presented in the following flowchart.
+![img.png](img.png)
+
 ## Test this version
 
 To test this version of the DM, use ./script.bash to start the dummy module servers 
