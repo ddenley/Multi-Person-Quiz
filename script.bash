@@ -21,8 +21,8 @@ start_server () {
 
 start_dialog_manager() {
   echo "Starting dialog manager"
-  #python MainDM.py &
-  python dialogue_manager.py &
+  python MainDM.py &
+  #python dialogue_manager.py &
   MainPID=$!
 }
 
@@ -43,21 +43,26 @@ stop_server () {
  kill $MainPID
 }
 
-
 PS3="Select the operation: "
 
-select opt in start dialog stop quit; do
-
-  case $opt in
-    start)
-      start_server;;
-    dialog)
-      start_dialog_manager;;
-    stop)
-      stop_server;;
-    quit)
-      break;;
-    *) 
-      echo "Invalid option $REPLY";;
-  esac
+while true; do
+  select opt in start dialog stop quit; do
+    case $opt in
+      start)
+        start_server
+        break;;
+      dialog)
+        start_dialog_manager
+        break;;
+      stop)
+        stop_server
+        break;;
+      quit)
+        exit 0;;
+      *)
+        echo "Invalid option $REPLY";;
+    esac
+  done
+  echo
 done
+
