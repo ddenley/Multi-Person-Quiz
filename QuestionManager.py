@@ -46,6 +46,7 @@ class QuestionManager:
         self.__currentChoices = ['', '', '', '']
         # Store the previous questions
         self.__previousFlag = []  # list with the names of each flag already asked
+        self.nextQuestion()         # Make sure the values are not left empty in case of a query.
 
     def nextQuestion(self):
         """
@@ -110,3 +111,4 @@ if __name__=='__main__':
     for i in range(len(choices)):
         print('{} : {}'.format(i, choices[i]))
     QManager.displayFlag()
+    print(QManager.getCurrentFlag())
