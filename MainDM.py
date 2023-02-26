@@ -102,6 +102,13 @@ class MainDM:
                 text, person, code = turn
 
                 # TODO - Do something useful with the codes here - 200 is ok, 404 will be no turn found, ....
+                #        Make sure all of the codes Daniel is sending are managed.
+
+                # HTTP_204_NO_CONTENT may be returned by STT_API.py
+                if code == 204:
+                    continue
+
+                # If some other code not handled here, exit.
                 if code != 200:
                     self.__onGoing = False
                     break
