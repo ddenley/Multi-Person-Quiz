@@ -7,11 +7,11 @@ def question_options(options: list) -> str:
     This chooses a random start and end phrase to create a large number of unique question formulations.
     """
     middle = f"Is this the flag of {options[0]}, {options[1]}, {options[2]} or {options[3]}?"
-    return f"{questions[random.randint(0, len(questions) - 1)]} {middle} " \
-           f"{end_phrase[random.randint(0, len(end_phrase) - 1)]}"
+    return f"{__questions[random.randint(0, len(__questions) - 1)]} {middle} " \
+           f"{__end_phrase[random.randint(0, len(__end_phrase) - 1)]}"
 
 
-end_phrase = [
+__end_phrase = [
         "Discuss it with your quiz team and give me your best guess.",
         "Discuss it with your quiz team and give me the country you think it is.",
         "Let's hear your team's prediction on which country it might be.",
@@ -76,7 +76,7 @@ end_phrase = [
         "It's time to combine your knowledge and make your best collective guess.",
     ]
 
-questions = [
+__questions = [
         f"Which country's flag is about to be displayed?",
         f"Can you identify the upcoming flag?",
         f"What is the flag that will be shown next?",
@@ -131,10 +131,10 @@ questions = [
 
 def greeting_options():
     """Provide some randomisation of the greeting at the start of the quiz."""
-    return greetings[random.randint(0, len(greetings) - 1)]
+    return __greetings[random.randint(0, len(__greetings) - 1)]
 
 
-greetings = [
+__greetings = [
     "Up for a team challenge? Let's see if you can match each flag to its country!",
     "Fancy a cooperative game? Put your knowledge to the test by associating each flag with its country!",
     "Care to join in? Match the flag with its respective country and let's see how you do!",
@@ -160,10 +160,10 @@ greetings = [
 
 def provide_clue(country: str) -> str:
     """Provide a clue related to the given country name."""
-    return clues[country]
+    return __clues[country]
 
 
-clues = {
+__clues = {
         "Afghanistan": "Landlocked country in South Central Asia",
         "Albania": "Country in Southeastern Europe",
         "Algeria": "Country bordering Libya and Tunisia in the southern Mediterranean coast of North Africa",
