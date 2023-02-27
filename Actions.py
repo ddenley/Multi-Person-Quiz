@@ -135,7 +135,7 @@ class Actions:
         """
         Propose to the players to ask for a clue
         """
-        self.sendTTS('I see that you do not agree at all on a certain answer. Would you like to have a clue ?')
+        self.sendTTS('This is a tough one, would you like a clue? ?')
         self.__previousAction = 'proposeClue'
 
     def giveClue(self):
@@ -144,7 +144,7 @@ class Actions:
         :return:
         """
         clue = do.provide_clue(self.__QManager.getCurrentFlag())
-        msg = 'Think about {}'.format(clue)
+        msg = 'Think about this hint. We are talking about {}'.format(clue)
         self.sendTTS(msg)
         self.__previousAction = 'giveClue'
 
