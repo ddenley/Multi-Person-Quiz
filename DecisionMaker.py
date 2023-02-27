@@ -13,7 +13,7 @@ class DecisionMaker:
         self.__questionAsked = False
         self.__currentAnswer = None
         self.nbDisagree = 0                         # Number of turns where the players disagree on a same question
-        self.nbLimitDisagree = 2                    # Limit of number of disagreements before proposing to skip the question
+        self.nbLimitDisagree = 3                    # Limit of number of disagreements before proposing to skip the question
 
     def executeRelevantAction(self, currentUtt: list, lastUtt: list, nbTexts: int, i: int) -> bool:
         """
@@ -55,7 +55,17 @@ class DecisionMaker:
 
         # if a question has been asked : check for agreement
         else:
-            if currentUtt[0] == 'repeat':
+            if previousAct == 'proposeClue':
+                # TODO : maybe, allow only one clue per question ?
+                if (nbTexts == 1) and (currentUtt[0] == 'concur'):
+                    self.__Action.giveClue()
+                elif (nbTexts == 2) and (currentUtt[0] == 'concur') and (lastUtt[0] == 'concur') and (i == 1):
+                    self.__Action.giveClue()
+                else:
+                    self.__Action.continueSameQuestion()
+            elif currentUtt[0] == 'ask_clue':
+                self.__Action.giveClue()
+            elif currentUtt[0] == 'repeat':
                 self.__Action.repeatQuestion()
             elif (lastUtt[0] == 'give_answer') and (currentUtt[0] == 'concur'):
                 self.__currentAnswer = lastUtt[2]
@@ -72,14 +82,23 @@ class DecisionMaker:
                     self.nbDisagree += 1
                     # If too many disagreements, propose to skip a question
                     if self.nbDisagree >= self.nbLimitDisagree:
-                        self.__Action.proposeSkipQuestion()
+                        self.__Action.proposeClue()
+                        # self.__Action.proposeSkipQuestion()
             elif (lastUtt[0] == 'give_answer') and (currentUtt[0] == 'contest'):
                 # Disagreement between the players
                 self.nbDisagree += 1
                 # If too many disagreements, propose to skip a question (we can probably add a probability to ask to
                 # skip in order to be more flexible)
                 if self.nbDisagree >= self.nbLimitDisagree:
-                    self.__Action.proposeSkipQuestion()
+                    self.__Action.proposeClue()
+            elif (lastUtt[0] == 'contest') and (currentUtt[0] == 'contest'):
+                if (currentUtt[2] is not None) and (currentUtt[2] != self.__currentAnswer):
+                    self.__currentAnswer = currentUtt[2]
+                # Disagreement between the players
+                self.nbDisagree += 1
+                if self.nbDisagree >= self.nbLimitDisagree:
+                    self.__Action.proposeClue()
+
         return onGoing
 
 
