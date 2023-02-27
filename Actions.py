@@ -30,6 +30,8 @@ class Actions:
         if code != 200:
             print("Error sending path to TTS module.")
             exit(1)
+        # Print for debug
+        print('- ', msg)
 
     def sendGUI(self, img_path):
         """
@@ -61,7 +63,7 @@ class Actions:
         self.sendTTS(do.question_options(self.__QManager.getMultipleChoices()))
 
         # display the flag with matplotlib.pyplot just for test but to be removed when it'll integrate with GUI
-        self.__QManager.displayFlag()
+        #self.__QManager.displayFlag()
 
         # Send flag image to the GUI server
         self.sendGUI(self.__QManager.getFlagPath())
@@ -128,6 +130,23 @@ class Actions:
         """
         self.sendTTS('I see that you do not agree at all on a certain answer. Would you like to skip the question ?')
         self.__previousAction = 'proposeSkipQ'
+
+    def proposeClue(self):
+        """
+        Propose to the players to ask for a clue
+        """
+        self.sendTTS('I see that you do not agree at all on a certain answer. Would you like to have a clue ?')
+        self.__previousAction = 'proposeClue'
+
+    def giveClue(self):
+        """
+        Give a clue to the players about the current question
+        :return:
+        """
+        clue = do.provide_clue(self.__QManager.getCurrentFlag())
+        msg = 'Think about {}'.format(clue)
+        self.sendTTS(msg)
+        self.__previousAction = 'giveClue'
 
     def paraphraseMessage(self, meaning):
         pass

@@ -53,6 +53,8 @@ class QuestionManager:
         Get a new random question from the database
         :return:
         """
+        # TODO : Do we need to ensure to display a different question than the one already asked ? (i.e. check that
+        #  that the new Flag has not already been asked ?)
         self.__currentChoices = np.random.choice(list(self.name_lookup.keys()), 4, replace=False).tolist()
         self.__currentFlag = self.__currentChoices[0]  # Always choose the first option as the answer
 
