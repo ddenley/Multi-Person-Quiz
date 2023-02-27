@@ -40,7 +40,7 @@ concept_data = [
         {"text": "Maybe it's Malaysia, shall we say Malaysia?", "player": 1},
         {"text": "Sure, let's guess Malaysia.", "player": 2},
         {"text": "Malaysia!", "player": 1},
-        {"text": "Yes, let's play again, we need to have at least one godd answer !", "player":2},
+        {"text": "Yes, let's play again, we need to have at least one good answer !", "player":2},
         {"text": "I am sure it's Scotland", "player": 1},
         {"text": "Absolutely not, I disagree it's South Africa", "player": 2},
         {"text": "No trust me it's Scotland, I lived there I know its Flag.", "player": 1},
