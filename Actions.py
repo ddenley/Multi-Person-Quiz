@@ -26,6 +26,7 @@ class Actions:
         :return:
         """
         code = cm.tts_post(msg)
+
         if code != 200:
             print("Error sending path to TTS module.")
             exit(1)
