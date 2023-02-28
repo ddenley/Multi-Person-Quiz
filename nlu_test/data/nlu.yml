@@ -34,167 +34,207 @@ nlu:
     - i concur
     - it is right
     - indeed
-    - yes it is [Norway](answer)
+    - ok 
     - yes it is [Afghanistan](answer)
-    - yes it is [Azerbaijan](answer)
-    - yes it is [Bosnia and Herzegovina](answer)
-    - yes it is [Cape Verde](answer)
-    - yes it is [Croatia](answer)
-    - yes it is [Egypt](answer)
-    - yes it is [Gabon](answer)
-    - yes it is [Haiti](answer)
-    - yes it is [Italy](answer)
+    - yes it is [Armenia](answer)
+    - yes it is [Belgium](answer)
+    - yes it is [Brazil](answer)
+    - yes it is [The Cayman Islands](answer)
+    - yes it is [The Congo](answer)
+    - yes it is [Djibouti](answer)
+    - yes it is [Ethiopia](answer)
+    - yes it is [The Gambia](answer)
+    - yes it is [Guatemala](answer)
+    - yes it is [Hungary](answer)
+    - yes it is [Jamaica](answer)
     - yes it is [Kyrgyzstan](answer)
-    - yes it is [Madagascar](answer)
-    - yes it is [Micronesia](answer)
-    - yes it is [Nauru](answer)
-    - yes it is [Oman](answer)
-    - yes it is [Qatar](answer)
-    - yes it is [Seychelles](answer)
-    - yes it is [Spain](answer)
-    - yes it is [Tajikistan](answer)
-    - yes it is [Turkmenistan](answer)
-    - yes it is [Vatican City](answer)
+    - yes it is [Macao](answer)
+    - yes it is [Mauritius](answer)
+    - yes it is [Mozambique](answer)
+    - yes it is [Nigeria](answer)
+    - yes it is [Papua New Guinea](answer)
+    - yes it is [Romania](answer)
+    - yes it is [Saint Vincent and the Grenadines](answer)
+    - yes it is [Dutch Sint Maarten](answer)
+    - yes it is [Sudan](answer)
+    - yes it is [Timor-Leste](answer)
+    - yes it is [Uganda](answer)
+    - yes it is [Vietnam](answer)
     - indeed it is [Afghanistan](answer)
-    - indeed it is [Azerbaijan](answer)
-    - indeed it is [Bosnia and Herzegovina](answer)
-    - indeed it is [Cape Verde](answer)
-    - indeed it is [Croatia](answer)
-    - indeed it is [Egypt](answer)
-    - indeed it is [Gabon](answer)
-    - indeed it is [Haiti](answer)
-    - indeed it is [Italy](answer)
+    - indeed it is [Armenia](answer)
+    - indeed it is [Belgium](answer)
+    - indeed it is [Brazil](answer)
+    - indeed it is [The Cayman Islands](answer)
+    - indeed it is [The Congo](answer)
+    - indeed it is [Djibouti](answer)
+    - indeed it is [Ethiopia](answer)
+    - indeed it is [The Gambia](answer)
+    - indeed it is [Guatemala](answer)
+    - indeed it is [Hungary](answer)
+    - indeed it is [Jamaica](answer)
     - indeed it is [Kyrgyzstan](answer)
-    - indeed it is [Madagascar](answer)
-    - indeed it is [Micronesia](answer)
-    - indeed it is [Nauru](answer)
-    - indeed it is [Oman](answer)
-    - indeed it is [Qatar](answer)
-    - indeed it is [Seychelles](answer)
-    - indeed it is [Spain](answer)
-    - indeed it is [Tajikistan](answer)
-    - indeed it is [Turkmenistan](answer)
-    - indeed it is [Vatican City](answer)
+    - indeed it is [Macao](answer)
+    - indeed it is [Mauritius](answer)
+    - indeed it is [Mozambique](answer)
+    - indeed it is [Nigeria](answer)
+    - indeed it is [Papua New Guinea](answer)
+    - indeed it is [Romania](answer)
+    - indeed it is [Saint Vincent and the Grenadines](answer)
+    - indeed it is [Dutch Sint Maarten](answer)
+    - indeed it is [Sudan](answer)
+    - indeed it is [Timor-Leste](answer)
+    - indeed it is [Uganda](answer)
+    - indeed it is [Vietnam](answer)
     - yes it is indeed [Afghanistan](answer)
-    - yes it is indeed [Azerbaijan](answer)
-    - yes it is indeed [Bosnia and Herzegovina](answer)
-    - yes it is indeed [Cape Verde](answer)
-    - yes it is indeed [Croatia](answer)
-    - yes it is indeed [Egypt](answer)
-    - yes it is indeed [Gabon](answer)
-    - yes it is indeed [Haiti](answer)
-    - yes it is indeed [Italy](answer)
+    - yes it is indeed [Armenia](answer)
+    - yes it is indeed [Belgium](answer)
+    - yes it is indeed [Brazil](answer)
+    - yes it is indeed [The Cayman Islands](answer)
+    - yes it is indeed [The Congo](answer)
+    - yes it is indeed [Djibouti](answer)
+    - yes it is indeed [Ethiopia](answer)
+    - yes it is indeed [The Gambia](answer)
+    - yes it is indeed [Guatemala](answer)
+    - yes it is indeed [Hungary](answer)
+    - yes it is indeed [Jamaica](answer)
     - yes it is indeed [Kyrgyzstan](answer)
-    - yes it is indeed [Madagascar](answer)
-    - yes it is indeed [Micronesia](answer)
-    - yes it is indeed [Nauru](answer)
-    - yes it is indeed [Oman](answer)
-    - yes it is indeed [Qatar](answer)
-    - yes it is indeed [Seychelles](answer)
-    - yes it is indeed [Spain](answer)
-    - yes it is indeed [Tajikistan](answer)
-    - yes it is indeed [Turkmenistan](answer)
-    - yes it is indeed [Vatican City](answer)
+    - yes it is indeed [Macao](answer)
+    - yes it is indeed [Mauritius](answer)
+    - yes it is indeed [Mozambique](answer)
+    - yes it is indeed [Nigeria](answer)
+    - yes it is indeed [Papua New Guinea](answer)
+    - yes it is indeed [Romania](answer)
+    - yes it is indeed [Saint Vincent and the Grenadines](answer)
+    - yes it is indeed [Dutch Sint Maarten](answer)
+    - yes it is indeed [Sudan](answer)
+    - yes it is indeed [Timor-Leste](answer)
+    - yes it is indeed [Uganda](answer)
+    - yes it is indeed [Vietnam](answer)
     - i agree it's [Afghanistan](answer)
-    - i agree it's [Azerbaijan](answer)
-    - i agree it's [Bosnia and Herzegovina](answer)
-    - i agree it's [Cape Verde](answer)
-    - i agree it's [Croatia](answer)
-    - i agree it's [Egypt](answer)
-    - i agree it's [Gabon](answer)
-    - i agree it's [Haiti](answer)
-    - i agree it's [Italy](answer)
+    - i agree it's [Armenia](answer)
+    - i agree it's [Belgium](answer)
+    - i agree it's [Brazil](answer)
+    - i agree it's [The Cayman Islands](answer)
+    - i agree it's [The Congo](answer)
+    - i agree it's [Djibouti](answer)
+    - i agree it's [Ethiopia](answer)
+    - i agree it's [The Gambia](answer)
+    - i agree it's [Guatemala](answer)
+    - i agree it's [Hungary](answer)
+    - i agree it's [Jamaica](answer)
     - i agree it's [Kyrgyzstan](answer)
-    - i agree it's [Madagascar](answer)
-    - i agree it's [Micronesia](answer)
-    - i agree it's [Nauru](answer)
-    - i agree it's [Oman](answer)
-    - i agree it's [Qatar](answer)
-    - i agree it's [Seychelles](answer)
-    - i agree it's [Spain](answer)
-    - i agree it's [Tajikistan](answer)
-    - i agree it's [Turkmenistan](answer)
-    - i agree it's [Vatican City](answer)
+    - i agree it's [Macao](answer)
+    - i agree it's [Mauritius](answer)
+    - i agree it's [Mozambique](answer)
+    - i agree it's [Nigeria](answer)
+    - i agree it's [Papua New Guinea](answer)
+    - i agree it's [Romania](answer)
+    - i agree it's [Saint Vincent and the Grenadines](answer)
+    - i agree it's [Dutch Sint Maarten](answer)
+    - i agree it's [Sudan](answer)
+    - i agree it's [Timor-Leste](answer)
+    - i agree it's [Uganda](answer)
+    - i agree it's [Vietnam](answer)
     - i concur it is [Afghanistan](answer)
-    - i concur it is [Azerbaijan](answer)
-    - i concur it is [Bosnia and Herzegovina](answer)
-    - i concur it is [Cape Verde](answer)
-    - i concur it is [Croatia](answer)
-    - i concur it is [Egypt](answer)
-    - i concur it is [Gabon](answer)
-    - i concur it is [Haiti](answer)
-    - i concur it is [Italy](answer)
+    - i concur it is [Armenia](answer)
+    - i concur it is [Belgium](answer)
+    - i concur it is [Brazil](answer)
+    - i concur it is [The Cayman Islands](answer)
+    - i concur it is [The Congo](answer)
+    - i concur it is [Djibouti](answer)
+    - i concur it is [Ethiopia](answer)
+    - i concur it is [The Gambia](answer)
+    - i concur it is [Guatemala](answer)
+    - i concur it is [Hungary](answer)
+    - i concur it is [Jamaica](answer)
     - i concur it is [Kyrgyzstan](answer)
-    - i concur it is [Madagascar](answer)
-    - i concur it is [Micronesia](answer)
-    - i concur it is [Nauru](answer)
-    - i concur it is [Oman](answer)
-    - i concur it is [Qatar](answer)
-    - i concur it is [Seychelles](answer)
-    - i concur it is [Spain](answer)
-    - i concur it is [Tajikistan](answer)
-    - i concur it is [Turkmenistan](answer)
-    - i concur it is [Vatican City](answer)
+    - i concur it is [Macao](answer)
+    - i concur it is [Mauritius](answer)
+    - i concur it is [Mozambique](answer)
+    - i concur it is [Nigeria](answer)
+    - i concur it is [Papua New Guinea](answer)
+    - i concur it is [Romania](answer)
+    - i concur it is [Saint Vincent and the Grenadines](answer)
+    - i concur it is [Dutch Sint Maarten](answer)
+    - i concur it is [Sudan](answer)
+    - i concur it is [Timor-Leste](answer)
+    - i concur it is [Uganda](answer)
+    - i concur it is [Vietnam](answer)
     - i believe as well it is [Afghanistan](answer)
-    - i believe as well it is [Azerbaijan](answer)
-    - i believe as well it is [Bosnia and Herzegovina](answer)
-    - i believe as well it is [Cape Verde](answer)
-    - i believe as well it is [Croatia](answer)
-    - i believe as well it is [Egypt](answer)
-    - i believe as well it is [Gabon](answer)
-    - i believe as well it is [Haiti](answer)
-    - i believe as well it is [Italy](answer)
+    - i believe as well it is [Armenia](answer)
+    - i believe as well it is [Belgium](answer)
+    - i believe as well it is [Brazil](answer)
+    - i believe as well it is [The Cayman Islands](answer)
+    - i believe as well it is [The Congo](answer)
+    - i believe as well it is [Djibouti](answer)
+    - i believe as well it is [Ethiopia](answer)
+    - i believe as well it is [The Gambia](answer)
+    - i believe as well it is [Guatemala](answer)
+    - i believe as well it is [Hungary](answer)
+    - i believe as well it is [Jamaica](answer)
     - i believe as well it is [Kyrgyzstan](answer)
-    - i believe as well it is [Madagascar](answer)
-    - i believe as well it is [Micronesia](answer)
-    - i believe as well it is [Nauru](answer)
-    - i believe as well it is [Oman](answer)
-    - i believe as well it is [Qatar](answer)
-    - i believe as well it is [Seychelles](answer)
-    - i believe as well it is [Spain](answer)
-    - i believe as well it is [Tajikistan](answer)
-    - i believe as well it is [Turkmenistan](answer)
-    - i believe as well it is [Vatican City](answer)
+    - i believe as well it is [Macao](answer)
+    - i believe as well it is [Mauritius](answer)
+    - i believe as well it is [Mozambique](answer)
+    - i believe as well it is [Nigeria](answer)
+    - i believe as well it is [Papua New Guinea](answer)
+    - i believe as well it is [Romania](answer)
+    - i believe as well it is [Saint Vincent and the Grenadines](answer)
+    - i believe as well it is [Dutch Sint Maarten](answer)
+    - i believe as well it is [Sudan](answer)
+    - i believe as well it is [Timor-Leste](answer)
+    - i believe as well it is [Uganda](answer)
+    - i believe as well it is [Vietnam](answer)
     - you are right it is [Afghanistan](answer)
-    - you are right it is [Azerbaijan](answer)
-    - you are right it is [Bosnia and Herzegovina](answer)
-    - you are right it is [Cape Verde](answer)
-    - you are right it is [Croatia](answer)
-    - you are right it is [Egypt](answer)
-    - you are right it is [Gabon](answer)
-    - you are right it is [Haiti](answer)
-    - you are right it is [Italy](answer)
+    - you are right it is [Armenia](answer)
+    - you are right it is [Belgium](answer)
+    - you are right it is [Brazil](answer)
+    - you are right it is [The Cayman Islands](answer)
+    - you are right it is [The Congo](answer)
+    - you are right it is [Djibouti](answer)
+    - you are right it is [Ethiopia](answer)
+    - you are right it is [The Gambia](answer)
+    - you are right it is [Guatemala](answer)
+    - you are right it is [Hungary](answer)
+    - you are right it is [Jamaica](answer)
     - you are right it is [Kyrgyzstan](answer)
-    - you are right it is [Madagascar](answer)
-    - you are right it is [Micronesia](answer)
-    - you are right it is [Nauru](answer)
-    - you are right it is [Oman](answer)
-    - you are right it is [Qatar](answer)
-    - you are right it is [Seychelles](answer)
-    - you are right it is [Spain](answer)
-    - you are right it is [Tajikistan](answer)
-    - you are right it is [Turkmenistan](answer)
-    - you are right it is [Vatican City](answer)
+    - you are right it is [Macao](answer)
+    - you are right it is [Mauritius](answer)
+    - you are right it is [Mozambique](answer)
+    - you are right it is [Nigeria](answer)
+    - you are right it is [Papua New Guinea](answer)
+    - you are right it is [Romania](answer)
+    - you are right it is [Saint Vincent and the Grenadines](answer)
+    - you are right it is [Dutch Sint Maarten](answer)
+    - you are right it is [Sudan](answer)
+    - you are right it is [Timor-Leste](answer)
+    - you are right it is [Uganda](answer)
+    - you are right it is [Vietnam](answer)
     - I think so it is [Afghanistan](answer)
-    - I think so it is [Azerbaijan](answer)
-    - I think so it is [Bosnia and Herzegovina](answer)
-    - I think so it is [Cape Verde](answer)
-    - I think so it is [Croatia](answer)
-    - I think so it is [Egypt](answer)
-    - I think so it is [Gabon](answer)
-    - I think so it is [Haiti](answer)
-    - I think so it is [Italy](answer)
+    - I think so it is [Armenia](answer)
+    - I think so it is [Belgium](answer)
+    - I think so it is [Brazil](answer)
+    - I think so it is [The Cayman Islands](answer)
+    - I think so it is [The Congo](answer)
+    - I think so it is [Djibouti](answer)
+    - I think so it is [Ethiopia](answer)
+    - I think so it is [The Gambia](answer)
+    - I think so it is [Guatemala](answer)
+    - I think so it is [Hungary](answer)
+    - I think so it is [Jamaica](answer)
     - I think so it is [Kyrgyzstan](answer)
-    - I think so it is [Madagascar](answer)
-    - I think so it is [Micronesia](answer)
-    - I think so it is [Nauru](answer)
-    - I think so it is [Oman](answer)
-    - I think so it is [Qatar](answer)
-    - I think so it is [Seychelles](answer)
-    - I think so it is [Spain](answer)
-    - I think so it is [Tajikistan](answer)
-    - I think so it is [Turkmenistan](answer)
-    - I think so it is [Vatican City](answer)
+    - I think so it is [Macao](answer)
+    - I think so it is [Mauritius](answer)
+    - I think so it is [Mozambique](answer)
+    - I think so it is [Nigeria](answer)
+    - I think so it is [Papua New Guinea](answer)
+    - I think so it is [Romania](answer)
+    - I think so it is [Saint Vincent and the Grenadines](answer)
+    - I think so it is [Dutch Sint Maarten](answer)
+    - I think so it is [Sudan](answer)
+    - I think so it is [Timor-Leste](answer)
+    - I think so it is [Uganda](answer)
+    - I think so it is [Vietnam](answer)
     - yes it is [A](answer)
     - yes it is [B](answer)
     - yes it is [C](answer)
@@ -229,167 +269,207 @@ nlu:
     - I think so it is [D](answer)
 - intent: contest
   examples: |
+    
     - you are wrong, it is [Afghanistan](answer)
-    - you are wrong, it is [Azerbaijan](answer)
-    - you are wrong, it is [Bosnia and Herzegovina](answer)
-    - you are wrong, it is [Cape Verde](answer)
-    - you are wrong, it is [Croatia](answer)
-    - you are wrong, it is [Egypt](answer)
-    - you are wrong, it is [Gabon](answer)
-    - you are wrong, it is [Haiti](answer)
-    - you are wrong, it is [Italy](answer)
+    - you are wrong, it is [Armenia](answer)
+    - you are wrong, it is [Belgium](answer)
+    - you are wrong, it is [Brazil](answer)
+    - you are wrong, it is [The Cayman Islands](answer)
+    - you are wrong, it is [The Congo](answer)
+    - you are wrong, it is [Djibouti](answer)
+    - you are wrong, it is [Ethiopia](answer)
+    - you are wrong, it is [The Gambia](answer)
+    - you are wrong, it is [Guatemala](answer)
+    - you are wrong, it is [Hungary](answer)
+    - you are wrong, it is [Jamaica](answer)
     - you are wrong, it is [Kyrgyzstan](answer)
-    - you are wrong, it is [Madagascar](answer)
-    - you are wrong, it is [Micronesia](answer)
-    - you are wrong, it is [Nauru](answer)
-    - you are wrong, it is [Oman](answer)
-    - you are wrong, it is [Qatar](answer)
-    - you are wrong, it is [Seychelles](answer)
-    - you are wrong, it is [Spain](answer)
-    - you are wrong, it is [Tajikistan](answer)
-    - you are wrong, it is [Turkmenistan](answer)
-    - you are wrong, it is [Vatican City](answer)
+    - you are wrong, it is [Macao](answer)
+    - you are wrong, it is [Mauritius](answer)
+    - you are wrong, it is [Mozambique](answer)
+    - you are wrong, it is [Nigeria](answer)
+    - you are wrong, it is [Papua New Guinea](answer)
+    - you are wrong, it is [Romania](answer)
+    - you are wrong, it is [Saint Vincent and the Grenadines](answer)
+    - you are wrong, it is [Dutch Sint Maarten](answer)
+    - you are wrong, it is [Sudan](answer)
+    - you are wrong, it is [Timor-Leste](answer)
+    - you are wrong, it is [Uganda](answer)
+    - you are wrong, it is [Vietnam](answer)
     - I don't think so, it is [Afghanistan](answer)
-    - I don't think so, it is [Azerbaijan](answer)
-    - I don't think so, it is [Bosnia and Herzegovina](answer)
-    - I don't think so, it is [Cape Verde](answer)
-    - I don't think so, it is [Croatia](answer)
-    - I don't think so, it is [Egypt](answer)
-    - I don't think so, it is [Gabon](answer)
-    - I don't think so, it is [Haiti](answer)
-    - I don't think so, it is [Italy](answer)
+    - I don't think so, it is [Armenia](answer)
+    - I don't think so, it is [Belgium](answer)
+    - I don't think so, it is [Brazil](answer)
+    - I don't think so, it is [The Cayman Islands](answer)
+    - I don't think so, it is [The Congo](answer)
+    - I don't think so, it is [Djibouti](answer)
+    - I don't think so, it is [Ethiopia](answer)
+    - I don't think so, it is [The Gambia](answer)
+    - I don't think so, it is [Guatemala](answer)
+    - I don't think so, it is [Hungary](answer)
+    - I don't think so, it is [Jamaica](answer)
     - I don't think so, it is [Kyrgyzstan](answer)
-    - I don't think so, it is [Madagascar](answer)
-    - I don't think so, it is [Micronesia](answer)
-    - I don't think so, it is [Nauru](answer)
-    - I don't think so, it is [Oman](answer)
-    - I don't think so, it is [Qatar](answer)
-    - I don't think so, it is [Seychelles](answer)
-    - I don't think so, it is [Spain](answer)
-    - I don't think so, it is [Tajikistan](answer)
-    - I don't think so, it is [Turkmenistan](answer)
-    - I don't think so, it is [Vatican City](answer)
+    - I don't think so, it is [Macao](answer)
+    - I don't think so, it is [Mauritius](answer)
+    - I don't think so, it is [Mozambique](answer)
+    - I don't think so, it is [Nigeria](answer)
+    - I don't think so, it is [Papua New Guinea](answer)
+    - I don't think so, it is [Romania](answer)
+    - I don't think so, it is [Saint Vincent and the Grenadines](answer)
+    - I don't think so, it is [Dutch Sint Maarten](answer)
+    - I don't think so, it is [Sudan](answer)
+    - I don't think so, it is [Timor-Leste](answer)
+    - I don't think so, it is [Uganda](answer)
+    - I don't think so, it is [Vietnam](answer)
     - I disagree, it must be [Afghanistan](answer)
-    - I disagree, it must be [Azerbaijan](answer)
-    - I disagree, it must be [Bosnia and Herzegovina](answer)
-    - I disagree, it must be [Cape Verde](answer)
-    - I disagree, it must be [Croatia](answer)
-    - I disagree, it must be [Egypt](answer)
-    - I disagree, it must be [Gabon](answer)
-    - I disagree, it must be [Haiti](answer)
-    - I disagree, it must be [Italy](answer)
+    - I disagree, it must be [Armenia](answer)
+    - I disagree, it must be [Belgium](answer)
+    - I disagree, it must be [Brazil](answer)
+    - I disagree, it must be [The Cayman Islands](answer)
+    - I disagree, it must be [The Congo](answer)
+    - I disagree, it must be [Djibouti](answer)
+    - I disagree, it must be [Ethiopia](answer)
+    - I disagree, it must be [The Gambia](answer)
+    - I disagree, it must be [Guatemala](answer)
+    - I disagree, it must be [Hungary](answer)
+    - I disagree, it must be [Jamaica](answer)
     - I disagree, it must be [Kyrgyzstan](answer)
-    - I disagree, it must be [Madagascar](answer)
-    - I disagree, it must be [Micronesia](answer)
-    - I disagree, it must be [Nauru](answer)
-    - I disagree, it must be [Oman](answer)
-    - I disagree, it must be [Qatar](answer)
-    - I disagree, it must be [Seychelles](answer)
-    - I disagree, it must be [Spain](answer)
-    - I disagree, it must be [Tajikistan](answer)
-    - I disagree, it must be [Turkmenistan](answer)
-    - I disagree, it must be [Vatican City](answer)
-    - No it is [Norway](answer)
+    - I disagree, it must be [Macao](answer)
+    - I disagree, it must be [Mauritius](answer)
+    - I disagree, it must be [Mozambique](answer)
+    - I disagree, it must be [Nigeria](answer)
+    - I disagree, it must be [Papua New Guinea](answer)
+    - I disagree, it must be [Romania](answer)
+    - I disagree, it must be [Saint Vincent and the Grenadines](answer)
+    - I disagree, it must be [Dutch Sint Maarten](answer)
+    - I disagree, it must be [Sudan](answer)
+    - I disagree, it must be [Timor-Leste](answer)
+    - I disagree, it must be [Uganda](answer)
+    - I disagree, it must be [Vietnam](answer)
     - No it is [Afghanistan](answer)
-    - No it is [Azerbaijan](answer)
-    - No it is [Bosnia and Herzegovina](answer)
-    - No it is [Cape Verde](answer)
-    - No it is [Croatia](answer)
-    - No it is [Egypt](answer)
-    - No it is [Gabon](answer)
-    - No it is [Haiti](answer)
-    - No it is [Italy](answer)
+    - No it is [Armenia](answer)
+    - No it is [Belgium](answer)
+    - No it is [Brazil](answer)
+    - No it is [The Cayman Islands](answer)
+    - No it is [The Congo](answer)
+    - No it is [Djibouti](answer)
+    - No it is [Ethiopia](answer)
+    - No it is [The Gambia](answer)
+    - No it is [Guatemala](answer)
+    - No it is [Hungary](answer)
+    - No it is [Jamaica](answer)
     - No it is [Kyrgyzstan](answer)
-    - No it is [Madagascar](answer)
-    - No it is [Micronesia](answer)
-    - No it is [Nauru](answer)
-    - No it is [Oman](answer)
-    - No it is [Qatar](answer)
-    - No it is [Seychelles](answer)
-    - No it is [Spain](answer)
-    - No it is [Tajikistan](answer)
-    - No it is [Turkmenistan](answer)
-    - No it is [Vatican City](answer)
+    - No it is [Macao](answer)
+    - No it is [Mauritius](answer)
+    - No it is [Mozambique](answer)
+    - No it is [Nigeria](answer)
+    - No it is [Papua New Guinea](answer)
+    - No it is [Romania](answer)
+    - No it is [Saint Vincent and the Grenadines](answer)
+    - No it is [Dutch Sint Maarten](answer)
+    - No it is [Sudan](answer)
+    - No it is [Timor-Leste](answer)
+    - No it is [Uganda](answer)
+    - No it is [Vietnam](answer)
     - you are mistaken, it is [Afghanistan](answer)
-    - you are mistaken, it is [Azerbaijan](answer)
-    - you are mistaken, it is [Bosnia and Herzegovina](answer)
-    - you are mistaken, it is [Cape Verde](answer)
-    - you are mistaken, it is [Croatia](answer)
-    - you are mistaken, it is [Egypt](answer)
-    - you are mistaken, it is [Gabon](answer)
-    - you are mistaken, it is [Haiti](answer)
-    - you are mistaken, it is [Italy](answer)
+    - you are mistaken, it is [Armenia](answer)
+    - you are mistaken, it is [Belgium](answer)
+    - you are mistaken, it is [Brazil](answer)
+    - you are mistaken, it is [The Cayman Islands](answer)
+    - you are mistaken, it is [The Congo](answer)
+    - you are mistaken, it is [Djibouti](answer)
+    - you are mistaken, it is [Ethiopia](answer)
+    - you are mistaken, it is [The Gambia](answer)
+    - you are mistaken, it is [Guatemala](answer)
+    - you are mistaken, it is [Hungary](answer)
+    - you are mistaken, it is [Jamaica](answer)
     - you are mistaken, it is [Kyrgyzstan](answer)
-    - you are mistaken, it is [Madagascar](answer)
-    - you are mistaken, it is [Micronesia](answer)
-    - you are mistaken, it is [Nauru](answer)
-    - you are mistaken, it is [Oman](answer)
-    - you are mistaken, it is [Qatar](answer)
-    - you are mistaken, it is [Seychelles](answer)
-    - you are mistaken, it is [Spain](answer)
-    - you are mistaken, it is [Tajikistan](answer)
-    - you are mistaken, it is [Turkmenistan](answer)
-    - you are mistaken, it is [Vatican City](answer)
+    - you are mistaken, it is [Macao](answer)
+    - you are mistaken, it is [Mauritius](answer)
+    - you are mistaken, it is [Mozambique](answer)
+    - you are mistaken, it is [Nigeria](answer)
+    - you are mistaken, it is [Papua New Guinea](answer)
+    - you are mistaken, it is [Romania](answer)
+    - you are mistaken, it is [Saint Vincent and the Grenadines](answer)
+    - you are mistaken, it is [Dutch Sint Maarten](answer)
+    - you are mistaken, it is [Sudan](answer)
+    - you are mistaken, it is [Timor-Leste](answer)
+    - you are mistaken, it is [Uganda](answer)
+    - you are mistaken, it is [Vietnam](answer)
     - i think not, it must be [Afghanistan](answer)
-    - i think not, it must be [Azerbaijan](answer)
-    - i think not, it must be [Bosnia and Herzegovina](answer)
-    - i think not, it must be [Cape Verde](answer)
-    - i think not, it must be [Croatia](answer)
-    - i think not, it must be [Egypt](answer)
-    - i think not, it must be [Gabon](answer)
-    - i think not, it must be [Haiti](answer)
-    - i think not, it must be [Italy](answer)
+    - i think not, it must be [Armenia](answer)
+    - i think not, it must be [Belgium](answer)
+    - i think not, it must be [Brazil](answer)
+    - i think not, it must be [The Cayman Islands](answer)
+    - i think not, it must be [The Congo](answer)
+    - i think not, it must be [Djibouti](answer)
+    - i think not, it must be [Ethiopia](answer)
+    - i think not, it must be [The Gambia](answer)
+    - i think not, it must be [Guatemala](answer)
+    - i think not, it must be [Hungary](answer)
+    - i think not, it must be [Jamaica](answer)
     - i think not, it must be [Kyrgyzstan](answer)
-    - i think not, it must be [Madagascar](answer)
-    - i think not, it must be [Micronesia](answer)
-    - i think not, it must be [Nauru](answer)
-    - i think not, it must be [Oman](answer)
-    - i think not, it must be [Qatar](answer)
-    - i think not, it must be [Seychelles](answer)
-    - i think not, it must be [Spain](answer)
-    - i think not, it must be [Tajikistan](answer)
-    - i think not, it must be [Turkmenistan](answer)
-    - i think not, it must be [Vatican City](answer)
-    - it is not [Afghanistan](answer), but rather [Nauru](answer)
-    - it is not [Azerbaijan](answer), but rather [Vatican City](answer)
-    - it is not [Bosnia and Herzegovina](answer), but rather [Azerbaijan](answer)
-    - it is not [Cape Verde](answer), but rather [Bosnia and Herzegovina](answer)
-    - it is not [Croatia](answer), but rather [Oman](answer)
-    - it is not [Egypt](answer), but rather [Gabon](answer)
-    - it is not [Gabon](answer), but rather [Turkmenistan](answer)
-    - it is not [Haiti](answer), but rather [Tajikistan](answer)
-    - it is not [Italy](answer), but rather [Seychelles](answer)
-    - it is not [Kyrgyzstan](answer), but rather [Croatia](answer)
-    - it is not [Madagascar](answer), but rather [Oman](answer)
-    - it is not [Micronesia](answer), but rather [Spain](answer)
-    - it is not [Nauru](answer), but rather [Cape Verde](answer)
-    - it is not [Oman](answer), but rather [Qatar](answer)
-    - it is not [Qatar](answer), but rather [Azerbaijan](answer)
-    - it is not [Seychelles](answer), but rather [Cape Verde](answer)
-    - it is not [Spain](answer), but rather [Croatia](answer)
-    - it is not [Tajikistan](answer), but rather [Seychelles](answer)
-    - it is not [Turkmenistan](answer), but rather [Egypt](answer)
-    - it is not [Vatican City](answer), but rather [Micronesia](answer)
-    - i don't think it is [Afghanistan](answer), but rather [Seychelles](answer)
-    - i don't think it is [Azerbaijan](answer), but rather [Nauru](answer)
-    - i don't think it is [Bosnia and Herzegovina](answer), but rather [Turkmenistan](answer)
-    - i don't think it is [Cape Verde](answer), but rather [Azerbaijan](answer)
-    - i don't think it is [Croatia](answer), but rather [Micronesia](answer)
-    - i don't think it is [Egypt](answer), but rather [Italy](answer)
-    - i don't think it is [Gabon](answer), but rather [Bosnia and Herzegovina](answer)
-    - i don't think it is [Haiti](answer), but rather [Nauru](answer)
-    - i don't think it is [Italy](answer), but rather [Seychelles](answer)
-    - i don't think it is [Kyrgyzstan](answer), but rather [Bosnia and Herzegovina](answer)
-    - i don't think it is [Madagascar](answer), but rather [Vatican City](answer)
-    - i don't think it is [Micronesia](answer), but rather [Kyrgyzstan](answer)
-    - i don't think it is [Nauru](answer), but rather [Bosnia and Herzegovina](answer)
-    - i don't think it is [Oman](answer), but rather [Seychelles](answer)
-    - i don't think it is [Qatar](answer), but rather [Bosnia and Herzegovina](answer)
-    - i don't think it is [Seychelles](answer), but rather [Vatican City](answer)
-    - i don't think it is [Spain](answer), but rather [Oman](answer)
-    - i don't think it is [Tajikistan](answer), but rather [Micronesia](answer)
-    - i don't think it is [Turkmenistan](answer), but rather [Kyrgyzstan](answer)
-    - i don't think it is [Vatican City](answer), but rather [Madagascar](answer)
+    - i think not, it must be [Macao](answer)
+    - i think not, it must be [Mauritius](answer)
+    - i think not, it must be [Mozambique](answer)
+    - i think not, it must be [Nigeria](answer)
+    - i think not, it must be [Papua New Guinea](answer)
+    - i think not, it must be [Romania](answer)
+    - i think not, it must be [Saint Vincent and the Grenadines](answer)
+    - i think not, it must be [Dutch Sint Maarten](answer)
+    - i think not, it must be [Sudan](answer)
+    - i think not, it must be [Timor-Leste](answer)
+    - i think not, it must be [Uganda](answer)
+    - i think not, it must be [Vietnam](answer)
+    - it is not [Afghanistan](answer), but rather [Papua New Guinea](answer)
+    - it is not [Armenia](answer), but rather [Kyrgyzstan](answer)
+    - it is not [Belgium](answer), but rather [Mozambique](answer)
+    - it is not [Brazil](answer), but rather [Timor-Leste](answer)
+    - it is not [The Cayman Islands](answer), but rather [The Gambia](answer)
+    - it is not [The Congo](answer), but rather [Kyrgyzstan](answer)
+    - it is not [Djibouti](answer), but rather [Armenia](answer)
+    - it is not [Ethiopia](answer), but rather [Mauritius](answer)
+    - it is not [The Gambia](answer), but rather [Papua New Guinea](answer)
+    - it is not [Guatemala](answer), but rather [Belgium](answer)
+    - it is not [Hungary](answer), but rather [Mozambique](answer)
+    - it is not [Jamaica](answer), but rather [Vietnam](answer)
+    - it is not [Kyrgyzstan](answer), but rather [Macao](answer)
+    - it is not [Macao](answer), but rather [Uganda](answer)
+    - it is not [Mauritius](answer), but rather [Mozambique](answer)
+    - it is not [Mozambique](answer), but rather [Mauritius](answer)
+    - it is not [Nigeria](answer), but rather [Sudan](answer)
+    - it is not [Papua New Guinea](answer), but rather [Vietnam](answer)
+    - it is not [Romania](answer), but rather [Ethiopia](answer)
+    - it is not [Saint Vincent and the Grenadines](answer), but rather [Timor-Leste](answer)
+    - it is not [Dutch Sint Maarten](answer), but rather [Vietnam](answer)
+    - it is not [Sudan](answer), but rather [Afghanistan](answer)
+    - it is not [Timor-Leste](answer), but rather [Romania](answer)
+    - it is not [Uganda](answer), but rather [Hungary](answer)
+    - it is not [Vietnam](answer), but rather [Jamaica](answer)
+    - i don't think it is [Afghanistan](answer), but rather [Mozambique](answer)
+    - i don't think it is [Armenia](answer), but rather [Guatemala](answer)
+    - i don't think it is [Belgium](answer), but rather [Romania](answer)
+    - i don't think it is [Brazil](answer), but rather [Uganda](answer)
+    - i don't think it is [The Cayman Islands](answer), but rather [Mauritius](answer)
+    - i don't think it is [The Congo](answer), but rather [Guatemala](answer)
+    - i don't think it is [Djibouti](answer), but rather [Uganda](answer)
+    - i don't think it is [Ethiopia](answer), but rather [The Gambia](answer)
+    - i don't think it is [The Gambia](answer), but rather [Dutch Sint Maarten](answer)
+    - i don't think it is [Guatemala](answer), but rather [Sudan](answer)
+    - i don't think it is [Hungary](answer), but rather [Timor-Leste](answer)
+    - i don't think it is [Jamaica](answer), but rather [Armenia](answer)
+    - i don't think it is [Kyrgyzstan](answer), but rather [Timor-Leste](answer)
+    - i don't think it is [Macao](answer), but rather [The Congo](answer)
+    - i don't think it is [Mauritius](answer), but rather [Djibouti](answer)
+    - i don't think it is [Mozambique](answer), but rather [Nigeria](answer)
+    - i don't think it is [Nigeria](answer), but rather [Dutch Sint Maarten](answer)
+    - i don't think it is [Papua New Guinea](answer), but rather [Romania](answer)
+    - i don't think it is [Romania](answer), but rather [Saint Vincent and the Grenadines](answer)
+    - i don't think it is [Saint Vincent and the Grenadines](answer), but rather [The Gambia](answer)
+    - i don't think it is [Dutch Sint Maarten](answer), but rather [Sudan](answer)
+    - i don't think it is [Sudan](answer), but rather [Papua New Guinea](answer)
+    - i don't think it is [Timor-Leste](answer), but rather [Uganda](answer)
+    - i don't think it is [Uganda](answer), but rather [Afghanistan](answer)
+    - i don't think it is [Vietnam](answer), but rather [The Congo](answer)
     - you are wrong, it is [A](answer)
     - you are wrong, it is [B](answer)
     - you are wrong, it is [C](answer)
@@ -410,10 +490,10 @@ nlu:
     - you are mistaken, it is [B](answer)
     - you are mistaken, it is [C](answer)
     - you are mistaken, it is [D](answer)
-    - no way, it is [A](answer)
-    - no way, it is [B](answer)
-    - no way, it is [C](answer)
-    - no way, it is [D](answer)
+    #- no way, it is [A](answer)
+    #- no way, it is [B](answer)
+    #- no way, it is [C](answer)
+    #- no way, it is [D](answer)
     - it is not [A](answer), but rather [B](answer)
     - it is not [B](answer), but rather [C](answer)
     - it is not [C](answer), but rather [D](answer)
@@ -424,168 +504,207 @@ nlu:
     - i don't think it is [D](answer), but rather [A](answer)
 - intent: give_answer
   examples: |
-    - It is [Norway](answer)
+    - i know 
     - It is [Afghanistan](answer)
-    - It is [Azerbaijan](answer)
-    - It is [Bosnia and Herzegovina](answer)
-    - It is [Cape Verde](answer)
-    - It is [Croatia](answer)
-    - It is [Egypt](answer)
-    - It is [Gabon](answer)
-    - It is [Haiti](answer)
-    - It is [Italy](answer)
+    - It is [Armenia](answer)
+    - It is [Belgium](answer)
+    - It is [Brazil](answer)
+    - It is [The Cayman Islands](answer)
+    - It is [The Congo](answer)
+    - It is [Djibouti](answer)
+    - It is [Ethiopia](answer)
+    - It is [The Gambia](answer)
+    - It is [Guatemala](answer)
+    - It is [Hungary](answer)
+    - It is [Jamaica](answer)
     - It is [Kyrgyzstan](answer)
-    - It is [Madagascar](answer)
-    - It is [Micronesia](answer)
-    - It is [Nauru](answer)
-    - It is [Oman](answer)
-    - It is [Qatar](answer)
-    - It is [Seychelles](answer)
-    - It is [Spain](answer)
-    - It is [Tajikistan](answer)
-    - It is [Turkmenistan](answer)
-    - It is [Vatican City](answer)
+    - It is [Macao](answer)
+    - It is [Mauritius](answer)
+    - It is [Mozambique](answer)
+    - It is [Nigeria](answer)
+    - It is [Papua New Guinea](answer)
+    - It is [Romania](answer)
+    - It is [Saint Vincent and the Grenadines](answer)
+    - It is [Dutch Sint Maarten](answer)
+    - It is [Sudan](answer)
+    - It is [Timor-Leste](answer)
+    - It is [Uganda](answer)
+    - It is [Vietnam](answer)
     - I am sure it is [Afghanistan](answer)
-    - I am sure it is [Azerbaijan](answer)
-    - I am sure it is [Bosnia and Herzegovina](answer)
-    - I am sure it is [Cape Verde](answer)
-    - I am sure it is [Croatia](answer)
-    - I am sure it is [Egypt](answer)
-    - I am sure it is [Gabon](answer)
-    - I am sure it is [Haiti](answer)
-    - I am sure it is [Italy](answer)
+    - I am sure it is [Armenia](answer)
+    - I am sure it is [Belgium](answer)
+    - I am sure it is [Brazil](answer)
+    - I am sure it is [The Cayman Islands](answer)
+    - I am sure it is [The Congo](answer)
+    - I am sure it is [Djibouti](answer)
+    - I am sure it is [Ethiopia](answer)
+    - I am sure it is [The Gambia](answer)
+    - I am sure it is [Guatemala](answer)
+    - I am sure it is [Hungary](answer)
+    - I am sure it is [Jamaica](answer)
     - I am sure it is [Kyrgyzstan](answer)
-    - I am sure it is [Madagascar](answer)
-    - I am sure it is [Micronesia](answer)
-    - I am sure it is [Nauru](answer)
-    - I am sure it is [Oman](answer)
-    - I am sure it is [Qatar](answer)
-    - I am sure it is [Seychelles](answer)
-    - I am sure it is [Spain](answer)
-    - I am sure it is [Tajikistan](answer)
-    - I am sure it is [Turkmenistan](answer)
-    - I am sure it is [Vatican City](answer)
+    - I am sure it is [Macao](answer)
+    - I am sure it is [Mauritius](answer)
+    - I am sure it is [Mozambique](answer)
+    - I am sure it is [Nigeria](answer)
+    - I am sure it is [Papua New Guinea](answer)
+    - I am sure it is [Romania](answer)
+    - I am sure it is [Saint Vincent and the Grenadines](answer)
+    - I am sure it is [Dutch Sint Maarten](answer)
+    - I am sure it is [Sudan](answer)
+    - I am sure it is [Timor-Leste](answer)
+    - I am sure it is [Uganda](answer)
+    - I am sure it is [Vietnam](answer)
     - I believe it's [Afghanistan](answer)
-    - I believe it's [Azerbaijan](answer)
-    - I believe it's [Bosnia and Herzegovina](answer)
-    - I believe it's [Cape Verde](answer)
-    - I believe it's [Croatia](answer)
-    - I believe it's [Egypt](answer)
-    - I believe it's [Gabon](answer)
-    - I believe it's [Haiti](answer)
-    - I believe it's [Italy](answer)
+    - I believe it's [Armenia](answer)
+    - I believe it's [Belgium](answer)
+    - I believe it's [Brazil](answer)
+    - I believe it's [The Cayman Islands](answer)
+    - I believe it's [The Congo](answer)
+    - I believe it's [Djibouti](answer)
+    - I believe it's [Ethiopia](answer)
+    - I believe it's [The Gambia](answer)
+    - I believe it's [Guatemala](answer)
+    - I believe it's [Hungary](answer)
+    - I believe it's [Jamaica](answer)
     - I believe it's [Kyrgyzstan](answer)
-    - I believe it's [Madagascar](answer)
-    - I believe it's [Micronesia](answer)
-    - I believe it's [Nauru](answer)
-    - I believe it's [Oman](answer)
-    - I believe it's [Qatar](answer)
-    - I believe it's [Seychelles](answer)
-    - I believe it's [Spain](answer)
-    - I believe it's [Tajikistan](answer)
-    - I believe it's [Turkmenistan](answer)
-    - I believe it's [Vatican City](answer)
+    - I believe it's [Macao](answer)
+    - I believe it's [Mauritius](answer)
+    - I believe it's [Mozambique](answer)
+    - I believe it's [Nigeria](answer)
+    - I believe it's [Papua New Guinea](answer)
+    - I believe it's [Romania](answer)
+    - I believe it's [Saint Vincent and the Grenadines](answer)
+    - I believe it's [Dutch Sint Maarten](answer)
+    - I believe it's [Sudan](answer)
+    - I believe it's [Timor-Leste](answer)
+    - I believe it's [Uganda](answer)
+    - I believe it's [Vietnam](answer)
     - I think it is [Afghanistan](answer)
-    - I think it is [Azerbaijan](answer)
-    - I think it is [Bosnia and Herzegovina](answer)
-    - I think it is [Cape Verde](answer)
-    - I think it is [Croatia](answer)
-    - I think it is [Egypt](answer)
-    - I think it is [Gabon](answer)
-    - I think it is [Haiti](answer)
-    - I think it is [Italy](answer)
+    - I think it is [Armenia](answer)
+    - I think it is [Belgium](answer)
+    - I think it is [Brazil](answer)
+    - I think it is [The Cayman Islands](answer)
+    - I think it is [The Congo](answer)
+    - I think it is [Djibouti](answer)
+    - I think it is [Ethiopia](answer)
+    - I think it is [The Gambia](answer)
+    - I think it is [Guatemala](answer)
+    - I think it is [Hungary](answer)
+    - I think it is [Jamaica](answer)
     - I think it is [Kyrgyzstan](answer)
-    - I think it is [Madagascar](answer)
-    - I think it is [Micronesia](answer)
-    - I think it is [Nauru](answer)
-    - I think it is [Oman](answer)
-    - I think it is [Qatar](answer)
-    - I think it is [Seychelles](answer)
-    - I think it is [Spain](answer)
-    - I think it is [Tajikistan](answer)
-    - I think it is [Turkmenistan](answer)
-    - I think it is [Vatican City](answer)
+    - I think it is [Macao](answer)
+    - I think it is [Mauritius](answer)
+    - I think it is [Mozambique](answer)
+    - I think it is [Nigeria](answer)
+    - I think it is [Papua New Guinea](answer)
+    - I think it is [Romania](answer)
+    - I think it is [Saint Vincent and the Grenadines](answer)
+    - I think it is [Dutch Sint Maarten](answer)
+    - I think it is [Sudan](answer)
+    - I think it is [Timor-Leste](answer)
+    - I think it is [Uganda](answer)
+    - I think it is [Vietnam](answer)
     - It must be [Afghanistan](answer)
-    - It must be [Azerbaijan](answer)
-    - It must be [Bosnia and Herzegovina](answer)
-    - It must be [Cape Verde](answer)
-    - It must be [Croatia](answer)
-    - It must be [Egypt](answer)
-    - It must be [Gabon](answer)
-    - It must be [Haiti](answer)
-    - It must be [Italy](answer)
+    - It must be [Armenia](answer)
+    - It must be [Belgium](answer)
+    - It must be [Brazil](answer)
+    - It must be [The Cayman Islands](answer)
+    - It must be [The Congo](answer)
+    - It must be [Djibouti](answer)
+    - It must be [Ethiopia](answer)
+    - It must be [The Gambia](answer)
+    - It must be [Guatemala](answer)
+    - It must be [Hungary](answer)
+    - It must be [Jamaica](answer)
     - It must be [Kyrgyzstan](answer)
-    - It must be [Madagascar](answer)
-    - It must be [Micronesia](answer)
-    - It must be [Nauru](answer)
-    - It must be [Oman](answer)
-    - It must be [Qatar](answer)
-    - It must be [Seychelles](answer)
-    - It must be [Spain](answer)
-    - It must be [Tajikistan](answer)
-    - It must be [Turkmenistan](answer)
-    - It must be [Vatican City](answer)
+    - It must be [Macao](answer)
+    - It must be [Mauritius](answer)
+    - It must be [Mozambique](answer)
+    - It must be [Nigeria](answer)
+    - It must be [Papua New Guinea](answer)
+    - It must be [Romania](answer)
+    - It must be [Saint Vincent and the Grenadines](answer)
+    - It must be [Dutch Sint Maarten](answer)
+    - It must be [Sudan](answer)
+    - It must be [Timor-Leste](answer)
+    - It must be [Uganda](answer)
+    - It must be [Vietnam](answer)
     - It's certainly [Afghanistan](answer)
-    - It's certainly [Azerbaijan](answer)
-    - It's certainly [Bosnia and Herzegovina](answer)
-    - It's certainly [Cape Verde](answer)
-    - It's certainly [Croatia](answer)
-    - It's certainly [Egypt](answer)
-    - It's certainly [Gabon](answer)
-    - It's certainly [Haiti](answer)
-    - It's certainly [Italy](answer)
+    - It's certainly [Armenia](answer)
+    - It's certainly [Belgium](answer)
+    - It's certainly [Brazil](answer)
+    - It's certainly [The Cayman Islands](answer)
+    - It's certainly [The Congo](answer)
+    - It's certainly [Djibouti](answer)
+    - It's certainly [Ethiopia](answer)
+    - It's certainly [The Gambia](answer)
+    - It's certainly [Guatemala](answer)
+    - It's certainly [Hungary](answer)
+    - It's certainly [Jamaica](answer)
     - It's certainly [Kyrgyzstan](answer)
-    - It's certainly [Madagascar](answer)
-    - It's certainly [Micronesia](answer)
-    - It's certainly [Nauru](answer)
-    - It's certainly [Oman](answer)
-    - It's certainly [Qatar](answer)
-    - It's certainly [Seychelles](answer)
-    - It's certainly [Spain](answer)
-    - It's certainly [Tajikistan](answer)
-    - It's certainly [Turkmenistan](answer)
-    - It's certainly [Vatican City](answer)
+    - It's certainly [Macao](answer)
+    - It's certainly [Mauritius](answer)
+    - It's certainly [Mozambique](answer)
+    - It's certainly [Nigeria](answer)
+    - It's certainly [Papua New Guinea](answer)
+    - It's certainly [Romania](answer)
+    - It's certainly [Saint Vincent and the Grenadines](answer)
+    - It's certainly [Dutch Sint Maarten](answer)
+    - It's certainly [Sudan](answer)
+    - It's certainly [Timor-Leste](answer)
+    - It's certainly [Uganda](answer)
+    - It's certainly [Vietnam](answer)
     - surely it is [Afghanistan](answer)
-    - surely it is [Azerbaijan](answer)
-    - surely it is [Bosnia and Herzegovina](answer)
-    - surely it is [Cape Verde](answer)
-    - surely it is [Croatia](answer)
-    - surely it is [Egypt](answer)
-    - surely it is [Gabon](answer)
-    - surely it is [Haiti](answer)
-    - surely it is [Italy](answer)
+    - surely it is [Armenia](answer)
+    - surely it is [Belgium](answer)
+    - surely it is [Brazil](answer)
+    - surely it is [The Cayman Islands](answer)
+    - surely it is [The Congo](answer)
+    - surely it is [Djibouti](answer)
+    - surely it is [Ethiopia](answer)
+    - surely it is [The Gambia](answer)
+    - surely it is [Guatemala](answer)
+    - surely it is [Hungary](answer)
+    - surely it is [Jamaica](answer)
     - surely it is [Kyrgyzstan](answer)
-    - surely it is [Madagascar](answer)
-    - surely it is [Micronesia](answer)
-    - surely it is [Nauru](answer)
-    - surely it is [Oman](answer)
-    - surely it is [Qatar](answer)
-    - surely it is [Seychelles](answer)
-    - surely it is [Spain](answer)
-    - surely it is [Tajikistan](answer)
-    - surely it is [Turkmenistan](answer)
-    - surely it is [Vatican City](answer)
+    - surely it is [Macao](answer)
+    - surely it is [Mauritius](answer)
+    - surely it is [Mozambique](answer)
+    - surely it is [Nigeria](answer)
+    - surely it is [Papua New Guinea](answer)
+    - surely it is [Romania](answer)
+    - surely it is [Saint Vincent and the Grenadines](answer)
+    - surely it is [Dutch Sint Maarten](answer)
+    - surely it is [Sudan](answer)
+    - surely it is [Timor-Leste](answer)
+    - surely it is [Uganda](answer)
+    - surely it is [Vietnam](answer)
     - [Afghanistan](answer)
-    - [Azerbaijan](answer)
-    - [Bosnia and Herzegovina](answer)
-    - [Cape Verde](answer)
-    - [Croatia](answer)
-    - [Egypt](answer)
-    - [Gabon](answer)
-    - [Haiti](answer)
-    - [Italy](answer)
+    - [Armenia](answer)
+    - [Belgium](answer)
+    - [Brazil](answer)
+    - [The Cayman Islands](answer)
+    - [The Congo](answer)
+    - [Djibouti](answer)
+    - [Ethiopia](answer)
+    - [The Gambia](answer)
+    - [Guatemala](answer)
+    - [Hungary](answer)
+    - [Jamaica](answer)
     - [Kyrgyzstan](answer)
-    - [Madagascar](answer)
-    - [Micronesia](answer)
-    - [Nauru](answer)
-    - [Oman](answer)
-    - [Qatar](answer)
-    - [Seychelles](answer)
-    - [Spain](answer)
-    - [Tajikistan](answer)
-    - [Turkmenistan](answer)
-    - [Vatican City](answer)
-    - [Norway](answer)
+    - [Macao](answer)
+    - [Mauritius](answer)
+    - [Mozambique](answer)
+    - [Nigeria](answer)
+    - [Papua New Guinea](answer)
+    - [Romania](answer)
+    - [Saint Vincent and the Grenadines](answer)
+    - [Dutch Sint Maarten](answer)
+    - [Sudan](answer)
+    - [Timor-Leste](answer)
+    - [Uganda](answer)
+    - [Vietnam](answer)
     - It is [A](answer)
     - It is [B](answer)
     - It is [C](answer)
@@ -623,14 +742,19 @@ nlu:
     - Afghanistan
     - Albania
     - Algeria
+    - American Samoa
     - Andorra
     - Angola
+    - Anguilla
+    - Antarctica
     - Antigua and Barbuda
     - Argentina
     - Armenia
+    - Aruba
     - Australia
     - Austria
     - Azerbaijan
+    - The Bahamas
     - Bahrain
     - Bangladesh
     - Barbados
@@ -638,60 +762,83 @@ nlu:
     - Belgium
     - Belize
     - Benin
+    - Bermuda
     - Bhutan
     - Bolivia
+    - Bonaire
     - Bosnia and Herzegovina
     - Botswana
+    - Bouvet Island
     - Brazil
-    - Brunei
+    - British Indian Ocean Territory
+    - Brunei Darussalam
     - Bulgaria
     - Burkina Faso
     - Burundi
+    - Cabo Verde
     - Cambodia
     - Cameroon
     - Canada
-    - Cape Verde
-    - Central African Republic
+    - The Cayman Islands
+    - The Central African Republic
     - Chad
     - Chile
     - China
+    - Christmas Island
+    - The Cocos Keeling Islands
     - Colombia
     - Comoros
-    - Congo
-    - Congo (Democratic Republic)
+    - The Democratic Republic of The Congo
+    - The Congo
+    - Cook Islands
     - Costa Rica
     - Croatia
     - Cuba
+    - Curacao
     - Cyprus
     - Czechia
+    - Cote d'Ivoire
     - Denmark
     - Djibouti
     - Dominica
-    - Dominican Republic
-    - East Timor
+    - The Dominican Republic
     - Ecuador
     - Egypt
-    - El Salvador
+    - ElSalvador
     - Equatorial Guinea
     - Eritrea
     - Estonia
     - Eswatini
     - Ethiopia
+    - Falkland Islands
+    - Faroe Islands
     - Fiji
     - Finland
     - France
+    - French Guiana
+    - French Polynesia
+    - French Southern Territories
     - Gabon
+    - The Gambia
     - Georgia
     - Germany
     - Ghana
+    - Gibraltar
     - Greece
+    - Greenland
     - Grenada
+    - Guadeloupe
+    - Guam
     - Guatemala
+    - Guernsey
     - Guinea
     - Guinea-Bissau
     - Guyana
     - Haiti
+    - Heard Island and McDonald Islands
+    - The Holy See
     - Honduras
+    - Hong Kong
     - Hungary
     - Iceland
     - India
@@ -699,19 +846,21 @@ nlu:
     - Iran
     - Iraq
     - Ireland
+    - Isle of Man
     - Israel
     - Italy
-    - Ivory Coast
     - Jamaica
     - Japan
+    - Jersey
     - Jordan
     - Kazakhstan
     - Kenya
     - Kiribati
-    - Kosovo
+    - North Korea
+    - The Republic of Korea
     - Kuwait
     - Kyrgyzstan
-    - Laos
+    - Lao People's Democratic Republic
     - Latvia
     - Lebanon
     - Lesotho
@@ -720,6 +869,7 @@ nlu:
     - Liechtenstein
     - Lithuania
     - Luxembourg
+    - Macao
     - Madagascar
     - Malawi
     - Malaysia
@@ -727,42 +877,59 @@ nlu:
     - Mali
     - Malta
     - Marshall Islands
+    - Martinique
     - Mauritania
     - Mauritius
+    - Mayotte
     - Mexico
     - Micronesia
     - Moldova
     - Monaco
     - Mongolia
     - Montenegro
+    - Montserrat
     - Morocco
     - Mozambique
-    - Myanmar (Burma)
+    - Myanmar
     - Namibia
     - Nauru
     - Nepal
-    - Netherlands
+    - The Netherlands
+    - New Caledonia
     - New Zealand
     - Nicaragua
-    - Niger
+    - The Niger
     - Nigeria
-    - North Korea
-    - North Macedonia
+    - Niue
+    - Norfolk Island
+    - Northern Mariana Islands
     - Norway
     - Oman
     - Pakistan
     - Palau
+    - Palestine
     - Panama
     - Papua New Guinea
     - Paraguay
     - Peru
-    - Philippines
+    - The Philippines
+    - Pitcairn
     - Poland
     - Portugal
+    - Puerto Rico
     - Qatar
+    - Republic of North Macedonia
     - Romania
     - Russia
     - Rwanda
+    - Reunion
+    - Saint Barthelemy
+    - Saint Helena Ascension and Tristanda Cunha
+    - Saint Kitts and Nevis
+    - Saint Lucia
+    - French Saint Martin
+    - Saint Pierre and Miquelon
+    - Saint Vincent and the Grenadines
     - Samoa
     - San Marino
     - Sao Tome and Principe
@@ -772,49 +939,55 @@ nlu:
     - Seychelles
     - Sierra Leone
     - Singapore
+    - Dutch Sint Maarten
     - Slovakia
     - Slovenia
     - Solomon Islands
     - Somalia
     - South Africa
-    - South Korea
+    - South Georgia and the South Sandwich Islands
     - South Sudan
     - Spain
     - Sri Lanka
-    - St Kitts and Nevis
-    - St Lucia
-    - St Vincent
     - Sudan
     - Suriname
+    - Svalbardand Jan Mayen
     - Sweden
     - Switzerland
-    - Syria
+    - Syrian Arab Republic
+    - Taiwan
     - Tajikistan
-    - Tanzania
+    - United Republic of Tanzania
     - Thailand
-    - The Bahamas
-    - The Gambia
+    - Timor-Leste
     - Togo
+    - Tokelau
     - Tonga
     - Trinidad and Tobago
     - Tunisia
     - Turkey
     - Turkmenistan
+    - Turks and Caicos Islands
     - Tuvalu
     - Uganda
     - Ukraine
-    - United Arab Emirates
+    - The United Arab Emirates
     - United Kingdom
-    - United States
+    - United States Minor Outlying Islands
+    - United States of America
     - Uruguay
     - Uzbekistan
     - Vanuatu
-    - Vatican City
     - Venezuela
     - Vietnam
+    - British Virgin Islands
+    - US Virgin Islands
+    - Wallis and Futuna
+    - Western Sahara
     - Yemen
     - Zambia
     - Zimbabwe
+    - Aland Islands
     - A
     - B
     - C

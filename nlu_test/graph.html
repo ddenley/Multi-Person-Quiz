@@ -143,16 +143,15 @@
 4 [class="", fontsize=12, label=action_check_answer];
 5 [class="", fontsize=12, label=utter_goodbye];
 53 [class="", fontsize=12, label="..."];
-55 [class=intent, fillcolor=lightblue, label="hello there", shape=rect, style=filled];
-56 [class=intent, fillcolor=lightblue, label="It's certainly Bosnia and Herzegovina", shape=rect, style=filled];
-57 [class=intent, fillcolor=lightblue, label="you are right it is Egypt", shape=rect, style=filled];
-58 [class=intent, fillcolor=lightblue, label="I believe it's Egypt", shape=rect, style=filled];
-59 [class=intent, fillcolor=lightblue, label="I disagree, it must be Nauru", shape=rect, style=filled];
-60 [class=intent, fillcolor=lightblue, label="i concur it is Turkmenistan", shape=rect, style=filled];
-61 [class=intent, fillcolor=lightblue, label="/agree", shape=rect, style=filled];
-62 [class=intent, fillcolor=lightblue, label="No it is A", shape=rect, style=filled];
-63 [class=intent, fillcolor=lightblue, label="It is Norway", shape=rect, style=filled];
-64 [class=intent, fillcolor=lightblue, label="bye bye", shape=rect, style=filled];
+55 [class=intent, fillcolor=lightblue, label=goodmorning, shape=rect, style=filled];
+56 [class=intent, fillcolor=lightblue, label="surely it is Croatia", shape=rect, style=filled];
+57 [class=intent, fillcolor=lightblue, label="indeed it is Afghanistan", shape=rect, style=filled];
+58 [class=intent, fillcolor=lightblue, label="I believe it's Qatar", shape=rect, style=filled];
+59 [class=intent, fillcolor=lightblue, label="I disagree, it must be Qatar", shape=rect, style=filled];
+60 [class=intent, fillcolor=lightblue, label="you are right it is Madagascar", shape=rect, style=filled];
+61 [class=intent, fillcolor=lightblue, label="I don't think so, it is Croatia", shape=rect, style=filled];
+62 [class=intent, fillcolor=lightblue, label="It is Nauru", shape=rect, style=filled];
+63 [class=intent, fillcolor=lightblue, label=cu, shape=rect, style=filled];
 0 -> 53  [class="", key=NONE, label=""];
 0 -> 55  [class="", key=0];
 1 -> 2  [class="", key=NONE, label=""];
@@ -164,9 +163,8 @@
 4 -> 60  [class="", key=0];
 4 -> 61  [class="", key=0];
 4 -> 62  [class="", key=0];
-4 -> 63  [class="", key=0];
 5 -> "-1"  [class="", key=NONE, label=""];
-53 -> 64  [class="", key=0];
+53 -> 63  [class="", key=0];
 55 -> 1  [class="", key=0];
 56 -> 3  [class="", key=0];
 57 -> 4  [class="", key=0];
@@ -175,8 +173,7 @@
 60 -> 4  [class="", key=0];
 61 -> 4  [class="", key=0];
 62 -> 4  [class="", key=0];
-63 -> 4  [class="", key=0];
-64 -> 5  [class="", key=0];
+63 -> 5  [class="", key=0];
 }
 `;
     drawGraph(graph);
