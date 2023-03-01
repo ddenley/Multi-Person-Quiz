@@ -29,20 +29,18 @@ class DecisionMaker:
         onGoing = True
         previousAct = self.__Action.getPreviousAction()
         # if no questions have been asked or if the bot proposed to skip one:
-        if (not self.__questionAsked) or (previousAct == 'proposeSkipQ'):
+        if not self.__questionAsked:
             # If just one player answers when the bot asked if they want to play
-            if (previousAct in ['introQuizz', 'checkAns', 'proposeSkipQ']) and (nbTexts == 1):
+            if (previousAct in ['introQuizz', 'checkAns']) and (nbTexts == 1):
                 if currentUtt[0] == 'concur':
                     self.__Action.askQuestion()
                     self.__questionAsked = True
                     self.nbDisagree = 0
-                elif previousAct == 'proposeSkipQ' and currentUtt[0] == 'contest':
-                    self.__Action.continueSameQuestion()
                 elif currentUtt[0] == 'contest':
                     self.__Action.endQuiz()
                     onGoing = False
             # If two players answer when the bot asked if they want to play
-            elif (previousAct in ['introQuizz', 'checkAns', 'proposeSkipQ']) and (nbTexts == 2):
+            elif (previousAct in ['introQuizz', 'checkAns']) and (nbTexts == 2):
                 # If they agree to play
                 if ((currentUtt[0] == 'concur') and (lastUtt[0] == 'concur')) and (i == 1):
                     self.__Action.askQuestion()
