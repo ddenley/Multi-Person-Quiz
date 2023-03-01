@@ -63,6 +63,10 @@ class DecisionMaker:
                     self.__Action.continueSameQuestion()
             elif currentUtt[0] == 'ask_clue':
                 self.__Action.giveClue()
+            elif currentUtt[0] == 'ask_skip':
+                self.__Action.confirm(skip=True)
+                self.__Action.askQuestion()
+                self.nbDisagree = 0
             elif currentUtt[0] == 'repeat':
                 self.__Action.repeatQuestion()
             elif (lastUtt[0] == 'give_answer') and (currentUtt[0] == 'concur'):

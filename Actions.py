@@ -148,6 +148,16 @@ class Actions:
         self.sendTTS(msg)
         self.__previousAction = 'giveClue'
 
+    def confirm(self, skip=False):
+        """
+        Confirm to the players about what they asked the bot
+        :param skip: boolean, True if the players asked the bot to skip the question
+        :return:
+        """
+        if skip:
+            self.sendTTS("Ok, let's skip this question !")
+
+
     def paraphraseMessage(self, meaning):
         pass
 
