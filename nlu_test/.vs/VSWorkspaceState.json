@@ -4,8 +4,9 @@
     "\\.rasa",
     "\\actions",
     "\\data",
-    "\\models"
+    "\\models",
+    "\\tests"
   ],
-  "SelectedNode": "\\models\\20230224-022945-charcoal-rook.tar.gz",
+  "SelectedNode": "\\data\\nlu.yml",
   "PreviewInSolutionExplorer": false
 }
