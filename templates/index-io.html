@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flag Question</title>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script>
+        var socket = io.connect('http://' + document.domain + ':' + location.port);
+
+        socket.on('update_flag', function (data) {
+            $('#flag_image').attr('src', data.flag_image);
+            $('#flag_text').text(data.flag_text);
+        });
+
+        socket.emit('update_flag', {'url': data.flag_image, 'text': data.flag_text});
+    </script>
+</head>
+<body>
+    <br><img id='flag_image' src="{{flag_image}}" width="100%" alt="Flag Image"><br/>
+    <br><span id='flag_text'>{{flag_text}}</span><br/>
+</body>
+</html>
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flag Question</title>
+</head>
+<body>
+    <script>
+        $.ajax({
+            type: 'GET',
+            cache: false,
+            url: "{{ url_for('update') }}",
+            success: function(resp){
+                $('#img').html(resp.url);
+                $('#sst').html(resp.text);
+            }
+        });
+    </script >
+    <br><img src="{{flag_image}}" width="100%" alt="Flag Image"><br/>
+    <br><span id='sst'>{{flag_text}}</span><br/>
+</body>
+</html>
