@@ -26,8 +26,8 @@ def update():
     global flag_file
     flag_file = data[0]['file_path']
     # Update the current name_options
-    # global name_options
-    # name_options = data[1]['names_options']
+    global name_options
+    name_options = data[0]['options']
     # Refresh the home page
     return redirect(url_for('home'))
 

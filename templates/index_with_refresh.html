@@ -5,9 +5,9 @@
     <title>Flag Question</title>
 </head>
 <body>
-    <meta http-equiv="refresh" content="5" />
+    <meta http-equiv="refresh" content="2" />
     <div data-send='{{data|tojson}}'></div>
-    <img src="{{data[0]}}" width="100%" alt="Flag Image">
+    <img src="{{data[0]}}" width="600px" height="400px" alt="Flag Image">
     {%for option in data[1]%}
         <li>{{option}}</li>
     {%endfor%}
