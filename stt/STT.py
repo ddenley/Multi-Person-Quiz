@@ -33,11 +33,11 @@ class MicrophoneStream:
         self.audio_stream = self.audio_interface.open(
             format=self.audio_format,
             # API only supports one channel
-            channels=1,
+            channels=3,
             rate=self.rate,
             frames_per_buffer=self.chunk,
             stream_callback=self.stream_callback,
-            # input_device_index=self.device_index,
+            input_device_index=self.device_index,
             input=True
         )
         self.closed = False
@@ -92,7 +92,7 @@ class Transcribe:
     def __init__(self):
         self.transcription_queue = Queue()
         self.language_code = 'en-UK'
-        self.rate = 16000
+        self.rate = 44100
         self.diar_config = speech.SpeakerDiarizationConfig(
             enable_speaker_diarization=True,
             min_speaker_count=2,
