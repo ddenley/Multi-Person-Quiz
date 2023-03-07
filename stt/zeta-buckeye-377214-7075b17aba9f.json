@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "zeta-buckeye-377214",
+  "private_key_id": "7075b17aba9fb8c9d2686e5cdf4d97a191996896",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDCH5T4+3ujM3Ic\nevRJOyobH6+6nSf3Zn2EJGGm1yCNsK8y9ZgPfaaHn4TAUE6/3Q28Ld9EqQHexCkr\npg4HQOOeEJCYcfWT8Rs//lxjSVLxN6kp4oacMjMZX3kaJ/QSIQUapxMy6LmkUQRY\n5X+SR8ZZkUoMDwG/4yI24txrhHn0sm0nQ02Cgz2hIAsceEi4yWNtVTjk+C7QYMDn\n+tJg8vXw3Rt/b1zRE+uevmfeULnS1wLO2ikDi8AKVLMnltsPhv5z/Wi0p+yi+9rU\nMrXS7djDH6H5b3lQM8mVixdI/NdZjiy3vsCWwHR0GZwoI6B/rY/WEKeBCRHyljeJ\nqiDmhQZPAgMBAAECggEAGWMdovWUpPJ18naRWxW95cqI5gFmjYAzBbnnpspMoMB3\ncSqARp+v9zMBSVCss9faKNQ2S5maES2bQBuZNbv36J88THY0NTMGKszTp/fEvUot\nDo69pvtuW7D05Vr4nE8C3ApMmaRTnu3U1owRA9WXgaAyzGKWtSckaC7Wv8hAAM8D\nAq83jAV9+aKQN1LkOACYSOgVc8jYb2mS5r9vCdvFGAE+aX8JrerJJqIo3NxVFU4M\nVA6VPZrZ3HFmekrWprlnRTic+WUjjbedxzcDl9FrbTAuxPB3YmtSlp2MBC1Aoq34\nqJdx3qELQxAfxg+S/m0QEiB61+2nvbQeUGg133NtlQKBgQDzOz5wobrLJSLANhbb\nZugeB4lK7yncJrnJ9hZxw+oKS3d64SlYldI/WslNa8yDO+1zDxq3HcV96e6x9Ms0\nJiNDcB1jhcWjetZQ0i4pKMS/WM1DVlZEmM2VKhcVFYaRfhnsKzeJIUCQcQmBOU/e\n4ENg/AuMzo+9NJX5UFzJCbQPSwKBgQDMUGGRhuv2E8VxRlDVa6mJkrAyFbJmJjq+\n6+NwHI4hq6Eks1t7X86U5osrQLv/8MdLCa47S/9aecmsj0E1A+vcyblfzLeJAWv1\nsx7nh8lF5s5yGRFmh+qsIrBZd0BEDqQWN9PKkf3wpKvPlBm2V5+iGr5160Y9ju1S\nGIKvdneOjQKBgBisUdErFr+0rKnC0t6+uZ0SNqMbT6u9YetSw0QXE46nyR716DPM\nPt+eXf00ijJlydh6F8OriXUUXdo/cr1/gOQ+YzzNPRcwRr08FOKn+A1Q/MFv6KBc\nv7353w2MeXIY0Jhcae3HKb19OfGZ1rhNF4inCKTn7zzKMMxxknfyPAmxAoGBAIBX\nvfJ8npzlrpGJah2mk8knrCbKGlawjRaBd01loqLj/UXgpQbLGCnQ6HszHuWXiplI\na3o0MyPSfS04j+2NmQwIa7oSDvixO/ALpM4sLfMLGYPy20tc9b1LzRtmHaiiydBr\nIU+OhcY0qviqP7ybLlvWEO5h7K2eqtV3MCCoelHBAoGAdBkZ19fep3nmzwe7M0Mi\nbs4mYlryU7TbxfunVJQ2lNXJ5BmU/tNDONFOPtSQm6aVBWCsHntbBBvVZIEU+EM1\nAVt+wDub8hp7DgQjHiuzEtUNfXSCXgQMvEXQNtF1g3JcGEC1NcYA0cAfKcaNZaUP\nWbFjY5svnR57mOkTk3gV658=\n-----END PRIVATE KEY-----\n",
+  "client_email": "speechtotext@zeta-buckeye-377214.iam.gserviceaccount.com",
+  "client_id": "117010557352831382229",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/speechtotext%40zeta-buckeye-377214.iam.gserviceaccount.com"
+}
