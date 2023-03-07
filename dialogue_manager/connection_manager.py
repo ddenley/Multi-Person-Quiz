@@ -6,6 +6,8 @@
 #           stt_get         - GET for stt_tts Flask API
 #           rasa_nlu_post   - POST for Rasa NLU module HTTP API
 #           gui_post        - POST for GUI Flask API
+import json
+
 import requests
 from typing import Tuple
 
@@ -44,9 +46,11 @@ def stt_get() -> Tuple[str, int, int]:
 
 def gui_post(img_path: str, choices: list) -> int:
     """POST to gui server. Returns the response code as an int."""
-    response = requests.post(url=f"http://{__hostname}:{__gui_port}/update_flag",
-                             json={'file_path': img_path,
-                                   'options': choices}
+    data = json.dumps({'file_path': img_path,
+                                   'options': choices})
+    response = requests.post(url=f"http://{__hostname}:{__gui_port}/update",
+                             json=data,
+                             headers={'Content-Type': 'application/json'}
                              )
     return response.status_code
 
@@ -87,3 +91,5 @@ def rasa_nlu_post(text: str, message_id: str = "placeholder"):
                          json={"text": text, "message_id": message_id})
 
 
+if __name__ == "__main__":
+    gui_post("../static/data/img/happy.jpg", ["Option1", "Option2", "Option3", "Option4"])

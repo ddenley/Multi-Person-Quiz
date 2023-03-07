@@ -3,6 +3,8 @@ from flask_restful import reqparse
 import json
 
 
+# curl -v -H "Content-Type: application/json" -X POST -d '{"filePath":"static/data/img/sad.jpeg"}' http://127.0.0.1:5006/update_flag
+
 app = Flask(__name__)
 flag_dataset_source = ''
 flag_file = 'static/data/img/happy.jpg'
@@ -25,10 +27,10 @@ def update():
     data = json.loads(jsondata)
     # Update the current flag_file
     global flag_file
-    flag_file = data[0]['file_path']
+    flag_file = data['file_path']
     # Update the current name_options
     global name_options
-    name_options = data[0]['options']
+    name_options = data['options']
     # Refresh the home page
     return redirect(url_for('home'))
 
