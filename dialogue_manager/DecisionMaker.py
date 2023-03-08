@@ -73,7 +73,7 @@ class DecisionMaker:
                 self.__questionAsked = False
             elif (lastUtt[0] == 'give_answer') and (currentUtt[0] == 'give_answer'):
                 if lastUtt[2] == currentUtt[2]:
-                    self.__currentAnswer = currentUtt[1]
+                    self.__currentAnswer = currentUtt[2]
                     self.__Action.checkAnswer(self.__currentAnswer)
                     self.__questionAsked = False
                 else:
