@@ -15,8 +15,10 @@ class MicrophoneStream:
 
     def __init__(self):
         os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "zeta-buckeye-377214-7075b17aba9f.json"
-        self.rate = 44100
-        self.chunk = int(self.rate / 10)
+        self.rate = 16000
+        #Potentiall alyter chuck size to reduce latency
+        #self.chunk = int(self.rate / 10)
+        self.chunk = 3200
         self.buffer = Queue()
         self.closed = True
         # ***** CHANGE THIS VARIABLE DEPENDING ON DEVICE
@@ -33,7 +35,7 @@ class MicrophoneStream:
         self.audio_stream = self.audio_interface.open(
             format=self.audio_format,
             # API only supports one channel
-            channels=3,
+            channels=1,
             rate=self.rate,
             frames_per_buffer=self.chunk,
             stream_callback=self.stream_callback,
@@ -90,9 +92,15 @@ class MicrophoneStream:
 class Transcribe:
 
     def __init__(self):
+
+        lines = []
+        with open("stt/phrases.txt") as file:
+            lines = [line.rstrip() for line in file]
+        phrase_list = lines
+
         self.transcription_queue = Queue()
         self.language_code = 'en-UK'
-        self.rate = 44100
+        self.rate = 16000
         self.diar_config = speech.SpeakerDiarizationConfig(
             enable_speaker_diarization=True,
             min_speaker_count=2,
@@ -102,7 +110,12 @@ class Transcribe:
         encoding=speech.RecognitionConfig.AudioEncoding.LINEAR16,
         sample_rate_hertz=self.rate,
         language_code=self.language_code,
-        diarization_config=self.diar_config
+        diarization_config=self.diar_config,
+        speech_contexts=[
+            speech.SpeechContext(dict(
+                phrases=phrase_list
+            ))
+        ]
         )
         self.streaming_config = speech.StreamingRecognitionConfig(
             config=self.config, interim_results=False
