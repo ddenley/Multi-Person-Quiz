@@ -61,7 +61,7 @@ class ActionAskQuestion(Action):
 		dispatcher.utter_message(text = response)
 		return []
 
-
+"""
 class ActionUpdateAnswer(Action):
 
 	
@@ -95,7 +95,7 @@ class ActionCheckAnswer(Action):
 			tracker: Tracker, 
 			domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-		global accepted_answers_1, accepted_answers_2, turn, questions
+		global turn, questions
 			
 		correct_answer = list(questions.values())[0]
 
@@ -120,8 +120,8 @@ class ActionCheckAnswer(Action):
 		dispatcher.utter_message(text = response)
 
 		return [SlotSet("answer1", None)]
-
-"""			
+"""
+		
 class ActionUpdateAnswer(Action):
 
 	def name(self) -> Text:
@@ -135,13 +135,13 @@ class ActionUpdateAnswer(Action):
 		global  accepted_answers, turn
 
 		for entity in tracker.latest_message["entities"]:
-			if entity["entity"] == "answer" and entity["role"] == "accepted":
-				accepted_answers[0].append(entity["value"])
+			if entity["entity"] == "answer" and entity["value"].lower() not in accepted_answers[0]:
+				accepted_answers[0].append(entity["value"].lower())
 		dispatcher.utter_message(text = "Turn {}. Player 1 says : {}. What do you think Player 2 ?".format(turn, accepted_answers[0]))
 
 		return []
-"""
-"""
+
+
 class ActionCheckAnswer(Action):
 
 
@@ -162,30 +162,41 @@ class ActionCheckAnswer(Action):
 
 		answers = []
 		for entity in tracker.latest_message["entities"]:
-			if entity["entity"] == "answer" and entity["role"] == "accepted":
-				accepted_answers[mod_turn].append(entity["value"])
-			elif entity["entity"] == "answer" and entity["role"] == "denied":
-				if entity["value"] in accepted_answers[(mod_turn+1)%2]:
-					accepted_answers[(mod_turn+1)%2].pop(accepted_answers[(mod_turn+1)%2].index(entity["value"]))
+			if entity["entity"] == "answer" and entity["value"].lower() not in accepted_answers[mod_turn]:
+				accepted_answers[mod_turn].append(entity["value"].lower())
 
 		if not accepted_answers[mod_turn]:
 			accepted_answers[mod_turn] = accepted_answers[(mod_turn + 1)%2]
 
+		answer1 = accepted_answers[0][-1]
+		answer2 = accepted_answers[1][-1]
+
+		if answer1.lower() == answer2.lower():
+			if answer1.lower() == correct_answer.lower():
+				response = "Turn {}. Correct! The answer is indeed {}.".format(turn, correct_answer)
+			else:
+				response = "Turn {}. Incorrect, it is not {}. The answer is : {}.".format(turn, answer2, correct_answer)
+			accepted_answers = {0:[], 1:[]}
+			turn = 0
+
+			dispatcher.utter_message(text = response)
+			return []
+
+		"""
 		for answer in accepted_answers[0]:
 			if answer in accepted_answers[1]:
 				if answer.lower() == correct_answer.lower():
 					response = "Turn {}. Correct! The answer is indeed {}.".format(turn, correct_answer)
 				else:
 					response = "Turn {}. Incorrect, it is not {}. The answer is : {}.".format(turn, answer, correct_answer)
+				accepted_answers = {0:[], 1:[]}
 				turn = 0
 
 				dispatcher.utter_message(text = response)
 				return []
+		"""
 
 		response = "Turn {}. Player 1 says {}, Player 2 says {}. You don't seem to agree. What do you think Player {} ?".format(turn, accepted_answers[0], accepted_answers[1], (mod_turn + 1)%2 + 1)
-		
-
 		dispatcher.utter_message(text = response)
 
 		return []
-"""

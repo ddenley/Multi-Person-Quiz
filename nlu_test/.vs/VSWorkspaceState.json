@@ -4,8 +4,7 @@
     "\\.rasa",
     "\\actions",
     "\\data",
-    "\\models",
-    "\\tests"
+    "\\models"
   ],
   "SelectedNode": "\\data\\nlu.yml",
   "PreviewInSolutionExplorer": false

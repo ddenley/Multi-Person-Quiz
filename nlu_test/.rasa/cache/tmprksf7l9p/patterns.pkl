@@ -1,0 +1,1014 @@
+[
+  {
+    "name": "answer",
+    "pattern": "(?i)Afghanistan"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Aland Islands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Albania"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Algeria"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)American Samoa"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Andorra"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Angola"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Anguilla"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Antarctica"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Antigua and Barbuda"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Argentina"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Armenia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Aruba"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Australia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Austria"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Azerbaijan"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Bahrain"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Bangladesh"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Barbados"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Belarus"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Belgium"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Belize"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Benin"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Bermuda"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Bhutan"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Bolivia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Bonaire"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Bosnia and Herzegovina"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Botswana"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Bouvet Island"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Brazil"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)British Indian Ocean Territory"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)British Virgin Islands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Brunei Darussalam"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Bulgaria"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Burkina Faso"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Burundi"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Cabo Verde"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Cambodia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Cameroon"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Canada"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Chad"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Chile"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)China"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Christmas Island"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Colombia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Comoros"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Cook Islands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Costa Rica"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Cote d'Ivoire"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Croatia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Cuba"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Curacao"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Cyprus"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Czechia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Denmark"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Djibouti"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Dominica"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Dutch Sint Maarten"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Ecuador"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Egypt"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)ElSalvador"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Equatorial Guinea"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Eritrea"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Estonia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Eswatini"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Ethiopia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Falkland Islands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Faroe Islands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Fiji"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Finland"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)France"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)French Guiana"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)French Polynesia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)French Saint Martin"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)French Southern Territories"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Gabon"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Georgia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Germany"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Ghana"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Gibraltar"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Greece"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Greenland"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Grenada"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Guadeloupe"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Guam"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Guatemala"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Guernsey"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Guinea"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Guinea-Bissau"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Guyana"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Haiti"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Heard Island and McDonald Islands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Honduras"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Hong Kong"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Hungary"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Iceland"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)India"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Indonesia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Iran"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Iraq"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Ireland"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Isle of Man"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Israel"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Italy"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Jamaica"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Japan"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Jersey"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Jordan"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Kazakhstan"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Kenya"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Kiribati"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Kuwait"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Kyrgyzstan"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Lao People's Democratic Republic"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Latvia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Lebanon"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Lesotho"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Liberia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Libya"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Liechtenstein"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Lithuania"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Luxembourg"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Macao"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Madagascar"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Malawi"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Malaysia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Maldives"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Mali"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Malta"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Marshall Islands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Martinique"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Mauritania"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Mauritius"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Mayotte"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Mexico"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Micronesia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Moldova"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Monaco"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Mongolia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Montenegro"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Montserrat"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Morocco"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Mozambique"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Myanmar"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Namibia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Nauru"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Nepal"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)New Caledonia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)New Zealand"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Nicaragua"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Nigeria"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Niue"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Norfolk Island"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)North Korea"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Northern Mariana Islands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Norway"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Oman"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Pakistan"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Palau"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Palestine"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Panama"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Papua New Guinea"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Paraguay"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Peru"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Pitcairn"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Poland"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Portugal"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Puerto Rico"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Qatar"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Republic of North Macedonia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Reunion"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Romania"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Russia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Rwanda"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Saint Barthelemy"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Saint Helena Ascension and Tristanda Cunha"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Saint Kitts and Nevis"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Saint Lucia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Saint Pierre and Miquelon"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Saint Vincent and the Grenadines"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Samoa"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)San Marino"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Sao Tome and Principe"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Saudi Arabia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Senegal"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Serbia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Seychelles"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Sierra Leone"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Singapore"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Slovakia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Slovenia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Solomon Islands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Somalia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)South Africa"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)South Georgia and the South Sandwich Islands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)South Sudan"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Spain"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Sri Lanka"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Sudan"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Suriname"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Svalbardand Jan Mayen"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Sweden"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Switzerland"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Syrian Arab Republic"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Taiwan"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Tajikistan"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Thailand"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)The Bahamas"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)The Cayman Islands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)The Central African Republic"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)The Cocos Keeling Islands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)The Congo"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)The Democratic Republic of The Congo"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)The Dominican Republic"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)The Gambia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)The Holy See"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)The Netherlands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)The Niger"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)The Philippines"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)The Republic of Korea"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)The United Arab Emirates"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Timor-Leste"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Togo"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Tokelau"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Tonga"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Trinidad and Tobago"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Tunisia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Turkey"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Turkmenistan"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Turks and Caicos Islands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Tuvalu"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)US Virgin Islands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Uganda"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Ukraine"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)United Kingdom"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)United Republic of Tanzania"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)United States Minor Outlying Islands"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)United States of America"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Uruguay"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Uzbekistan"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Vanuatu"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Venezuela"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Vietnam"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Wallis and Futuna"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Western Sahara"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Yemen"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Zambia"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)Zimbabwe"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)option A"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)option B"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)option C"
+  },
+  {
+    "name": "answer",
+    "pattern": "(?i)option D"
+  }
+]

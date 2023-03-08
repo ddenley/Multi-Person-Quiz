@@ -25,9 +25,6 @@ pipeline:
      epochs: 100
      constrain_similarities: true
    #- name: "SpacyEntityExtractor"
-   #  exclusions:
-   #    - and
-   #    - option 
    - name: RegexEntityExtractor
      case_sensitive: False
      use_lookup_tables: true
@@ -38,6 +35,13 @@ pipeline:
    - name: FallbackClassifier
      threshold: 0.3
      ambiguity_threshold: 0.1
+
+## Configuration for BERT
+language_model:
+  name: tensorflow
+  model_name: "bert"
+  model_weights: "bert-base-uncased"
+  cache_dir: /tmp/bert_tf
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/

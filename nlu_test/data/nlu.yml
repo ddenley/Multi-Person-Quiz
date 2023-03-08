@@ -1,45 +1,38 @@
-version: "3.1"
 nlu:
 - intent: greet
   examples: |
-    - hey
     - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
-- intent: goodbye
-  examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+
+
+#- intent: goodbye
+#  examples: |
+#    - cu
+#    - good by
+#    - cee you later
+#    - good night
+#    - bye
+#    - goodbye
+#    - have a nice day
+#    - see you around
+#    - bye bye
+#    - see you later
+
 - intent: concur
-  examples: |
+  examples : |
+    - yes
+    - i agree
+    - i concur
+    - it is right
+    - indeed
+    - ok
     - yes
     - y
     - yeah
     - i agree
     - i concur
-    - it is right
-    - indeed
-    - ok 
     - right
-    - alright
-    - true
+    - Alright
+    - True
     - i admit
     - exact
     - let's go
@@ -276,9 +269,153 @@ nlu:
     - I think so it is [option B](answer)
     - I think so it is [option C](answer)
     - I think so it is [option D](answer)
+    - yes it is [French Polynesia](answer)
+    - indeed it is [Saint Kitts and Nevis](answer)
+    - yes it is indeed [Kazakhstan](answer)
+    - i agree it's [Ukraine](answer)
+    - i concur it is [Honduras](answer)
+    - i believe as well it is [Ireland](answer)
+    - you are right it is [Bonaire](answer)
+    - I think so it is [Malta](answer)
+    - So, [option A](answer)
+    - So, [option B](answer)
+    - So, [option C](answer)
+    - So, [option D](answer)
+    - Okay let's say [Montenegro](answer)
+    - I think I am going to follow your lead and say [Latvia](answer) I don't know
+    - Oh oh it's ohh that's cool yeah I would go [Australia](answer)
+    - yeah [option B](answer) [Kyrgzyzstan](answer)
+    - I don't have a reason to suggest otherwise
+    - yeah, I think [D](answer). I would go [D](answer). I don't think it's [Mongolia](answer) thinking about it, but.
+    - yes let's do it
+    - I believe it's that too
+    - Let’s go with that
+
+    - Okay let's say [American Samoa](answer)
+    - I think I am going to follow your lead and say [Antigua and Barbuda](answer)
+    - yeah I would go [The Bahamas](answer)
+    - yeah [Bosnia and Herzegovina](answer)
+    - I would go [Bouvet Island](answer)
+    - Okay let's say [British Indian Ocean Territory](answer)
+    - I think I am going to follow your lead and say [Brunei Darussalam](answer)
+    - yeah I would go [Burkina Faso](answer)
+    - yeah [Cabo Verde](answer)
+    - I would go [The Cayman Islands](answer)
+    - Okay let's say [The Central African Republic](answer)
+    - I think I am going to follow your lead and say [Christmas Island](answer)
+    - yeah I would go [The Cocos Keeling Islands](answer)
+    - yeah [The Democratic Republic of The Congo](answer)
+    - I would go [The Congo](answer)
+    - Okay let's say [Cook Islands](answer)
+    - I think I am going to follow your lead and say [Costa Rica](answer)
+    - yeah I would go [Cote d'Ivoire](answer)
+    - yeah [The Dominican Republic](answer)
+    - I would go [Equatorial Guinea](answer)
+    - Okay let's say [Falkland Islands](answer)
+    - I think I am going to follow your lead and say [Faroe Islands](answer)
+    - yeah I would go [French Guiana](answer)
+    - yeah [French Polynesia](answer)
+    - I would go [French Southern Territories](answer)
+    - Okay let's say [The Gambia](answer)
+    - I think I am going to follow your lead and say [Heard Island and McDonald Islands](answer)
+    - yeah I would go [The Holy See](answer)
+    - yeah [Hong Kong](answer)
+    - I would go [Isle of Man](answer)
+    - Okay let's say [North Korea](answer)
+    - I think I am going to follow your lead and say [The Republic of Korea](answer)
+    - yeah I would go [Lao People's Democratic Republic](answer)
+    - yeah [Marshall Islands](answer)
+    - I would go [The Netherlands](answer)
+    - Okay let's say [New Caledonia](answer)
+    - I think I am going to follow your lead and say [New Zealand](answer)
+    - yeah I would go [The Niger](answer)
+    - yeah [Norfolk Island](answer)
+    - I would go [Northern Mariana Islands](answer)
+    - Okay let's say [Papua New Guinea](answer)
+    - I think I am going to follow your lead and say [The Philippines](answer)
+    - yeah I would go [Puerto Rico](answer)
+    - yeah [Republic of North Macedonia](answer)
+    - I would go [Saint Barthelemy](answer)
+    - Okay let's say [Saint Helena Ascension and Tristanda Cunha](answer)
+    - I think I am going to follow your lead and say [Saint Kitts and Nevis](answer)
+    - yeah I would go [Saint Lucia](answer)
+    - yeah [French Saint Martin](answer)
+    - I would go [Saint Pierre and Miquelon](answer)
+    - Okay let's say [Saint Vincent and the Grenadines](answer)
+    - I think I am going to follow your lead and say [San Marino](answer)
+    - yeah I would go [Sao Tome and Principe](answer)
+    - yeah [Saudi Arabia](answer)
+    - I would go [Sierra Leone](answer)
+    - Okay let's say [Dutch Sint Maarten](answer)
+    - I think I am going to follow your lead and say [Solomon Islands](answer)
+    - yeah I would go [South Africa](answer)
+    - yeah [South Georgia and the South Sandwich Islands](answer)
+    - I would go [South Sudan](answer)
+    - Okay let's say [Sri Lanka](answer)
+    - I think I am going to follow your lead and say [Svalbardand Jan Mayen](answer)
+    - yeah I would go [Syrian Arab Republic](answer)
+    - yeah [United Republic of Tanzania](answer)
+    - I would go [Trinidad and Tobago](answer)
+    - Okay let's say [Turks and Caicos Islands](answer)
+    - I think I am going to follow your lead and say [The United Arab Emirates](answer)
+    - yeah I would go [United Kingdom](answer)
+    - yeah [United States Minor Outlying Islands](answer)
+    - I would go [United States of America](answer)
+    - Okay let's say [British Virgin Islands](answer)
+    - I think I am going to follow your lead and say [US Virgin Islands](answer)
+    - yeah I would go [Wallis and Futuna](answer)
+    - yeah [Western Sahara](answer)
+    - I would go [Aland Islands](answer)
+
 - intent: contest
   examples: |
-    
+    - you are wrong, it is [French Polynesia](answer)
+    - I don't think so, it is [Saint Kitts and Nevis](answer)
+    - I disagree, it must be [Kazakhstan](answer)
+    - No it is [Ukraine](answer)
+    - you are mistaken, it is [Honduras](answer)
+    - no it is not [Ireland](answer)
+    - i think not, it must be [Bonaire](answer)
+    - it cannot be [Malta](answer)
+
+    - Arabic kind of writing on the flag, and so I'm suspecting [Oman](answer) or [Brunei](answer)
+    - Ohh I know it's not [Senegal](answer)
+    - Hmmm
+    - That I am sure
+    - I don't think it is [Peru](answer), I feel like [Peru](answer) has a green in it, and I think it is horizontal
+    - Why don't, um, I think it is [Australia](answer), but I don't know like shouldn't the other flag be like in the corner, right? Shouldn't be in the background.
+    - it is because [Australia](answer) is still a number of the Commonwealth I believe. They and [New Zealand](answer)
+    - it's not [Israel](answer) or [option A](answer)
+    - It's not [Israel](answer) and [Algeria](answer) should be green
+    - yeah
+    - The only country I know it is not is [Serbia](answer)
+    - ohh neither none of these nations are Carribean or right like it's not somewhere in the Middle East to eastern Asia
+    - [Mongolia](answer) is above [China](answer) I believe 
+    - And [Guyana](answer) is somewhere north of [Australia](answer)
+    - But I don't know anything about [Turkmenistan](answer), so it could just be that and I've I have no idea.
+    - I'm going to pretend this doesn't matter to me
+    - It’s not [Ireland](answer)
+    - I don't think it's [Sudan](answer) either
+    - I don't believe it is that either, so our options are the [Gambia](answer) or [Saint Kitts and Nevis](answer)
+    - for me it's 50 50 i guess
+    - I’m trying to think, because, like all of West Africa usually just goes vertical
+    - North Africa goes like playing with some symbol on it
+    - Besides [Egypt](answer), [Egypt](answer) is different. For some reason, um South
+    - And yet I don't feel like it is [Saint Kitts and Nevis](answer)
+    - It's not [Israel](answer). It's definitely not [Congo](answer)
+    - It's not [Bangladesh](answer) either
+    - Yeah I don't think that's it either
+    - Because I’m Nigerian, I know that’s not [Nigeria](answer)
+    - Nice, I also, I'm almost certain it's not [Haiti](answer) either
+    - Can we zoom in there
+    - That look’s French
+    - questions are [Haiti](answer), [Maldives](answer) or [Honduras](answer)? I don't think it's [Honduras](answer). I feel like [Honduras](answer) is blue and white for some reason.
+    - It’s definitely not [Mexico](answer) or [Ukraine](answer)
+    - It seems like an actually a bit of an easier one based on the options
+    - We've just seen [Colombia](answer), so we know it's not that
+    - It’s not [Switzerland](answer) either
+    - I don’t think it’s [Indonesia](answer)
+
     - you are wrong, it is [Afghanistan](answer)
     - you are wrong, it is [Armenia](answer)
     - you are wrong, it is [Belgium](answer)
@@ -527,9 +664,123 @@ nlu:
     - It is not [Suriname](answer)
     - It is not [Turkey](answer)
     - It is not [British Virgin Islands](answer)
+
+    - Ohh I know it's not [American Samoa](answer)
+    - I don't think it is [Antigua and Barbuda](answer), I feel like [The Bahamas](answer) has a blue in it, and I think it is horizontal
+    - it is because [The Bahamas](answer) is in Asia I believe. With [Bosnia and Herzegovina](answer)
+    - It's not [Bosnia and Herzegovina](answer) and [Bouvet Island](answer) should be orange
+    - The only country I know it is not is [Bouvet Island](answer)
+    - [British Indian Ocean Territory](answer) is above [Brunei Darussalam](answer) I believe 
+    - And [Brunei Darussalam](answer) is somewhere north of [Burkina Faso](answer)
+    - (?i)But I don't know anything about [Burkina Faso](answer), so it could just be that and I've I have no idea
+    - It's not [Cabo Verde](answer)
+    - I don't think it's [The Cayman Islands](answer) either
+    - It's not [The Central African Republic](answer). It's definitely not [Christmas Island](answer)
+    - It's not [Christmas Island](answer) either
+    - Because I'm Nigerian, I know that's not [The Cocos Keeling Islands](answer)
+    - Nice, I also, I'm almost certain it's not [The Democratic Republic of The Congo](answer) either
+    - It's definitely not [The Congo](answer) or [Cook Islands](answer)
+    - (?i)We've just seen [Cook Islands](answer), so we know it's not that
+    - It's not [Costa Rica](answer) either
+    - I don't think it's [Cote d'Ivoire](answer)
+    - Ohh I know it's not [The Dominican Republic](answer)
+    - I don't think it is [Equatorial Guinea](answer), I feel like [The Bahamas](answer) has a blue in it, and I think it is horizontal
+    - it is because [Falkland Islands](answer) is in Asia I believe. With [Bosnia and Herzegovina](answer)
+    - It's not [Faroe Islands](answer) and [Bouvet Island](answer) should be orange
+    - The only country I know it is not is [French Guiana](answer)
+    - [French Polynesia](answer) is above [Brunei Darussalam](answer) I believe 
+    - And [French Southern Territories](answer) is somewhere north of [Burkina Faso](answer)
+    - (?i)But I don't know anything about [The Gambia](answer), so it could just be that and I've I have no idea
+    - It's not [Heard Island and McDonald Islands](answer)
+    - I don't think it's [The Holy See](answer) either
+    - It's not [Hong Kong](answer). It's definitely not [Christmas Island](answer)
+    - It's not [Isle of Man](answer) either
+    - Because I'm Nigerian, I know that's not [North Korea](answer)
+    - Nice, I also, I'm almost certain it's not [The Republic of Korea](answer) either
+    - It's definitely not [Lao People's Democratic Republic](answer) or [Cook Islands](answer)
+    - We've just seen [Marshall Islands](answer), so we know it's not that
+    - It's not [The Netherlands](answer) either
+    - I don't think it's [New Caledonia](answer)
+    - Ohh I know it's not [New Zealand](answer)
+    - I don't think it is [The Niger](answer), I feel like [The Bahamas](answer) has a blue in it, and I think it is horizontal
+    - it is because [Norfolk Island](answer) is in Asia I believe. With [Bosnia and Herzegovina](answer)
+    - It's not [Northern Mariana Islands](answer) and [Bouvet Island](answer) should be orange
+    - The only country I know it is not is [Papua New Guinea](answer)
+    - [The Philippines](answer) is above [Brunei Darussalam](answer) I believe 
+    - And [Puerto Rico](answer) is somewhere north of [Burkina Faso](answer)
+    - But I don't know anything about [Republic of North Macedonia](answer), so it could just be that and I've I have no idea
+    - It's not [Saint Barthelemy](answer)
+    - I don't think it's [Saint Helena Ascension and Tristanda Cunha](answer) either
+    - It's not [Saint Kitts and Nevis](answer). It's definitely not [Christmas Island](answer)
+    - It's not [Saint Lucia](answer) either
+    - Because I'm Nigerian, I know that's not [French Saint Martin](answer)
+    - Nice, I also, I'm almost certain it's not [Saint Pierre and Miquelon](answer) either
+    - It's definitely not [Saint Vincent and the Grenadines](answer) or [Cook Islands](answer)
+    - We've just seen [San Marino](answer), so we know it's not that
+    - It's not [Sao Tome and Principe](answer) either
+    - I don't think it's [Saudi Arabia](answer)
+    - Ohh I know it's not [Sierra Leone](answer)
+    - I don't think it is [Dutch Sint Maarten](answer), I feel like [The Bahamas](answer) has a blue in it, and I think it is horizontal
+    - it is because [Solomon Islands](answer) is in Asia I believe. With [Bosnia and Herzegovina](answer)
+    - It's not [South Africa](answer) and [Bouvet Island](answer) should be orange
+    - The only country I know it is not is [South Georgia and the South Sandwich Islands](answer)
+    - [South Sudan](answer) is above [Brunei Darussalam](answer) I believe 
+    - And [Sri Lanka](answer) is somewhere north of [Burkina Faso](answer)
+    - But I don't know anything about [Svalbardand Jan Mayen](answer), so it could just be that and I've I have no idea
+    - It's not [Syrian Arab Republic](answer)
+    - I don't think it's [United Republic of Tanzania](answer) either
+    - It's not [Trinidad and Tobago](answer). It's definitely not [Christmas Island](answer)
+    - It's not [Turks and Caicos Islands](answer) either
+    - Because I'm Nigerian, I know that's not [The United Arab Emirates](answer)
+    - Nice, I also, I'm almost certain it's not [United Kingdom](answer) either
+    - It's definitely not [United States Minor Outlying Islands](answer) or [Cook Islands](answer)
+    - We've just seen [United States of America](answer), so we know it's not that
+    - It's not [British Virgin Islands](answer) either
+    - I don't think it's [US Virgin Islands](answer)
+    - Ohh I know it's not [Wallis and Futuna](answer)
+    - I don't think it is [Western Sahara](answer), I feel like [The Bahamas](answer) has a blue in it, and I think it is horizontal
+    - it is because [Aland Islands](answer) is in Asia I believe. With [Bosnia and Herzegovina](answer)
+
 - intent: give_answer
   examples: |
-    - i know 
+    - It is [French Polynesia](answer)
+    - I am sure it is [Saint Kitts and Nevis](answer)
+    - I believe it's [Kazakhstan](answer)
+    - I think it is [Ukraine](answer)
+    - It must be [Honduras](answer)
+    - It's certainly [Ireland](answer)
+    - surely it is [Bonaire](answer)
+    - [Malta](answer)
+    - SoI would maybe go with [Montenegro](answer)
+    - I am quite sure this is [Latvia](answer)
+    - This has to be [Australia](answer), where I would be confused was if [New Zealand](answer) was here as well then I wouldn't know what it was, but I think it's [Australia](answer) since [New Zealand](answer) is not here
+    - By process of elimination makes me feel like it's [option B](answer). [Dominican](answer) has blue and red
+    - I go for [option B](answer)
+    - Yeah, I would say it's between [option B](answer) and [D](answer) for me
+    - I don't know though it feels like a 50 50 split between [B](answer) and [D](answer). I feel like it's [D](answer)
+    - [D](answer)
+    - [Mongolia](answer) ohh sorry [Guyana](answer) rather
+    - [Mongolia](answer) maybe?
+    - i am happy to go with [opton A](answer) and live with the choice
+    - yeah, [Gambia](answer)
+    - Sobased on my African theory earlier, I’m compelled to go with [Tunisia](answer)
+    - I feel like it's not [Haiti](answer), so I maybe go [Maldives](answer) them
+    - It’s not [Philippines](answer), so I’m thinking it’s [Malawi](answer)
+    - Yeah, let’s go [North Macedonia](answer)
+
+    - Yeah, let’s go [Croatia](answer)
+    - Yeah, let’s go [Israel](answer)
+    - Yeah, let’s go [Iran](answer)
+    - Yeah, let’s go [Eritrea](answer)
+    - Yeah, let’s go [North Korea](answer)
+    - Yeah, let’s go [Japan](answer)
+    - Yeah, let’s go [Bangladesh](answer)
+    - Yeah, let’s go [Indonesia](answer)
+    - Yeah, let’s go [Brunei](answer)
+    - Yeah, let’s go [Mongolia](answer)
+    - Yeah, let’s go [Argentina](answer)
+    - Yeah, let’s go [Bolivia](answer)
+
     - It is [Afghanistan](answer)
     - It is [Armenia](answer)
     - It is [Belgium](answer)
@@ -779,6 +1030,85 @@ nlu:
     - [option B](answer)
     - [option C](answer)
     - [option D](answer)
+
+    - SoI would maybe go with [American Samoa](answer)
+    - I am quite sure this is [Antigua and Barbuda](answer)
+    - By process of elimination makes me feel like it's [The Bahamas](answer). [Bosnia and Herzegovina](answer) has blue and red
+    - I go for [Bosnia and Herzegovina](answer)
+    - I don't know though it feels like a 50 50 split between [Bouvet Island](answer) and [British Indian Ocean Territory](answer). I feel like it's [Brunei Darussalam](answer)
+    - [British Indian Ocean Territory](answer) ohh sorry [Brunei Darussalam](answer) rather
+    - [Brunei Darussalam](answer) maybe?
+    - i am happy to go with [Burkina Faso](answer) and live with the choice
+    - yeah, [Cabo Verde](answer)
+    - Sobased on my African theory earlier, I'm compelled to go with [The Cayman Islands](answer)
+    - I feel like it's not [The Central African Republic](answer), so I maybe go [Christmas Island](answer) them
+    - It's not [Christmas Island](answer), so I'm thinking it's [The Cocos Keeling Islands](answer)
+    - Yeah, let's go [The Cocos Keeling Islands](answer)
+    - SoI would maybe go with [The Democratic Republic of The Congo](answer)
+    - I am quite sure this is [The Congo](answer)
+    - By process of elimination makes me feel like it's [Cook Islands](answer). [Bosnia and Herzegovina](answer) has blue and red
+    - I go for [Costa Rica](answer)
+    - I don't know though it feels like a 50 50 split between [Cote d'Ivoire](answer) and [British Indian Ocean Territory](answer). I feel like it's [Brunei Darussalam](answer)
+    - [The Dominican Republic](answer) ohh sorry [Brunei Darussalam](answer) rather
+    - [Equatorial Guinea](answer) maybe?
+    - i am happy to go with [Falkland Islands](answer) and live with the choice
+    - yeah, [Faroe Islands](answer)
+    - Sobased on my African theory earlier, I'm compelled to go with [French Guiana](answer)
+    - I feel like it's not [French Polynesia](answer), so I maybe go [Christmas Island](answer) them
+    - It's not [French Southern Territories](answer), so I'm thinking it's [The Cocos Keeling Islands](answer)
+    - Yeah, let's go [The Gambia](answer)
+    - SoI would maybe go with [Heard Island and McDonald Islands](answer)
+    - I am quite sure this is [The Holy See](answer)
+    - By process of elimination makes me feel like it's [Hong Kong](answer). [Bosnia and Herzegovina](answer) has blue and red
+    - I go for [Isle of Man](answer)
+    - I don't know though it feels like a 50 50 split between [North Korea](answer) and [British Indian Ocean Territory](answer). I feel like it's [Brunei Darussalam](answer)
+    - [The Republic of Korea](answer) ohh sorry [Brunei Darussalam](answer) rather
+    - [Lao People's Democratic Republic](answer) maybe?
+    - i am happy to go with [Marshall Islands](answer) and live with the choice
+    - yeah, [The Netherlands](answer)
+    - Sobased on my African theory earlier, I'm compelled to go with [New Caledonia](answer)
+    - I feel like it's not [New Zealand](answer), so I maybe go [Christmas Island](answer) them
+    - It's not [The Niger](answer), so I'm thinking it's [The Cocos Keeling Islands](answer)
+    - Yeah, let's go [Norfolk Island](answer)
+    - SoI would maybe go with [Northern Mariana Islands](answer)
+    - I am quite sure this is [Papua New Guinea](answer)
+    - By process of elimination makes me feel like it's [The Philippines](answer). [Bosnia and Herzegovina](answer) has blue and red
+    - I go for [Puerto Rico](answer)
+    - I don't know though it feels like a 50 50 split between [Republic of North Macedonia](answer) and [British Indian Ocean Territory](answer). I feel like it's [Brunei Darussalam](answer)
+    - [Saint Barthelemy](answer) ohh sorry [Brunei Darussalam](answer) rather
+    - [Saint Helena Ascension and Tristanda Cunha](answer) maybe?
+    - i am happy to go with [Saint Kitts and Nevis](answer) and live with the choice
+    - yeah, [Saint Lucia](answer)
+    - Sobased on my African theory earlier, I'm compelled to go with [French Saint Martin](answer)
+    - I feel like it's not [Saint Pierre and Miquelon](answer), so I maybe go [Christmas Island](answer) them
+    - It's not [Saint Vincent and the Grenadines](answer), so I'm thinking it's [The Cocos Keeling Islands](answer)
+    - Yeah, let's go [San Marino](answer)
+    - SoI would maybe go with [Sao Tome and Principe](answer)
+    - I am quite sure this is [Saudi Arabia](answer)
+    - By process of elimination makes me feel like it's [Sierra Leone](answer). [Bosnia and Herzegovina](answer) has blue and red
+    - I go for [Dutch Sint Maarten](answer)
+    - I don't know though it feels like a 50 50 split between [Solomon Islands](answer) and [British Indian Ocean Territory](answer). I feel like it's [Brunei Darussalam](answer)
+    - [South Africa](answer) ohh sorry [Brunei Darussalam](answer) rather
+    - [South Georgia and the South Sandwich Islands](answer) maybe?
+    - i am happy to go with [South Sudan](answer) and live with the choice
+    - yeah, [Sri Lanka](answer)
+    - Sobased on my African theory earlier, I'm compelled to go with [Svalbardand Jan Mayen](answer)
+    - I feel like it's not [Syrian Arab Republic](answer), so I maybe go [Christmas Island](answer) them
+    - It's not [United Republic of Tanzania](answer), so I'm thinking it's [The Cocos Keeling Islands](answer)
+    - Yeah, let's go [Trinidad and Tobago](answer)
+    - SoI would maybe go with [Turks and Caicos Islands](answer)
+    - I am quite sure this is [The United Arab Emirates](answer)
+    - By process of elimination makes me feel like it's [United Kingdom](answer). [Bosnia and Herzegovina](answer) has blue and red
+    - I go for [United States Minor Outlying Islands](answer)
+    - I don't know though it feels like a 50 50 split between [United States of America](answer) and [British Indian Ocean Territory](answer). I feel like it's [Brunei Darussalam](answer)
+    - [British Virgin Islands](answer) ohh sorry [Brunei Darussalam](answer) rather
+    - [US Virgin Islands](answer) maybe?
+    - i am happy to go with [Wallis and Futuna](answer) and live with the choice
+    - yeah, [Western Sahara](answer)
+    - Sobased on my African theory earlier, I'm compelled to go with [Aland Islands](answer)
+
+
+
 - lookup: answer
   examples: |
     - Afghanistan
@@ -1030,7 +1360,263 @@ nlu:
     - Zambia
     - Zimbabwe
     - Aland Islands
-    - option A
-    - option B
-    - option C
-    - option D
+
+
+#- regex: answer
+#  examples: |
+#    - (?i)Afghanistan
+#    - (?i)Albania
+#    - (?i)Algeria
+#    - (?i)American Samoa
+#    - (?i)Andorra
+#    - (?i)Angola
+#    - (?i)Anguilla
+#    - (?i)Antarctica
+#    - (?i)Antigua and Barbuda
+#    - (?i)Argentina
+#    - (?i)Armenia
+#    - (?i)Aruba
+#    - (?i)Australia
+#    - (?i)Austria
+#    - (?i)Azerbaijan
+#    - (?i)The Bahamas
+#    - (?i)Bahrain
+#    - (?i)Bangladesh
+#    - (?i)Barbados
+#    - (?i)Belarus
+#    - (?i)Belgium
+#    - (?i)Belize
+#    - (?i)Benin
+#    - (?i)Bermuda
+#    - (?i)Bhutan
+#    - (?i)Bolivia
+#    - (?i)Bonaire
+#    - (?i)Bosnia and Herzegovina
+#    - (?i)Botswana
+#    - (?i)Bouvet Island
+#    - (?i)Brazil
+#    - (?i)British Indian Ocean Territory
+#    - (?i)Brunei Darussalam
+#    - (?i)Bulgaria
+#    - (?i)Burkina Faso
+#    - (?i)Burundi
+#    - (?i)Cabo Verde
+#    - (?i)Cambodia
+#    - (?i)Cameroon
+#    - (?i)Canada
+#    - (?i)The Cayman Islands
+#    - (?i)The Central African Republic
+#    - (?i)Chad
+#    - (?i)Chile
+#    - (?i)China
+#    - (?i)Christmas Island
+#    - (?i)The Cocos Keeling Islands
+#    - (?i)Colombia
+#    - (?i)Comoros
+#    - (?i)The Democratic Republic of The Congo
+#    - (?i)The Congo
+#    - (?i)Cook Islands
+#    - (?i)Costa Rica
+#    - (?i)Croatia
+#    - (?i)Cuba
+#    - (?i)Curacao
+#    - (?i)Cyprus
+#    - (?i)Czechia
+#    - (?i)Cote d'Ivoire
+#    - (?i)Denmark
+#    - (?i)Djibouti
+#    - (?i)Dominica
+#    - (?i)The Dominican Republic
+#    - (?i)Ecuador
+#    - (?i)Egypt
+#    - (?i)ElSalvador
+#    - (?i)Equatorial Guinea
+#    - (?i)Eritrea
+#    - (?i)Estonia
+#    - (?i)Eswatini
+#    - (?i)Ethiopia
+#    - (?i)Falkland Islands
+#    - (?i)Faroe Islands
+#    - (?i)Fiji
+#    - (?i)Finland
+#    - (?i)France
+#    - (?i)French Guiana
+#    - (?i)French Polynesia
+#    - (?i)French Southern Territories
+#    - (?i)Gabon
+#    - (?i)The Gambia
+#    - (?i)Georgia
+#    - (?i)Germany
+#    - (?i)Ghana
+#    - (?i)Gibraltar
+#    - (?i)Greece
+#    - (?i)Greenland
+#    - (?i)Grenada
+#    - (?i)Guadeloupe
+#    - (?i)Guam
+#    - (?i)Guatemala
+#    - (?i)Guernsey
+#    - (?i)Guinea
+#    - (?i)Guinea-Bissau
+#    - (?i)Guyana
+#    - (?i)Haiti
+#    - (?i)Heard Island and McDonald Islands
+#    - (?i)The Holy See
+#    - (?i)Honduras
+#    - (?i)Hong Kong
+#    - (?i)Hungary
+#    - (?i)Iceland
+#    - (?i)India
+#    - (?i)Indonesia
+#    - (?i)Iran
+#    - (?i)Iraq
+#    - (?i)Ireland
+#    - (?i)Isle of Man
+#    - (?i)Israel
+#    - (?i)Italy
+#    - (?i)Jamaica
+#    - (?i)Japan
+#    - (?i)Jersey
+#    - (?i)Jordan
+#    - (?i)Kazakhstan
+#    - (?i)Kenya
+#    - (?i)Kiribati
+#    - (?i)North Korea
+#    - (?i)The Republic of Korea
+#    - (?i)Kuwait
+#    - (?i)Kyrgyzstan
+#    - (?i)Lao People's Democratic Republic
+#    - (?i)Latvia
+#    - (?i)Lebanon
+#    - (?i)Lesotho
+#    - (?i)Liberia
+#    - (?i)Libya
+#    - (?i)Liechtenstein
+#    - (?i)Lithuania
+#    - (?i)Luxembourg
+#    - (?i)Macao
+#    - (?i)Madagascar
+#    - (?i)Malawi
+#    - (?i)Malaysia
+#    - (?i)Maldives
+#    - (?i)Mali
+#    - (?i)Malta
+#    - (?i)Marshall Islands
+#    - (?i)Martinique
+#    - (?i)Mauritania
+#    - (?i)Mauritius
+#    - (?i)Mayotte
+#    - (?i)Mexico
+#    - (?i)Micronesia
+#    - (?i)Moldova
+#    - (?i)Monaco
+#    - (?i)Mongolia
+#    - (?i)Montenegro
+#    - (?i)Montserrat
+#    - (?i)Morocco
+#    - (?i)Mozambique
+#    - (?i)Myanmar
+#    - (?i)Namibia
+#    - (?i)Nauru
+#    - (?i)Nepal
+#    - (?i)The Netherlands
+#    - (?i)New Caledonia
+#    - (?i)New Zealand
+#    - (?i)Nicaragua
+#    - (?i)The Niger
+#    - (?i)Nigeria
+#    - (?i)Niue
+#    - (?i)Norfolk Island
+#    - (?i)Northern Mariana Islands
+#    - (?i)Norway
+#    - (?i)Oman
+#    - (?i)Pakistan
+#    - (?i)Palau
+#    - (?i)Palestine
+#    - (?i)Panama
+#    - (?i)Papua New Guinea
+#    - (?i)Paraguay
+#    - (?i)Peru
+#    - (?i)The Philippines
+#    - (?i)Pitcairn
+#    - (?i)Poland
+#    - (?i)Portugal
+#    - (?i)Puerto Rico
+#    - (?i)Qatar
+#    - (?i)Republic of North Macedonia
+#    - (?i)Romania
+#    - (?i)Russia
+#    - (?i)Rwanda
+#    - (?i)Reunion
+#    - (?i)Saint Barthelemy
+#    - (?i)Saint Helena Ascension and Tristanda Cunha
+#    - (?i)Saint Kitts and Nevis
+#    - (?i)Saint Lucia
+#    - (?i)French Saint Martin
+#    - (?i)Saint Pierre and Miquelon
+#    - (?i)Saint Vincent and the Grenadines
+#    - (?i)Samoa
+#    - (?i)San Marino
+#    - (?i)Sao Tome and Principe
+#    - (?i)Saudi Arabia
+#    - (?i)Senegal
+#    - (?i)Serbia
+#    - (?i)Seychelles
+#    - (?i)Sierra Leone
+#    - (?i)Singapore
+#    - (?i)Dutch Sint Maarten
+#    - (?i)Slovakia
+#    - (?i)Slovenia
+#    - (?i)Solomon Islands
+#    - (?i)Somalia
+#    - (?i)South Africa
+#    - (?i)South Georgia and the South Sandwich Islands
+#    - (?i)South Sudan
+#    - (?i)Spain
+#    - (?i)Sri Lanka
+#    - (?i)Sudan
+#    - (?i)Suriname
+#    - (?i)Svalbardand Jan Mayen
+#    - (?i)Sweden
+#    - (?i)Switzerland
+#    - (?i)Syrian Arab Republic
+#    - (?i)Taiwan
+#    - (?i)Tajikistan
+#    - (?i)United Republic of Tanzania
+#    - (?i)Thailand
+#    - (?i)Timor-Leste
+#    - (?i)Togo
+#    - (?i)Tokelau
+#    - (?i)Tonga
+#    - (?i)Trinidad and Tobago
+#    - (?i)Tunisia
+#    - (?i)Turkey
+#    - (?i)Turkmenistan
+#    - (?i)Turks and Caicos Islands
+#    - (?i)Tuvalu
+#    - (?i)Uganda
+#    - (?i)Ukraine
+#    - (?i)The United Arab Emirates
+#    - (?i)United Kingdom
+#    - (?i)United States Minor Outlying Islands
+#    - (?i)United States of America
+#    - (?i)Uruguay
+#    - (?i)Uzbekistan
+#    - (?i)Vanuatu
+#    - (?i)Venezuela
+#    - (?i)Vietnam
+#    - (?i)British Virgin Islands
+#    - (?i)US Virgin Islands
+#    - (?i)Wallis and Futuna
+#    - (?i)Western Sahara
+#    - (?i)Yemen
+#    - (?i)Zambia
+#    - (?i)Zimbabwe
+#    - (?i)Aland Islands
+#    - (?i)option A
+#    - (?i)option B
+#    - (?i)option C
+#    - (?i)option D
+
+
+
