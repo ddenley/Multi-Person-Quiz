@@ -366,6 +366,9 @@ nlu:
     - yeah I would go [Wallis and Futuna](answer)
     - yeah [Western Sahara](answer)
     - I would go [Aland Islands](answer)
+    - yeah definitely
+
+
 
 - intent: contest
   examples: |
@@ -1105,7 +1108,25 @@ nlu:
     - [US Virgin Islands](answer) maybe?
     - i am happy to go with [Wallis and Futuna](answer) and live with the choice
     - yeah, [Western Sahara](answer)
-    - Sobased on my African theory earlier, I'm compelled to go with [Aland Islands](answer)
+    - So based on my African theory earlier, I'm compelled to go with [Aland Islands](answer)
+
+    - Definitely [Albania](answer) 
+    - Definitely [Bahrain](answer) 
+    - Definitely [British Indian Ocean Territory](answer) 
+    - Definitely [The Cocos Keeling Islands](answer) 
+    - Definitely [Dominica](answer) 
+    - Definitely [French Guiana](answer) 
+    - Definitely [Guernsey](answer) 
+    - Definitely [Ireland](answer) 
+    - Definitely [Lao People's Democratic Republic](answer) 
+    - Definitely [Malta](answer) 
+    - Definitely [Myanmar](answer) 
+    - Definitely [Pakistan](answer) 
+    - Definitely [Russia](answer) 
+    - Definitely [Serbia](answer) 
+    - Definitely [Suriname](answer) 
+    - Definitely [Turkey](answer) 
+    - Definitely [British Virgin Islands](answer) 
 
 
 
