@@ -1,5 +1,4 @@
 # Based on https://linuxize.com/post/bash-select/
-
 start_server () {
   python tts/TTS_API.py &
   echo "TTS server started on "$!

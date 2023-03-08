@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-# import cv2
+import cv2
 import random
 import os
 import numpy as np
@@ -31,6 +31,7 @@ class QuestionManager:
         # Load the data and initialize the attributes
         self.loadData()
         self.reinitialize()
+
 
     def reinitialize(self):
         """
@@ -69,15 +70,14 @@ class QuestionManager:
         Display a flag for test visualization
         :return:
         """
-        pass
-        # img = cv2.imread(self.__currentImgPath)
-        # img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-        # plt.figure()
-        # plt.imshow(img)
-        # plt.xticks([])
-        # plt.yticks([])
-        # plt.title('Which flag is it ?')
-        # plt.show()
+        img = cv2.imread(self.__currentImgPath)
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        plt.figure()
+        plt.imshow(img)
+        plt.xticks([])
+        plt.yticks([])
+        plt.title('Which flag is it ?')
+        plt.show()
 
     def loadData(self):
         """
