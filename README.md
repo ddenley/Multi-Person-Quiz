@@ -70,6 +70,13 @@ The action __action_update_answer__ is in fact the registering of the first answ
 - use roles : Accepted & Denied. indeed we have to differenciate answers in cases like "I think it is (France)(answer:accepted)" and "I don't think it is (france)(answer:denied)"
 - Discussion intent. __WARNING__ : Likely to overlap other intents 
 
+## Progress on week 7 & 8
+
+- Data Collection integrated
+- Data augmentation on composed country names
+- Data augmentation using standardized examples
+- Tests & evaluation (cf Results) using different pipeline configurations. Standard one (DIET classifier + Regex Extractor) has most notable trade-off in computation time / metrics. Integrated language model BERT gives very good metrics (>98%)  
+
 ## Launching
 
 In a 1st terminal, run the command line : __rasa run actions__ which will allow the chatbot to read in the actions file.
