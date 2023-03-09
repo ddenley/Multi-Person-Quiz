@@ -35,13 +35,16 @@ pipeline:
    - name: FallbackClassifier
      threshold: 0.3
      ambiguity_threshold: 0.1
+   #- name: LanguageModelFeaturizer
+   #  model_name: "bert"
+   #  model_weights: "bert-base-uncased"
 
 ## Configuration for BERT
-language_model:
-  name: tensorflow
-  model_name: "bert"
-  model_weights: "bert-base-uncased"
-  cache_dir: /tmp/bert_tf
+#language_model:
+#  name: tensorflow
+#  model_name: "bert"
+#  model_weights: "bert-base-uncased"
+#  cache_dir: /tmp/bert_tf
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/

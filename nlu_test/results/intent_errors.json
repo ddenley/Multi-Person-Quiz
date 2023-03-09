@@ -1,18 +1,18 @@
 [
   {
-    "text": "yeah, I think D. I would go D. I don't think it's Mongolia thinking about it, but.",
+    "text": "True",
     "intent": "concur",
     "intent_prediction": {
-      "name": "contest",
-      "confidence": 0.8699683547019958
+      "name": "give_answer",
+      "confidence": 1.0
     }
   },
   {
-    "text": "I believe it's that too",
+    "text": "let's go",
     "intent": "concur",
     "intent_prediction": {
-      "name": "contest",
-      "confidence": 0.9999996423721313
+      "name": "give_answer",
+      "confidence": 0.9956531524658203
     }
   },
   {
@@ -20,23 +20,127 @@
     "intent": "concur",
     "intent_prediction": {
       "name": "give_answer",
-      "confidence": 0.9143847823143005
+      "confidence": 0.8568320870399475
     }
   },
   {
-    "text": "I’m trying to think, because, like all of West Africa usually just goes vertical",
+    "text": "yeah",
     "intent": "contest",
     "intent_prediction": {
-      "name": "give_answer",
-      "confidence": 0.5090132355690002
+      "name": "concur",
+      "confidence": 0.9999963045120239
     }
   },
   {
-    "text": "It seems like an actually a bit of an easier one based on the options",
+    "text": "I am sure it is Saint Kitts and Nevis",
+    "intent": "give_answer",
+    "intent_prediction": {
+      "name": "contest",
+      "confidence": 0.5616398453712463
+    }
+  },
+  {
+    "text": "yeah, The Netherlands",
+    "intent": "give_answer",
+    "intent_prediction": {
+      "name": "concur",
+      "confidence": 0.9415311813354492
+    }
+  },
+  {
+    "text": "Yeah, let's go Norfolk Island",
+    "intent": "give_answer",
+    "intent_prediction": {
+      "name": "concur",
+      "confidence": 0.9999603033065796
+    }
+  },
+  {
+    "text": "i admit",
+    "intent": "concur",
+    "intent_prediction": {
+      "name": "contest",
+      "confidence": 0.4095545709133148
+    }
+  },
+  {
+    "text": "Arabic kind of writing on the flag, and so I'm suspecting Oman or Brunei",
     "intent": "contest",
     "intent_prediction": {
       "name": "give_answer",
-      "confidence": 0.8203932642936707
+      "confidence": 0.970164954662323
+    }
+  },
+  {
+    "text": "I'm going to pretend this doesn't matter to me",
+    "intent": "contest",
+    "intent_prediction": {
+      "name": "give_answer",
+      "confidence": 0.9999221563339233
+    }
+  },
+  {
+    "text": "This has to be Australia, where I would be confused was if New Zealand was here as well then I wouldn't know what it was, but I think it's Australia since New Zealand is not here",
+    "intent": "give_answer",
+    "intent_prediction": {
+      "name": "contest",
+      "confidence": 0.9999995231628418
+    }
+  },
+  {
+    "text": "It is Lao People's Democratic Republic",
+    "intent": "give_answer",
+    "intent_prediction": {
+      "name": "contest",
+      "confidence": 0.9129164218902588
+    }
+  },
+  {
+    "text": "yeah, Western Sahara",
+    "intent": "give_answer",
+    "intent_prediction": {
+      "name": "concur",
+      "confidence": 0.9999979734420776
+    }
+  },
+  {
+    "text": "I think I am going to follow your lead and say Latvia I don't know",
+    "intent": "concur",
+    "intent_prediction": {
+      "name": "contest",
+      "confidence": 0.9992949962615967
+    }
+  },
+  {
+    "text": "yeah option B Kyrgzyzstan",
+    "intent": "concur",
+    "intent_prediction": {
+      "name": "give_answer",
+      "confidence": 0.9963154196739197
+    }
+  },
+  {
+    "text": "It must be Honduras",
+    "intent": "give_answer",
+    "intent_prediction": {
+      "name": "contest",
+      "confidence": 0.9999445676803589
+    }
+  },
+  {
+    "text": "yeah, Cabo Verde",
+    "intent": "give_answer",
+    "intent_prediction": {
+      "name": "concur",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "I believe it's that too",
+    "intent": "concur",
+    "intent_prediction": {
+      "name": "contest",
+      "confidence": 1.0
     }
   },
   {
@@ -48,83 +152,11 @@
     }
   },
   {
-    "text": "yeah United States Minor Outlying Islands",
-    "intent": "concur",
-    "intent_prediction": {
-      "name": "give_answer",
-      "confidence": 0.7643123269081116
-    }
-  },
-  {
-    "text": "yeah Western Sahara",
-    "intent": "concur",
-    "intent_prediction": {
-      "name": "give_answer",
-      "confidence": 1.0
-    }
-  },
-  {
-    "text": "Hmmm",
-    "intent": "contest",
-    "intent_prediction": {
-      "name": "give_answer",
-      "confidence": 1.0
-    }
-  },
-  {
-    "text": "yeah, Gambia",
-    "intent": "give_answer",
-    "intent_prediction": {
-      "name": "concur",
-      "confidence": 0.9751253128051758
-    }
-  },
-  {
-    "text": "yeah",
-    "intent": "contest",
-    "intent_prediction": {
-      "name": "concur",
-      "confidence": 0.9999996423721313
-    }
-  },
-  {
-    "text": "I feel like it's not Haiti, so I maybe go Maldives them",
-    "intent": "give_answer",
-    "intent_prediction": {
-      "name": "contest",
-      "confidence": 0.9987982511520386
-    }
-  },
-  {
-    "text": "yeah, The Netherlands",
-    "intent": "give_answer",
-    "intent_prediction": {
-      "name": "concur",
-      "confidence": 0.9992838501930237
-    }
-  },
-  {
-    "text": "I think I am going to follow your lead and say Latvia I don't know",
-    "intent": "concur",
-    "intent_prediction": {
-      "name": "contest",
-      "confidence": 1.0
-    }
-  },
-  {
-    "text": "yeah option B Kyrgzyzstan",
-    "intent": "concur",
-    "intent_prediction": {
-      "name": "give_answer",
-      "confidence": 0.9984568357467651
-    }
-  },
-  {
     "text": "yeah Norfolk Island",
     "intent": "concur",
     "intent_prediction": {
       "name": "give_answer",
-      "confidence": 0.9999841451644897
+      "confidence": 0.9938173890113831
     }
   },
   {
@@ -132,31 +164,39 @@
     "intent": "concur",
     "intent_prediction": {
       "name": "give_answer",
-      "confidence": 0.9999040365219116
+      "confidence": 0.7310552000999451
     }
   },
   {
-    "text": "That I am sure",
-    "intent": "contest",
-    "intent_prediction": {
-      "name": "give_answer",
-      "confidence": 0.9999551773071289
-    }
-  },
-  {
-    "text": "It is French Polynesia",
+    "text": "yeah, Gambia",
     "intent": "give_answer",
     "intent_prediction": {
       "name": "concur",
-      "confidence": 0.9914242625236511
+      "confidence": 0.44040101766586304
     }
   },
   {
-    "text": "It must be Honduras",
-    "intent": "give_answer",
+    "text": "yeah The Democratic Republic of The Congo",
+    "intent": "concur",
+    "intent_prediction": {
+      "name": "give_answer",
+      "confidence": 0.9999837875366211
+    }
+  },
+  {
+    "text": "yeah Hong Kong",
+    "intent": "concur",
     "intent_prediction": {
       "name": "contest",
-      "confidence": 0.9999998807907104
+      "confidence": 0.9904995560646057
+    }
+  },
+  {
+    "text": "yeah United States Minor Outlying Islands",
+    "intent": "concur",
+    "intent_prediction": {
+      "name": "give_answer",
+      "confidence": 0.997761607170105
     }
   },
   {
@@ -168,155 +208,35 @@
     }
   },
   {
-    "text": "Yeah, let’s go Indonesia",
+    "text": "yeah, Saint Lucia",
     "intent": "give_answer",
     "intent_prediction": {
       "name": "concur",
-      "confidence": 0.8399569392204285
+      "confidence": 0.9548070430755615
     }
   },
   {
-    "text": "I go for Bosnia and Herzegovina",
-    "intent": "give_answer",
-    "intent_prediction": {
-      "name": "contest",
-      "confidence": 0.9976836442947388
-    }
-  },
-  {
-    "text": "yeah, Sri Lanka",
+    "text": "Yeah, let's go Trinidad and Tobago",
     "intent": "give_answer",
     "intent_prediction": {
       "name": "concur",
-      "confidence": 0.9538998007774353
+      "confidence": 0.8582593202590942
     }
   },
   {
-    "text": "I go for United States Minor Outlying Islands",
-    "intent": "give_answer",
+    "text": "yeah definitely",
+    "intent": "concur",
     "intent_prediction": {
       "name": "contest",
-      "confidence": 0.9997518658638
+      "confidence": 0.5207155346870422
     }
   },
   {
-    "text": "True",
-    "intent": "concur",
-    "intent_prediction": {
-      "name": "give_answer",
-      "confidence": 0.9999998807907104
-    }
-  },
-  {
-    "text": "correct",
-    "intent": "concur",
-    "intent_prediction": {
-      "name": "give_answer",
-      "confidence": 0.9693660736083984
-    }
-  },
-  {
-    "text": "yeah Bosnia and Herzegovina",
-    "intent": "concur",
-    "intent_prediction": {
-      "name": "give_answer",
-      "confidence": 0.9945211410522461
-    }
-  },
-  {
-    "text": "Arabic kind of writing on the flag, and so I'm suspecting Oman or Brunei",
+    "text": "Hmmm",
     "intent": "contest",
     "intent_prediction": {
       "name": "give_answer",
-      "confidence": 0.9983878135681152
-    }
-  },
-  {
-    "text": "questions are Haiti, Maldives or Honduras? I don't think it's Honduras. I feel like Honduras is blue and white for some reason.",
-    "intent": "contest",
-    "intent_prediction": {
-      "name": "give_answer",
-      "confidence": 1.0
-    }
-  },
-  {
-    "text": "Yeah, let's go Norfolk Island",
-    "intent": "give_answer",
-    "intent_prediction": {
-      "name": "concur",
-      "confidence": 0.9999871253967285
-    }
-  },
-  {
-    "text": "let's go",
-    "intent": "concur",
-    "intent_prediction": {
-      "name": "give_answer",
-      "confidence": 1.0
-    }
-  },
-  {
-    "text": "Let’s go with that",
-    "intent": "concur",
-    "intent_prediction": {
-      "name": "contest",
-      "confidence": 0.8931529521942139
-    }
-  },
-  {
-    "text": "I'm going to pretend this doesn't matter to me",
-    "intent": "contest",
-    "intent_prediction": {
-      "name": "give_answer",
-      "confidence": 0.9996887445449829
-    }
-  },
-  {
-    "text": "This has to be Australia, where I would be confused was if New Zealand was here as well then I wouldn't know what it was, but I think it's Australia since New Zealand is not here",
-    "intent": "give_answer",
-    "intent_prediction": {
-      "name": "contest",
-      "confidence": 0.9999638795852661
-    }
-  },
-  {
-    "text": "yeah, Faroe Islands",
-    "intent": "give_answer",
-    "intent_prediction": {
-      "name": "concur",
-      "confidence": 0.6986618638038635
-    }
-  },
-  {
-    "text": "yeah",
-    "intent": "concur",
-    "intent_prediction": {
-      "name": "contest",
-      "confidence": 0.9999985694885254
-    }
-  },
-  {
-    "text": "I don't have a reason to suggest otherwise",
-    "intent": "concur",
-    "intent_prediction": {
-      "name": "contest",
-      "confidence": 1.0
-    }
-  },
-  {
-    "text": "yeah Marshall Islands",
-    "intent": "concur",
-    "intent_prediction": {
-      "name": "give_answer",
-      "confidence": 0.5002385973930359
-    }
-  },
-  {
-    "text": "yeah South Georgia and the South Sandwich Islands",
-    "intent": "concur",
-    "intent_prediction": {
-      "name": "give_answer",
-      "confidence": 0.5532811880111694
+      "confidence": 0.9999923706054688
     }
   },
   {
@@ -328,35 +248,91 @@
     }
   },
   {
-    "text": "That look’s French",
+    "text": "It seems like an actually a bit of an easier one based on the options",
     "intent": "contest",
     "intent_prediction": {
-      "name": "concur",
-      "confidence": 0.9999990463256836
+      "name": "give_answer",
+      "confidence": 0.9940959215164185
     }
   },
   {
-    "text": "It is Dominica",
+    "text": "I go for Bosnia and Herzegovina",
     "intent": "give_answer",
+    "intent_prediction": {
+      "name": "concur",
+      "confidence": 0.9937250018119812
+    }
+  },
+  {
+    "text": "I go for United States Minor Outlying Islands",
+    "intent": "give_answer",
+    "intent_prediction": {
+      "name": "concur",
+      "confidence": 0.868554949760437
+    }
+  },
+  {
+    "text": "I don't have a reason to suggest otherwise",
+    "intent": "concur",
     "intent_prediction": {
       "name": "contest",
-      "confidence": 0.9990853071212769
-    }
-  },
-  {
-    "text": "yeah, Cabo Verde",
-    "intent": "give_answer",
-    "intent_prediction": {
-      "name": "concur",
       "confidence": 1.0
     }
   },
   {
-    "text": "yeah, Western Sahara",
+    "text": "yeah, I think D. I would go D. I don't think it's Mongolia thinking about it, but.",
+    "intent": "concur",
+    "intent_prediction": {
+      "name": "give_answer",
+      "confidence": 0.9597306251525879
+    }
+  },
+  {
+    "text": "Let’s go with that",
+    "intent": "concur",
+    "intent_prediction": {
+      "name": "give_answer",
+      "confidence": 0.8844590783119202
+    }
+  },
+  {
+    "text": "yeah Bosnia and Herzegovina",
+    "intent": "concur",
+    "intent_prediction": {
+      "name": "give_answer",
+      "confidence": 0.9348509311676025
+    }
+  },
+  {
+    "text": "yeah Western Sahara",
+    "intent": "concur",
+    "intent_prediction": {
+      "name": "give_answer",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "That I am sure",
+    "intent": "contest",
+    "intent_prediction": {
+      "name": "give_answer",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "yeah, Faroe Islands",
     "intent": "give_answer",
     "intent_prediction": {
       "name": "concur",
-      "confidence": 1.0
+      "confidence": 0.9690779447555542
+    }
+  },
+  {
+    "text": "yeah, Sri Lanka",
+    "intent": "give_answer",
+    "intent_prediction": {
+      "name": "concur",
+      "confidence": 0.8513548374176025
     }
   }
 ]

@@ -1,6 +1,111 @@
 [
   {
-    "text": "i believe as well it is option A",
+    "text": "yes it is option A",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.9999891519546509,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "indeed it is option D",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9999669790267944,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes it is indeed option C",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.9999891519546509,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i agree it's option D",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9999724626541138,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "So, option A",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.999830961227417,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "you are mistaken, it is option A",
     "entities": [
       {
         "start": 24,
@@ -14,8 +119,722 @@
         "entity": "answer",
         "start": 24,
         "end": 32,
-        "confidence_entity": 0.9999938011169434,
+        "confidence_entity": 0.9999868869781494,
         "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "you are mistaken, it is option B",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9999891519546509,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i am happy to go with opton A and live with the choice",
+    "entities": [
+      {
+        "start": 22,
+        "end": 29,
+        "value": "opton A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 22,
+        "end": 29,
+        "confidence_entity": 0.9990298748016357,
+        "value": "opton A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "It is option C",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 6,
+        "end": 14,
+        "confidence_entity": 0.9999743700027466,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I think it is option C",
+    "entities": [
+      {
+        "start": 14,
+        "end": 22,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 14,
+        "end": 22,
+        "confidence_entity": 0.9999724626541138,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I think it is option D",
+    "entities": [
+      {
+        "start": 14,
+        "end": 22,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 14,
+        "end": 22,
+        "confidence_entity": 0.9999467134475708,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "surely it is option A",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9999881982803345,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "surely it is option B",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9999897480010986,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i concur it is option C",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9999867677688599,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "you are right it is option D",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.9999796152114868,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I think so it is option A",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.9999864101409912,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Arabic kind of writing on the flag, and so I'm suspecting Oman or Brunei",
+    "entities": [
+      {
+        "start": 58,
+        "end": 62,
+        "value": "Oman",
+        "entity": "answer"
+      },
+      {
+        "start": 66,
+        "end": 72,
+        "value": "Brunei",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 58,
+        "end": 62,
+        "confidence_entity": 0.9974617958068848,
+        "value": "Oman",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 66,
+        "end": 72,
+        "confidence_entity": 0.9971810579299927,
+        "value": "Brunei",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 58,
+        "end": 62,
+        "value": "Oman",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "It's not Israel. It's definitely not Congo",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "Israel",
+        "entity": "answer"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "value": "Congo",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 9,
+        "end": 15,
+        "confidence_entity": 0.999743640422821,
+        "value": "Israel",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 37,
+        "end": 42,
+        "confidence_entity": 0.9866205453872681,
+        "value": "Congo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 9,
+        "end": 15,
+        "value": "Israel",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "you are wrong, it is option D",
+    "entities": [
+      {
+        "start": 21,
+        "end": 29,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 21,
+        "end": 29,
+        "confidence_entity": 0.9999792575836182,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I don't think so, it is option B",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9999847412109375,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I disagree, it must be option A",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 23,
+        "end": 31,
+        "confidence_entity": 0.9999858140945435,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "No it is option B",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.9999843835830688,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "No it is option D",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.9999731779098511,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i don't think it is option C, but rather option D",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "option C",
+        "entity": "answer"
+      },
+      {
+        "start": 41,
+        "end": 49,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.9999681711196899,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 41,
+        "end": 49,
+        "confidence_entity": 0.9998489618301392,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I don't know though it feels like a 50 50 split between B and D. I feel like it's D",
+    "entities": [
+      {
+        "start": 56,
+        "end": 57,
+        "value": "B",
+        "entity": "answer"
+      },
+      {
+        "start": 62,
+        "end": 63,
+        "value": "D",
+        "entity": "answer"
+      },
+      {
+        "start": 82,
+        "end": 83,
+        "value": "D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 56,
+        "end": 57,
+        "confidence_entity": 0.7851763367652893,
+        "value": "B",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 62,
+        "end": 63,
+        "confidence_entity": 0.9997623562812805,
+        "value": "D",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 82,
+        "end": 83,
+        "confidence_entity": 0.9996495246887207,
+        "value": "D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "It’s not Philippines, so I’m thinking it’s Malawi",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "Philippines",
+        "entity": "answer"
+      },
+      {
+        "start": 43,
+        "end": 49,
+        "value": "Malawi",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 9,
+        "end": 20,
+        "confidence_entity": 0.9391219019889832,
+        "value": "Philippines",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 43,
+        "end": 49,
+        "confidence_entity": 0.9998798370361328,
+        "value": "Malawi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 43,
+        "end": 49,
+        "value": "Malawi",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "It is option D",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 6,
+        "end": 14,
+        "confidence_entity": 0.9999752044677734,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I believe it's option C",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9999879598617554,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I think it is option A",
+    "entities": [
+      {
+        "start": 14,
+        "end": 22,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 14,
+        "end": 22,
+        "confidence_entity": 0.9999884366989136,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "It must be option A",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.9999874830245972,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "option B",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9999529123306274,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i agree it's option A",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9997583031654358,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i agree it's option B",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.999764621257782,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "you are right it is option A",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.9997735619544983,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "you are right it is option B",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.9997844099998474,
+        "value": "option B",
         "extractor": "DIETClassifier"
       }
     ]
@@ -35,8 +854,1380 @@
         "entity": "answer",
         "start": 17,
         "end": 25,
-        "confidence_entity": 0.999994158744812,
+        "confidence_entity": 0.9998084902763367,
         "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yeah option B Kyrgzyzstan",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "option B",
+        "entity": "answer"
+      },
+      {
+        "start": 14,
+        "end": 25,
+        "value": "Kyrgzyzstan",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 5,
+        "end": 13,
+        "confidence_entity": 0.999858021736145,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 14,
+        "end": 25,
+        "confidence_entity": 0.9998792409896851,
+        "value": "Kyrgzyzstan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "No it is option C",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.9997928738594055,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "it is not option B, but rather option C",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "option B",
+        "entity": "answer"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.9998482465744019,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 31,
+        "end": 39,
+        "confidence_entity": 0.9997755885124207,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yeah, let’s go North Macedonia",
+    "entities": [
+      {
+        "start": 15,
+        "end": 30,
+        "value": "North Macedonia",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 15,
+        "end": 30,
+        "confidence_entity": 0.9914993643760681,
+        "value": "North Macedonia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am sure it is option B",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.9998021721839905,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am sure it is option C",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.9997978806495667,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I believe it's option B",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9997859597206116,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I think it is option B",
+    "entities": [
+      {
+        "start": 14,
+        "end": 22,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 14,
+        "end": 22,
+        "confidence_entity": 0.9998138546943665,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "surely it is option D",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.999697208404541,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "indeed it is option A",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9999945163726807,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "indeed it is option C",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9999953508377075,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i concur it is option B",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9999951124191284,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i concur it is option D",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9999809265136719,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i believe as well it is option D",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9999798536300659,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "you are right it is option C",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.9999958276748657,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "you are mistaken, it is option C",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9999953508377075,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "you are mistaken, it is option D",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9999804496765137,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i don't think it is option A, but rather option B",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "option A",
+        "entity": "answer"
+      },
+      {
+        "start": 41,
+        "end": 49,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.999976396560669,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 41,
+        "end": 49,
+        "confidence_entity": 0.9999908208847046,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yeah, Gambia",
+    "entities": [
+      {
+        "start": 6,
+        "end": 12,
+        "value": "Gambia",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 6,
+        "end": 12,
+        "confidence_entity": 0.9981189370155334,
+        "value": "Gambia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I believe it's option A",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9999954700469971,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "It must be option C",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.9999955892562866,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "surely it is option C",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9999954700469971,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes it is option B",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.9999876022338867,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes it is option D",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.9999614953994751,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "indeed it is option B",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9999897480010986,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i agree it's option C",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9999942779541016,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i believe as well it is option A",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9999922513961792,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i believe as well it is option C",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9999939203262329,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I don't think so, it is option C",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9999929666519165,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I disagree, it must be option D",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 23,
+        "end": 31,
+        "confidence_entity": 0.9999693632125854,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "it is not option C, but rather option D",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "option C",
+        "entity": "answer"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.9999617338180542,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 31,
+        "end": 39,
+        "confidence_entity": 0.9999592304229736,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i don't think it is option D, but rather option A",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "option D",
+        "entity": "answer"
+      },
+      {
+        "start": 41,
+        "end": 49,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.9999377727508545,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 41,
+        "end": 49,
+        "confidence_entity": 0.9999896287918091,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I go for option B",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.9999899864196777,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yeah, I would say it's between option B and D for me",
+    "entities": [
+      {
+        "start": 31,
+        "end": 39,
+        "value": "option B",
+        "entity": "answer"
+      },
+      {
+        "start": 44,
+        "end": 45,
+        "value": "D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 31,
+        "end": 39,
+        "confidence_entity": 0.9999574422836304,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 44,
+        "end": 45,
+        "confidence_entity": 0.999915599822998,
+        "value": "D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am sure it is option A",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.9999932050704956,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "It must be option D",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.9999580383300781,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "It's certainly option B",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9999895095825195,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "option C",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9999872446060181,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes it is option C",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.9999899864196777,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes it is indeed option B",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.9999901056289673,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i concur it is option A",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9999897480010986,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i believe as well it is option B",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9999889135360718,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I think so it is option D",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.999984860420227,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "So, option C",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.999462902545929,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "you are wrong, it is option A",
+    "entities": [
+      {
+        "start": 21,
+        "end": 29,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 21,
+        "end": 29,
+        "confidence_entity": 0.9999912977218628,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I don't think so, it is option D",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9999679327011108,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I disagree, it must be option B",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 23,
+        "end": 31,
+        "confidence_entity": 0.999990701675415,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "it is not option A, but rather option B",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "option A",
+        "entity": "answer"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.9999901056289673,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 31,
+        "end": 39,
+        "confidence_entity": 0.999982476234436,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "it is not option D, but rather option A",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "option D",
+        "entity": "answer"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.9999762773513794,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 31,
+        "end": 39,
+        "confidence_entity": 0.9999798536300659,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "D",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.999861478805542,
+        "value": "D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "It is option A",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 6,
+        "end": 14,
+        "confidence_entity": 0.9999886751174927,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am sure it is option D",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.9999837875366211,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "It's certainly option D",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9999791383743286,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "option A",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9999216794967651,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "option D",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9998434782028198,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes it is indeed option A",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.9999860525131226,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes it is indeed option D",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.9999799728393555,
+        "value": "option D",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I think so it is option C",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "option C",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.9999868869781494,
+        "value": "option C",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "So, option B",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.9998921155929565,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "So, option D",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "option D",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.997810423374176,
+        "value": "option D",
         "extractor": "DIETClassifier"
       }
     ]
@@ -68,7 +2259,7 @@
         "entity": "answer",
         "start": 14,
         "end": 15,
-        "confidence_entity": 0.9937204122543335,
+        "confidence_entity": 0.9916359186172485,
         "value": "D",
         "extractor": "DIETClassifier"
       },
@@ -76,7 +2267,7 @@
         "entity": "answer",
         "start": 28,
         "end": 29,
-        "confidence_entity": 0.9983983635902405,
+        "confidence_entity": 0.996147871017456,
         "value": "D",
         "extractor": "DIETClassifier"
       },
@@ -84,7 +2275,7 @@
         "entity": "answer",
         "start": 50,
         "end": 58,
-        "confidence_entity": 0.9999935626983643,
+        "confidence_entity": 0.9999802112579346,
         "value": "Mongolia",
         "extractor": "DIETClassifier"
       },
@@ -118,7 +2309,7 @@
         "entity": "answer",
         "start": 9,
         "end": 15,
-        "confidence_entity": 0.6655629873275757,
+        "confidence_entity": 0.7080159187316895,
         "value": "Israel",
         "extractor": "DIETClassifier"
       },
@@ -126,737 +2317,16 @@
         "entity": "answer",
         "start": 19,
         "end": 27,
-        "confidence_entity": 0.9999897480010986,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 9,
-        "end": 15,
-        "value": "Israel",
-        "extractor": "RegexEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "you are wrong, it is option A",
-    "entities": [
-      {
-        "start": 21,
-        "end": 29,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 21,
-        "end": 29,
-        "confidence_entity": 0.9999939203262329,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I don't think so, it is option B",
-    "entities": [
-      {
-        "start": 24,
-        "end": 32,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 24,
-        "end": 32,
-        "confidence_entity": 0.9999905824661255,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "No it is option A",
-    "entities": [
-      {
-        "start": 9,
-        "end": 17,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 9,
-        "end": 17,
-        "confidence_entity": 0.9999933242797852,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "it is not option B, but rather option C",
-    "entities": [
-      {
-        "start": 10,
-        "end": 18,
-        "value": "option B",
-        "entity": "answer"
-      },
-      {
-        "start": 31,
-        "end": 39,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 10,
-        "end": 18,
-        "confidence_entity": 0.9999943971633911,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 31,
-        "end": 39,
-        "confidence_entity": 0.9999933242797852,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Yeah, let’s go Brunei",
-    "entities": [
-      {
-        "start": 15,
-        "end": 21,
-        "value": "Brunei",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 15,
-        "end": 21,
-        "confidence_entity": 0.8426271080970764,
-        "value": "Brunei",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "It is option A",
-    "entities": [
-      {
-        "start": 6,
-        "end": 14,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 6,
-        "end": 14,
-        "confidence_entity": 0.9999921321868896,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I think it is option A",
-    "entities": [
-      {
-        "start": 14,
-        "end": 22,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 14,
-        "end": 22,
-        "confidence_entity": 0.9999954700469971,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "It must be option B",
-    "entities": [
-      {
-        "start": 11,
-        "end": 19,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 11,
-        "end": 19,
-        "confidence_entity": 0.9999939203262329,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "It must be option C",
-    "entities": [
-      {
-        "start": 11,
-        "end": 19,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 11,
-        "end": 19,
-        "confidence_entity": 0.9999945163726807,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "surely it is option D",
-    "entities": [
-      {
-        "start": 13,
-        "end": 21,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 13,
-        "end": 21,
-        "confidence_entity": 0.9999793767929077,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "option A",
-    "entities": [
-      {
-        "start": 0,
-        "end": 8,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 0,
-        "end": 8,
-        "confidence_entity": 0.9999892711639404,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "indeed it is option A",
-    "entities": [
-      {
-        "start": 13,
-        "end": 21,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 13,
-        "end": 21,
-        "confidence_entity": 0.9999833106994629,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "yes it is indeed option C",
-    "entities": [
-      {
-        "start": 17,
-        "end": 25,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 17,
-        "end": 25,
-        "confidence_entity": 0.9999799728393555,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "i agree it's option D",
-    "entities": [
-      {
-        "start": 13,
-        "end": 21,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 13,
-        "end": 21,
-        "confidence_entity": 0.9999107122421265,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "i believe as well it is option D",
-    "entities": [
-      {
-        "start": 24,
-        "end": 32,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 24,
-        "end": 32,
-        "confidence_entity": 0.9998999834060669,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "you are right it is option D",
-    "entities": [
-      {
-        "start": 20,
-        "end": 28,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 20,
-        "end": 28,
-        "confidence_entity": 0.9999176263809204,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "So, option D",
-    "entities": [
-      {
-        "start": 4,
-        "end": 12,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 4,
-        "end": 12,
-        "confidence_entity": 0.9997866749763489,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "It's not Israel. It's definitely not Congo",
-    "entities": [
-      {
-        "start": 9,
-        "end": 15,
-        "value": "Israel",
-        "entity": "answer"
-      },
-      {
-        "start": 37,
-        "end": 42,
-        "value": "Congo",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 9,
-        "end": 15,
-        "confidence_entity": 0.9996401071548462,
-        "value": "Israel",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 37,
-        "end": 42,
-        "confidence_entity": 0.9701240062713623,
-        "value": "Congo",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 9,
-        "end": 15,
-        "value": "Israel",
-        "extractor": "RegexEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "you are mistaken, it is option B",
-    "entities": [
-      {
-        "start": 24,
-        "end": 32,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 24,
-        "end": 32,
-        "confidence_entity": 0.9999817609786987,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "it is not option D, but rather option A",
-    "entities": [
-      {
-        "start": 10,
-        "end": 18,
-        "value": "option D",
-        "entity": "answer"
-      },
-      {
-        "start": 31,
-        "end": 39,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 10,
-        "end": 18,
-        "confidence_entity": 0.9997163414955139,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 31,
-        "end": 39,
-        "confidence_entity": 0.9999747276306152,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "yeah, Gambia",
-    "entities": [
-      {
-        "start": 6,
-        "end": 12,
-        "value": "Gambia",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 6,
-        "end": 12,
-        "confidence_entity": 0.997620165348053,
-        "value": "Gambia",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Yeah, let’s go North Macedonia",
-    "entities": [
-      {
-        "start": 15,
-        "end": 30,
-        "value": "North Macedonia",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 15,
-        "end": 30,
-        "confidence_entity": 0.9997517466545105,
-        "value": "North Macedonia",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "It is option C",
-    "entities": [
-      {
-        "start": 6,
-        "end": 14,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 6,
-        "end": 14,
         "confidence_entity": 0.9999845027923584,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "It's certainly option A",
-    "entities": [
-      {
-        "start": 15,
-        "end": 23,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 15,
-        "end": 23,
-        "confidence_entity": 0.999983549118042,
         "value": "option A",
         "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "surely it is option B",
-    "entities": [
-      {
-        "start": 13,
-        "end": 21,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
+      },
       {
         "entity": "answer",
-        "start": 13,
-        "end": 21,
-        "confidence_entity": 0.9999849796295166,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "yes it is option B",
-    "entities": [
-      {
-        "start": 10,
-        "end": 18,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 10,
-        "end": 18,
-        "confidence_entity": 0.9999958276748657,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "indeed it is option D",
-    "entities": [
-      {
-        "start": 13,
-        "end": 21,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 13,
-        "end": 21,
-        "confidence_entity": 0.9999871253967285,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "yes it is indeed option A",
-    "entities": [
-      {
-        "start": 17,
-        "end": 25,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 17,
-        "end": 25,
-        "confidence_entity": 0.9999958276748657,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "yes it is indeed option D",
-    "entities": [
-      {
-        "start": 17,
-        "end": 25,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 17,
-        "end": 25,
-        "confidence_entity": 0.9999877214431763,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "i concur it is option C",
-    "entities": [
-      {
-        "start": 15,
-        "end": 23,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 15,
-        "end": 23,
-        "confidence_entity": 0.9999958276748657,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "i concur it is option D",
-    "entities": [
-      {
-        "start": 15,
-        "end": 23,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 15,
-        "end": 23,
-        "confidence_entity": 0.9999871253967285,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "you are right it is option C",
-    "entities": [
-      {
-        "start": 20,
-        "end": 28,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 20,
-        "end": 28,
-        "confidence_entity": 0.9999958276748657,
-        "value": "option C",
-        "extractor": "DIETClassifier"
+        "start": 9,
+        "end": 15,
+        "value": "Israel",
+        "extractor": "RegexEntityExtractor"
       }
     ]
   },
@@ -881,7 +2351,7 @@
         "entity": "answer",
         "start": 54,
         "end": 64,
-        "confidence_entity": 0.9948333501815796,
+        "confidence_entity": 0.6198167204856873,
         "value": "the Gambia",
         "extractor": "DIETClassifier"
       },
@@ -889,7 +2359,7 @@
         "entity": "answer",
         "start": 68,
         "end": 89,
-        "confidence_entity": 0.999714195728302,
+        "confidence_entity": 0.9998389482498169,
         "value": "Saint Kitts and Nevis",
         "extractor": "DIETClassifier"
       },
@@ -910,418 +2380,6 @@
     ]
   },
   {
-    "text": "I don't think so, it is option C",
-    "entities": [
-      {
-        "start": 24,
-        "end": 32,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 24,
-        "end": 32,
-        "confidence_entity": 0.9999958276748657,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I don't think so, it is option D",
-    "entities": [
-      {
-        "start": 24,
-        "end": 32,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 24,
-        "end": 32,
-        "confidence_entity": 0.9999737739562988,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "No it is option D",
-    "entities": [
-      {
-        "start": 9,
-        "end": 17,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 9,
-        "end": 17,
-        "confidence_entity": 0.9999845027923584,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "you are mistaken, it is option A",
-    "entities": [
-      {
-        "start": 24,
-        "end": 32,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 24,
-        "end": 32,
-        "confidence_entity": 0.9999957084655762,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "you are mistaken, it is option C",
-    "entities": [
-      {
-        "start": 24,
-        "end": 32,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 24,
-        "end": 32,
-        "confidence_entity": 0.9999957084655762,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "i don't think it is option C, but rather option D",
-    "entities": [
-      {
-        "start": 20,
-        "end": 28,
-        "value": "option C",
-        "entity": "answer"
-      },
-      {
-        "start": 41,
-        "end": 49,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 20,
-        "end": 28,
-        "confidence_entity": 0.9999865293502808,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 41,
-        "end": 49,
-        "confidence_entity": 0.999927282333374,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "i don't think it is option D, but rather option A",
-    "entities": [
-      {
-        "start": 20,
-        "end": 28,
-        "value": "option D",
-        "entity": "answer"
-      },
-      {
-        "start": 41,
-        "end": 49,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 20,
-        "end": 28,
-        "confidence_entity": 0.9999867677688599,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 41,
-        "end": 49,
-        "confidence_entity": 0.9999955892562866,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I go for option B",
-    "entities": [
-      {
-        "start": 9,
-        "end": 17,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 9,
-        "end": 17,
-        "confidence_entity": 0.9999958276748657,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I am sure it is option A",
-    "entities": [
-      {
-        "start": 16,
-        "end": 24,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 16,
-        "end": 24,
-        "confidence_entity": 0.999996542930603,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I believe it's option A",
-    "entities": [
-      {
-        "start": 15,
-        "end": 23,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 15,
-        "end": 23,
-        "confidence_entity": 0.9999964237213135,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "It's certainly option B",
-    "entities": [
-      {
-        "start": 15,
-        "end": 23,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 15,
-        "end": 23,
-        "confidence_entity": 0.9999958276748657,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "option B",
-    "entities": [
-      {
-        "start": 0,
-        "end": 8,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 0,
-        "end": 8,
-        "confidence_entity": 0.9999853372573853,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "yes it is option D",
-    "entities": [
-      {
-        "start": 10,
-        "end": 18,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 10,
-        "end": 18,
-        "confidence_entity": 0.9999775886535645,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "indeed it is option C",
-    "entities": [
-      {
-        "start": 13,
-        "end": 21,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 13,
-        "end": 21,
-        "confidence_entity": 0.999984860420227,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "yes it is indeed option B",
-    "entities": [
-      {
-        "start": 17,
-        "end": 25,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 17,
-        "end": 25,
-        "confidence_entity": 0.9999873638153076,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "i agree it's option B",
-    "entities": [
-      {
-        "start": 13,
-        "end": 21,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 13,
-        "end": 21,
-        "confidence_entity": 0.9999878406524658,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I think so it is option A",
-    "entities": [
-      {
-        "start": 17,
-        "end": 25,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 17,
-        "end": 25,
-        "confidence_entity": 0.9999874830245972,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "yeah option B Kyrgzyzstan",
-    "entities": [
-      {
-        "start": 5,
-        "end": 13,
-        "value": "option B",
-        "entity": "answer"
-      },
-      {
-        "start": 14,
-        "end": 25,
-        "value": "Kyrgzyzstan",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 5,
-        "end": 25,
-        "confidence_entity": 0.9931684732437134,
-        "value": "option B Kyrgzyzstan",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
     "text": "you are wrong, it is option B",
     "entities": [
       {
@@ -1336,221 +2394,18 @@
         "entity": "answer",
         "start": 21,
         "end": 29,
-        "confidence_entity": 0.9999868869781494,
+        "confidence_entity": 0.9999898672103882,
         "value": "option B",
         "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "you are wrong, it is option D",
+    "text": "you are wrong, it is option C",
     "entities": [
       {
         "start": 21,
         "end": 29,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 21,
-        "end": 29,
-        "confidence_entity": 0.9999823570251465,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I disagree, it must be option B",
-    "entities": [
-      {
-        "start": 23,
-        "end": 31,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 23,
-        "end": 31,
-        "confidence_entity": 0.9999874830245972,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Yeah, I would say it's between option B and D for me",
-    "entities": [
-      {
-        "start": 31,
-        "end": 39,
-        "value": "option B",
-        "entity": "answer"
-      },
-      {
-        "start": 44,
-        "end": 45,
-        "value": "D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 31,
-        "end": 39,
-        "confidence_entity": 0.9999611377716064,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 44,
-        "end": 45,
-        "confidence_entity": 0.9998961687088013,
-        "value": "D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "D",
-    "entities": [
-      {
-        "start": 0,
-        "end": 1,
-        "value": "D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 0,
-        "end": 1,
-        "confidence_entity": 0.9994799494743347,
-        "value": "D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "i am happy to go with opton A and live with the choice",
-    "entities": [
-      {
-        "start": 22,
-        "end": 29,
-        "value": "opton A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 22,
-        "end": 29,
-        "confidence_entity": 0.9856836199760437,
-        "value": "opton A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "It’s not Philippines, so I’m thinking it’s Malawi",
-    "entities": [
-      {
-        "start": 9,
-        "end": 20,
-        "value": "Philippines",
-        "entity": "answer"
-      },
-      {
-        "start": 43,
-        "end": 49,
-        "value": "Malawi",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 9,
-        "end": 20,
-        "confidence_entity": 0.6915429830551147,
-        "value": "Philippines",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 43,
-        "end": 49,
-        "confidence_entity": 0.9999227523803711,
-        "value": "Malawi",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 43,
-        "end": 49,
-        "value": "Malawi",
-        "extractor": "RegexEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "yes it is option A",
-    "entities": [
-      {
-        "start": 10,
-        "end": 18,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 10,
-        "end": 18,
-        "confidence_entity": 0.9999926090240479,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "indeed it is option B",
-    "entities": [
-      {
-        "start": 13,
-        "end": 21,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 13,
-        "end": 21,
-        "confidence_entity": 0.9999921321868896,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "i agree it's option C",
-    "entities": [
-      {
-        "start": 13,
-        "end": 21,
         "value": "option C",
         "entity": "answer"
       }
@@ -1558,95 +2413,11 @@
     "predicted_entities": [
       {
         "entity": "answer",
-        "start": 13,
-        "end": 21,
-        "confidence_entity": 0.9999897480010986,
+        "start": 21,
+        "end": 29,
+        "confidence_entity": 0.9999873638153076,
         "value": "option C",
         "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "i believe as well it is option B",
-    "entities": [
-      {
-        "start": 24,
-        "end": 32,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 24,
-        "end": 32,
-        "confidence_entity": 0.999992847442627,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "you are right it is option B",
-    "entities": [
-      {
-        "start": 20,
-        "end": 28,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 20,
-        "end": 28,
-        "confidence_entity": 0.9999934434890747,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Arabic kind of writing on the flag, and so I'm suspecting Oman or Brunei",
-    "entities": [
-      {
-        "start": 58,
-        "end": 62,
-        "value": "Oman",
-        "entity": "answer"
-      },
-      {
-        "start": 66,
-        "end": 72,
-        "value": "Brunei",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 58,
-        "end": 62,
-        "confidence_entity": 0.998272180557251,
-        "value": "Oman",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 66,
-        "end": 72,
-        "confidence_entity": 0.9544244408607483,
-        "value": "Brunei",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 58,
-        "end": 62,
-        "value": "Oman",
-        "extractor": "RegexEntityExtractor"
       }
     ]
   },
@@ -1665,78 +2436,50 @@
         "entity": "answer",
         "start": 24,
         "end": 32,
-        "confidence_entity": 0.9999889135360718,
+        "confidence_entity": 0.9999748468399048,
         "value": "option A",
         "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "it is not option C, but rather option D",
+    "text": "I disagree, it must be option C",
     "entities": [
       {
-        "start": 10,
-        "end": 18,
+        "start": 23,
+        "end": 31,
         "value": "option C",
-        "entity": "answer"
-      },
-      {
-        "start": 31,
-        "end": 39,
-        "value": "option D",
         "entity": "answer"
       }
     ],
     "predicted_entities": [
       {
         "entity": "answer",
-        "start": 10,
-        "end": 18,
-        "confidence_entity": 0.9999797344207764,
+        "start": 23,
+        "end": 31,
+        "confidence_entity": 0.9999873638153076,
         "value": "option C",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 31,
-        "end": 39,
-        "confidence_entity": 0.9999696016311646,
-        "value": "option D",
         "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "i don't think it is option A, but rather option B",
+    "text": "No it is option A",
     "entities": [
       {
-        "start": 20,
-        "end": 28,
+        "start": 9,
+        "end": 17,
         "value": "option A",
-        "entity": "answer"
-      },
-      {
-        "start": 41,
-        "end": 49,
-        "value": "option B",
         "entity": "answer"
       }
     ],
     "predicted_entities": [
       {
         "entity": "answer",
-        "start": 20,
-        "end": 28,
-        "confidence_entity": 0.9999780654907227,
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.9999860525131226,
         "value": "option A",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 41,
-        "end": 49,
-        "confidence_entity": 0.9999908208847046,
-        "value": "option B",
         "extractor": "DIETClassifier"
       }
     ]
@@ -1762,7 +2505,7 @@
         "entity": "answer",
         "start": 20,
         "end": 28,
-        "confidence_entity": 0.9999696016311646,
+        "confidence_entity": 0.9999902248382568,
         "value": "option B",
         "extractor": "DIETClassifier"
       },
@@ -1770,785 +2513,8 @@
         "entity": "answer",
         "start": 41,
         "end": 49,
-        "confidence_entity": 0.9999861717224121,
+        "confidence_entity": 0.9999840259552002,
         "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I don't know though it feels like a 50 50 split between B and D. I feel like it's D",
-    "entities": [
-      {
-        "start": 56,
-        "end": 57,
-        "value": "B",
-        "entity": "answer"
-      },
-      {
-        "start": 62,
-        "end": 63,
-        "value": "D",
-        "entity": "answer"
-      },
-      {
-        "start": 82,
-        "end": 83,
-        "value": "D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 56,
-        "end": 57,
-        "confidence_entity": 0.6595280766487122,
-        "value": "B",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 62,
-        "end": 63,
-        "confidence_entity": 0.9990077614784241,
-        "value": "D",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 82,
-        "end": 83,
-        "confidence_entity": 0.9998934268951416,
-        "value": "D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "It is option D",
-    "entities": [
-      {
-        "start": 6,
-        "end": 14,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 6,
-        "end": 14,
-        "confidence_entity": 0.9999785423278809,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I am sure it is option B",
-    "entities": [
-      {
-        "start": 16,
-        "end": 24,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 16,
-        "end": 24,
-        "confidence_entity": 0.9999905824661255,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I believe it's option B",
-    "entities": [
-      {
-        "start": 15,
-        "end": 23,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 15,
-        "end": 23,
-        "confidence_entity": 0.999990701675415,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I think it is option B",
-    "entities": [
-      {
-        "start": 14,
-        "end": 22,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 14,
-        "end": 22,
-        "confidence_entity": 0.9999892711639404,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I think it is option C",
-    "entities": [
-      {
-        "start": 14,
-        "end": 22,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 14,
-        "end": 22,
-        "confidence_entity": 0.9999815225601196,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I think it is option D",
-    "entities": [
-      {
-        "start": 14,
-        "end": 22,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 14,
-        "end": 22,
-        "confidence_entity": 0.9999872446060181,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "It must be option D",
-    "entities": [
-      {
-        "start": 11,
-        "end": 19,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 11,
-        "end": 19,
-        "confidence_entity": 0.999984860420227,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "It's certainly option C",
-    "entities": [
-      {
-        "start": 15,
-        "end": 23,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 15,
-        "end": 23,
-        "confidence_entity": 0.9999804496765137,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "surely it is option A",
-    "entities": [
-      {
-        "start": 13,
-        "end": 21,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 13,
-        "end": 21,
-        "confidence_entity": 0.9999892711639404,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "option C",
-    "entities": [
-      {
-        "start": 0,
-        "end": 8,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 0,
-        "end": 8,
-        "confidence_entity": 0.9998561143875122,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "i agree it's option A",
-    "entities": [
-      {
-        "start": 13,
-        "end": 21,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 13,
-        "end": 21,
-        "confidence_entity": 0.9999926090240479,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I think so it is option C",
-    "entities": [
-      {
-        "start": 17,
-        "end": 25,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 17,
-        "end": 25,
-        "confidence_entity": 0.9999909400939941,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "So, option B",
-    "entities": [
-      {
-        "start": 4,
-        "end": 12,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 4,
-        "end": 12,
-        "confidence_entity": 0.9999305009841919,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "you are wrong, it is option C",
-    "entities": [
-      {
-        "start": 21,
-        "end": 29,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 21,
-        "end": 29,
-        "confidence_entity": 0.999990701675415,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I disagree, it must be option A",
-    "entities": [
-      {
-        "start": 23,
-        "end": 31,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 23,
-        "end": 31,
-        "confidence_entity": 0.9999916553497314,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I am sure it is option D",
-    "entities": [
-      {
-        "start": 16,
-        "end": 24,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 16,
-        "end": 24,
-        "confidence_entity": 0.9999880790710449,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I believe it's option C",
-    "entities": [
-      {
-        "start": 15,
-        "end": 23,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 15,
-        "end": 23,
-        "confidence_entity": 0.9999920129776001,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "It must be option A",
-    "entities": [
-      {
-        "start": 11,
-        "end": 19,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 11,
-        "end": 19,
-        "confidence_entity": 0.9999916553497314,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "It's certainly option D",
-    "entities": [
-      {
-        "start": 15,
-        "end": 23,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 15,
-        "end": 23,
-        "confidence_entity": 0.9999891519546509,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "option D",
-    "entities": [
-      {
-        "start": 0,
-        "end": 8,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 0,
-        "end": 8,
-        "confidence_entity": 0.999932050704956,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "yes it is option C",
-    "entities": [
-      {
-        "start": 10,
-        "end": 18,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 10,
-        "end": 18,
-        "confidence_entity": 0.9999861717224121,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "i concur it is option A",
-    "entities": [
-      {
-        "start": 15,
-        "end": 23,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 15,
-        "end": 23,
-        "confidence_entity": 0.9999850988388062,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "i concur it is option B",
-    "entities": [
-      {
-        "start": 15,
-        "end": 23,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 15,
-        "end": 23,
-        "confidence_entity": 0.9999871253967285,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "i believe as well it is option C",
-    "entities": [
-      {
-        "start": 24,
-        "end": 32,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 24,
-        "end": 32,
-        "confidence_entity": 0.9999890327453613,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "you are right it is option A",
-    "entities": [
-      {
-        "start": 20,
-        "end": 28,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 20,
-        "end": 28,
-        "confidence_entity": 0.9999858140945435,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I think so it is option D",
-    "entities": [
-      {
-        "start": 17,
-        "end": 25,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 17,
-        "end": 25,
-        "confidence_entity": 0.9999701976776123,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "So, option A",
-    "entities": [
-      {
-        "start": 4,
-        "end": 12,
-        "value": "option A",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 4,
-        "end": 12,
-        "confidence_entity": 0.9999585151672363,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "So, option C",
-    "entities": [
-      {
-        "start": 4,
-        "end": 12,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 4,
-        "end": 12,
-        "confidence_entity": 0.9999127388000488,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I disagree, it must be option C",
-    "entities": [
-      {
-        "start": 23,
-        "end": 31,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 23,
-        "end": 31,
-        "confidence_entity": 0.999988317489624,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I disagree, it must be option D",
-    "entities": [
-      {
-        "start": 23,
-        "end": 31,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 23,
-        "end": 31,
-        "confidence_entity": 0.9999725818634033,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "No it is option B",
-    "entities": [
-      {
-        "start": 9,
-        "end": 17,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 9,
-        "end": 17,
-        "confidence_entity": 0.9999861717224121,
-        "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "No it is option C",
-    "entities": [
-      {
-        "start": 9,
-        "end": 17,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 9,
-        "end": 17,
-        "confidence_entity": 0.9999864101409912,
-        "value": "option C",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "you are mistaken, it is option D",
-    "entities": [
-      {
-        "start": 24,
-        "end": 32,
-        "value": "option D",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 24,
-        "end": 32,
-        "confidence_entity": 0.9999693632125854,
-        "value": "option D",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "it is not option A, but rather option B",
-    "entities": [
-      {
-        "start": 10,
-        "end": 18,
-        "value": "option A",
-        "entity": "answer"
-      },
-      {
-        "start": 31,
-        "end": 39,
-        "value": "option B",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 10,
-        "end": 18,
-        "confidence_entity": 0.9999905824661255,
-        "value": "option A",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "answer",
-        "start": 31,
-        "end": 39,
-        "confidence_entity": 0.999988317489624,
-        "value": "option B",
         "extractor": "DIETClassifier"
       }
     ]
@@ -2574,8 +2540,37 @@
         "entity": "answer",
         "start": 50,
         "end": 58,
-        "confidence_entity": 0.9999145269393921,
+        "confidence_entity": 0.999963641166687,
         "value": "option B",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "answer",
+        "start": 60,
+        "end": 69,
+        "confidence_entity": 0.9320483207702637,
+        "value": "Dominican",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yeah, let’s go Brunei",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "Brunei",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.9681973457336426,
+        "value": "Brunei",
         "extractor": "DIETClassifier"
       }
     ]
@@ -2595,29 +2590,8 @@
         "entity": "answer",
         "start": 6,
         "end": 14,
-        "confidence_entity": 0.9999827146530151,
+        "confidence_entity": 0.9999871253967285,
         "value": "option B",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I am sure it is option C",
-    "entities": [
-      {
-        "start": 16,
-        "end": 24,
-        "value": "option C",
-        "entity": "answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "answer",
-        "start": 16,
-        "end": 24,
-        "confidence_entity": 0.9999896287918091,
-        "value": "option C",
         "extractor": "DIETClassifier"
       }
     ]
@@ -2637,18 +2611,60 @@
         "entity": "answer",
         "start": 15,
         "end": 23,
-        "confidence_entity": 0.999968409538269,
+        "confidence_entity": 0.9999825954437256,
         "value": "option D",
         "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "surely it is option C",
+    "text": "It must be option B",
     "entities": [
       {
-        "start": 13,
-        "end": 21,
+        "start": 11,
+        "end": 19,
+        "value": "option B",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.9999886751174927,
+        "value": "option B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "It's certainly option A",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "option A",
+        "entity": "answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "answer",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9999872446060181,
+        "value": "option A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "It's certainly option C",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
         "value": "option C",
         "entity": "answer"
       }
@@ -2656,9 +2672,9 @@
     "predicted_entities": [
       {
         "entity": "answer",
-        "start": 13,
-        "end": 21,
-        "confidence_entity": 0.9999877214431763,
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9999897480010986,
         "value": "option C",
         "extractor": "DIETClassifier"
       }
