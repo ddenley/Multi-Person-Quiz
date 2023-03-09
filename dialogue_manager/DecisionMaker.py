@@ -68,17 +68,17 @@ class DecisionMaker:
             elif currentUtt[0] == 'repeat':
                 self.__Action.repeatQuestion()
             elif (lastUtt[0] == 'give_answer') and (currentUtt[0] == 'concur'):
-                self.__currentAnswer = lastUtt[2]
+                self.__currentAnswer = lastUtt[2][0]
                 self.__Action.checkAnswer(self.__currentAnswer)
                 self.__questionAsked = False
             elif (lastUtt[0] == 'give_answer') and (currentUtt[0] == 'give_answer'):
-                if lastUtt[2] == currentUtt[2]:
-                    self.__currentAnswer = currentUtt[2]
+                if lastUtt[2][0] == currentUtt[2][0]:
+                    self.__currentAnswer = currentUtt[2][0]
                     self.__Action.checkAnswer(self.__currentAnswer)
                     self.__questionAsked = False
                 else:
                     # Disagreement between the players
-                    self.__currentAnswer = currentUtt[2]    # Update the current answer
+                    self.__currentAnswer = currentUtt[2][0]    # Update the current answer
                     self.nbDisagree += 1
                     # If too many disagreements, propose to skip a question
                     if self.nbDisagree >= self.nbLimitDisagree:
@@ -92,8 +92,8 @@ class DecisionMaker:
                 if self.nbDisagree >= self.nbLimitDisagree:
                     self.__Action.proposeClue()
             elif (lastUtt[0] == 'contest') and (currentUtt[0] == 'contest'):
-                if (currentUtt[2] is not None) and (currentUtt[2] != self.__currentAnswer):
-                    self.__currentAnswer = currentUtt[2]
+                if (currentUtt[2][0] is not None) and (currentUtt[2][0] != self.__currentAnswer):
+                    self.__currentAnswer = currentUtt[2][0]
                 # Disagreement between the players
                 self.nbDisagree += 1
                 if self.nbDisagree >= self.nbLimitDisagree:
