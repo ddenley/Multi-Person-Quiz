@@ -25,6 +25,7 @@ class Actions:
         :param msg: message to send
         :return:
         """
+        # TODO - Turn off microphone
         code = cm.tts_post(msg)
 
         if code != 200:
@@ -32,6 +33,7 @@ class Actions:
             exit(1)
         # Print for debug
         print('- ', msg)
+        # TODO - Turn on microphone
 
     def sendGUI(self, img_path, choices: list):
         """
@@ -61,13 +63,14 @@ class Actions:
         self.__previousAction = 'askQuestion'
         self.__QManager.nextQuestion()
 
+        # Send flag image to the GUI server
+        self.sendGUI(self.__QManager.getFlagPath(), self.__QManager.getMultipleChoices())
         self.sendTTS(do.question_options(self.__QManager.getMultipleChoices()))
 
         # display the flag with matplotlib.pyplot just for test but to be removed when it'll integrate with GUI
         # self.__QManager.displayFlag()
 
-        # Send flag image to the GUI server
-        self.sendGUI(self.__QManager.getFlagPath(), self.__QManager.getMultipleChoices())
+
 
     def repeatQuestion(self):
         """
@@ -146,6 +149,18 @@ class Actions:
         msg = 'Think about this hint. We are talking about {}'.format(clue)
         self.sendTTS(msg)
         self.__previousAction = 'giveClue'
+
+    def confirm(self, skip=False, ans=None):
+        """
+        Confirm to the players about what they asked the bot
+        :param skip: boolean, True if the players asked the bot to skip the question
+        :return:
+        """
+        if skip:
+            self.sendTTS("Ok, let's skip this question !")
+        if ans is not None:
+            self.ask_finalAnswer(ans)
+            self.__previousAction = 'confirm_ans'
 
     def paraphraseMessage(self, meaning):
         pass
