@@ -1,5 +1,5 @@
 import Actions
-
+import random
 
 class DecisionMaker:
     """
@@ -11,96 +11,98 @@ class DecisionMaker:
     def __init__(self):
         self.__Action = Actions.Actions()
         self.__questionAsked = False
+        self.__currentAnswer0 = None    # Current answer of the player labeled as player 0
+        self.__currentAnswer1 = None    # Current answer of the player labeled as player 1
         self.__currentAnswer = None
-        self.nbDisagree = 0                         # Number of turns where the players disagree on a same question
-        self.nbLimitDisagree = 3                    # Limit of number of disagreements before proposing to skip the question
+        self.pRandom = 0.4              # Probability to ask a confirmation for the final answer before checking the
+                                        # answer
+        self.nbDisagree = 0             # Number of turns where the players disagree on a same question
+        self.nbLimitDisagree = 5        # Limit of number of disagreements before proposing to skip the question
 
-    def executeRelevantAction(self, currentUtt: list, lastUtt: list, nbTexts: int, i: int) -> bool:
+    def executeRelevantAction(self, currentUtt: list, lastUtt: list, nbTexts: int, person: int) -> bool:
         """
         Choose and execute the action which seems the most relevant regarding the current and previous
         information [intent, entity, label]
         :param currentUtt : analysis of the current processed text, list [intent, entity, label]
         :param lastUtt : analysis of the previous processed text, list [intent, entity, label]
         :param nbTexts : number of texts in the current turn (typically 1 if just 1 of the players talks)
-        :param i: the number which corresponds of the current analysis of the current turn (e.g. is the current turn has
+        :param person: the number which corresponds of the current analysis of the current turn (e.g. is the current turn has
         a text for a first person and a text from the other one, i=0 for the first text and then i=1 for the second)
         :return: onGoing : a boolean which indicates if the game is still running or is ended
         """
         onGoing = True
         previousAct = self.__Action.getPreviousAction()
         # if no questions have been asked or if the bot proposed to skip one:
-        if (not self.__questionAsked) or (previousAct == 'proposeSkipQ'):
+        if (not self.__questionAsked) or (previousAct in ['proposeSkipQ', 'confirm_ans']):
             # If just one player answers when the bot asked if they want to play
-            if (previousAct in ['introQuizz', 'checkAns', 'proposeSkipQ']) and (nbTexts == 1):
-                if currentUtt[0] == 'concur':
+            if previousAct in ['introQuizz', 'checkAns', 'proposeSkipQ']:
+                if currentUtt[0] == 'concur':  # TODO- Replace the concur intent by a 'yes' intent
                     self.__Action.askQuestion()
                     self.__questionAsked = True
                     self.nbDisagree = 0
-                elif previousAct == 'proposeSkipQ' and currentUtt[0] == 'contest':
+                elif previousAct == 'proposeSkipQ' and currentUtt[0] == 'contest':  # TODO- Replace the contest intent by a 'no' intent
                     self.__Action.continueSameQuestion()
                 elif currentUtt[0] == 'contest':
                     self.__Action.endQuiz()
                     onGoing = False
-            # If two players answer when the bot asked if they want to play
-            elif (previousAct in ['introQuizz', 'checkAns', 'proposeSkipQ']) and (nbTexts == 2):
-                # If they agree to play
-                if ((currentUtt[0] == 'concur') and (lastUtt[0] == 'concur')) and (i == 1):
-                    self.__Action.askQuestion()
-                    self.__questionAsked = True
-                    self.nbDisagree = 0
-                # If they disagree (i.e. one wants to play but not the other)
-                elif (currentUtt[0] != lastUtt[0]) and (i == 1):
-                    self.__Action.endQuiz(pDisagree=True)
-                    onGoing = False
+            if previousAct == 'confirm_ans':
+                if currentUtt[0] == 'concur':
+                    self.__Action.checkAnswer(self.__currentAnswer)
+                    self.__questionAsked = False
 
         # if a question has been asked : check for agreement
         else:
+            # First, handle special cases (clue, ..)
             if previousAct == 'proposeClue':
                 # TODO : maybe, allow only one clue per question ?
-                if (nbTexts == 1) and (currentUtt[0] == 'concur'):
-                    self.__Action.giveClue()
-                elif (nbTexts == 2) and (currentUtt[0] == 'concur') and (lastUtt[0] == 'concur') and (i == 1):
+                if currentUtt[0] == 'concur':
                     self.__Action.giveClue()
                 else:
                     self.__Action.continueSameQuestion()
             elif currentUtt[0] == 'ask_clue':
                 self.__Action.giveClue()
+            elif currentUtt[0] == 'ask_skip':
+                self.__Action.confirm(skip=True)
+                self.__Action.askQuestion()
+                self.nbDisagree = 0
             elif currentUtt[0] == 'repeat':
                 self.__Action.repeatQuestion()
-            elif (lastUtt[0] == 'give_answer') and (currentUtt[0] == 'concur'):
-                self.__currentAnswer = lastUtt[2][0]
-                self.__Action.checkAnswer(self.__currentAnswer)
-                self.__questionAsked = False
-            elif (lastUtt[0] == 'give_answer') and (currentUtt[0] == 'give_answer'):
-                if lastUtt[2][0] == currentUtt[2][0]:
-                    self.__currentAnswer = currentUtt[2][0]
-                    self.__Action.checkAnswer(self.__currentAnswer)
-                    self.__questionAsked = False
-                else:
-                    # Disagreement between the players
-                    self.__currentAnswer = currentUtt[2][0]    # Update the current answer
+            # Otherwise (no special case) :
+            # Use the intent to update the current answer of each player to determine if they agree or not
+            elif currentUtt[0] == 'give_answer':
+                # Update the current answer of the player 0 if its answer is in the MultipleChoices
+                if currentUtt[2][0] in self.__Action.getQManager().getMultipleChoices():
+                    if person == 0:
+                        self.__currentAnswer0 = currentUtt[2][0]
+                    else:
+                        self.__currentAnswer1 = currentUtt[2][0]
+                # Check if disagreement or agreement
+                if (self.__currentAnswer1 is not None) and (self.__currentAnswer0 is not None) and (self.__currentAnswer0 != self.__currentAnswer1):
                     self.nbDisagree += 1
                     # If too many disagreements, propose to skip a question
                     if self.nbDisagree >= self.nbLimitDisagree:
                         self.__Action.proposeClue()
-                        # self.__Action.proposeSkipQuestion()
-            elif (lastUtt[0] == 'give_answer') and (currentUtt[0] == 'contest'):
-                # Disagreement between the players
+                elif (self.__currentAnswer1 is not None) and (self.__currentAnswer0 is not None) and (self.__currentAnswer0 == self.__currentAnswer1):
+                    # Agreement : ask a confirmation with a probability of pRandom
+                    self.__currentAnswer = self.__currentAnswer0
+                    p = random.random()
+                    if p < self.pRandom:
+                        self.__Action.confirm(ans=self.__currentAnswer)
+                    else:
+                        self.__Action.checkAnswer(self.__currentAnswer0)
+                        self.__questionAsked = False
+            elif currentUtt[0] == 'concur':
+                if person == 0:
+                    self.__Action.checkAnswer(self.__currentAnswer1)
+                else:
+                    self.__Action.checkAnswer(self.__currentAnswer0)
+                self.__questionAsked = False
+            elif currentUtt[0] == 'contest':
                 self.nbDisagree += 1
-                # If too many disagreements, propose to skip a question (we can probably add a probability to ask to
-                # skip in order to be more flexible)
+                # If too many disagreements, propose to skip a question
                 if self.nbDisagree >= self.nbLimitDisagree:
                     self.__Action.proposeClue()
-            elif (lastUtt[0] == 'contest') and (currentUtt[0] == 'contest'):
-                if (currentUtt[2][0] is not None) and (currentUtt[2][0] != self.__currentAnswer):
-                    self.__currentAnswer = currentUtt[2][0]
-                # Disagreement between the players
-                self.nbDisagree += 1
-                if self.nbDisagree >= self.nbLimitDisagree:
-                    self.__Action.proposeClue()
-
         return onGoing
-
 
     # Getters
     def getAction(self):
@@ -108,3 +110,14 @@ class DecisionMaker:
 
     def getQuestionAsked(self):
         return self.__questionAsked
+
+if __name__=='__main__':
+    DecMaker = DecisionMaker()
+    DecMaker.getAction().introduceQuizz()
+    DecMaker.executeRelevantAction(['concur', [], []], [], 1, 0)
+    mChoices = DecMaker.getAction().getQManager().getMultipleChoices()
+    DecMaker.executeRelevantAction(['give_answer', ['answer'], [mChoices[0]]], [], 1, 0)
+    DecMaker.executeRelevantAction(['give_answer', ['answer'], [mChoices[1]]], [], 1, 1)
+    DecMaker.executeRelevantAction(['contest', [], []], [], 1, 0)
+    DecMaker.executeRelevantAction(['give_answer', ['answer'], [mChoices[2]]], [], 1, 1)
+    DecMaker.executeRelevantAction(['concur', [], []], [], 1, 0)
