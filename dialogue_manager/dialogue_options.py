@@ -219,10 +219,10 @@ __clues = {
         "Costa Rica": "Central American country.",
         "Croatia": "European nation located along the Adriatic Sea",
         "Cuba": "Famous Caribbean island.",
-        "Curaçao": "Caribbean island nation off the coast of Venezuela",
+        "Curacao": "Caribbean island nation off the coast of Venezuela",
         "Cyprus": "Mediterranean island divided into two parts",
         "Czechia": "Landlocked between Germany and Poland",
-        "Côte d'Ivoire": "Country on the Gulf of Guinea",
+        "Cote d'Ivoire": "Country on the Gulf of Guinea",
         "Denmark": "Scandinavian country",
         "Djibouti": "East African nation bordering the Red Sea",
         "Dominica": "Island nation in the Caribbean, not to be confused with the Dominican Republic",
@@ -347,8 +347,8 @@ __clues = {
         "Romania": "East European nation",
         "Russia": "Largest nation in the world by area",
         "Rwanda": "East-Central African nation",
-        "Réunion": "Overseas region of France in the Indian Ocean",
-        "Saint Barthélemy": "A Northern Caribbean island",
+        "Reunion": "Overseas region of France in the Indian Ocean",
+        "Saint Barthelemy": "A Northern Caribbean island",
         "Saint Helena Ascension and Tristanda Cunha": "Island group in the South Atlantic Ocean",
         "Saint Kitts and Nevis": "Caribbean twin-island nation",
         "Saint Lucia": "Caribbean island nation",
@@ -412,5 +412,5 @@ __clues = {
         "Yemen": "This country located in the Arabian Peninsula is known for its deserts and Red Sea beaches",
         "Zambia": "This landlocked country in southern Africa boasts the Victoria Falls on its border",
         "Zimbabwe": "This country in southern Africa is bordered by South Africa, Botswana, Zambia and Mozambique",
-        "Åland Islands": "This archipelago is located at the entrance to the Gulf of Bothnia in the Baltic Sea."
+        "Aland Islands": "This archipelago is located at the entrance to the Gulf of Bothnia in the Baltic Sea."
     }
