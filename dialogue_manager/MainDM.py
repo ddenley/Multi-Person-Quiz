@@ -1,6 +1,8 @@
 import DecisionMaker
 import connection_manager as cm
 from typing import Tuple
+import datetime
+
 
 
 class MainDM:
@@ -86,18 +88,33 @@ class MainDM:
 
         return [intent_name, [entity_name], [entity_value]]
 
+    def init_backup(self, msg):
+        filename = 'MultiQuizz_dialog_{}.txt'.format(datetime.datetime.date(datetime.datetime.now()))
+        f = open(filename, "w+")
+        f.write(msg)
+        f.close()
+        return filename
+
+    def save_backup(self, filename, storedDialog):
+        f = open(filename, "a")
+        for i in range(len(storedDialog)):
+            f.write(storedDialog[i])
+        f.close()
+
     def main(self):
         """
         Main function to handle the dialogue
         """
-        self.initialize()
-        self.__DecisionMaker.getAction().introduceQuizz()
 
+        self.initialize()
+        msg = self.__DecisionMaker.getAction().introduceQuizz() + '\n'
+        filename = self.init_backup(msg)
         while self.__onGoing:
             # Get the next Turn batch (transcription of speech to text with label from ASR)
             turn_batch = self.get_turn_batch(1)
 
             for turn in turn_batch:
+                storedDialog = []
                 # Unpack the turn for clarity
                 text, person, code = turn
 
@@ -115,17 +132,25 @@ class MainDM:
 
                 self.__currentUtt = self.sendAndRequestNLU(text, person)
 
-                # For debug (display the text and the NLU analysis before the action is triggered):
-                print(text, self.__currentUtt)
+                # For debug (display the text and the NLU analysis before the action is triggered) and stored to a
+                # list to write in a text file:
+                print(text, self.__currentUtt, person)
+                currentTurn = ' P{} : {} {} \n'.format(person, text, self.__currentUtt)
+                storedDialog.append(currentTurn)
 
-                self.__onGoing = self.__DecisionMaker.executeRelevantAction(self.__currentUtt,
+                self.__onGoing, msgBot = self.__DecisionMaker.executeRelevantAction(self.__currentUtt,
                                                                      self.__lastUtt, 1, person)
+                botText = 'S : {} \n'.format(msgBot)
+                storedDialog.append(botText)
+
                 if not self.__onGoing:
                     break
 
                 self.__lastUtt = self.__currentUtt
+                self.save_backup(filename, storedDialog)
 
 
 if __name__ == '__main__':
     DM = MainDM()
     DM.main()
+
