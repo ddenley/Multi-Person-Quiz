@@ -23,9 +23,9 @@ class Actions:
         """
         Send the message from the bot to the TTS to display the text to the users.
         :param msg: message to send
-        :return:
+        :return: msg
         """
-        # TODO - Turn off microphone
+
         code = cm.tts_post(msg)
 
         if code != 200:
@@ -33,7 +33,7 @@ class Actions:
             exit(1)
         # Print for debug
         print('- ', msg)
-        # TODO - Turn on microphone
+        return msg
 
     def sendGUI(self, img_path, choices: list):
         """
@@ -52,8 +52,9 @@ class Actions:
         Introduce the quizz to the players.
         :return:
         """
-        self.sendTTS(do.greeting_options())
+        msg = self.sendTTS(do.greeting_options())
         self.__previousAction = 'introQuizz'
+        return msg
 
     def askQuestion(self):
         """
@@ -65,10 +66,9 @@ class Actions:
 
         # Send flag image to the GUI server
         self.sendGUI(self.__QManager.getFlagPath(), self.__QManager.getMultipleChoices())
-        self.sendTTS(do.question_options(self.__QManager.getMultipleChoices()))
+        msg = self.sendTTS(do.question_options(self.__QManager.getMultipleChoices()))
 
-        # display the flag with matplotlib.pyplot just for test but to be removed when it'll integrate with GUI
-        # self.__QManager.displayFlag()
+        return msg
 
 
 
@@ -77,9 +77,9 @@ class Actions:
         Repeat the current question - it will ask using different phrasing.
         :return:
         """
-        self.sendTTS('Absolutely, I can repeat the different choices.')
-        self.sendTTS(do.question_options(self.__QManager.getMultipleChoices()))
-
+        msg1 = self.sendTTS('Absolutely, I can repeat the different choices.')
+        msg2 = self.sendTTS(do.question_options(self.__QManager.getMultipleChoices()))
+        return msg1+''+msg2
     def checkAgreement(self):
         # NB : This methode seems to be replaced by the methode executeRelevantAction of MainDM class
         pass
@@ -93,15 +93,16 @@ class Actions:
         self.__previousAction = 'checkAns'
         if ans == self.__QManager.getCurrentFlag():
             self.__QManager.nbSuccess += 1
-            self.sendTTS("Well done, it's right ! Would you like to continue to play ?")
-            return
+            msg = self.sendTTS("Well done, it's right ! Would you like to continue to play ?")
+            return msg
         else:
-            self.sendTTS("Unfortunately it's not the right answer. This is the flag of {} ! Would you like to try "
+            msg = self.sendTTS("Unfortunately it's not the right answer. This is the flag of {} ! Would you like to try "
                          "another flag ?".format(self.__QManager.getCurrentFlag()))
-
+            return msg
     def ask_finalAnswer(self, ans):
-        self.sendTTS("So, is {} your final answer ?".format(ans))
+        msg = self.sendTTS("So, is {} your final answer ?".format(ans))
         self.__previousAction = 'ask_finalAnswer'
+        return msg
 
     def engagePlayers(self):
         # TODO : How to engage the discussion between the payers, To be continued
@@ -113,11 +114,12 @@ class Actions:
         :param pDisagree : boolean which indicates if just one of the player doesn't want to continue/to play
         """
         if pDisagree:
-            self.sendTTS("It seems that one of the player doesn't want to play. You need to be two in order to "
+            msg = self.sendTTS("It seems that one of the player doesn't want to play. You need to be two in order to "
                          "discuss together. Please come again when all of the players want to play")
         else:
-            self.sendTTS('I understand, see you later !')
+            msg = self.sendTTS('I understand, see you later !')
         # Should the bot display the results of the quiz ?! (i.e. number/percentage of successes)
+        return msg
 
     def continueSameQuestion(self):
         """
@@ -130,15 +132,17 @@ class Actions:
         """
         Propose to the players to skip a question
         """
-        self.sendTTS('I see that you do not agree at all on a certain answer. Would you like to skip the question ?')
+        msg = self.sendTTS('I see that you do not agree at all on a certain answer. Would you like to skip the question ?')
         self.__previousAction = 'proposeSkipQ'
+        return msg
 
     def proposeClue(self):
         """
         Propose to the players to ask for a clue
         """
-        self.sendTTS('This is a tough one, would you like a clue? ?')
+        msg = self.sendTTS('This is a tough one, would you like a clue? ?')
         self.__previousAction = 'proposeClue'
+        return msg
 
     def giveClue(self):
         """
@@ -149,6 +153,7 @@ class Actions:
         msg = 'Think about this hint. We are talking about {}'.format(clue)
         self.sendTTS(msg)
         self.__previousAction = 'giveClue'
+        return msg
 
     def confirm(self, skip=False, ans=None):
         """
@@ -156,11 +161,13 @@ class Actions:
         :param skip: boolean, True if the players asked the bot to skip the question
         :return:
         """
+        msg = ''
         if skip:
-            self.sendTTS("Ok, let's skip this question !")
-        if ans is not None:
-            self.ask_finalAnswer(ans)
+            msg = self.sendTTS("Ok, let's skip this question !")
+        elif ans is not None:
+            msg = self.ask_finalAnswer(ans)
             self.__previousAction = 'confirm_ans'
+        return msg
 
     def paraphraseMessage(self, meaning):
         pass
