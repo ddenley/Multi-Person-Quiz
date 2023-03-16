@@ -139,7 +139,7 @@ class MainDM:
                 storedDialog.append(currentTurn)
 
                 self.__onGoing, msgBot = self.__DecisionMaker.executeRelevantAction(self.__currentUtt,
-                                                                     self.__lastUtt, 1, person)
+                                                                     self.__lastUtt, 1, person-1) #person-1 just to map the 0 and 1 in the decision-making process now
                 botText = 'S : {} \n'.format(msgBot)
                 storedDialog.append(botText)
 
