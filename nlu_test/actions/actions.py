@@ -135,7 +135,7 @@ class ActionUpdateAnswer(Action):
 		global  accepted_answers, turn
 
 		for entity in tracker.latest_message["entities"]:
-			if entity["entity"] == "answer" and entity["value"].lower() not in accepted_answers[0]:
+			if entity["entity"] == "GPE" and entity["value"].lower() not in accepted_answers[0]:
 				accepted_answers[0].append(entity["value"].lower())
 		dispatcher.utter_message(text = "Turn {}. Player 1 says : {}. What do you think Player 2 ?".format(turn, accepted_answers[0]))
 
@@ -162,7 +162,7 @@ class ActionCheckAnswer(Action):
 
 		answers = []
 		for entity in tracker.latest_message["entities"]:
-			if entity["entity"] == "answer" and entity["value"].lower() not in accepted_answers[mod_turn]:
+			if entity["entity"] == "GPE" and entity["value"].lower() not in accepted_answers[mod_turn]:
 				accepted_answers[mod_turn].append(entity["value"].lower())
 
 		if not accepted_answers[mod_turn]:

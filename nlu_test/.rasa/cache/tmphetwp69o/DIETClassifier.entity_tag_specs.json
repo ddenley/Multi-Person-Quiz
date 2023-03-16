@@ -1,0 +1,20 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-GPE",
+      "2": "I-GPE",
+      "3": "L-GPE",
+      "4": "U-GPE",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-GPE": 1,
+      "I-GPE": 2,
+      "L-GPE": 3,
+      "U-GPE": 4,
+      "O": 0
+    },
+    "num_tags": 5
+  }
+]

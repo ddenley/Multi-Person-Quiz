@@ -37,1350 +37,1350 @@ nlu:
     - exact
     - let's go
     - correct
-    - yes it is [Afghanistan](answer)
-    - yes it is [Armenia](answer)
-    - yes it is [Belgium](answer)
-    - yes it is [Brazil](answer)
-    - yes it is [The Cayman Islands](answer)
-    - yes it is [The Congo](answer)
-    - yes it is [Djibouti](answer)
-    - yes it is [Ethiopia](answer)
-    - yes it is [The Gambia](answer)
-    - yes it is [Guatemala](answer)
-    - yes it is [Hungary](answer)
-    - yes it is [Jamaica](answer)
-    - yes it is [Kyrgyzstan](answer)
-    - yes it is [Macao](answer)
-    - yes it is [Mauritius](answer)
-    - yes it is [Mozambique](answer)
-    - yes it is [Nigeria](answer)
-    - yes it is [Papua New Guinea](answer)
-    - yes it is [Romania](answer)
-    - yes it is [Saint Vincent and the Grenadines](answer)
-    - yes it is [Dutch Sint Maarten](answer)
-    - yes it is [Sudan](answer)
-    - yes it is [Timor-Leste](answer)
-    - yes it is [Uganda](answer)
-    - yes it is [Vietnam](answer)
-    - indeed it is [Afghanistan](answer)
-    - indeed it is [Armenia](answer)
-    - indeed it is [Belgium](answer)
-    - indeed it is [Brazil](answer)
-    - indeed it is [The Cayman Islands](answer)
-    - indeed it is [The Congo](answer)
-    - indeed it is [Djibouti](answer)
-    - indeed it is [Ethiopia](answer)
-    - indeed it is [The Gambia](answer)
-    - indeed it is [Guatemala](answer)
-    - indeed it is [Hungary](answer)
-    - indeed it is [Jamaica](answer)
-    - indeed it is [Kyrgyzstan](answer)
-    - indeed it is [Macao](answer)
-    - indeed it is [Mauritius](answer)
-    - indeed it is [Mozambique](answer)
-    - indeed it is [Nigeria](answer)
-    - indeed it is [Papua New Guinea](answer)
-    - indeed it is [Romania](answer)
-    - indeed it is [Saint Vincent and the Grenadines](answer)
-    - indeed it is [Dutch Sint Maarten](answer)
-    - indeed it is [Sudan](answer)
-    - indeed it is [Timor-Leste](answer)
-    - indeed it is [Uganda](answer)
-    - indeed it is [Vietnam](answer)
-    - yes it is indeed [Afghanistan](answer)
-    - yes it is indeed [Armenia](answer)
-    - yes it is indeed [Belgium](answer)
-    - yes it is indeed [Brazil](answer)
-    - yes it is indeed [The Cayman Islands](answer)
-    - yes it is indeed [The Congo](answer)
-    - yes it is indeed [Djibouti](answer)
-    - yes it is indeed [Ethiopia](answer)
-    - yes it is indeed [The Gambia](answer)
-    - yes it is indeed [Guatemala](answer)
-    - yes it is indeed [Hungary](answer)
-    - yes it is indeed [Jamaica](answer)
-    - yes it is indeed [Kyrgyzstan](answer)
-    - yes it is indeed [Macao](answer)
-    - yes it is indeed [Mauritius](answer)
-    - yes it is indeed [Mozambique](answer)
-    - yes it is indeed [Nigeria](answer)
-    - yes it is indeed [Papua New Guinea](answer)
-    - yes it is indeed [Romania](answer)
-    - yes it is indeed [Saint Vincent and the Grenadines](answer)
-    - yes it is indeed [Dutch Sint Maarten](answer)
-    - yes it is indeed [Sudan](answer)
-    - yes it is indeed [Timor-Leste](answer)
-    - yes it is indeed [Uganda](answer)
-    - yes it is indeed [Vietnam](answer)
-    - i agree it's [Afghanistan](answer)
-    - i agree it's [Armenia](answer)
-    - i agree it's [Belgium](answer)
-    - i agree it's [Brazil](answer)
-    - i agree it's [The Cayman Islands](answer)
-    - i agree it's [The Congo](answer)
-    - i agree it's [Djibouti](answer)
-    - i agree it's [Ethiopia](answer)
-    - i agree it's [The Gambia](answer)
-    - i agree it's [Guatemala](answer)
-    - i agree it's [Hungary](answer)
-    - i agree it's [Jamaica](answer)
-    - i agree it's [Kyrgyzstan](answer)
-    - i agree it's [Macao](answer)
-    - i agree it's [Mauritius](answer)
-    - i agree it's [Mozambique](answer)
-    - i agree it's [Nigeria](answer)
-    - i agree it's [Papua New Guinea](answer)
-    - i agree it's [Romania](answer)
-    - i agree it's [Saint Vincent and the Grenadines](answer)
-    - i agree it's [Dutch Sint Maarten](answer)
-    - i agree it's [Sudan](answer)
-    - i agree it's [Timor-Leste](answer)
-    - i agree it's [Uganda](answer)
-    - i agree it's [Vietnam](answer)
-    - i concur it is [Afghanistan](answer)
-    - i concur it is [Armenia](answer)
-    - i concur it is [Belgium](answer)
-    - i concur it is [Brazil](answer)
-    - i concur it is [The Cayman Islands](answer)
-    - i concur it is [The Congo](answer)
-    - i concur it is [Djibouti](answer)
-    - i concur it is [Ethiopia](answer)
-    - i concur it is [The Gambia](answer)
-    - i concur it is [Guatemala](answer)
-    - i concur it is [Hungary](answer)
-    - i concur it is [Jamaica](answer)
-    - i concur it is [Kyrgyzstan](answer)
-    - i concur it is [Macao](answer)
-    - i concur it is [Mauritius](answer)
-    - i concur it is [Mozambique](answer)
-    - i concur it is [Nigeria](answer)
-    - i concur it is [Papua New Guinea](answer)
-    - i concur it is [Romania](answer)
-    - i concur it is [Saint Vincent and the Grenadines](answer)
-    - i concur it is [Dutch Sint Maarten](answer)
-    - i concur it is [Sudan](answer)
-    - i concur it is [Timor-Leste](answer)
-    - i concur it is [Uganda](answer)
-    - i concur it is [Vietnam](answer)
-    - i believe as well it is [Afghanistan](answer)
-    - i believe as well it is [Armenia](answer)
-    - i believe as well it is [Belgium](answer)
-    - i believe as well it is [Brazil](answer)
-    - i believe as well it is [The Cayman Islands](answer)
-    - i believe as well it is [The Congo](answer)
-    - i believe as well it is [Djibouti](answer)
-    - i believe as well it is [Ethiopia](answer)
-    - i believe as well it is [The Gambia](answer)
-    - i believe as well it is [Guatemala](answer)
-    - i believe as well it is [Hungary](answer)
-    - i believe as well it is [Jamaica](answer)
-    - i believe as well it is [Kyrgyzstan](answer)
-    - i believe as well it is [Macao](answer)
-    - i believe as well it is [Mauritius](answer)
-    - i believe as well it is [Mozambique](answer)
-    - i believe as well it is [Nigeria](answer)
-    - i believe as well it is [Papua New Guinea](answer)
-    - i believe as well it is [Romania](answer)
-    - i believe as well it is [Saint Vincent and the Grenadines](answer)
-    - i believe as well it is [Dutch Sint Maarten](answer)
-    - i believe as well it is [Sudan](answer)
-    - i believe as well it is [Timor-Leste](answer)
-    - i believe as well it is [Uganda](answer)
-    - i believe as well it is [Vietnam](answer)
-    - you are right it is [Afghanistan](answer)
-    - you are right it is [Armenia](answer)
-    - you are right it is [Belgium](answer)
-    - you are right it is [Brazil](answer)
-    - you are right it is [The Cayman Islands](answer)
-    - you are right it is [The Congo](answer)
-    - you are right it is [Djibouti](answer)
-    - you are right it is [Ethiopia](answer)
-    - you are right it is [The Gambia](answer)
-    - you are right it is [Guatemala](answer)
-    - you are right it is [Hungary](answer)
-    - you are right it is [Jamaica](answer)
-    - you are right it is [Kyrgyzstan](answer)
-    - you are right it is [Macao](answer)
-    - you are right it is [Mauritius](answer)
-    - you are right it is [Mozambique](answer)
-    - you are right it is [Nigeria](answer)
-    - you are right it is [Papua New Guinea](answer)
-    - you are right it is [Romania](answer)
-    - you are right it is [Saint Vincent and the Grenadines](answer)
-    - you are right it is [Dutch Sint Maarten](answer)
-    - you are right it is [Sudan](answer)
-    - you are right it is [Timor-Leste](answer)
-    - you are right it is [Uganda](answer)
-    - you are right it is [Vietnam](answer)
-    - I think so it is [Afghanistan](answer)
-    - I think so it is [Armenia](answer)
-    - I think so it is [Belgium](answer)
-    - I think so it is [Brazil](answer)
-    - I think so it is [The Cayman Islands](answer)
-    - I think so it is [The Congo](answer)
-    - I think so it is [Djibouti](answer)
-    - I think so it is [Ethiopia](answer)
-    - I think so it is [The Gambia](answer)
-    - I think so it is [Guatemala](answer)
-    - I think so it is [Hungary](answer)
-    - I think so it is [Jamaica](answer)
-    - I think so it is [Kyrgyzstan](answer)
-    - I think so it is [Macao](answer)
-    - I think so it is [Mauritius](answer)
-    - I think so it is [Mozambique](answer)
-    - I think so it is [Nigeria](answer)
-    - I think so it is [Papua New Guinea](answer)
-    - I think so it is [Romania](answer)
-    - I think so it is [Saint Vincent and the Grenadines](answer)
-    - I think so it is [Dutch Sint Maarten](answer)
-    - I think so it is [Sudan](answer)
-    - I think so it is [Timor-Leste](answer)
-    - I think so it is [Uganda](answer)
-    - I think so it is [Vietnam](answer)
-    - yes it is [option A](answer)
-    - yes it is [option B](answer)
-    - yes it is [option C](answer)
-    - yes it is [option D](answer)
-    - indeed it is [option A](answer)
-    - indeed it is [option B](answer)
-    - indeed it is [option C](answer)
-    - indeed it is [option D](answer)
-    - yes it is indeed [option A](answer)
-    - yes it is indeed [option B](answer)
-    - yes it is indeed [option C](answer)
-    - yes it is indeed [option D](answer)
-    - i agree it's [option A](answer)
-    - i agree it's [option B](answer)
-    - i agree it's [option C](answer)
-    - i agree it's [option D](answer)
-    - i concur it is [option A](answer)
-    - i concur it is [option B](answer)
-    - i concur it is [option C](answer)
-    - i concur it is [option D](answer)
-    - i believe as well it is [option A](answer)
-    - i believe as well it is [option B](answer)
-    - i believe as well it is [option C](answer)
-    - i believe as well it is [option D](answer)
-    - you are right it is [option A](answer)
-    - you are right it is [option B](answer)
-    - you are right it is [option C](answer)
-    - you are right it is [option D](answer)
-    - I think so it is [option A](answer)
-    - I think so it is [option B](answer)
-    - I think so it is [option C](answer)
-    - I think so it is [option D](answer)
-    - yes it is [French Polynesia](answer)
-    - indeed it is [Saint Kitts and Nevis](answer)
-    - yes it is indeed [Kazakhstan](answer)
-    - i agree it's [Ukraine](answer)
-    - i concur it is [Honduras](answer)
-    - i believe as well it is [Ireland](answer)
-    - you are right it is [Bonaire](answer)
-    - I think so it is [Malta](answer)
-    - So, [option A](answer)
-    - So, [option B](answer)
-    - So, [option C](answer)
-    - So, [option D](answer)
-    - Okay let's say [Montenegro](answer)
-    - I think I am going to follow your lead and say [Latvia](answer) I don't know
-    - Oh oh it's ohh that's cool yeah I would go [Australia](answer)
-    - yeah [option B](answer) [Kyrgzyzstan](answer)
+    - yes it is [Afghanistan](GPE)
+    - yes it is [Armenia](GPE)
+    - yes it is [Belgium](GPE)
+    - yes it is [Brazil](GPE)
+    - yes it is [The Cayman Islands](GPE)
+    - yes it is [The Congo](GPE)
+    - yes it is [Djibouti](GPE)
+    - yes it is [Ethiopia](GPE)
+    - yes it is [The Gambia](GPE)
+    - yes it is [Guatemala](GPE)
+    - yes it is [Hungary](GPE)
+    - yes it is [Jamaica](GPE)
+    - yes it is [Kyrgyzstan](GPE)
+    - yes it is [Macao](GPE)
+    - yes it is [Mauritius](GPE)
+    - yes it is [Mozambique](GPE)
+    - yes it is [Nigeria](GPE)
+    - yes it is [Papua New Guinea](GPE)
+    - yes it is [Romania](GPE)
+    - yes it is [Saint Vincent and the Grenadines](GPE)
+    - yes it is [Dutch Sint Maarten](GPE)
+    - yes it is [Sudan](GPE)
+    - yes it is [Timor-Leste](GPE)
+    - yes it is [Uganda](GPE)
+    - yes it is [Vietnam](GPE)
+    - indeed it is [Afghanistan](GPE)
+    - indeed it is [Armenia](GPE)
+    - indeed it is [Belgium](GPE)
+    - indeed it is [Brazil](GPE)
+    - indeed it is [The Cayman Islands](GPE)
+    - indeed it is [The Congo](GPE)
+    - indeed it is [Djibouti](GPE)
+    - indeed it is [Ethiopia](GPE)
+    - indeed it is [The Gambia](GPE)
+    - indeed it is [Guatemala](GPE)
+    - indeed it is [Hungary](GPE)
+    - indeed it is [Jamaica](GPE)
+    - indeed it is [Kyrgyzstan](GPE)
+    - indeed it is [Macao](GPE)
+    - indeed it is [Mauritius](GPE)
+    - indeed it is [Mozambique](GPE)
+    - indeed it is [Nigeria](GPE)
+    - indeed it is [Papua New Guinea](GPE)
+    - indeed it is [Romania](GPE)
+    - indeed it is [Saint Vincent and the Grenadines](GPE)
+    - indeed it is [Dutch Sint Maarten](GPE)
+    - indeed it is [Sudan](GPE)
+    - indeed it is [Timor-Leste](GPE)
+    - indeed it is [Uganda](GPE)
+    - indeed it is [Vietnam](GPE)
+    - yes it is indeed [Afghanistan](GPE)
+    - yes it is indeed [Armenia](GPE)
+    - yes it is indeed [Belgium](GPE)
+    - yes it is indeed [Brazil](GPE)
+    - yes it is indeed [The Cayman Islands](GPE)
+    - yes it is indeed [The Congo](GPE)
+    - yes it is indeed [Djibouti](GPE)
+    - yes it is indeed [Ethiopia](GPE)
+    - yes it is indeed [The Gambia](GPE)
+    - yes it is indeed [Guatemala](GPE)
+    - yes it is indeed [Hungary](GPE)
+    - yes it is indeed [Jamaica](GPE)
+    - yes it is indeed [Kyrgyzstan](GPE)
+    - yes it is indeed [Macao](GPE)
+    - yes it is indeed [Mauritius](GPE)
+    - yes it is indeed [Mozambique](GPE)
+    - yes it is indeed [Nigeria](GPE)
+    - yes it is indeed [Papua New Guinea](GPE)
+    - yes it is indeed [Romania](GPE)
+    - yes it is indeed [Saint Vincent and the Grenadines](GPE)
+    - yes it is indeed [Dutch Sint Maarten](GPE)
+    - yes it is indeed [Sudan](GPE)
+    - yes it is indeed [Timor-Leste](GPE)
+    - yes it is indeed [Uganda](GPE)
+    - yes it is indeed [Vietnam](GPE)
+    - i agree it's [Afghanistan](GPE)
+    - i agree it's [Armenia](GPE)
+    - i agree it's [Belgium](GPE)
+    - i agree it's [Brazil](GPE)
+    - i agree it's [The Cayman Islands](GPE)
+    - i agree it's [The Congo](GPE)
+    - i agree it's [Djibouti](GPE)
+    - i agree it's [Ethiopia](GPE)
+    - i agree it's [The Gambia](GPE)
+    - i agree it's [Guatemala](GPE)
+    - i agree it's [Hungary](GPE)
+    - i agree it's [Jamaica](GPE)
+    - i agree it's [Kyrgyzstan](GPE)
+    - i agree it's [Macao](GPE)
+    - i agree it's [Mauritius](GPE)
+    - i agree it's [Mozambique](GPE)
+    - i agree it's [Nigeria](GPE)
+    - i agree it's [Papua New Guinea](GPE)
+    - i agree it's [Romania](GPE)
+    - i agree it's [Saint Vincent and the Grenadines](GPE)
+    - i agree it's [Dutch Sint Maarten](GPE)
+    - i agree it's [Sudan](GPE)
+    - i agree it's [Timor-Leste](GPE)
+    - i agree it's [Uganda](GPE)
+    - i agree it's [Vietnam](GPE)
+    - i concur it is [Afghanistan](GPE)
+    - i concur it is [Armenia](GPE)
+    - i concur it is [Belgium](GPE)
+    - i concur it is [Brazil](GPE)
+    - i concur it is [The Cayman Islands](GPE)
+    - i concur it is [The Congo](GPE)
+    - i concur it is [Djibouti](GPE)
+    - i concur it is [Ethiopia](GPE)
+    - i concur it is [The Gambia](GPE)
+    - i concur it is [Guatemala](GPE)
+    - i concur it is [Hungary](GPE)
+    - i concur it is [Jamaica](GPE)
+    - i concur it is [Kyrgyzstan](GPE)
+    - i concur it is [Macao](GPE)
+    - i concur it is [Mauritius](GPE)
+    - i concur it is [Mozambique](GPE)
+    - i concur it is [Nigeria](GPE)
+    - i concur it is [Papua New Guinea](GPE)
+    - i concur it is [Romania](GPE)
+    - i concur it is [Saint Vincent and the Grenadines](GPE)
+    - i concur it is [Dutch Sint Maarten](GPE)
+    - i concur it is [Sudan](GPE)
+    - i concur it is [Timor-Leste](GPE)
+    - i concur it is [Uganda](GPE)
+    - i concur it is [Vietnam](GPE)
+    - i believe as well it is [Afghanistan](GPE)
+    - i believe as well it is [Armenia](GPE)
+    - i believe as well it is [Belgium](GPE)
+    - i believe as well it is [Brazil](GPE)
+    - i believe as well it is [The Cayman Islands](GPE)
+    - i believe as well it is [The Congo](GPE)
+    - i believe as well it is [Djibouti](GPE)
+    - i believe as well it is [Ethiopia](GPE)
+    - i believe as well it is [The Gambia](GPE)
+    - i believe as well it is [Guatemala](GPE)
+    - i believe as well it is [Hungary](GPE)
+    - i believe as well it is [Jamaica](GPE)
+    - i believe as well it is [Kyrgyzstan](GPE)
+    - i believe as well it is [Macao](GPE)
+    - i believe as well it is [Mauritius](GPE)
+    - i believe as well it is [Mozambique](GPE)
+    - i believe as well it is [Nigeria](GPE)
+    - i believe as well it is [Papua New Guinea](GPE)
+    - i believe as well it is [Romania](GPE)
+    - i believe as well it is [Saint Vincent and the Grenadines](GPE)
+    - i believe as well it is [Dutch Sint Maarten](GPE)
+    - i believe as well it is [Sudan](GPE)
+    - i believe as well it is [Timor-Leste](GPE)
+    - i believe as well it is [Uganda](GPE)
+    - i believe as well it is [Vietnam](GPE)
+    - you are right it is [Afghanistan](GPE)
+    - you are right it is [Armenia](GPE)
+    - you are right it is [Belgium](GPE)
+    - you are right it is [Brazil](GPE)
+    - you are right it is [The Cayman Islands](GPE)
+    - you are right it is [The Congo](GPE)
+    - you are right it is [Djibouti](GPE)
+    - you are right it is [Ethiopia](GPE)
+    - you are right it is [The Gambia](GPE)
+    - you are right it is [Guatemala](GPE)
+    - you are right it is [Hungary](GPE)
+    - you are right it is [Jamaica](GPE)
+    - you are right it is [Kyrgyzstan](GPE)
+    - you are right it is [Macao](GPE)
+    - you are right it is [Mauritius](GPE)
+    - you are right it is [Mozambique](GPE)
+    - you are right it is [Nigeria](GPE)
+    - you are right it is [Papua New Guinea](GPE)
+    - you are right it is [Romania](GPE)
+    - you are right it is [Saint Vincent and the Grenadines](GPE)
+    - you are right it is [Dutch Sint Maarten](GPE)
+    - you are right it is [Sudan](GPE)
+    - you are right it is [Timor-Leste](GPE)
+    - you are right it is [Uganda](GPE)
+    - you are right it is [Vietnam](GPE)
+    - I think so it is [Afghanistan](GPE)
+    - I think so it is [Armenia](GPE)
+    - I think so it is [Belgium](GPE)
+    - I think so it is [Brazil](GPE)
+    - I think so it is [The Cayman Islands](GPE)
+    - I think so it is [The Congo](GPE)
+    - I think so it is [Djibouti](GPE)
+    - I think so it is [Ethiopia](GPE)
+    - I think so it is [The Gambia](GPE)
+    - I think so it is [Guatemala](GPE)
+    - I think so it is [Hungary](GPE)
+    - I think so it is [Jamaica](GPE)
+    - I think so it is [Kyrgyzstan](GPE)
+    - I think so it is [Macao](GPE)
+    - I think so it is [Mauritius](GPE)
+    - I think so it is [Mozambique](GPE)
+    - I think so it is [Nigeria](GPE)
+    - I think so it is [Papua New Guinea](GPE)
+    - I think so it is [Romania](GPE)
+    - I think so it is [Saint Vincent and the Grenadines](GPE)
+    - I think so it is [Dutch Sint Maarten](GPE)
+    - I think so it is [Sudan](GPE)
+    - I think so it is [Timor-Leste](GPE)
+    - I think so it is [Uganda](GPE)
+    - I think so it is [Vietnam](GPE)
+    - yes it is [option A](GPE)
+    - yes it is [option B](GPE)
+    - yes it is [option C](GPE)
+    - yes it is [option D](GPE)
+    - indeed it is [option A](GPE)
+    - indeed it is [option B](GPE)
+    - indeed it is [option C](GPE)
+    - indeed it is [option D](GPE)
+    - yes it is indeed [option A](GPE)
+    - yes it is indeed [option B](GPE)
+    - yes it is indeed [option C](GPE)
+    - yes it is indeed [option D](GPE)
+    - i agree it's [option A](GPE)
+    - i agree it's [option B](GPE)
+    - i agree it's [option C](GPE)
+    - i agree it's [option D](GPE)
+    - i concur it is [option A](GPE)
+    - i concur it is [option B](GPE)
+    - i concur it is [option C](GPE)
+    - i concur it is [option D](GPE)
+    - i believe as well it is [option A](GPE)
+    - i believe as well it is [option B](GPE)
+    - i believe as well it is [option C](GPE)
+    - i believe as well it is [option D](GPE)
+    - you are right it is [option A](GPE)
+    - you are right it is [option B](GPE)
+    - you are right it is [option C](GPE)
+    - you are right it is [option D](GPE)
+    - I think so it is [option A](GPE)
+    - I think so it is [option B](GPE)
+    - I think so it is [option C](GPE)
+    - I think so it is [option D](GPE)
+    - yes it is [French Polynesia](GPE)
+    - indeed it is [Saint Kitts and Nevis](GPE)
+    - yes it is indeed [Kazakhstan](GPE)
+    - i agree it's [Ukraine](GPE)
+    - i concur it is [Honduras](GPE)
+    - i believe as well it is [Ireland](GPE)
+    - you are right it is [Bonaire](GPE)
+    - I think so it is [Malta](GPE)
+    - So, [option A](GPE)
+    - So, [option B](GPE)
+    - So, [option C](GPE)
+    - So, [option D](GPE)
+    - Okay let's say [Montenegro](GPE)
+    - I think I am going to follow your lead and say [Latvia](GPE) I don't know
+    - Oh oh it's ohh that's cool yeah I would go [Australia](GPE)
+    - yeah [option B](GPE) [Kyrgzyzstan](GPE)
     - I don't have a reason to suggest otherwise
-    - yeah, I think [D](answer). I would go [D](answer). I don't think it's [Mongolia](answer) thinking about it, but.
+    - yeah, I think [D](GPE). I would go [D](GPE). I don't think it's [Mongolia](GPE) thinking about it, but.
     - yes let's do it
     - I believe it's that too
     - Let’s go with that
 
-    - Okay let's say [American Samoa](answer)
-    - I think I am going to follow your lead and say [Antigua and Barbuda](answer)
-    - yeah I would go [The Bahamas](answer)
-    - yeah [Bosnia and Herzegovina](answer)
-    - I would go [Bouvet Island](answer)
-    - Okay let's say [British Indian Ocean Territory](answer)
-    - I think I am going to follow your lead and say [Brunei Darussalam](answer)
-    - yeah I would go [Burkina Faso](answer)
-    - yeah [Cabo Verde](answer)
-    - I would go [The Cayman Islands](answer)
-    - Okay let's say [The Central African Republic](answer)
-    - I think I am going to follow your lead and say [Christmas Island](answer)
-    - yeah I would go [The Cocos Keeling Islands](answer)
-    - yeah [The Democratic Republic of The Congo](answer)
-    - I would go [The Congo](answer)
-    - Okay let's say [Cook Islands](answer)
-    - I think I am going to follow your lead and say [Costa Rica](answer)
-    - yeah I would go [Cote d'Ivoire](answer)
-    - yeah [The Dominican Republic](answer)
-    - I would go [Equatorial Guinea](answer)
-    - Okay let's say [Falkland Islands](answer)
-    - I think I am going to follow your lead and say [Faroe Islands](answer)
-    - yeah I would go [French Guiana](answer)
-    - yeah [French Polynesia](answer)
-    - I would go [French Southern Territories](answer)
-    - Okay let's say [The Gambia](answer)
-    - I think I am going to follow your lead and say [Heard Island and McDonald Islands](answer)
-    - yeah I would go [The Holy See](answer)
-    - yeah [Hong Kong](answer)
-    - I would go [Isle of Man](answer)
-    - Okay let's say [North Korea](answer)
-    - I think I am going to follow your lead and say [The Republic of Korea](answer)
-    - yeah I would go [Lao People's Democratic Republic](answer)
-    - yeah [Marshall Islands](answer)
-    - I would go [The Netherlands](answer)
-    - Okay let's say [New Caledonia](answer)
-    - I think I am going to follow your lead and say [New Zealand](answer)
-    - yeah I would go [The Niger](answer)
-    - yeah [Norfolk Island](answer)
-    - I would go [Northern Mariana Islands](answer)
-    - Okay let's say [Papua New Guinea](answer)
-    - I think I am going to follow your lead and say [The Philippines](answer)
-    - yeah I would go [Puerto Rico](answer)
-    - yeah [Republic of North Macedonia](answer)
-    - I would go [Saint Barthelemy](answer)
-    - Okay let's say [Saint Helena Ascension and Tristanda Cunha](answer)
-    - I think I am going to follow your lead and say [Saint Kitts and Nevis](answer)
-    - yeah I would go [Saint Lucia](answer)
-    - yeah [French Saint Martin](answer)
-    - I would go [Saint Pierre and Miquelon](answer)
-    - Okay let's say [Saint Vincent and the Grenadines](answer)
-    - I think I am going to follow your lead and say [San Marino](answer)
-    - yeah I would go [Sao Tome and Principe](answer)
-    - yeah [Saudi Arabia](answer)
-    - I would go [Sierra Leone](answer)
-    - Okay let's say [Dutch Sint Maarten](answer)
-    - I think I am going to follow your lead and say [Solomon Islands](answer)
-    - yeah I would go [South Africa](answer)
-    - yeah [South Georgia and the South Sandwich Islands](answer)
-    - I would go [South Sudan](answer)
-    - Okay let's say [Sri Lanka](answer)
-    - I think I am going to follow your lead and say [Svalbardand Jan Mayen](answer)
-    - yeah I would go [Syrian Arab Republic](answer)
-    - yeah [United Republic of Tanzania](answer)
-    - I would go [Trinidad and Tobago](answer)
-    - Okay let's say [Turks and Caicos Islands](answer)
-    - I think I am going to follow your lead and say [The United Arab Emirates](answer)
-    - yeah I would go [United Kingdom](answer)
-    - yeah [United States Minor Outlying Islands](answer)
-    - I would go [United States of America](answer)
-    - Okay let's say [British Virgin Islands](answer)
-    - I think I am going to follow your lead and say [US Virgin Islands](answer)
-    - yeah I would go [Wallis and Futuna](answer)
-    - yeah [Western Sahara](answer)
-    - I would go [Aland Islands](answer)
+    - Okay let's say [American Samoa](GPE)
+    - I think I am going to follow your lead and say [Antigua and Barbuda](GPE)
+    - yeah I would go [The Bahamas](GPE)
+    - yeah [Bosnia and Herzegovina](GPE)
+    - I would go [Bouvet Island](GPE)
+    - Okay let's say [British Indian Ocean Territory](GPE)
+    - I think I am going to follow your lead and say [Brunei Darussalam](GPE)
+    - yeah I would go [Burkina Faso](GPE)
+    - yeah [Cabo Verde](GPE)
+    - I would go [The Cayman Islands](GPE)
+    - Okay let's say [The Central African Republic](GPE)
+    - I think I am going to follow your lead and say [Christmas Island](GPE)
+    - yeah I would go [The Cocos Keeling Islands](GPE)
+    - yeah [The Democratic Republic of The Congo](GPE)
+    - I would go [The Congo](GPE)
+    - Okay let's say [Cook Islands](GPE)
+    - I think I am going to follow your lead and say [Costa Rica](GPE)
+    - yeah I would go [Cote d'Ivoire](GPE)
+    - yeah [The Dominican Republic](GPE)
+    - I would go [Equatorial Guinea](GPE)
+    - Okay let's say [Falkland Islands](GPE)
+    - I think I am going to follow your lead and say [Faroe Islands](GPE)
+    - yeah I would go [French Guiana](GPE)
+    - yeah [French Polynesia](GPE)
+    - I would go [French Southern Territories](GPE)
+    - Okay let's say [The Gambia](GPE)
+    - I think I am going to follow your lead and say [Heard Island and McDonald Islands](GPE)
+    - yeah I would go [The Holy See](GPE)
+    - yeah [Hong Kong](GPE)
+    - I would go [Isle of Man](GPE)
+    - Okay let's say [North Korea](GPE)
+    - I think I am going to follow your lead and say [The Republic of Korea](GPE)
+    - yeah I would go [Lao People's Democratic Republic](GPE)
+    - yeah [Marshall Islands](GPE)
+    - I would go [The Netherlands](GPE)
+    - Okay let's say [New Caledonia](GPE)
+    - I think I am going to follow your lead and say [New Zealand](GPE)
+    - yeah I would go [The Niger](GPE)
+    - yeah [Norfolk Island](GPE)
+    - I would go [Northern Mariana Islands](GPE)
+    - Okay let's say [Papua New Guinea](GPE)
+    - I think I am going to follow your lead and say [The Philippines](GPE)
+    - yeah I would go [Puerto Rico](GPE)
+    - yeah [Republic of North Macedonia](GPE)
+    - I would go [Saint Barthelemy](GPE)
+    - Okay let's say [Saint Helena Ascension and Tristanda Cunha](GPE)
+    - I think I am going to follow your lead and say [Saint Kitts and Nevis](GPE)
+    - yeah I would go [Saint Lucia](GPE)
+    - yeah [French Saint Martin](GPE)
+    - I would go [Saint Pierre and Miquelon](GPE)
+    - Okay let's say [Saint Vincent and the Grenadines](GPE)
+    - I think I am going to follow your lead and say [San Marino](GPE)
+    - yeah I would go [Sao Tome and Principe](GPE)
+    - yeah [Saudi Arabia](GPE)
+    - I would go [Sierra Leone](GPE)
+    - Okay let's say [Dutch Sint Maarten](GPE)
+    - I think I am going to follow your lead and say [Solomon Islands](GPE)
+    - yeah I would go [South Africa](GPE)
+    - yeah [South Georgia and the South Sandwich Islands](GPE)
+    - I would go [South Sudan](GPE)
+    - Okay let's say [Sri Lanka](GPE)
+    - I think I am going to follow your lead and say [Svalbardand Jan Mayen](GPE)
+    - yeah I would go [Syrian Arab Republic](GPE)
+    - yeah [United Republic of Tanzania](GPE)
+    - I would go [Trinidad and Tobago](GPE)
+    - Okay let's say [Turks and Caicos Islands](GPE)
+    - I think I am going to follow your lead and say [The United Arab Emirates](GPE)
+    - yeah I would go [United Kingdom](GPE)
+    - yeah [United States Minor Outlying Islands](GPE)
+    - I would go [United States of America](GPE)
+    - Okay let's say [British Virgin Islands](GPE)
+    - I think I am going to follow your lead and say [US Virgin Islands](GPE)
+    - yeah I would go [Wallis and Futuna](GPE)
+    - yeah [Western Sahara](GPE)
+    - I would go [Aland Islands](GPE)
     - yeah definitely
 
 
 
 - intent: contest
   examples: |
-    - you are wrong, it is [French Polynesia](answer)
-    - I don't think so, it is [Saint Kitts and Nevis](answer)
-    - I disagree, it must be [Kazakhstan](answer)
-    - No it is [Ukraine](answer)
-    - you are mistaken, it is [Honduras](answer)
-    - no it is not [Ireland](answer)
-    - i think not, it must be [Bonaire](answer)
-    - it cannot be [Malta](answer)
+    - you are wrong, it is [French Polynesia](GPE)
+    - I don't think so, it is [Saint Kitts and Nevis](GPE)
+    - I disagree, it must be [Kazakhstan](GPE)
+    - No it is [Ukraine](GPE)
+    - you are mistaken, it is [Honduras](GPE)
+    - no it is not [Ireland](GPE)
+    - i think not, it must be [Bonaire](GPE)
+    - it cannot be [Malta](GPE)
 
-    - Arabic kind of writing on the flag, and so I'm suspecting [Oman](answer) or [Brunei](answer)
-    - Ohh I know it's not [Senegal](answer)
+    - Arabic kind of writing on the flag, and so I'm suspecting [Oman](GPE) or [Brunei](GPE)
+    - Ohh I know it's not [Senegal](GPE)
     - Hmmm
     - That I am sure
-    - I don't think it is [Peru](answer), I feel like [Peru](answer) has a green in it, and I think it is horizontal
-    - Why don't, um, I think it is [Australia](answer), but I don't know like shouldn't the other flag be like in the corner, right? Shouldn't be in the background.
-    - it is because [Australia](answer) is still a number of the Commonwealth I believe. They and [New Zealand](answer)
-    - it's not [Israel](answer) or [option A](answer)
-    - It's not [Israel](answer) and [Algeria](answer) should be green
+    - I don't think it is [Peru](GPE), I feel like [Peru](GPE) has a green in it, and I think it is horizontal
+    - Why don't, um, I think it is [Australia](GPE), but I don't know like shouldn't the other flag be like in the corner, right? Shouldn't be in the background.
+    - it is because [Australia](GPE) is still a number of the Commonwealth I believe. They and [New Zealand](GPE)
+    - it's not [Israel](GPE) or [option A](GPE)
+    - It's not [Israel](GPE) and [Algeria](GPE) should be green
     - yeah
-    - The only country I know it is not is [Serbia](answer)
+    - The only country I know it is not is [Serbia](GPE)
     - ohh neither none of these nations are Carribean or right like it's not somewhere in the Middle East to eastern Asia
-    - [Mongolia](answer) is above [China](answer) I believe 
-    - And [Guyana](answer) is somewhere north of [Australia](answer)
-    - But I don't know anything about [Turkmenistan](answer), so it could just be that and I've I have no idea.
+    - [Mongolia](GPE) is above [China](GPE) I believe 
+    - And [Guyana](GPE) is somewhere north of [Australia](GPE)
+    - But I don't know anything about [Turkmenistan](GPE), so it could just be that and I've I have no idea.
     - I'm going to pretend this doesn't matter to me
-    - It’s not [Ireland](answer)
-    - I don't think it's [Sudan](answer) either
-    - I don't believe it is that either, so our options are the [Gambia](answer) or [Saint Kitts and Nevis](answer)
+    - It’s not [Ireland](GPE)
+    - I don't think it's [Sudan](GPE) either
+    - I don't believe it is that either, so our options are the [Gambia](GPE) or [Saint Kitts and Nevis](GPE)
     - for me it's 50 50 i guess
     - I’m trying to think, because, like all of West Africa usually just goes vertical
     - North Africa goes like playing with some symbol on it
-    - Besides [Egypt](answer), [Egypt](answer) is different. For some reason, um South
-    - And yet I don't feel like it is [Saint Kitts and Nevis](answer)
-    - It's not [Israel](answer). It's definitely not [Congo](answer)
-    - It's not [Bangladesh](answer) either
+    - Besides [Egypt](GPE), [Egypt](GPE) is different. For some reason, um South
+    - And yet I don't feel like it is [Saint Kitts and Nevis](GPE)
+    - It's not [Israel](GPE). It's definitely not [Congo](GPE)
+    - It's not [Bangladesh](GPE) either
     - Yeah I don't think that's it either
-    - Because I’m Nigerian, I know that’s not [Nigeria](answer)
-    - Nice, I also, I'm almost certain it's not [Haiti](answer) either
+    - Because I’m Nigerian, I know that’s not [Nigeria](GPE)
+    - Nice, I also, I'm almost certain it's not [Haiti](GPE) either
     - Can we zoom in there
     - That look’s French
-    - questions are [Haiti](answer), [Maldives](answer) or [Honduras](answer)? I don't think it's [Honduras](answer). I feel like [Honduras](answer) is blue and white for some reason.
-    - It’s definitely not [Mexico](answer) or [Ukraine](answer)
+    - questions are [Haiti](GPE), [Maldives](GPE) or [Honduras](GPE)? I don't think it's [Honduras](GPE). I feel like [Honduras](GPE) is blue and white for some reason.
+    - It’s definitely not [Mexico](GPE) or [Ukraine](GPE)
     - It seems like an actually a bit of an easier one based on the options
-    - We've just seen [Colombia](answer), so we know it's not that
-    - It’s not [Switzerland](answer) either
-    - I don’t think it’s [Indonesia](answer)
+    - We've just seen [Colombia](GPE), so we know it's not that
+    - It’s not [Switzerland](GPE) either
+    - I don’t think it’s [Indonesia](GPE)
 
-    - you are wrong, it is [Afghanistan](answer)
-    - you are wrong, it is [Armenia](answer)
-    - you are wrong, it is [Belgium](answer)
-    - you are wrong, it is [Brazil](answer)
-    - you are wrong, it is [The Cayman Islands](answer)
-    - you are wrong, it is [The Congo](answer)
-    - you are wrong, it is [Djibouti](answer)
-    - you are wrong, it is [Ethiopia](answer)
-    - you are wrong, it is [The Gambia](answer)
-    - you are wrong, it is [Guatemala](answer)
-    - you are wrong, it is [Hungary](answer)
-    - you are wrong, it is [Jamaica](answer)
-    - you are wrong, it is [Kyrgyzstan](answer)
-    - you are wrong, it is [Macao](answer)
-    - you are wrong, it is [Mauritius](answer)
-    - you are wrong, it is [Mozambique](answer)
-    - you are wrong, it is [Nigeria](answer)
-    - you are wrong, it is [Papua New Guinea](answer)
-    - you are wrong, it is [Romania](answer)
-    - you are wrong, it is [Saint Vincent and the Grenadines](answer)
-    - you are wrong, it is [Dutch Sint Maarten](answer)
-    - you are wrong, it is [Sudan](answer)
-    - you are wrong, it is [Timor-Leste](answer)
-    - you are wrong, it is [Uganda](answer)
-    - you are wrong, it is [Vietnam](answer)
-    - I don't think so, it is [Afghanistan](answer)
-    - I don't think so, it is [Armenia](answer)
-    - I don't think so, it is [Belgium](answer)
-    - I don't think so, it is [Brazil](answer)
-    - I don't think so, it is [The Cayman Islands](answer)
-    - I don't think so, it is [The Congo](answer)
-    - I don't think so, it is [Djibouti](answer)
-    - I don't think so, it is [Ethiopia](answer)
-    - I don't think so, it is [The Gambia](answer)
-    - I don't think so, it is [Guatemala](answer)
-    - I don't think so, it is [Hungary](answer)
-    - I don't think so, it is [Jamaica](answer)
-    - I don't think so, it is [Kyrgyzstan](answer)
-    - I don't think so, it is [Macao](answer)
-    - I don't think so, it is [Mauritius](answer)
-    - I don't think so, it is [Mozambique](answer)
-    - I don't think so, it is [Nigeria](answer)
-    - I don't think so, it is [Papua New Guinea](answer)
-    - I don't think so, it is [Romania](answer)
-    - I don't think so, it is [Saint Vincent and the Grenadines](answer)
-    - I don't think so, it is [Dutch Sint Maarten](answer)
-    - I don't think so, it is [Sudan](answer)
-    - I don't think so, it is [Timor-Leste](answer)
-    - I don't think so, it is [Uganda](answer)
-    - I don't think so, it is [Vietnam](answer)
-    - I disagree, it must be [Afghanistan](answer)
-    - I disagree, it must be [Armenia](answer)
-    - I disagree, it must be [Belgium](answer)
-    - I disagree, it must be [Brazil](answer)
-    - I disagree, it must be [The Cayman Islands](answer)
-    - I disagree, it must be [The Congo](answer)
-    - I disagree, it must be [Djibouti](answer)
-    - I disagree, it must be [Ethiopia](answer)
-    - I disagree, it must be [The Gambia](answer)
-    - I disagree, it must be [Guatemala](answer)
-    - I disagree, it must be [Hungary](answer)
-    - I disagree, it must be [Jamaica](answer)
-    - I disagree, it must be [Kyrgyzstan](answer)
-    - I disagree, it must be [Macao](answer)
-    - I disagree, it must be [Mauritius](answer)
-    - I disagree, it must be [Mozambique](answer)
-    - I disagree, it must be [Nigeria](answer)
-    - I disagree, it must be [Papua New Guinea](answer)
-    - I disagree, it must be [Romania](answer)
-    - I disagree, it must be [Saint Vincent and the Grenadines](answer)
-    - I disagree, it must be [Dutch Sint Maarten](answer)
-    - I disagree, it must be [Sudan](answer)
-    - I disagree, it must be [Timor-Leste](answer)
-    - I disagree, it must be [Uganda](answer)
-    - I disagree, it must be [Vietnam](answer)
-    - No it is [Afghanistan](answer)
-    - No it is [Armenia](answer)
-    - No it is [Belgium](answer)
-    - No it is [Brazil](answer)
-    - No it is [The Cayman Islands](answer)
-    - No it is [The Congo](answer)
-    - No it is [Djibouti](answer)
-    - No it is [Ethiopia](answer)
-    - No it is [The Gambia](answer)
-    - No it is [Guatemala](answer)
-    - No it is [Hungary](answer)
-    - No it is [Jamaica](answer)
-    - No it is [Kyrgyzstan](answer)
-    - No it is [Macao](answer)
-    - No it is [Mauritius](answer)
-    - No it is [Mozambique](answer)
-    - No it is [Nigeria](answer)
-    - No it is [Papua New Guinea](answer)
-    - No it is [Romania](answer)
-    - No it is [Saint Vincent and the Grenadines](answer)
-    - No it is [Dutch Sint Maarten](answer)
-    - No it is [Sudan](answer)
-    - No it is [Timor-Leste](answer)
-    - No it is [Uganda](answer)
-    - No it is [Vietnam](answer)
-    - you are mistaken, it is [Afghanistan](answer)
-    - you are mistaken, it is [Armenia](answer)
-    - you are mistaken, it is [Belgium](answer)
-    - you are mistaken, it is [Brazil](answer)
-    - you are mistaken, it is [The Cayman Islands](answer)
-    - you are mistaken, it is [The Congo](answer)
-    - you are mistaken, it is [Djibouti](answer)
-    - you are mistaken, it is [Ethiopia](answer)
-    - you are mistaken, it is [The Gambia](answer)
-    - you are mistaken, it is [Guatemala](answer)
-    - you are mistaken, it is [Hungary](answer)
-    - you are mistaken, it is [Jamaica](answer)
-    - you are mistaken, it is [Kyrgyzstan](answer)
-    - you are mistaken, it is [Macao](answer)
-    - you are mistaken, it is [Mauritius](answer)
-    - you are mistaken, it is [Mozambique](answer)
-    - you are mistaken, it is [Nigeria](answer)
-    - you are mistaken, it is [Papua New Guinea](answer)
-    - you are mistaken, it is [Romania](answer)
-    - you are mistaken, it is [Saint Vincent and the Grenadines](answer)
-    - you are mistaken, it is [Dutch Sint Maarten](answer)
-    - you are mistaken, it is [Sudan](answer)
-    - you are mistaken, it is [Timor-Leste](answer)
-    - you are mistaken, it is [Uganda](answer)
-    - you are mistaken, it is [Vietnam](answer)
-    - i think not, it must be [Afghanistan](answer)
-    - i think not, it must be [Armenia](answer)
-    - i think not, it must be [Belgium](answer)
-    - i think not, it must be [Brazil](answer)
-    - i think not, it must be [The Cayman Islands](answer)
-    - i think not, it must be [The Congo](answer)
-    - i think not, it must be [Djibouti](answer)
-    - i think not, it must be [Ethiopia](answer)
-    - i think not, it must be [The Gambia](answer)
-    - i think not, it must be [Guatemala](answer)
-    - i think not, it must be [Hungary](answer)
-    - i think not, it must be [Jamaica](answer)
-    - i think not, it must be [Kyrgyzstan](answer)
-    - i think not, it must be [Macao](answer)
-    - i think not, it must be [Mauritius](answer)
-    - i think not, it must be [Mozambique](answer)
-    - i think not, it must be [Nigeria](answer)
-    - i think not, it must be [Papua New Guinea](answer)
-    - i think not, it must be [Romania](answer)
-    - i think not, it must be [Saint Vincent and the Grenadines](answer)
-    - i think not, it must be [Dutch Sint Maarten](answer)
-    - i think not, it must be [Sudan](answer)
-    - i think not, it must be [Timor-Leste](answer)
-    - i think not, it must be [Uganda](answer)
-    - i think not, it must be [Vietnam](answer)
-    - it is not [Afghanistan](answer), but rather [Papua New Guinea](answer)
-    - it is not [Armenia](answer), but rather [Kyrgyzstan](answer)
-    - it is not [Belgium](answer), but rather [Mozambique](answer)
-    - it is not [Brazil](answer), but rather [Timor-Leste](answer)
-    - it is not [The Cayman Islands](answer), but rather [The Gambia](answer)
-    - it is not [The Congo](answer), but rather [Kyrgyzstan](answer)
-    - it is not [Djibouti](answer), but rather [Armenia](answer)
-    - it is not [Ethiopia](answer), but rather [Mauritius](answer)
-    - it is not [The Gambia](answer), but rather [Papua New Guinea](answer)
-    - it is not [Guatemala](answer), but rather [Belgium](answer)
-    - it is not [Hungary](answer), but rather [Mozambique](answer)
-    - it is not [Jamaica](answer), but rather [Vietnam](answer)
-    - it is not [Kyrgyzstan](answer), but rather [Macao](answer)
-    - it is not [Macao](answer), but rather [Uganda](answer)
-    - it is not [Mauritius](answer), but rather [Mozambique](answer)
-    - it is not [Mozambique](answer), but rather [Mauritius](answer)
-    - it is not [Nigeria](answer), but rather [Sudan](answer)
-    - it is not [Papua New Guinea](answer), but rather [Vietnam](answer)
-    - it is not [Romania](answer), but rather [Ethiopia](answer)
-    - it is not [Saint Vincent and the Grenadines](answer), but rather [Timor-Leste](answer)
-    - it is not [Dutch Sint Maarten](answer), but rather [Vietnam](answer)
-    - it is not [Sudan](answer), but rather [Afghanistan](answer)
-    - it is not [Timor-Leste](answer), but rather [Romania](answer)
-    - it is not [Uganda](answer), but rather [Hungary](answer)
-    - it is not [Vietnam](answer), but rather [Jamaica](answer)
-    - i don't think it is [Afghanistan](answer), but rather [Mozambique](answer)
-    - i don't think it is [Armenia](answer), but rather [Guatemala](answer)
-    - i don't think it is [Belgium](answer), but rather [Romania](answer)
-    - i don't think it is [Brazil](answer), but rather [Uganda](answer)
-    - i don't think it is [The Cayman Islands](answer), but rather [Mauritius](answer)
-    - i don't think it is [The Congo](answer), but rather [Guatemala](answer)
-    - i don't think it is [Djibouti](answer), but rather [Uganda](answer)
-    - i don't think it is [Ethiopia](answer), but rather [The Gambia](answer)
-    - i don't think it is [The Gambia](answer), but rather [Dutch Sint Maarten](answer)
-    - i don't think it is [Guatemala](answer), but rather [Sudan](answer)
-    - i don't think it is [Hungary](answer), but rather [Timor-Leste](answer)
-    - i don't think it is [Jamaica](answer), but rather [Armenia](answer)
-    - i don't think it is [Kyrgyzstan](answer), but rather [Timor-Leste](answer)
-    - i don't think it is [Macao](answer), but rather [The Congo](answer)
-    - i don't think it is [Mauritius](answer), but rather [Djibouti](answer)
-    - i don't think it is [Mozambique](answer), but rather [Nigeria](answer)
-    - i don't think it is [Nigeria](answer), but rather [Dutch Sint Maarten](answer)
-    - i don't think it is [Papua New Guinea](answer), but rather [Romania](answer)
-    - i don't think it is [Romania](answer), but rather [Saint Vincent and the Grenadines](answer)
-    - i don't think it is [Saint Vincent and the Grenadines](answer), but rather [The Gambia](answer)
-    - i don't think it is [Dutch Sint Maarten](answer), but rather [Sudan](answer)
-    - i don't think it is [Sudan](answer), but rather [Papua New Guinea](answer)
-    - i don't think it is [Timor-Leste](answer), but rather [Uganda](answer)
-    - i don't think it is [Uganda](answer), but rather [Afghanistan](answer)
-    - i don't think it is [Vietnam](answer), but rather [The Congo](answer)
-    - you are wrong, it is [option A](answer)
-    - you are wrong, it is [option B](answer)
-    - you are wrong, it is [option C](answer)
-    - you are wrong, it is [option D](answer)
-    - I don't think so, it is [option A](answer)
-    - I don't think so, it is [option B](answer)
-    - I don't think so, it is [option C](answer)
-    - I don't think so, it is [option D](answer)
-    - I disagree, it must be [option A](answer)
-    - I disagree, it must be [option B](answer)
-    - I disagree, it must be [option C](answer)
-    - I disagree, it must be [option D](answer)
-    - No it is [option A](answer)
-    - No it is [option B](answer)
-    - No it is [option C](answer)
-    - No it is [option D](answer)
-    - you are mistaken, it is [option A](answer)
-    - you are mistaken, it is [option B](answer)
-    - you are mistaken, it is [option C](answer)
-    - you are mistaken, it is [option D](answer)
-    #- no way, it is [option A](answer)
-    #- no way, it is [option B](answer)
-    #- no way, it is [option C](answer)
-    #- no way, it is [option D](answer)
-    - it is not [option A](answer), but rather [option B](answer)
-    - it is not [option B](answer), but rather [option C](answer)
-    - it is not [option C](answer), but rather [option D](answer)
-    - it is not [option D](answer), but rather [option A](answer)
-    - i don't think it is [option A](answer), but rather [option B](answer)
-    - i don't think it is [option B](answer), but rather [option C](answer)
-    - i don't think it is [option C](answer), but rather [option D](answer)
-    - i don't think it is [option D](answer), but rather [option A](answer)
-    - It is not [Bahrain](answer)
-    - It is not [British Indian Ocean Territory](answer)
-    - It is not [The Cocos Keeling Islands](answer)
-    - It is not [Dominica](answer)
-    - It is not [French Guiana](answer)
-    - It is not [Guernsey](answer)
-    - It is not [Ireland](answer)
-    - It is not [Lao People's Democratic Republic](answer)
-    - It is not [Malta](answer)
-    - It is not [Myanmar](answer)
-    - It is not [Pakistan](answer)
-    - It is not [Russia](answer)
-    - It is not [Serbia](answer)
-    - It is not [Suriname](answer)
-    - It is not [Turkey](answer)
-    - It is not [British Virgin Islands](answer)
+    - you are wrong, it is [Afghanistan](GPE)
+    - you are wrong, it is [Armenia](GPE)
+    - you are wrong, it is [Belgium](GPE)
+    - you are wrong, it is [Brazil](GPE)
+    - you are wrong, it is [The Cayman Islands](GPE)
+    - you are wrong, it is [The Congo](GPE)
+    - you are wrong, it is [Djibouti](GPE)
+    - you are wrong, it is [Ethiopia](GPE)
+    - you are wrong, it is [The Gambia](GPE)
+    - you are wrong, it is [Guatemala](GPE)
+    - you are wrong, it is [Hungary](GPE)
+    - you are wrong, it is [Jamaica](GPE)
+    - you are wrong, it is [Kyrgyzstan](GPE)
+    - you are wrong, it is [Macao](GPE)
+    - you are wrong, it is [Mauritius](GPE)
+    - you are wrong, it is [Mozambique](GPE)
+    - you are wrong, it is [Nigeria](GPE)
+    - you are wrong, it is [Papua New Guinea](GPE)
+    - you are wrong, it is [Romania](GPE)
+    - you are wrong, it is [Saint Vincent and the Grenadines](GPE)
+    - you are wrong, it is [Dutch Sint Maarten](GPE)
+    - you are wrong, it is [Sudan](GPE)
+    - you are wrong, it is [Timor-Leste](GPE)
+    - you are wrong, it is [Uganda](GPE)
+    - you are wrong, it is [Vietnam](GPE)
+    - I don't think so, it is [Afghanistan](GPE)
+    - I don't think so, it is [Armenia](GPE)
+    - I don't think so, it is [Belgium](GPE)
+    - I don't think so, it is [Brazil](GPE)
+    - I don't think so, it is [The Cayman Islands](GPE)
+    - I don't think so, it is [The Congo](GPE)
+    - I don't think so, it is [Djibouti](GPE)
+    - I don't think so, it is [Ethiopia](GPE)
+    - I don't think so, it is [The Gambia](GPE)
+    - I don't think so, it is [Guatemala](GPE)
+    - I don't think so, it is [Hungary](GPE)
+    - I don't think so, it is [Jamaica](GPE)
+    - I don't think so, it is [Kyrgyzstan](GPE)
+    - I don't think so, it is [Macao](GPE)
+    - I don't think so, it is [Mauritius](GPE)
+    - I don't think so, it is [Mozambique](GPE)
+    - I don't think so, it is [Nigeria](GPE)
+    - I don't think so, it is [Papua New Guinea](GPE)
+    - I don't think so, it is [Romania](GPE)
+    - I don't think so, it is [Saint Vincent and the Grenadines](GPE)
+    - I don't think so, it is [Dutch Sint Maarten](GPE)
+    - I don't think so, it is [Sudan](GPE)
+    - I don't think so, it is [Timor-Leste](GPE)
+    - I don't think so, it is [Uganda](GPE)
+    - I don't think so, it is [Vietnam](GPE)
+    - I disagree, it must be [Afghanistan](GPE)
+    - I disagree, it must be [Armenia](GPE)
+    - I disagree, it must be [Belgium](GPE)
+    - I disagree, it must be [Brazil](GPE)
+    - I disagree, it must be [The Cayman Islands](GPE)
+    - I disagree, it must be [The Congo](GPE)
+    - I disagree, it must be [Djibouti](GPE)
+    - I disagree, it must be [Ethiopia](GPE)
+    - I disagree, it must be [The Gambia](GPE)
+    - I disagree, it must be [Guatemala](GPE)
+    - I disagree, it must be [Hungary](GPE)
+    - I disagree, it must be [Jamaica](GPE)
+    - I disagree, it must be [Kyrgyzstan](GPE)
+    - I disagree, it must be [Macao](GPE)
+    - I disagree, it must be [Mauritius](GPE)
+    - I disagree, it must be [Mozambique](GPE)
+    - I disagree, it must be [Nigeria](GPE)
+    - I disagree, it must be [Papua New Guinea](GPE)
+    - I disagree, it must be [Romania](GPE)
+    - I disagree, it must be [Saint Vincent and the Grenadines](GPE)
+    - I disagree, it must be [Dutch Sint Maarten](GPE)
+    - I disagree, it must be [Sudan](GPE)
+    - I disagree, it must be [Timor-Leste](GPE)
+    - I disagree, it must be [Uganda](GPE)
+    - I disagree, it must be [Vietnam](GPE)
+    - No it is [Afghanistan](GPE)
+    - No it is [Armenia](GPE)
+    - No it is [Belgium](GPE)
+    - No it is [Brazil](GPE)
+    - No it is [The Cayman Islands](GPE)
+    - No it is [The Congo](GPE)
+    - No it is [Djibouti](GPE)
+    - No it is [Ethiopia](GPE)
+    - No it is [The Gambia](GPE)
+    - No it is [Guatemala](GPE)
+    - No it is [Hungary](GPE)
+    - No it is [Jamaica](GPE)
+    - No it is [Kyrgyzstan](GPE)
+    - No it is [Macao](GPE)
+    - No it is [Mauritius](GPE)
+    - No it is [Mozambique](GPE)
+    - No it is [Nigeria](GPE)
+    - No it is [Papua New Guinea](GPE)
+    - No it is [Romania](GPE)
+    - No it is [Saint Vincent and the Grenadines](GPE)
+    - No it is [Dutch Sint Maarten](GPE)
+    - No it is [Sudan](GPE)
+    - No it is [Timor-Leste](GPE)
+    - No it is [Uganda](GPE)
+    - No it is [Vietnam](GPE)
+    - you are mistaken, it is [Afghanistan](GPE)
+    - you are mistaken, it is [Armenia](GPE)
+    - you are mistaken, it is [Belgium](GPE)
+    - you are mistaken, it is [Brazil](GPE)
+    - you are mistaken, it is [The Cayman Islands](GPE)
+    - you are mistaken, it is [The Congo](GPE)
+    - you are mistaken, it is [Djibouti](GPE)
+    - you are mistaken, it is [Ethiopia](GPE)
+    - you are mistaken, it is [The Gambia](GPE)
+    - you are mistaken, it is [Guatemala](GPE)
+    - you are mistaken, it is [Hungary](GPE)
+    - you are mistaken, it is [Jamaica](GPE)
+    - you are mistaken, it is [Kyrgyzstan](GPE)
+    - you are mistaken, it is [Macao](GPE)
+    - you are mistaken, it is [Mauritius](GPE)
+    - you are mistaken, it is [Mozambique](GPE)
+    - you are mistaken, it is [Nigeria](GPE)
+    - you are mistaken, it is [Papua New Guinea](GPE)
+    - you are mistaken, it is [Romania](GPE)
+    - you are mistaken, it is [Saint Vincent and the Grenadines](GPE)
+    - you are mistaken, it is [Dutch Sint Maarten](GPE)
+    - you are mistaken, it is [Sudan](GPE)
+    - you are mistaken, it is [Timor-Leste](GPE)
+    - you are mistaken, it is [Uganda](GPE)
+    - you are mistaken, it is [Vietnam](GPE)
+    - i think not, it must be [Afghanistan](GPE)
+    - i think not, it must be [Armenia](GPE)
+    - i think not, it must be [Belgium](GPE)
+    - i think not, it must be [Brazil](GPE)
+    - i think not, it must be [The Cayman Islands](GPE)
+    - i think not, it must be [The Congo](GPE)
+    - i think not, it must be [Djibouti](GPE)
+    - i think not, it must be [Ethiopia](GPE)
+    - i think not, it must be [The Gambia](GPE)
+    - i think not, it must be [Guatemala](GPE)
+    - i think not, it must be [Hungary](GPE)
+    - i think not, it must be [Jamaica](GPE)
+    - i think not, it must be [Kyrgyzstan](GPE)
+    - i think not, it must be [Macao](GPE)
+    - i think not, it must be [Mauritius](GPE)
+    - i think not, it must be [Mozambique](GPE)
+    - i think not, it must be [Nigeria](GPE)
+    - i think not, it must be [Papua New Guinea](GPE)
+    - i think not, it must be [Romania](GPE)
+    - i think not, it must be [Saint Vincent and the Grenadines](GPE)
+    - i think not, it must be [Dutch Sint Maarten](GPE)
+    - i think not, it must be [Sudan](GPE)
+    - i think not, it must be [Timor-Leste](GPE)
+    - i think not, it must be [Uganda](GPE)
+    - i think not, it must be [Vietnam](GPE)
+    - it is not [Afghanistan](GPE), but rather [Papua New Guinea](GPE)
+    - it is not [Armenia](GPE), but rather [Kyrgyzstan](GPE)
+    - it is not [Belgium](GPE), but rather [Mozambique](GPE)
+    - it is not [Brazil](GPE), but rather [Timor-Leste](GPE)
+    - it is not [The Cayman Islands](GPE), but rather [The Gambia](GPE)
+    - it is not [The Congo](GPE), but rather [Kyrgyzstan](GPE)
+    - it is not [Djibouti](GPE), but rather [Armenia](GPE)
+    - it is not [Ethiopia](GPE), but rather [Mauritius](GPE)
+    - it is not [The Gambia](GPE), but rather [Papua New Guinea](GPE)
+    - it is not [Guatemala](GPE), but rather [Belgium](GPE)
+    - it is not [Hungary](GPE), but rather [Mozambique](GPE)
+    - it is not [Jamaica](GPE), but rather [Vietnam](GPE)
+    - it is not [Kyrgyzstan](GPE), but rather [Macao](GPE)
+    - it is not [Macao](GPE), but rather [Uganda](GPE)
+    - it is not [Mauritius](GPE), but rather [Mozambique](GPE)
+    - it is not [Mozambique](GPE), but rather [Mauritius](GPE)
+    - it is not [Nigeria](GPE), but rather [Sudan](GPE)
+    - it is not [Papua New Guinea](GPE), but rather [Vietnam](GPE)
+    - it is not [Romania](GPE), but rather [Ethiopia](GPE)
+    - it is not [Saint Vincent and the Grenadines](GPE), but rather [Timor-Leste](GPE)
+    - it is not [Dutch Sint Maarten](GPE), but rather [Vietnam](GPE)
+    - it is not [Sudan](GPE), but rather [Afghanistan](GPE)
+    - it is not [Timor-Leste](GPE), but rather [Romania](GPE)
+    - it is not [Uganda](GPE), but rather [Hungary](GPE)
+    - it is not [Vietnam](GPE), but rather [Jamaica](GPE)
+    - i don't think it is [Afghanistan](GPE), but rather [Mozambique](GPE)
+    - i don't think it is [Armenia](GPE), but rather [Guatemala](GPE)
+    - i don't think it is [Belgium](GPE), but rather [Romania](GPE)
+    - i don't think it is [Brazil](GPE), but rather [Uganda](GPE)
+    - i don't think it is [The Cayman Islands](GPE), but rather [Mauritius](GPE)
+    - i don't think it is [The Congo](GPE), but rather [Guatemala](GPE)
+    - i don't think it is [Djibouti](GPE), but rather [Uganda](GPE)
+    - i don't think it is [Ethiopia](GPE), but rather [The Gambia](GPE)
+    - i don't think it is [The Gambia](GPE), but rather [Dutch Sint Maarten](GPE)
+    - i don't think it is [Guatemala](GPE), but rather [Sudan](GPE)
+    - i don't think it is [Hungary](GPE), but rather [Timor-Leste](GPE)
+    - i don't think it is [Jamaica](GPE), but rather [Armenia](GPE)
+    - i don't think it is [Kyrgyzstan](GPE), but rather [Timor-Leste](GPE)
+    - i don't think it is [Macao](GPE), but rather [The Congo](GPE)
+    - i don't think it is [Mauritius](GPE), but rather [Djibouti](GPE)
+    - i don't think it is [Mozambique](GPE), but rather [Nigeria](GPE)
+    - i don't think it is [Nigeria](GPE), but rather [Dutch Sint Maarten](GPE)
+    - i don't think it is [Papua New Guinea](GPE), but rather [Romania](GPE)
+    - i don't think it is [Romania](GPE), but rather [Saint Vincent and the Grenadines](GPE)
+    - i don't think it is [Saint Vincent and the Grenadines](GPE), but rather [The Gambia](GPE)
+    - i don't think it is [Dutch Sint Maarten](GPE), but rather [Sudan](GPE)
+    - i don't think it is [Sudan](GPE), but rather [Papua New Guinea](GPE)
+    - i don't think it is [Timor-Leste](GPE), but rather [Uganda](GPE)
+    - i don't think it is [Uganda](GPE), but rather [Afghanistan](GPE)
+    - i don't think it is [Vietnam](GPE), but rather [The Congo](GPE)
+    - you are wrong, it is [option A](GPE)
+    - you are wrong, it is [option B](GPE)
+    - you are wrong, it is [option C](GPE)
+    - you are wrong, it is [option D](GPE)
+    - I don't think so, it is [option A](GPE)
+    - I don't think so, it is [option B](GPE)
+    - I don't think so, it is [option C](GPE)
+    - I don't think so, it is [option D](GPE)
+    - I disagree, it must be [option A](GPE)
+    - I disagree, it must be [option B](GPE)
+    - I disagree, it must be [option C](GPE)
+    - I disagree, it must be [option D](GPE)
+    - No it is [option A](GPE)
+    - No it is [option B](GPE)
+    - No it is [option C](GPE)
+    - No it is [option D](GPE)
+    - you are mistaken, it is [option A](GPE)
+    - you are mistaken, it is [option B](GPE)
+    - you are mistaken, it is [option C](GPE)
+    - you are mistaken, it is [option D](GPE)
+    #- no way, it is [option A](GPE)
+    #- no way, it is [option B](GPE)
+    #- no way, it is [option C](GPE)
+    #- no way, it is [option D](GPE)
+    - it is not [option A](GPE), but rather [option B](GPE)
+    - it is not [option B](GPE), but rather [option C](GPE)
+    - it is not [option C](GPE), but rather [option D](GPE)
+    - it is not [option D](GPE), but rather [option A](GPE)
+    - i don't think it is [option A](GPE), but rather [option B](GPE)
+    - i don't think it is [option B](GPE), but rather [option C](GPE)
+    - i don't think it is [option C](GPE), but rather [option D](GPE)
+    - i don't think it is [option D](GPE), but rather [option A](GPE)
+    - It is not [Bahrain](GPE)
+    - It is not [British Indian Ocean Territory](GPE)
+    - It is not [The Cocos Keeling Islands](GPE)
+    - It is not [Dominica](GPE)
+    - It is not [French Guiana](GPE)
+    - It is not [Guernsey](GPE)
+    - It is not [Ireland](GPE)
+    - It is not [Lao People's Democratic Republic](GPE)
+    - It is not [Malta](GPE)
+    - It is not [Myanmar](GPE)
+    - It is not [Pakistan](GPE)
+    - It is not [Russia](GPE)
+    - It is not [Serbia](GPE)
+    - It is not [Suriname](GPE)
+    - It is not [Turkey](GPE)
+    - It is not [British Virgin Islands](GPE)
 
-    - Ohh I know it's not [American Samoa](answer)
-    - I don't think it is [Antigua and Barbuda](answer), I feel like [The Bahamas](answer) has a blue in it, and I think it is horizontal
-    - it is because [The Bahamas](answer) is in Asia I believe. With [Bosnia and Herzegovina](answer)
-    - It's not [Bosnia and Herzegovina](answer) and [Bouvet Island](answer) should be orange
-    - The only country I know it is not is [Bouvet Island](answer)
-    - [British Indian Ocean Territory](answer) is above [Brunei Darussalam](answer) I believe 
-    - And [Brunei Darussalam](answer) is somewhere north of [Burkina Faso](answer)
-    - (?i)But I don't know anything about [Burkina Faso](answer), so it could just be that and I've I have no idea
-    - It's not [Cabo Verde](answer)
-    - I don't think it's [The Cayman Islands](answer) either
-    - It's not [The Central African Republic](answer). It's definitely not [Christmas Island](answer)
-    - It's not [Christmas Island](answer) either
-    - Because I'm Nigerian, I know that's not [The Cocos Keeling Islands](answer)
-    - Nice, I also, I'm almost certain it's not [The Democratic Republic of The Congo](answer) either
-    - It's definitely not [The Congo](answer) or [Cook Islands](answer)
-    - (?i)We've just seen [Cook Islands](answer), so we know it's not that
-    - It's not [Costa Rica](answer) either
-    - I don't think it's [Cote d'Ivoire](answer)
-    - Ohh I know it's not [The Dominican Republic](answer)
-    - I don't think it is [Equatorial Guinea](answer), I feel like [The Bahamas](answer) has a blue in it, and I think it is horizontal
-    - it is because [Falkland Islands](answer) is in Asia I believe. With [Bosnia and Herzegovina](answer)
-    - It's not [Faroe Islands](answer) and [Bouvet Island](answer) should be orange
-    - The only country I know it is not is [French Guiana](answer)
-    - [French Polynesia](answer) is above [Brunei Darussalam](answer) I believe 
-    - And [French Southern Territories](answer) is somewhere north of [Burkina Faso](answer)
-    - (?i)But I don't know anything about [The Gambia](answer), so it could just be that and I've I have no idea
-    - It's not [Heard Island and McDonald Islands](answer)
-    - I don't think it's [The Holy See](answer) either
-    - It's not [Hong Kong](answer). It's definitely not [Christmas Island](answer)
-    - It's not [Isle of Man](answer) either
-    - Because I'm Nigerian, I know that's not [North Korea](answer)
-    - Nice, I also, I'm almost certain it's not [The Republic of Korea](answer) either
-    - It's definitely not [Lao People's Democratic Republic](answer) or [Cook Islands](answer)
-    - We've just seen [Marshall Islands](answer), so we know it's not that
-    - It's not [The Netherlands](answer) either
-    - I don't think it's [New Caledonia](answer)
-    - Ohh I know it's not [New Zealand](answer)
-    - I don't think it is [The Niger](answer), I feel like [The Bahamas](answer) has a blue in it, and I think it is horizontal
-    - it is because [Norfolk Island](answer) is in Asia I believe. With [Bosnia and Herzegovina](answer)
-    - It's not [Northern Mariana Islands](answer) and [Bouvet Island](answer) should be orange
-    - The only country I know it is not is [Papua New Guinea](answer)
-    - [The Philippines](answer) is above [Brunei Darussalam](answer) I believe 
-    - And [Puerto Rico](answer) is somewhere north of [Burkina Faso](answer)
-    - But I don't know anything about [Republic of North Macedonia](answer), so it could just be that and I've I have no idea
-    - It's not [Saint Barthelemy](answer)
-    - I don't think it's [Saint Helena Ascension and Tristanda Cunha](answer) either
-    - It's not [Saint Kitts and Nevis](answer). It's definitely not [Christmas Island](answer)
-    - It's not [Saint Lucia](answer) either
-    - Because I'm Nigerian, I know that's not [French Saint Martin](answer)
-    - Nice, I also, I'm almost certain it's not [Saint Pierre and Miquelon](answer) either
-    - It's definitely not [Saint Vincent and the Grenadines](answer) or [Cook Islands](answer)
-    - We've just seen [San Marino](answer), so we know it's not that
-    - It's not [Sao Tome and Principe](answer) either
-    - I don't think it's [Saudi Arabia](answer)
-    - Ohh I know it's not [Sierra Leone](answer)
-    - I don't think it is [Dutch Sint Maarten](answer), I feel like [The Bahamas](answer) has a blue in it, and I think it is horizontal
-    - it is because [Solomon Islands](answer) is in Asia I believe. With [Bosnia and Herzegovina](answer)
-    - It's not [South Africa](answer) and [Bouvet Island](answer) should be orange
-    - The only country I know it is not is [South Georgia and the South Sandwich Islands](answer)
-    - [South Sudan](answer) is above [Brunei Darussalam](answer) I believe 
-    - And [Sri Lanka](answer) is somewhere north of [Burkina Faso](answer)
-    - But I don't know anything about [Svalbardand Jan Mayen](answer), so it could just be that and I've I have no idea
-    - It's not [Syrian Arab Republic](answer)
-    - I don't think it's [United Republic of Tanzania](answer) either
-    - It's not [Trinidad and Tobago](answer). It's definitely not [Christmas Island](answer)
-    - It's not [Turks and Caicos Islands](answer) either
-    - Because I'm Nigerian, I know that's not [The United Arab Emirates](answer)
-    - Nice, I also, I'm almost certain it's not [United Kingdom](answer) either
-    - It's definitely not [United States Minor Outlying Islands](answer) or [Cook Islands](answer)
-    - We've just seen [United States of America](answer), so we know it's not that
-    - It's not [British Virgin Islands](answer) either
-    - I don't think it's [US Virgin Islands](answer)
-    - Ohh I know it's not [Wallis and Futuna](answer)
-    - I don't think it is [Western Sahara](answer), I feel like [The Bahamas](answer) has a blue in it, and I think it is horizontal
-    - it is because [Aland Islands](answer) is in Asia I believe. With [Bosnia and Herzegovina](answer)
+    - Ohh I know it's not [American Samoa](GPE)
+    - I don't think it is [Antigua and Barbuda](GPE), I feel like [The Bahamas](GPE) has a blue in it, and I think it is horizontal
+    - it is because [The Bahamas](GPE) is in Asia I believe. With [Bosnia and Herzegovina](GPE)
+    - It's not [Bosnia and Herzegovina](GPE) and [Bouvet Island](GPE) should be orange
+    - The only country I know it is not is [Bouvet Island](GPE)
+    - [British Indian Ocean Territory](GPE) is above [Brunei Darussalam](GPE) I believe 
+    - And [Brunei Darussalam](GPE) is somewhere north of [Burkina Faso](GPE)
+    - (?i)But I don't know anything about [Burkina Faso](GPE), so it could just be that and I've I have no idea
+    - It's not [Cabo Verde](GPE)
+    - I don't think it's [The Cayman Islands](GPE) either
+    - It's not [The Central African Republic](GPE). It's definitely not [Christmas Island](GPE)
+    - It's not [Christmas Island](GPE) either
+    - Because I'm Nigerian, I know that's not [The Cocos Keeling Islands](GPE)
+    - Nice, I also, I'm almost certain it's not [The Democratic Republic of The Congo](GPE) either
+    - It's definitely not [The Congo](GPE) or [Cook Islands](GPE)
+    - (?i)We've just seen [Cook Islands](GPE), so we know it's not that
+    - It's not [Costa Rica](GPE) either
+    - I don't think it's [Cote d'Ivoire](GPE)
+    - Ohh I know it's not [The Dominican Republic](GPE)
+    - I don't think it is [Equatorial Guinea](GPE), I feel like [The Bahamas](GPE) has a blue in it, and I think it is horizontal
+    - it is because [Falkland Islands](GPE) is in Asia I believe. With [Bosnia and Herzegovina](GPE)
+    - It's not [Faroe Islands](GPE) and [Bouvet Island](GPE) should be orange
+    - The only country I know it is not is [French Guiana](GPE)
+    - [French Polynesia](GPE) is above [Brunei Darussalam](GPE) I believe 
+    - And [French Southern Territories](GPE) is somewhere north of [Burkina Faso](GPE)
+    - (?i)But I don't know anything about [The Gambia](GPE), so it could just be that and I've I have no idea
+    - It's not [Heard Island and McDonald Islands](GPE)
+    - I don't think it's [The Holy See](GPE) either
+    - It's not [Hong Kong](GPE). It's definitely not [Christmas Island](GPE)
+    - It's not [Isle of Man](GPE) either
+    - Because I'm Nigerian, I know that's not [North Korea](GPE)
+    - Nice, I also, I'm almost certain it's not [The Republic of Korea](GPE) either
+    - It's definitely not [Lao People's Democratic Republic](GPE) or [Cook Islands](GPE)
+    - We've just seen [Marshall Islands](GPE), so we know it's not that
+    - It's not [The Netherlands](GPE) either
+    - I don't think it's [New Caledonia](GPE)
+    - Ohh I know it's not [New Zealand](GPE)
+    - I don't think it is [The Niger](GPE), I feel like [The Bahamas](GPE) has a blue in it, and I think it is horizontal
+    - it is because [Norfolk Island](GPE) is in Asia I believe. With [Bosnia and Herzegovina](GPE)
+    - It's not [Northern Mariana Islands](GPE) and [Bouvet Island](GPE) should be orange
+    - The only country I know it is not is [Papua New Guinea](GPE)
+    - [The Philippines](GPE) is above [Brunei Darussalam](GPE) I believe 
+    - And [Puerto Rico](GPE) is somewhere north of [Burkina Faso](GPE)
+    - But I don't know anything about [Republic of North Macedonia](GPE), so it could just be that and I've I have no idea
+    - It's not [Saint Barthelemy](GPE)
+    - I don't think it's [Saint Helena Ascension and Tristanda Cunha](GPE) either
+    - It's not [Saint Kitts and Nevis](GPE). It's definitely not [Christmas Island](GPE)
+    - It's not [Saint Lucia](GPE) either
+    - Because I'm Nigerian, I know that's not [French Saint Martin](GPE)
+    - Nice, I also, I'm almost certain it's not [Saint Pierre and Miquelon](GPE) either
+    - It's definitely not [Saint Vincent and the Grenadines](GPE) or [Cook Islands](GPE)
+    - We've just seen [San Marino](GPE), so we know it's not that
+    - It's not [Sao Tome and Principe](GPE) either
+    - I don't think it's [Saudi Arabia](GPE)
+    - Ohh I know it's not [Sierra Leone](GPE)
+    - I don't think it is [Dutch Sint Maarten](GPE), I feel like [The Bahamas](GPE) has a blue in it, and I think it is horizontal
+    - it is because [Solomon Islands](GPE) is in Asia I believe. With [Bosnia and Herzegovina](GPE)
+    - It's not [South Africa](GPE) and [Bouvet Island](GPE) should be orange
+    - The only country I know it is not is [South Georgia and the South Sandwich Islands](GPE)
+    - [South Sudan](GPE) is above [Brunei Darussalam](GPE) I believe 
+    - And [Sri Lanka](GPE) is somewhere north of [Burkina Faso](GPE)
+    - But I don't know anything about [Svalbardand Jan Mayen](GPE), so it could just be that and I've I have no idea
+    - It's not [Syrian Arab Republic](GPE)
+    - I don't think it's [United Republic of Tanzania](GPE) either
+    - It's not [Trinidad and Tobago](GPE). It's definitely not [Christmas Island](GPE)
+    - It's not [Turks and Caicos Islands](GPE) either
+    - Because I'm Nigerian, I know that's not [The United Arab Emirates](GPE)
+    - Nice, I also, I'm almost certain it's not [United Kingdom](GPE) either
+    - It's definitely not [United States Minor Outlying Islands](GPE) or [Cook Islands](GPE)
+    - We've just seen [United States of America](GPE), so we know it's not that
+    - It's not [British Virgin Islands](GPE) either
+    - I don't think it's [US Virgin Islands](GPE)
+    - Ohh I know it's not [Wallis and Futuna](GPE)
+    - I don't think it is [Western Sahara](GPE), I feel like [The Bahamas](GPE) has a blue in it, and I think it is horizontal
+    - it is because [Aland Islands](GPE) is in Asia I believe. With [Bosnia and Herzegovina](GPE)
 
 - intent: give_answer
   examples: |
-    - It is [French Polynesia](answer)
-    - I am sure it is [Saint Kitts and Nevis](answer)
-    - I believe it's [Kazakhstan](answer)
-    - I think it is [Ukraine](answer)
-    - It must be [Honduras](answer)
-    - It's certainly [Ireland](answer)
-    - surely it is [Bonaire](answer)
-    - [Malta](answer)
-    - SoI would maybe go with [Montenegro](answer)
-    - I am quite sure this is [Latvia](answer)
-    - This has to be [Australia](answer), where I would be confused was if [New Zealand](answer) was here as well then I wouldn't know what it was, but I think it's [Australia](answer) since [New Zealand](answer) is not here
-    - By process of elimination makes me feel like it's [option B](answer). [Dominican](answer) has blue and red
-    - I go for [option B](answer)
-    - Yeah, I would say it's between [option B](answer) and [D](answer) for me
-    - I don't know though it feels like a 50 50 split between [B](answer) and [D](answer). I feel like it's [D](answer)
-    - [D](answer)
-    - [Mongolia](answer) ohh sorry [Guyana](answer) rather
-    - [Mongolia](answer) maybe?
-    - i am happy to go with [opton A](answer) and live with the choice
-    - yeah, [Gambia](answer)
-    - Sobased on my African theory earlier, I’m compelled to go with [Tunisia](answer)
-    - I feel like it's not [Haiti](answer), so I maybe go [Maldives](answer) them
-    - It’s not [Philippines](answer), so I’m thinking it’s [Malawi](answer)
-    - Yeah, let’s go [North Macedonia](answer)
+    - It is [French Polynesia](GPE)
+    - I am sure it is [Saint Kitts and Nevis](GPE)
+    - I believe it's [Kazakhstan](GPE)
+    - I think it is [Ukraine](GPE)
+    - It must be [Honduras](GPE)
+    - It's certainly [Ireland](GPE)
+    - surely it is [Bonaire](GPE)
+    - [Malta](GPE)
+    - So I would maybe go with [Montenegro](GPE)
+    - I am quite sure this is [Latvia](GPE)
+    - This has to be [Australia](GPE), where I would be confused was if [New Zealand](GPE) was here as well then I wouldn't know what it was, but I think it's [Australia](GPE) since [New Zealand](GPE) is not here
+    - By process of elimination makes me feel like it's [option B](GPE). [Dominican](GPE) has blue and red
+    - I go for [option B](GPE)
+    - Yeah, I would say it's between [option B](GPE) and [D](GPE) for me
+    - I don't know though it feels like a 50 50 split between [B](GPE) and [D](GPE). I feel like it's [D](GPE)
+    - [D](GPE)
+    - [Mongolia](GPE) ohh sorry [Guyana](GPE) rather
+    - [Mongolia](GPE) maybe?
+    - i am happy to go with [opton A](GPE) and live with the choice
+    - yeah, [Gambia](GPE)
+    - Sobased on my African theory earlier, I’m compelled to go with [Tunisia](GPE)
+    - I feel like it's not [Haiti](GPE), so I maybe go [Maldives](GPE) them
+    - It’s not [Philippines](GPE), so I’m thinking it’s [Malawi](GPE)
+    - Yeah, let’s go [North Macedonia](GPE)
 
-    - Yeah, let’s go [Croatia](answer)
-    - Yeah, let’s go [Israel](answer)
-    - Yeah, let’s go [Iran](answer)
-    - Yeah, let’s go [Eritrea](answer)
-    - Yeah, let’s go [North Korea](answer)
-    - Yeah, let’s go [Japan](answer)
-    - Yeah, let’s go [Bangladesh](answer)
-    - Yeah, let’s go [Indonesia](answer)
-    - Yeah, let’s go [Brunei](answer)
-    - Yeah, let’s go [Mongolia](answer)
-    - Yeah, let’s go [Argentina](answer)
-    - Yeah, let’s go [Bolivia](answer)
+    - Yeah, let’s go [Croatia](GPE)
+    - Yeah, let’s go [Israel](GPE)
+    - Yeah, let’s go [Iran](GPE)
+    - Yeah, let’s go [Eritrea](GPE)
+    - Yeah, let’s go [North Korea](GPE)
+    - Yeah, let’s go [Japan](GPE)
+    - Yeah, let’s go [Bangladesh](GPE)
+    - Yeah, let’s go [Indonesia](GPE)
+    - Yeah, let’s go [Brunei](GPE)
+    - Yeah, let’s go [Mongolia](GPE)
+    - Yeah, let’s go [Argentina](GPE)
+    - Yeah, let’s go [Bolivia](GPE)
 
-    - It is [Afghanistan](answer)
-    - It is [Armenia](answer)
-    - It is [Belgium](answer)
-    - It is [Brazil](answer)
-    - It is [The Cayman Islands](answer)
-    - It is [The Congo](answer)
-    - It is [Djibouti](answer)
-    - It is [Ethiopia](answer)
-    - It is [The Gambia](answer)
-    - It is [Guatemala](answer)
-    - It is [Hungary](answer)
-    - It is [Jamaica](answer)
-    - It is [Kyrgyzstan](answer)
-    - It is [Macao](answer)
-    - It is [Mauritius](answer)
-    - It is [Mozambique](answer)
-    - It is [Nigeria](answer)
-    - It is [Papua New Guinea](answer)
-    - It is [Romania](answer)
-    - It is [Saint Vincent and the Grenadines](answer)
-    - It is [Dutch Sint Maarten](answer)
-    - It is [Sudan](answer)
-    - It is [Timor-Leste](answer)
-    - It is [Uganda](answer)
-    - It is [Vietnam](answer)
-    - It is [Albania](answer)
-    - It is [Bahrain](answer)
-    - It is [British Indian Ocean Territory](answer)
-    - It is [The Cocos Keeling Islands](answer)
-    - It is [Dominica](answer)
-    - It is [French Guiana](answer)
-    - It is [Guernsey](answer)
-    - It is [Ireland](answer)
-    - It is [Lao People's Democratic Republic](answer)
-    - It is [Malta](answer)
-    - It is [Myanmar](answer)
-    - It is [Pakistan](answer)
-    - It is [Russia](answer)
-    - It is [Serbia](answer)
-    - It is [Suriname](answer)
-    - It is [Turkey](answer)
-    - It is [British Virgin Islands](answer)
-    - I am sure it is [Afghanistan](answer)
-    - I am sure it is [Armenia](answer)
-    - I am sure it is [Belgium](answer)
-    - I am sure it is [Brazil](answer)
-    - I am sure it is [The Cayman Islands](answer)
-    - I am sure it is [The Congo](answer)
-    - I am sure it is [Djibouti](answer)
-    - I am sure it is [Ethiopia](answer)
-    - I am sure it is [The Gambia](answer)
-    - I am sure it is [Guatemala](answer)
-    - I am sure it is [Hungary](answer)
-    - I am sure it is [Jamaica](answer)
-    - I am sure it is [Kyrgyzstan](answer)
-    - I am sure it is [Macao](answer)
-    - I am sure it is [Mauritius](answer)
-    - I am sure it is [Mozambique](answer)
-    - I am sure it is [Nigeria](answer)
-    - I am sure it is [Papua New Guinea](answer)
-    - I am sure it is [Romania](answer)
-    - I am sure it is [Saint Vincent and the Grenadines](answer)
-    - I am sure it is [Dutch Sint Maarten](answer)
-    - I am sure it is [Sudan](answer)
-    - I am sure it is [Timor-Leste](answer)
-    - I am sure it is [Uganda](answer)
-    - I am sure it is [Vietnam](answer)
-    - I believe it's [Afghanistan](answer)
-    - I believe it's [Armenia](answer)
-    - I believe it's [Belgium](answer)
-    - I believe it's [Brazil](answer)
-    - I believe it's [The Cayman Islands](answer)
-    - I believe it's [The Congo](answer)
-    - I believe it's [Djibouti](answer)
-    - I believe it's [Ethiopia](answer)
-    - I believe it's [The Gambia](answer)
-    - I believe it's [Guatemala](answer)
-    - I believe it's [Hungary](answer)
-    - I believe it's [Jamaica](answer)
-    - I believe it's [Kyrgyzstan](answer)
-    - I believe it's [Macao](answer)
-    - I believe it's [Mauritius](answer)
-    - I believe it's [Mozambique](answer)
-    - I believe it's [Nigeria](answer)
-    - I believe it's [Papua New Guinea](answer)
-    - I believe it's [Romania](answer)
-    - I believe it's [Saint Vincent and the Grenadines](answer)
-    - I believe it's [Dutch Sint Maarten](answer)
-    - I believe it's [Sudan](answer)
-    - I believe it's [Timor-Leste](answer)
-    - I believe it's [Uganda](answer)
-    - I believe it's [Vietnam](answer)
-    - I think it is [Afghanistan](answer)
-    - I think it is [Armenia](answer)
-    - I think it is [Belgium](answer)
-    - I think it is [Brazil](answer)
-    - I think it is [The Cayman Islands](answer)
-    - I think it is [The Congo](answer)
-    - I think it is [Djibouti](answer)
-    - I think it is [Ethiopia](answer)
-    - I think it is [The Gambia](answer)
-    - I think it is [Guatemala](answer)
-    - I think it is [Hungary](answer)
-    - I think it is [Jamaica](answer)
-    - I think it is [Kyrgyzstan](answer)
-    - I think it is [Macao](answer)
-    - I think it is [Mauritius](answer)
-    - I think it is [Mozambique](answer)
-    - I think it is [Nigeria](answer)
-    - I think it is [Papua New Guinea](answer)
-    - I think it is [Romania](answer)
-    - I think it is [Saint Vincent and the Grenadines](answer)
-    - I think it is [Dutch Sint Maarten](answer)
-    - I think it is [Sudan](answer)
-    - I think it is [Timor-Leste](answer)
-    - I think it is [Uganda](answer)
-    - I think it is [Vietnam](answer)
-    - It must be [Afghanistan](answer)
-    - It must be [Armenia](answer)
-    - It must be [Belgium](answer)
-    - It must be [Brazil](answer)
-    - It must be [The Cayman Islands](answer)
-    - It must be [The Congo](answer)
-    - It must be [Djibouti](answer)
-    - It must be [Ethiopia](answer)
-    - It must be [The Gambia](answer)
-    - It must be [Guatemala](answer)
-    - It must be [Hungary](answer)
-    - It must be [Jamaica](answer)
-    - It must be [Kyrgyzstan](answer)
-    - It must be [Macao](answer)
-    - It must be [Mauritius](answer)
-    - It must be [Mozambique](answer)
-    - It must be [Nigeria](answer)
-    - It must be [Papua New Guinea](answer)
-    - It must be [Romania](answer)
-    - It must be [Saint Vincent and the Grenadines](answer)
-    - It must be [Dutch Sint Maarten](answer)
-    - It must be [Sudan](answer)
-    - It must be [Timor-Leste](answer)
-    - It must be [Uganda](answer)
-    - It must be [Vietnam](answer)
-    - It's certainly [Afghanistan](answer)
-    - It's certainly [Armenia](answer)
-    - It's certainly [Belgium](answer)
-    - It's certainly [Brazil](answer)
-    - It's certainly [The Cayman Islands](answer)
-    - It's certainly [The Congo](answer)
-    - It's certainly [Djibouti](answer)
-    - It's certainly [Ethiopia](answer)
-    - It's certainly [The Gambia](answer)
-    - It's certainly [Guatemala](answer)
-    - It's certainly [Hungary](answer)
-    - It's certainly [Jamaica](answer)
-    - It's certainly [Kyrgyzstan](answer)
-    - It's certainly [Macao](answer)
-    - It's certainly [Mauritius](answer)
-    - It's certainly [Mozambique](answer)
-    - It's certainly [Nigeria](answer)
-    - It's certainly [Papua New Guinea](answer)
-    - It's certainly [Romania](answer)
-    - It's certainly [Saint Vincent and the Grenadines](answer)
-    - It's certainly [Dutch Sint Maarten](answer)
-    - It's certainly [Sudan](answer)
-    - It's certainly [Timor-Leste](answer)
-    - It's certainly [Uganda](answer)
-    - It's certainly [Vietnam](answer)
-    - surely it is [Afghanistan](answer)
-    - surely it is [Armenia](answer)
-    - surely it is [Belgium](answer)
-    - surely it is [Brazil](answer)
-    - surely it is [The Cayman Islands](answer)
-    - surely it is [The Congo](answer)
-    - surely it is [Djibouti](answer)
-    - surely it is [Ethiopia](answer)
-    - surely it is [The Gambia](answer)
-    - surely it is [Guatemala](answer)
-    - surely it is [Hungary](answer)
-    - surely it is [Jamaica](answer)
-    - surely it is [Kyrgyzstan](answer)
-    - surely it is [Macao](answer)
-    - surely it is [Mauritius](answer)
-    - surely it is [Mozambique](answer)
-    - surely it is [Nigeria](answer)
-    - surely it is [Papua New Guinea](answer)
-    - surely it is [Romania](answer)
-    - surely it is [Saint Vincent and the Grenadines](answer)
-    - surely it is [Dutch Sint Maarten](answer)
-    - surely it is [Sudan](answer)
-    - surely it is [Timor-Leste](answer)
-    - surely it is [Uganda](answer)
-    - surely it is [Vietnam](answer)
-    - [Afghanistan](answer)
-    - [Armenia](answer)
-    - [Belgium](answer)
-    - [Brazil](answer)
-    - [The Cayman Islands](answer)
-    - [The Congo](answer)
-    - [Djibouti](answer)
-    - [Ethiopia](answer)
-    - [The Gambia](answer)
-    - [Guatemala](answer)
-    - [Hungary](answer)
-    - [Jamaica](answer)
-    - [Kyrgyzstan](answer)
-    - [Macao](answer)
-    - [Mauritius](answer)
-    - [Mozambique](answer)
-    - [Nigeria](answer)
-    - [Papua New Guinea](answer)
-    - [Romania](answer)
-    - [Saint Vincent and the Grenadines](answer)
-    - [Dutch Sint Maarten](answer)
-    - [Sudan](answer)
-    - [Timor-Leste](answer)
-    - [Uganda](answer)
-    - [Vietnam](answer)
-    - It is [option A](answer)
-    - It is [option B](answer)
-    - It is [option C](answer)
-    - It is [option D](answer)
-    - I am sure it is [option A](answer)
-    - I am sure it is [option B](answer)
-    - I am sure it is [option C](answer)
-    - I am sure it is [option D](answer)
-    - I believe it's [option A](answer)
-    - I believe it's [option B](answer)
-    - I believe it's [option C](answer)
-    - I believe it's [option D](answer)
-    - I think it is [option A](answer)
-    - I think it is [option B](answer)
-    - I think it is [option C](answer)
-    - I think it is [option D](answer)
-    - It must be [option A](answer)
-    - It must be [option B](answer)
-    - It must be [option C](answer)
-    - It must be [option D](answer)
-    - It's certainly [option A](answer)
-    - It's certainly [option B](answer)
-    - It's certainly [option C](answer)
-    - It's certainly [option D](answer)
-    - surely it is [option A](answer)
-    - surely it is [option B](answer)
-    - surely it is [option C](answer)
-    - surely it is [option D](answer)
-    - [option A](answer)
-    - [option B](answer)
-    - [option C](answer)
-    - [option D](answer)
+    - It is [Afghanistan](GPE)
+    - It is [Armenia](GPE)
+    - It is [Belgium](GPE)
+    - It is [Brazil](GPE)
+    - It is [The Cayman Islands](GPE)
+    - It is [The Congo](GPE)
+    - It is [Djibouti](GPE)
+    - It is [Ethiopia](GPE)
+    - It is [The Gambia](GPE)
+    - It is [Guatemala](GPE)
+    - It is [Hungary](GPE)
+    - It is [Jamaica](GPE)
+    - It is [Kyrgyzstan](GPE)
+    - It is [Macao](GPE)
+    - It is [Mauritius](GPE)
+    - It is [Mozambique](GPE)
+    - It is [Nigeria](GPE)
+    - It is [Papua New Guinea](GPE)
+    - It is [Romania](GPE)
+    - It is [Saint Vincent and the Grenadines](GPE)
+    - It is [Dutch Sint Maarten](GPE)
+    - It is [Sudan](GPE)
+    - It is [Timor-Leste](GPE)
+    - It is [Uganda](GPE)
+    - It is [Vietnam](GPE)
+    - It is [Albania](GPE)
+    - It is [Bahrain](GPE)
+    - It is [British Indian Ocean Territory](GPE)
+    - It is [The Cocos Keeling Islands](GPE)
+    - It is [Dominica](GPE)
+    - It is [French Guiana](GPE)
+    - It is [Guernsey](GPE)
+    - It is [Ireland](GPE)
+    - It is [Lao People's Democratic Republic](GPE)
+    - It is [Malta](GPE)
+    - It is [Myanmar](GPE)
+    - It is [Pakistan](GPE)
+    - It is [Russia](GPE)
+    - It is [Serbia](GPE)
+    - It is [Suriname](GPE)
+    - It is [Turkey](GPE)
+    - It is [British Virgin Islands](GPE)
+    - I am sure it is [Afghanistan](GPE)
+    - I am sure it is [Armenia](GPE)
+    - I am sure it is [Belgium](GPE)
+    - I am sure it is [Brazil](GPE)
+    - I am sure it is [The Cayman Islands](GPE)
+    - I am sure it is [The Congo](GPE)
+    - I am sure it is [Djibouti](GPE)
+    - I am sure it is [Ethiopia](GPE)
+    - I am sure it is [The Gambia](GPE)
+    - I am sure it is [Guatemala](GPE)
+    - I am sure it is [Hungary](GPE)
+    - I am sure it is [Jamaica](GPE)
+    - I am sure it is [Kyrgyzstan](GPE)
+    - I am sure it is [Macao](GPE)
+    - I am sure it is [Mauritius](GPE)
+    - I am sure it is [Mozambique](GPE)
+    - I am sure it is [Nigeria](GPE)
+    - I am sure it is [Papua New Guinea](GPE)
+    - I am sure it is [Romania](GPE)
+    - I am sure it is [Saint Vincent and the Grenadines](GPE)
+    - I am sure it is [Dutch Sint Maarten](GPE)
+    - I am sure it is [Sudan](GPE)
+    - I am sure it is [Timor-Leste](GPE)
+    - I am sure it is [Uganda](GPE)
+    - I am sure it is [Vietnam](GPE)
+    - I believe it's [Afghanistan](GPE)
+    - I believe it's [Armenia](GPE)
+    - I believe it's [Belgium](GPE)
+    - I believe it's [Brazil](GPE)
+    - I believe it's [The Cayman Islands](GPE)
+    - I believe it's [The Congo](GPE)
+    - I believe it's [Djibouti](GPE)
+    - I believe it's [Ethiopia](GPE)
+    - I believe it's [The Gambia](GPE)
+    - I believe it's [Guatemala](GPE)
+    - I believe it's [Hungary](GPE)
+    - I believe it's [Jamaica](GPE)
+    - I believe it's [Kyrgyzstan](GPE)
+    - I believe it's [Macao](GPE)
+    - I believe it's [Mauritius](GPE)
+    - I believe it's [Mozambique](GPE)
+    - I believe it's [Nigeria](GPE)
+    - I believe it's [Papua New Guinea](GPE)
+    - I believe it's [Romania](GPE)
+    - I believe it's [Saint Vincent and the Grenadines](GPE)
+    - I believe it's [Dutch Sint Maarten](GPE)
+    - I believe it's [Sudan](GPE)
+    - I believe it's [Timor-Leste](GPE)
+    - I believe it's [Uganda](GPE)
+    - I believe it's [Vietnam](GPE)
+    - I think it is [Afghanistan](GPE)
+    - I think it is [Armenia](GPE)
+    - I think it is [Belgium](GPE)
+    - I think it is [Brazil](GPE)
+    - I think it is [The Cayman Islands](GPE)
+    - I think it is [The Congo](GPE)
+    - I think it is [Djibouti](GPE)
+    - I think it is [Ethiopia](GPE)
+    - I think it is [The Gambia](GPE)
+    - I think it is [Guatemala](GPE)
+    - I think it is [Hungary](GPE)
+    - I think it is [Jamaica](GPE)
+    - I think it is [Kyrgyzstan](GPE)
+    - I think it is [Macao](GPE)
+    - I think it is [Mauritius](GPE)
+    - I think it is [Mozambique](GPE)
+    - I think it is [Nigeria](GPE)
+    - I think it is [Papua New Guinea](GPE)
+    - I think it is [Romania](GPE)
+    - I think it is [Saint Vincent and the Grenadines](GPE)
+    - I think it is [Dutch Sint Maarten](GPE)
+    - I think it is [Sudan](GPE)
+    - I think it is [Timor-Leste](GPE)
+    - I think it is [Uganda](GPE)
+    - I think it is [Vietnam](GPE)
+    - It must be [Afghanistan](GPE)
+    - It must be [Armenia](GPE)
+    - It must be [Belgium](GPE)
+    - It must be [Brazil](GPE)
+    - It must be [The Cayman Islands](GPE)
+    - It must be [The Congo](GPE)
+    - It must be [Djibouti](GPE)
+    - It must be [Ethiopia](GPE)
+    - It must be [The Gambia](GPE)
+    - It must be [Guatemala](GPE)
+    - It must be [Hungary](GPE)
+    - It must be [Jamaica](GPE)
+    - It must be [Kyrgyzstan](GPE)
+    - It must be [Macao](GPE)
+    - It must be [Mauritius](GPE)
+    - It must be [Mozambique](GPE)
+    - It must be [Nigeria](GPE)
+    - It must be [Papua New Guinea](GPE)
+    - It must be [Romania](GPE)
+    - It must be [Saint Vincent and the Grenadines](GPE)
+    - It must be [Dutch Sint Maarten](GPE)
+    - It must be [Sudan](GPE)
+    - It must be [Timor-Leste](GPE)
+    - It must be [Uganda](GPE)
+    - It must be [Vietnam](GPE)
+    - It's certainly [Afghanistan](GPE)
+    - It's certainly [Armenia](GPE)
+    - It's certainly [Belgium](GPE)
+    - It's certainly [Brazil](GPE)
+    - It's certainly [The Cayman Islands](GPE)
+    - It's certainly [The Congo](GPE)
+    - It's certainly [Djibouti](GPE)
+    - It's certainly [Ethiopia](GPE)
+    - It's certainly [The Gambia](GPE)
+    - It's certainly [Guatemala](GPE)
+    - It's certainly [Hungary](GPE)
+    - It's certainly [Jamaica](GPE)
+    - It's certainly [Kyrgyzstan](GPE)
+    - It's certainly [Macao](GPE)
+    - It's certainly [Mauritius](GPE)
+    - It's certainly [Mozambique](GPE)
+    - It's certainly [Nigeria](GPE)
+    - It's certainly [Papua New Guinea](GPE)
+    - It's certainly [Romania](GPE)
+    - It's certainly [Saint Vincent and the Grenadines](GPE)
+    - It's certainly [Dutch Sint Maarten](GPE)
+    - It's certainly [Sudan](GPE)
+    - It's certainly [Timor-Leste](GPE)
+    - It's certainly [Uganda](GPE)
+    - It's certainly [Vietnam](GPE)
+    - surely it is [Afghanistan](GPE)
+    - surely it is [Armenia](GPE)
+    - surely it is [Belgium](GPE)
+    - surely it is [Brazil](GPE)
+    - surely it is [The Cayman Islands](GPE)
+    - surely it is [The Congo](GPE)
+    - surely it is [Djibouti](GPE)
+    - surely it is [Ethiopia](GPE)
+    - surely it is [The Gambia](GPE)
+    - surely it is [Guatemala](GPE)
+    - surely it is [Hungary](GPE)
+    - surely it is [Jamaica](GPE)
+    - surely it is [Kyrgyzstan](GPE)
+    - surely it is [Macao](GPE)
+    - surely it is [Mauritius](GPE)
+    - surely it is [Mozambique](GPE)
+    - surely it is [Nigeria](GPE)
+    - surely it is [Papua New Guinea](GPE)
+    - surely it is [Romania](GPE)
+    - surely it is [Saint Vincent and the Grenadines](GPE)
+    - surely it is [Dutch Sint Maarten](GPE)
+    - surely it is [Sudan](GPE)
+    - surely it is [Timor-Leste](GPE)
+    - surely it is [Uganda](GPE)
+    - surely it is [Vietnam](GPE)
+    - [Afghanistan](GPE)
+    - [Armenia](GPE)
+    - [Belgium](GPE)
+    - [Brazil](GPE)
+    - [The Cayman Islands](GPE)
+    - [The Congo](GPE)
+    - [Djibouti](GPE)
+    - [Ethiopia](GPE)
+    - [The Gambia](GPE)
+    - [Guatemala](GPE)
+    - [Hungary](GPE)
+    - [Jamaica](GPE)
+    - [Kyrgyzstan](GPE)
+    - [Macao](GPE)
+    - [Mauritius](GPE)
+    - [Mozambique](GPE)
+    - [Nigeria](GPE)
+    - [Papua New Guinea](GPE)
+    - [Romania](GPE)
+    - [Saint Vincent and the Grenadines](GPE)
+    - [Dutch Sint Maarten](GPE)
+    - [Sudan](GPE)
+    - [Timor-Leste](GPE)
+    - [Uganda](GPE)
+    - [Vietnam](GPE)
+    - It is [option A](GPE)
+    - It is [option B](GPE)
+    - It is [option C](GPE)
+    - It is [option D](GPE)
+    - I am sure it is [option A](GPE)
+    - I am sure it is [option B](GPE)
+    - I am sure it is [option C](GPE)
+    - I am sure it is [option D](GPE)
+    - I believe it's [option A](GPE)
+    - I believe it's [option B](GPE)
+    - I believe it's [option C](GPE)
+    - I believe it's [option D](GPE)
+    - I think it is [option A](GPE)
+    - I think it is [option B](GPE)
+    - I think it is [option C](GPE)
+    - I think it is [option D](GPE)
+    - It must be [option A](GPE)
+    - It must be [option B](GPE)
+    - It must be [option C](GPE)
+    - It must be [option D](GPE)
+    - It's certainly [option A](GPE)
+    - It's certainly [option B](GPE)
+    - It's certainly [option C](GPE)
+    - It's certainly [option D](GPE)
+    - surely it is [option A](GPE)
+    - surely it is [option B](GPE)
+    - surely it is [option C](GPE)
+    - surely it is [option D](GPE)
+    - [option A](GPE)
+    - [option B](GPE)
+    - [option C](GPE)
+    - [option D](GPE)
 
-    - SoI would maybe go with [American Samoa](answer)
-    - I am quite sure this is [Antigua and Barbuda](answer)
-    - By process of elimination makes me feel like it's [The Bahamas](answer). [Bosnia and Herzegovina](answer) has blue and red
-    - I go for [Bosnia and Herzegovina](answer)
-    - I don't know though it feels like a 50 50 split between [Bouvet Island](answer) and [British Indian Ocean Territory](answer). I feel like it's [Brunei Darussalam](answer)
-    - [British Indian Ocean Territory](answer) ohh sorry [Brunei Darussalam](answer) rather
-    - [Brunei Darussalam](answer) maybe?
-    - i am happy to go with [Burkina Faso](answer) and live with the choice
-    - yeah, [Cabo Verde](answer)
-    - Sobased on my African theory earlier, I'm compelled to go with [The Cayman Islands](answer)
-    - I feel like it's not [The Central African Republic](answer), so I maybe go [Christmas Island](answer) them
-    - It's not [Christmas Island](answer), so I'm thinking it's [The Cocos Keeling Islands](answer)
-    - Yeah, let's go [The Cocos Keeling Islands](answer)
-    - SoI would maybe go with [The Democratic Republic of The Congo](answer)
-    - I am quite sure this is [The Congo](answer)
-    - By process of elimination makes me feel like it's [Cook Islands](answer). [Bosnia and Herzegovina](answer) has blue and red
-    - I go for [Costa Rica](answer)
-    - I don't know though it feels like a 50 50 split between [Cote d'Ivoire](answer) and [British Indian Ocean Territory](answer). I feel like it's [Brunei Darussalam](answer)
-    - [The Dominican Republic](answer) ohh sorry [Brunei Darussalam](answer) rather
-    - [Equatorial Guinea](answer) maybe?
-    - i am happy to go with [Falkland Islands](answer) and live with the choice
-    - yeah, [Faroe Islands](answer)
-    - Sobased on my African theory earlier, I'm compelled to go with [French Guiana](answer)
-    - I feel like it's not [French Polynesia](answer), so I maybe go [Christmas Island](answer) them
-    - It's not [French Southern Territories](answer), so I'm thinking it's [The Cocos Keeling Islands](answer)
-    - Yeah, let's go [The Gambia](answer)
-    - SoI would maybe go with [Heard Island and McDonald Islands](answer)
-    - I am quite sure this is [The Holy See](answer)
-    - By process of elimination makes me feel like it's [Hong Kong](answer). [Bosnia and Herzegovina](answer) has blue and red
-    - I go for [Isle of Man](answer)
-    - I don't know though it feels like a 50 50 split between [North Korea](answer) and [British Indian Ocean Territory](answer). I feel like it's [Brunei Darussalam](answer)
-    - [The Republic of Korea](answer) ohh sorry [Brunei Darussalam](answer) rather
-    - [Lao People's Democratic Republic](answer) maybe?
-    - i am happy to go with [Marshall Islands](answer) and live with the choice
-    - yeah, [The Netherlands](answer)
-    - Sobased on my African theory earlier, I'm compelled to go with [New Caledonia](answer)
-    - I feel like it's not [New Zealand](answer), so I maybe go [Christmas Island](answer) them
-    - It's not [The Niger](answer), so I'm thinking it's [The Cocos Keeling Islands](answer)
-    - Yeah, let's go [Norfolk Island](answer)
-    - SoI would maybe go with [Northern Mariana Islands](answer)
-    - I am quite sure this is [Papua New Guinea](answer)
-    - By process of elimination makes me feel like it's [The Philippines](answer). [Bosnia and Herzegovina](answer) has blue and red
-    - I go for [Puerto Rico](answer)
-    - I don't know though it feels like a 50 50 split between [Republic of North Macedonia](answer) and [British Indian Ocean Territory](answer). I feel like it's [Brunei Darussalam](answer)
-    - [Saint Barthelemy](answer) ohh sorry [Brunei Darussalam](answer) rather
-    - [Saint Helena Ascension and Tristanda Cunha](answer) maybe?
-    - i am happy to go with [Saint Kitts and Nevis](answer) and live with the choice
-    - yeah, [Saint Lucia](answer)
-    - Sobased on my African theory earlier, I'm compelled to go with [French Saint Martin](answer)
-    - I feel like it's not [Saint Pierre and Miquelon](answer), so I maybe go [Christmas Island](answer) them
-    - It's not [Saint Vincent and the Grenadines](answer), so I'm thinking it's [The Cocos Keeling Islands](answer)
-    - Yeah, let's go [San Marino](answer)
-    - SoI would maybe go with [Sao Tome and Principe](answer)
-    - I am quite sure this is [Saudi Arabia](answer)
-    - By process of elimination makes me feel like it's [Sierra Leone](answer). [Bosnia and Herzegovina](answer) has blue and red
-    - I go for [Dutch Sint Maarten](answer)
-    - I don't know though it feels like a 50 50 split between [Solomon Islands](answer) and [British Indian Ocean Territory](answer). I feel like it's [Brunei Darussalam](answer)
-    - [South Africa](answer) ohh sorry [Brunei Darussalam](answer) rather
-    - [South Georgia and the South Sandwich Islands](answer) maybe?
-    - i am happy to go with [South Sudan](answer) and live with the choice
-    - yeah, [Sri Lanka](answer)
-    - Sobased on my African theory earlier, I'm compelled to go with [Svalbardand Jan Mayen](answer)
-    - I feel like it's not [Syrian Arab Republic](answer), so I maybe go [Christmas Island](answer) them
-    - It's not [United Republic of Tanzania](answer), so I'm thinking it's [The Cocos Keeling Islands](answer)
-    - Yeah, let's go [Trinidad and Tobago](answer)
-    - SoI would maybe go with [Turks and Caicos Islands](answer)
-    - I am quite sure this is [The United Arab Emirates](answer)
-    - By process of elimination makes me feel like it's [United Kingdom](answer). [Bosnia and Herzegovina](answer) has blue and red
-    - I go for [United States Minor Outlying Islands](answer)
-    - I don't know though it feels like a 50 50 split between [United States of America](answer) and [British Indian Ocean Territory](answer). I feel like it's [Brunei Darussalam](answer)
-    - [British Virgin Islands](answer) ohh sorry [Brunei Darussalam](answer) rather
-    - [US Virgin Islands](answer) maybe?
-    - i am happy to go with [Wallis and Futuna](answer) and live with the choice
-    - yeah, [Western Sahara](answer)
-    - So based on my African theory earlier, I'm compelled to go with [Aland Islands](answer)
+    - So I would maybe go with [American Samoa](GPE)
+    - I am quite sure this is [Antigua and Barbuda](GPE)
+    - By process of elimination makes me feel like it's [The Bahamas](GPE). [Bosnia and Herzegovina](GPE) has blue and red
+    - I go for [Bosnia and Herzegovina](GPE)
+    - I don't know though it feels like a 50 50 split between [Bouvet Island](GPE) and [British Indian Ocean Territory](GPE). I feel like it's [Brunei Darussalam](GPE)
+    - [British Indian Ocean Territory](GPE) ohh sorry [Brunei Darussalam](GPE) rather
+    - [Brunei Darussalam](GPE) maybe?
+    - i am happy to go with [Burkina Faso](GPE) and live with the choice
+    - yeah, [Cabo Verde](GPE)
+    - Sobased on my African theory earlier, I'm compelled to go with [The Cayman Islands](GPE)
+    - I feel like it's not [The Central African Republic](GPE), so I maybe go [Christmas Island](GPE) them
+    - It's not [Christmas Island](GPE), so I'm thinking it's [The Cocos Keeling Islands](GPE)
+    - Yeah, let's go [The Cocos Keeling Islands](GPE)
+    - So I would maybe go with [The Democratic Republic of The Congo](GPE)
+    - I am quite sure this is [The Congo](GPE)
+    - By process of elimination makes me feel like it's [Cook Islands](GPE). [Bosnia and Herzegovina](GPE) has blue and red
+    - I go for [Costa Rica](GPE)
+    - I don't know though it feels like a 50 50 split between [Cote d'Ivoire](GPE) and [British Indian Ocean Territory](GPE). I feel like it's [Brunei Darussalam](GPE)
+    - [The Dominican Republic](GPE) ohh sorry [Brunei Darussalam](GPE) rather
+    - [Equatorial Guinea](GPE) maybe?
+    - i am happy to go with [Falkland Islands](GPE) and live with the choice
+    - yeah, [Faroe Islands](GPE)
+    - Sobased on my African theory earlier, I'm compelled to go with [French Guiana](GPE)
+    - I feel like it's not [French Polynesia](GPE), so I maybe go [Christmas Island](GPE) them
+    - It's not [French Southern Territories](GPE), so I'm thinking it's [The Cocos Keeling Islands](GPE)
+    - Yeah, let's go [The Gambia](GPE)
+    - So I would maybe go with [Heard Island and McDonald Islands](GPE)
+    - I am quite sure this is [The Holy See](GPE)
+    - By process of elimination makes me feel like it's [Hong Kong](GPE). [Bosnia and Herzegovina](GPE) has blue and red
+    - I go for [Isle of Man](GPE)
+    - I don't know though it feels like a 50 50 split between [North Korea](GPE) and [British Indian Ocean Territory](GPE). I feel like it's [Brunei Darussalam](GPE)
+    - [The Republic of Korea](GPE) ohh sorry [Brunei Darussalam](GPE) rather
+    - [Lao People's Democratic Republic](GPE) maybe?
+    - i am happy to go with [Marshall Islands](GPE) and live with the choice
+    - yeah, [The Netherlands](GPE)
+    - Sobased on my African theory earlier, I'm compelled to go with [New Caledonia](GPE)
+    - I feel like it's not [New Zealand](GPE), so I maybe go [Christmas Island](GPE) them
+    - It's not [The Niger](GPE), so I'm thinking it's [The Cocos Keeling Islands](GPE)
+    - Yeah, let's go [Norfolk Island](GPE)
+    - So I would maybe go with [Northern Mariana Islands](GPE)
+    - I am quite sure this is [Papua New Guinea](GPE)
+    - By process of elimination makes me feel like it's [The Philippines](GPE). [Bosnia and Herzegovina](GPE) has blue and red
+    - I go for [Puerto Rico](GPE)
+    - I don't know though it feels like a 50 50 split between [Republic of North Macedonia](GPE) and [British Indian Ocean Territory](GPE). I feel like it's [Brunei Darussalam](GPE)
+    - [Saint Barthelemy](GPE) ohh sorry [Brunei Darussalam](GPE) rather
+    - [Saint Helena Ascension and Tristanda Cunha](GPE) maybe?
+    - i am happy to go with [Saint Kitts and Nevis](GPE) and live with the choice
+    - yeah, [Saint Lucia](GPE)
+    - Sobased on my African theory earlier, I'm compelled to go with [French Saint Martin](GPE)
+    - I feel like it's not [Saint Pierre and Miquelon](GPE), so I maybe go [Christmas Island](GPE) them
+    - It's not [Saint Vincent and the Grenadines](GPE), so I'm thinking it's [The Cocos Keeling Islands](GPE)
+    - Yeah, let's go [San Marino](GPE)
+    - So I would maybe go with [Sao Tome and Principe](GPE)
+    - I am quite sure this is [Saudi Arabia](GPE)
+    - By process of elimination makes me feel like it's [Sierra Leone](GPE). [Bosnia and Herzegovina](GPE) has blue and red
+    - I go for [Dutch Sint Maarten](GPE)
+    - I don't know though it feels like a 50 50 split between [Solomon Islands](GPE) and [British Indian Ocean Territory](GPE). I feel like it's [Brunei Darussalam](GPE)
+    - [South Africa](GPE) ohh sorry [Brunei Darussalam](GPE) rather
+    - [South Georgia and the South Sandwich Islands](GPE) maybe?
+    - i am happy to go with [South Sudan](GPE) and live with the choice
+    - yeah, [Sri Lanka](GPE)
+    - Sobased on my African theory earlier, I'm compelled to go with [Svalbardand Jan Mayen](GPE)
+    - I feel like it's not [Syrian Arab Republic](GPE), so I maybe go [Christmas Island](GPE) them
+    - It's not [United Republic of Tanzania](GPE), so I'm thinking it's [The Cocos Keeling Islands](GPE)
+    - Yeah, let's go [Trinidad and Tobago](GPE)
+    - So I would maybe go with [Turks and Caicos Islands](GPE)
+    - I am quite sure this is [The United Arab Emirates](GPE)
+    - By process of elimination makes me feel like it's [United Kingdom](GPE). [Bosnia and Herzegovina](GPE) has blue and red
+    - I go for [United States Minor Outlying Islands](GPE)
+    - I don't know though it feels like a 50 50 split between [United States of America](GPE) and [British Indian Ocean Territory](GPE). I feel like it's [Brunei Darussalam](GPE)
+    - [British Virgin Islands](GPE) ohh sorry [Brunei Darussalam](GPE) rather
+    - [US Virgin Islands](GPE) maybe?
+    - i am happy to go with [Wallis and Futuna](GPE) and live with the choice
+    - yeah, [Western Sahara](GPE)
+    - So based on my African theory earlier, I'm compelled to go with [Aland Islands](GPE)
 
-    - Definitely [Albania](answer) 
-    - Definitely [Bahrain](answer) 
-    - Definitely [British Indian Ocean Territory](answer) 
-    - Definitely [The Cocos Keeling Islands](answer) 
-    - Definitely [Dominica](answer) 
-    - Definitely [French Guiana](answer) 
-    - Definitely [Guernsey](answer) 
-    - Definitely [Ireland](answer) 
-    - Definitely [Lao People's Democratic Republic](answer) 
-    - Definitely [Malta](answer) 
-    - Definitely [Myanmar](answer) 
-    - Definitely [Pakistan](answer) 
-    - Definitely [Russia](answer) 
-    - Definitely [Serbia](answer) 
-    - Definitely [Suriname](answer) 
-    - Definitely [Turkey](answer) 
-    - Definitely [British Virgin Islands](answer) 
+    - Definitely [Albania](GPE) 
+    - Definitely [Bahrain](GPE) 
+    - Definitely [British Indian Ocean Territory](GPE) 
+    - Definitely [The Cocos Keeling Islands](GPE) 
+    - Definitely [Dominica](GPE) 
+    - Definitely [French Guiana](GPE) 
+    - Definitely [Guernsey](GPE) 
+    - Definitely [Ireland](GPE) 
+    - Definitely [Lao People's Democratic Republic](GPE) 
+    - Definitely [Malta](GPE) 
+    - Definitely [Myanmar](GPE) 
+    - Definitely [Pakistan](GPE) 
+    - Definitely [Russia](GPE) 
+    - Definitely [Serbia](GPE) 
+    - Definitely [Suriname](GPE) 
+    - Definitely [Turkey](GPE) 
+    - Definitely [British Virgin Islands](GPE) 
 
 
 
-- lookup: answer
-  examples: |
-    - Afghanistan
-    - Albania
-    - Algeria
-    - American Samoa
-    - Andorra
-    - Angola
-    - Anguilla
-    - Antarctica
-    - Antigua and Barbuda
-    - Argentina
-    - Armenia
-    - Aruba
-    - Australia
-    - Austria
-    - Azerbaijan
-    - The Bahamas
-    - Bahrain
-    - Bangladesh
-    - Barbados
-    - Belarus
-    - Belgium
-    - Belize
-    - Benin
-    - Bermuda
-    - Bhutan
-    - Bolivia
-    - Bonaire
-    - Bosnia and Herzegovina
-    - Botswana
-    - Bouvet Island
-    - Brazil
-    - British Indian Ocean Territory
-    - Brunei Darussalam
-    - Bulgaria
-    - Burkina Faso
-    - Burundi
-    - Cabo Verde
-    - Cambodia
-    - Cameroon
-    - Canada
-    - The Cayman Islands
-    - The Central African Republic
-    - Chad
-    - Chile
-    - China
-    - Christmas Island
-    - The Cocos Keeling Islands
-    - Colombia
-    - Comoros
-    - The Democratic Republic of The Congo
-    - The Congo
-    - Cook Islands
-    - Costa Rica
-    - Croatia
-    - Cuba
-    - Curacao
-    - Cyprus
-    - Czechia
-    - Cote d'Ivoire
-    - Denmark
-    - Djibouti
-    - Dominica
-    - The Dominican Republic
-    - Ecuador
-    - Egypt
-    - ElSalvador
-    - Equatorial Guinea
-    - Eritrea
-    - Estonia
-    - Eswatini
-    - Ethiopia
-    - Falkland Islands
-    - Faroe Islands
-    - Fiji
-    - Finland
-    - France
-    - French Guiana
-    - French Polynesia
-    - French Southern Territories
-    - Gabon
-    - The Gambia
-    - Georgia
-    - Germany
-    - Ghana
-    - Gibraltar
-    - Greece
-    - Greenland
-    - Grenada
-    - Guadeloupe
-    - Guam
-    - Guatemala
-    - Guernsey
-    - Guinea
-    - Guinea-Bissau
-    - Guyana
-    - Haiti
-    - Heard Island and McDonald Islands
-    - The Holy See
-    - Honduras
-    - Hong Kong
-    - Hungary
-    - Iceland
-    - India
-    - Indonesia
-    - Iran
-    - Iraq
-    - Ireland
-    - Isle of Man
-    - Israel
-    - Italy
-    - Jamaica
-    - Japan
-    - Jersey
-    - Jordan
-    - Kazakhstan
-    - Kenya
-    - Kiribati
-    - North Korea
-    - The Republic of Korea
-    - Kuwait
-    - Kyrgyzstan
-    - Lao People's Democratic Republic
-    - Latvia
-    - Lebanon
-    - Lesotho
-    - Liberia
-    - Libya
-    - Liechtenstein
-    - Lithuania
-    - Luxembourg
-    - Macao
-    - Madagascar
-    - Malawi
-    - Malaysia
-    - Maldives
-    - Mali
-    - Malta
-    - Marshall Islands
-    - Martinique
-    - Mauritania
-    - Mauritius
-    - Mayotte
-    - Mexico
-    - Micronesia
-    - Moldova
-    - Monaco
-    - Mongolia
-    - Montenegro
-    - Montserrat
-    - Morocco
-    - Mozambique
-    - Myanmar
-    - Namibia
-    - Nauru
-    - Nepal
-    - The Netherlands
-    - New Caledonia
-    - New Zealand
-    - Nicaragua
-    - The Niger
-    - Nigeria
-    - Niue
-    - Norfolk Island
-    - Northern Mariana Islands
-    - Norway
-    - Oman
-    - Pakistan
-    - Palau
-    - Palestine
-    - Panama
-    - Papua New Guinea
-    - Paraguay
-    - Peru
-    - The Philippines
-    - Pitcairn
-    - Poland
-    - Portugal
-    - Puerto Rico
-    - Qatar
-    - Republic of North Macedonia
-    - Romania
-    - Russia
-    - Rwanda
-    - Reunion
-    - Saint Barthelemy
-    - Saint Helena Ascension and Tristanda Cunha
-    - Saint Kitts and Nevis
-    - Saint Lucia
-    - French Saint Martin
-    - Saint Pierre and Miquelon
-    - Saint Vincent and the Grenadines
-    - Samoa
-    - San Marino
-    - Sao Tome and Principe
-    - Saudi Arabia
-    - Senegal
-    - Serbia
-    - Seychelles
-    - Sierra Leone
-    - Singapore
-    - Dutch Sint Maarten
-    - Slovakia
-    - Slovenia
-    - Solomon Islands
-    - Somalia
-    - South Africa
-    - South Georgia and the South Sandwich Islands
-    - South Sudan
-    - Spain
-    - Sri Lanka
-    - Sudan
-    - Suriname
-    - Svalbardand Jan Mayen
-    - Sweden
-    - Switzerland
-    - Syrian Arab Republic
-    - Taiwan
-    - Tajikistan
-    - United Republic of Tanzania
-    - Thailand
-    - Timor-Leste
-    - Togo
-    - Tokelau
-    - Tonga
-    - Trinidad and Tobago
-    - Tunisia
-    - Turkey
-    - Turkmenistan
-    - Turks and Caicos Islands
-    - Tuvalu
-    - Uganda
-    - Ukraine
-    - The United Arab Emirates
-    - United Kingdom
-    - United States Minor Outlying Islands
-    - United States of America
-    - Uruguay
-    - Uzbekistan
-    - Vanuatu
-    - Venezuela
-    - Vietnam
-    - British Virgin Islands
-    - US Virgin Islands
-    - Wallis and Futuna
-    - Western Sahara
-    - Yemen
-    - Zambia
-    - Zimbabwe
-    - Aland Islands
+#- lookup: answer
+#  examples: |
+#    - Afghanistan
+#    - Albania
+#    - Algeria
+#    - American Samoa
+#    - Andorra
+#    - Angola
+#    - Anguilla
+#    - Antarctica
+#    - Antigua and Barbuda
+#    - Argentina
+#    - Armenia
+#    - Aruba
+#    - Australia
+#    - Austria
+#    - Azerbaijan
+#    - The Bahamas
+#    - Bahrain
+#    - Bangladesh
+#    - Barbados
+#    - Belarus
+#    - Belgium
+#    - Belize
+#    - Benin
+#    - Bermuda
+#    - Bhutan
+#    - Bolivia
+#    - Bonaire
+#    - Bosnia and Herzegovina
+#    - Botswana
+#    - Bouvet Island
+#    - Brazil
+#    - British Indian Ocean Territory
+#    - Brunei Darussalam
+#    - Bulgaria
+#    - Burkina Faso
+#    - Burundi
+#    - Cabo Verde
+#    - Cambodia
+#    - Cameroon
+#    - Canada
+#    - The Cayman Islands
+#    - The Central African Republic
+#    - Chad
+#    - Chile
+#    - China
+#    - Christmas Island
+#    - The Cocos Keeling Islands
+#    - Colombia
+#    - Comoros
+#    - The Democratic Republic of The Congo
+#    - The Congo
+#    - Cook Islands
+#    - Costa Rica
+#    - Croatia
+#    - Cuba
+#    - Curacao
+#    - Cyprus
+#    - Czechia
+#    - Cote d'Ivoire
+#    - Denmark
+#    - Djibouti
+#    - Dominica
+#    - The Dominican Republic
+#    - Ecuador
+#    - Egypt
+#    - ElSalvador
+#    - Equatorial Guinea
+#    - Eritrea
+#    - Estonia
+#    - Eswatini
+#    - Ethiopia
+#    - Falkland Islands
+#    - Faroe Islands
+#    - Fiji
+#    - Finland
+#    - France
+#    - French Guiana
+#    - French Polynesia
+#    - French Southern Territories
+#    - Gabon
+#    - The Gambia
+#    - Georgia
+#    - Germany
+#    - Ghana
+#    - Gibraltar
+#    - Greece
+#    - Greenland
+#    - Grenada
+#    - Guadeloupe
+#    - Guam
+#    - Guatemala
+#    - Guernsey
+#    - Guinea
+#    - Guinea-Bissau
+#    - Guyana
+#    - Haiti
+#    - Heard Island and McDonald Islands
+#    - The Holy See
+#    - Honduras
+#    - Hong Kong
+#    - Hungary
+#    - Iceland
+#    - India
+#    - Indonesia
+#    - Iran
+#    - Iraq
+#    - Ireland
+#    - Isle of Man
+#    - Israel
+#    - Italy
+#    - Jamaica
+#    - Japan
+#    - Jersey
+#    - Jordan
+#    - Kazakhstan
+#    - Kenya
+#    - Kiribati
+#    - North Korea
+#    - The Republic of Korea
+#    - Kuwait
+#    - Kyrgyzstan
+#    - Lao People's Democratic Republic
+#    - Latvia
+#    - Lebanon
+#    - Lesotho
+#    - Liberia
+#    - Libya
+#    - Liechtenstein
+#    - Lithuania
+#    - Luxembourg
+#    - Macao
+#    - Madagascar
+#    - Malawi
+#    - Malaysia
+#    - Maldives
+#    - Mali
+#    - Malta
+#    - Marshall Islands
+#    - Martinique
+#    - Mauritania
+#    - Mauritius
+#    - Mayotte
+#    - Mexico
+#    - Micronesia
+#    - Moldova
+#    - Monaco
+#    - Mongolia
+#    - Montenegro
+#    - Montserrat
+#    - Morocco
+#    - Mozambique
+#    - Myanmar
+#    - Namibia
+#    - Nauru
+#    - Nepal
+#    - The Netherlands
+#    - New Caledonia
+#    - New Zealand
+#    - Nicaragua
+#    - The Niger
+#    - Nigeria
+#    - Niue
+#    - Norfolk Island
+#    - Northern Mariana Islands
+#    - Norway
+#    - Oman
+#    - Pakistan
+#    - Palau
+#    - Palestine
+#    - Panama
+#    - Papua New Guinea
+#    - Paraguay
+#    - Peru
+#    - The Philippines
+#    - Pitcairn
+#    - Poland
+#    - Portugal
+#    - Puerto Rico
+#    - Qatar
+#    - Republic of North Macedonia
+#    - Romania
+#    - Russia
+#    - Rwanda
+#    - Reunion
+#    - Saint Barthelemy
+#    - Saint Helena Ascension and Tristanda Cunha
+#    - Saint Kitts and Nevis
+#    - Saint Lucia
+#    - French Saint Martin
+#    - Saint Pierre and Miquelon
+#    - Saint Vincent and the Grenadines
+#    - Samoa
+#    - San Marino
+#    - Sao Tome and Principe
+#    - Saudi Arabia
+#    - Senegal
+#    - Serbia
+#    - Seychelles
+#    - Sierra Leone
+#    - Singapore
+#    - Dutch Sint Maarten
+#    - Slovakia
+#    - Slovenia
+#    - Solomon Islands
+#    - Somalia
+#    - South Africa
+#    - South Georgia and the South Sandwich Islands
+#    - South Sudan
+#    - Spain
+#    - Sri Lanka
+#    - Sudan
+#    - Suriname
+#    - Svalbardand Jan Mayen
+#    - Sweden
+#    - Switzerland
+#    - Syrian Arab Republic
+#    - Taiwan
+#    - Tajikistan
+#    - United Republic of Tanzania
+#    - Thailand
+#    - Timor-Leste
+#    - Togo
+#    - Tokelau
+#    - Tonga
+#    - Trinidad and Tobago
+#    - Tunisia
+#    - Turkey
+#    - Turkmenistan
+#    - Turks and Caicos Islands
+#    - Tuvalu
+#    - Uganda
+#    - Ukraine
+#    - The United Arab Emirates
+#    - United Kingdom
+#    - United States Minor Outlying Islands
+#    - United States of America
+#    - Uruguay
+#    - Uzbekistan
+#    - Vanuatu
+#    - Venezuela
+#    - Vietnam
+#    - British Virgin Islands
+#    - US Virgin Islands
+#    - Wallis and Futuna
+#    - Western Sahara
+#    - Yemen
+#    - Zambia
+#    - Zimbabwe
+#    - Aland Islands
 
 
 #- regex: answer
