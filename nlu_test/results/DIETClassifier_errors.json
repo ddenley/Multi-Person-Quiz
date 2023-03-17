@@ -1,154 +1,135 @@
 [
   {
-    "text": "And Guyana is somewhere north of Australia",
+    "text": "This has to be Australia, where I would be confused was if New Zealand was here as well then I wouldn't know what it was, but I think it's Australia since New Zealand is not here",
     "entities": [
       {
-        "start": 4,
-        "end": 10,
-        "value": "Guyana",
+        "start": 15,
+        "end": 24,
+        "value": "Australia",
         "entity": "GPE"
       },
       {
-        "start": 33,
-        "end": 42,
+        "start": 59,
+        "end": 70,
+        "value": "New Zealand",
+        "entity": "GPE"
+      },
+      {
+        "start": 139,
+        "end": 148,
         "value": "Australia",
+        "entity": "GPE"
+      },
+      {
+        "start": 155,
+        "end": 166,
+        "value": "New Zealand",
         "entity": "GPE"
       }
     ],
     "predicted_entities": [
       {
         "entity": "GPE",
-        "start": 33,
-        "end": 42,
-        "confidence_entity": 0.9999730587005615,
+        "start": 15,
+        "end": 24,
+        "confidence_entity": 0.999996542930603,
         "value": "Australia",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "GPE",
+        "start": 59,
+        "end": 70,
+        "confidence_entity": 0.9999934434890747,
+        "value": "New Zealand",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "GPE",
+        "start": 139,
+        "end": 154,
+        "confidence_entity": 0.8236607909202576,
+        "value": "Australia since",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "GPE",
+        "start": 155,
+        "end": 166,
+        "confidence_entity": 0.9999922513961792,
+        "value": "New Zealand",
         "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "I’m trying to think, because, like all of West Africa usually just goes vertical",
+    "text": "i am happy to go with Wallis and Futuna and live with the choice",
+    "entities": [
+      {
+        "start": 22,
+        "end": 39,
+        "value": "Wallis and Futuna",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.9999986886978149,
+        "value": "Wallis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "GPE",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.9999867677688599,
+        "value": "Futuna",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "So, what do you think it might be [South Georgia and the Southern Sandwich",
     "entities": [],
     "predicted_entities": [
       {
         "entity": "GPE",
-        "start": 42,
-        "end": 53,
-        "confidence_entity": 0.8926464319229126,
-        "value": "West Africa",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "GPE",
-        "start": 72,
-        "end": 80,
-        "confidence_entity": 0.6497731804847717,
-        "value": "vertical",
+        "start": 35,
+        "end": 74,
+        "confidence_entity": 0.999516487121582,
+        "value": "South Georgia and the Southern Sandwich",
         "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "Besides Egypt, Egypt is different. For some reason, um South",
+    "text": "Wait I think I have it Isn't this the flag of Saint Vincent and the Grenadines",
     "entities": [
       {
-        "start": 8,
-        "end": 13,
-        "value": "Egypt",
-        "entity": "GPE"
-      },
-      {
-        "start": 15,
-        "end": 20,
-        "value": "Egypt",
+        "start": 46,
+        "end": 78,
+        "value": "Saint Vincent and the Grenadines",
         "entity": "GPE"
       }
     ],
     "predicted_entities": [
       {
         "entity": "GPE",
-        "start": 24,
-        "end": 33,
-        "confidence_entity": 0.9874364137649536,
-        "value": "different",
+        "start": 34,
+        "end": 37,
+        "confidence_entity": 0.6241424083709717,
+        "value": "the",
         "extractor": "DIETClassifier"
       },
       {
         "entity": "GPE",
-        "start": 55,
-        "end": 60,
-        "confidence_entity": 0.9979122281074524,
-        "value": "South",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I don't believe it is that either, so our options are the Gambia or Saint Kitts and Nevis",
-    "entities": [
-      {
-        "start": 58,
-        "end": 64,
-        "value": "Gambia",
-        "entity": "GPE"
-      },
-      {
-        "start": 68,
-        "end": 89,
-        "value": "Saint Kitts and Nevis",
-        "entity": "GPE"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "GPE",
-        "start": 54,
-        "end": 64,
-        "confidence_entity": 0.7493637204170227,
-        "value": "the Gambia",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "GPE",
-        "start": 68,
-        "end": 89,
-        "confidence_entity": 0.9894434213638306,
-        "value": "Saint Kitts and Nevis",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "It's not Bosnia and Herzegovina and Bouvet Island should be orange",
-    "entities": [
-      {
-        "start": 9,
-        "end": 31,
-        "value": "Bosnia and Herzegovina",
-        "entity": "GPE"
-      },
-      {
-        "start": 36,
-        "end": 49,
-        "value": "Bouvet Island",
-        "entity": "GPE"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "GPE",
-        "start": 9,
-        "end": 35,
-        "confidence_entity": 0.9978541731834412,
-        "value": "Bosnia and Herzegovina and",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "GPE",
-        "start": 36,
-        "end": 49,
-        "confidence_entity": 0.9999222755432129,
-        "value": "Bouvet Island",
+        "start": 46,
+        "end": 78,
+        "confidence_entity": 0.9999681711196899,
+        "value": "Saint Vincent and the Grenadines",
         "extractor": "DIETClassifier"
       }
     ]
@@ -168,7 +149,7 @@
         "entity": "GPE",
         "start": 29,
         "end": 38,
-        "confidence_entity": 0.9999665021896362,
+        "confidence_entity": 0.9999703168869019,
         "value": "Australia",
         "extractor": "DIETClassifier"
       },
@@ -176,7 +157,7 @@
         "entity": "GPE",
         "start": 137,
         "end": 147,
-        "confidence_entity": 0.6605697274208069,
+        "confidence_entity": 0.9707434773445129,
         "value": "background",
         "extractor": "DIETClassifier"
       }
@@ -203,175 +184,40 @@
         "entity": "GPE",
         "start": 14,
         "end": 23,
-        "confidence_entity": 0.9999580383300781,
+        "confidence_entity": 0.9999830722808838,
         "value": "Australia",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "GPE",
+        "start": 45,
+        "end": 48,
+        "confidence_entity": 0.8997911214828491,
+        "value": "the",
         "extractor": "DIETClassifier"
       },
       {
         "entity": "GPE",
         "start": 49,
         "end": 61,
-        "confidence_entity": 0.9934477210044861,
+        "confidence_entity": 0.9996821880340576,
         "value": "Commonwealth",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "GPE",
+        "start": 78,
+        "end": 81,
+        "confidence_entity": 0.672606885433197,
+        "value": "and",
         "extractor": "DIETClassifier"
       },
       {
         "entity": "GPE",
         "start": 82,
         "end": 93,
-        "confidence_entity": 0.9961315393447876,
+        "confidence_entity": 0.9998250603675842,
         "value": "New Zealand",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I don't know though it feels like a 50 50 split between Cote d'Ivoire and British Indian Ocean Territory. I feel like it's Brunei Darussalam",
-    "entities": [
-      {
-        "start": 56,
-        "end": 69,
-        "value": "Cote d'Ivoire",
-        "entity": "GPE"
-      },
-      {
-        "start": 74,
-        "end": 104,
-        "value": "British Indian Ocean Territory",
-        "entity": "GPE"
-      },
-      {
-        "start": 123,
-        "end": 140,
-        "value": "Brunei Darussalam",
-        "entity": "GPE"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "GPE",
-        "start": 56,
-        "end": 60,
-        "confidence_entity": 0.9999786615371704,
-        "value": "Cote",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "GPE",
-        "start": 63,
-        "end": 69,
-        "confidence_entity": 0.9998183846473694,
-        "value": "Ivoire",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "GPE",
-        "start": 74,
-        "end": 104,
-        "confidence_entity": 0.9995667338371277,
-        "value": "British Indian Ocean Territory",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "GPE",
-        "start": 123,
-        "end": 140,
-        "confidence_entity": 0.999954104423523,
-        "value": "Brunei Darussalam",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "i am happy to go with Saint Kitts and Nevis and live with the choice",
-    "entities": [
-      {
-        "start": 22,
-        "end": 43,
-        "value": "Saint Kitts and Nevis",
-        "entity": "GPE"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "GPE",
-        "start": 22,
-        "end": 47,
-        "confidence_entity": 0.9596266746520996,
-        "value": "Saint Kitts and Nevis and",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "True",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "GPE",
-        "start": 0,
-        "end": 4,
-        "confidence_entity": 0.9605569243431091,
-        "value": "True",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "I don't think it is Peru, I feel like Peru has a green in it, and I think it is horizontal",
-    "entities": [
-      {
-        "start": 20,
-        "end": 24,
-        "value": "Peru",
-        "entity": "GPE"
-      },
-      {
-        "start": 38,
-        "end": 42,
-        "value": "Peru",
-        "entity": "GPE"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "It’s definitely not Mexico or Ukraine",
-    "entities": [
-      {
-        "start": 20,
-        "end": 26,
-        "value": "Mexico",
-        "entity": "GPE"
-      },
-      {
-        "start": 30,
-        "end": 37,
-        "value": "Ukraine",
-        "entity": "GPE"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "GPE",
-        "start": 30,
-        "end": 37,
-        "confidence_entity": 0.99998939037323,
-        "value": "Ukraine",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Hmmm",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "GPE",
-        "start": 0,
-        "end": 4,
-        "confidence_entity": 0.9814116358757019,
-        "value": "Hmmm",
         "extractor": "DIETClassifier"
       }
     ]
@@ -384,22 +230,118 @@
         "entity": "GPE",
         "start": 88,
         "end": 94,
-        "confidence_entity": 0.9319907426834106,
+        "confidence_entity": 0.934023380279541,
         "value": "Middle",
         "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "That look’s French",
+    "text": "islands](GPE)",
     "entities": [],
     "predicted_entities": [
       {
         "entity": "GPE",
-        "start": 12,
-        "end": 18,
-        "confidence_entity": 0.9870151281356812,
-        "value": "French",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.4552808403968811,
+        "value": "islands](GPE",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I don't believe it is that either, so our options are the Gambia or Saint Kitts and Nevis",
+    "entities": [
+      {
+        "start": 58,
+        "end": 64,
+        "value": "Gambia",
+        "entity": "GPE"
+      },
+      {
+        "start": 68,
+        "end": 89,
+        "value": "Saint Kitts and Nevis",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 54,
+        "end": 64,
+        "confidence_entity": 0.9822308421134949,
+        "value": "the Gambia",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "GPE",
+        "start": 68,
+        "end": 89,
+        "confidence_entity": 0.997664213180542,
+        "value": "Saint Kitts and Nevis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Besides Egypt, Egypt is different. For some reason, um South",
+    "entities": [
+      {
+        "start": 8,
+        "end": 13,
+        "value": "Egypt",
+        "entity": "GPE"
+      },
+      {
+        "start": 15,
+        "end": 20,
+        "value": "Egypt",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "It's not Bosnia and Herzegovina and Bouvet Island should be orange",
+    "entities": [
+      {
+        "start": 9,
+        "end": 31,
+        "value": "Bosnia and Herzegovina",
+        "entity": "GPE"
+      },
+      {
+        "start": 36,
+        "end": 49,
+        "value": "Bouvet Island",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 9,
+        "end": 15,
+        "confidence_entity": 0.9999544620513916,
+        "value": "Bosnia",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "GPE",
+        "start": 20,
+        "end": 31,
+        "confidence_entity": 0.9999850988388062,
+        "value": "Herzegovina",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "GPE",
+        "start": 36,
+        "end": 49,
+        "confidence_entity": 0.999835729598999,
+        "value": "Bouvet Island",
         "extractor": "DIETClassifier"
       }
     ]

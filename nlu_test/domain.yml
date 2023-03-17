@@ -1,10 +1,17 @@
 version: '3.1'
 intents:
-- concur
-- contest
+- yes
+- no
+- agree
+- disagree
 - give_answer
+- repeat_question
+- skip_question
+
+#- concur
+#- contest
 #- goodbye
-- greet
+#- greet
 actions:
 - action_ask_question
 - action_check_answer
@@ -24,8 +31,11 @@ responses:
   - text: Do you still want to play ?
   utter_please_agree:
   - text: Please find an agreement
-#entities:
-#- answer
+entities:
+- GPE:
+  roles :
+    - positive
+    - negative
 #slots:
 #  answer1:
 #    type: text

@@ -4,8 +4,10 @@
     "\\.rasa",
     "\\actions",
     "\\data",
-    "\\models"
+    "\\models",
+    "\\results",
+    "\\tests"
   ],
-  "SelectedNode": "\\config.yml",
+  "SelectedNode": "\\data\\nlu.yml",
   "PreviewInSolutionExplorer": false
 }
