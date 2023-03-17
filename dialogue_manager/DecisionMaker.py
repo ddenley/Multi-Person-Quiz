@@ -37,7 +37,7 @@ class DecisionMaker:
         if (not self.__questionAsked) or (previousAct in ['proposeSkipQ', 'confirm_ans']):
             # If just one player answers when the bot asked if they want to play
             if previousAct in ['introQuizz', 'checkAns', 'proposeSkipQ']:
-                if currentUtt[0] == 'yes':
+                if (currentUtt[0] == 'yes') or (currentUtt[0] == 'agree') or (currentUtt[0] == 'give_answer') : #TODO - Improve this condiiton
                     msg = self.__Action.askQuestion()
                     self.__questionAsked = True
                     self.nbDisagree = 0
