@@ -19,13 +19,11 @@ class DecisionMaker:
         self.nbDisagree = 0             # Number of turns where the players disagree on a same question
         self.nbLimitDisagree = 5        # Limit of number of disagreements before proposing to skip the question
 
-    def executeRelevantAction(self, currentUtt: list, lastUtt: list, nbTexts: int, person: int) -> (bool, ):
+    def executeRelevantAction(self, currentUtt: list, person: int) -> (bool, ):
         """
         Choose and execute the action which seems the most relevant regarding the current and previous
         information [intent, entity, label]
         :param currentUtt : analysis of the current processed text, list [intent, entity, label]
-        :param lastUtt : analysis of the previous processed text, list [intent, entity, label]
-        :param nbTexts : number of texts in the current turn (typically 1 if just 1 of the players talks)
         :param person: the number which corresponds of the current analysis of the current turn (e.g. is the current turn has
         a text for a first person and a text from the other one, i=0 for the first text and then i=1 for the second)
         :return: onGoing : a boolean which indicates if the game is still running or is ended
@@ -73,7 +71,7 @@ class DecisionMaker:
             # Use the intent to update the current answer of each player to determine if they agree or not
             elif currentUtt[0] == 'give_answer':
                 # Update the current answer of the player 0 if its answer is in the MultipleChoices
-                if currentUtt[2][0] in self.__Action.getQManager().getMultipleChoices():
+                if currentUtt[2][0] in [x.casefold() for x in self.__Action.getQManager().getMultipleChoices()]:
                     if person == 0:
                         self.__currentAnswer0 = currentUtt[2][0]
                     else:
@@ -84,6 +82,7 @@ class DecisionMaker:
                     # If too many disagreements, propose to skip a question
                     if self.nbDisagree >= self.nbLimitDisagree:
                         msg = self.__Action.proposeClue()
+                        self.nbDisagree = 0
                 elif (self.__currentAnswer1 is not None) and (self.__currentAnswer0 is not None) and (self.__currentAnswer0 == self.__currentAnswer1):
                     # Agreement : ask a confirmation with a probability of pRandom
                     self.__currentAnswer = self.__currentAnswer0
@@ -105,6 +104,7 @@ class DecisionMaker:
                 # If too many disagreements, propose to skip a question
                 if self.nbDisagree >= self.nbLimitDisagree:
                     msg = self.__Action.proposeClue()
+                    self.nbDisagree = 0
         return onGoing, msg
 
     # Getters
@@ -113,6 +113,7 @@ class DecisionMaker:
 
     def getQuestionAsked(self):
         return self.__questionAsked
+
 
 if __name__=='__main__':
     DecMaker = DecisionMaker()

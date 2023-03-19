@@ -91,7 +91,7 @@ class Actions:
         :return:
         """
         self.__previousAction = 'checkAns'
-        if ans == self.__QManager.getCurrentFlag():
+        if ans.casefold() == self.__QManager.getCurrentFlag().casefold():
             self.__QManager.nbSuccess += 1
             msg = self.sendTTS("Well done, it's right ! Would you like to continue to play ?")
             return msg
