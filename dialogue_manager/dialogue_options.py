@@ -160,10 +160,10 @@ __greetings = [
 
 def provide_clue(country: str) -> str:
     """Provide a clue related to the given country name."""
-    return __clues[country]
+    return __clues[country.casefold()]
 
 
-__clues = {
+clues = {
         "Afghanistan": "Landlocked country in South Central Asia",
         "Albania": "Country in Southeastern Europe",
         "Algeria": "Country bordering Libya and Tunisia in the southern Mediterranean coast of North Africa",
@@ -414,3 +414,5 @@ __clues = {
         "Zimbabwe": "This country in southern Africa is bordered by South Africa, Botswana, Zambia and Mozambique",
         "Aland Islands": "This archipelago is located at the entrance to the Gulf of Bothnia in the Baltic Sea."
     }
+# For case insensitivity
+__clues = dict((key.casefold(), val) for key, val in clues.items())
