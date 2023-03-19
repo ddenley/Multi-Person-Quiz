@@ -129,17 +129,14 @@ class MainDM:
                 if code != 200:
                     self.__onGoing = False
                     break
-
                 self.__currentUtt = self.sendAndRequestNLU(text, person)
-
                 # For debug (display the text and the NLU analysis before the action is triggered) and stored to a
                 # list to write in a text file:
                 print(text, self.__currentUtt, person)
                 currentTurn = ' P{} : {} {} \n'.format(person, text, self.__currentUtt)
                 storedDialog.append(currentTurn)
 
-                self.__onGoing, msgBot = self.__DecisionMaker.executeRelevantAction(self.__currentUtt,
-                                                                     self.__lastUtt, 1, person-1) #person-1 just to map the 0 and 1 in the decision-making process now
+                self.__onGoing, msgBot = self.__DecisionMaker.executeRelevantAction(self.__currentUtt, person-1) #person-1 just to map the 0 and 1 in the decision-making process now
                 botText = 'S : {} \n'.format(msgBot)
                 storedDialog.append(botText)
 
