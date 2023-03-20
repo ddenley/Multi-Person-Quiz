@@ -89,7 +89,14 @@ class MainDM:
         return [intent_name, [entity_name], [entity_value]]
 
     def init_backup(self, msg):
-        filename = 'MultiQuizz_dialog_{}.txt'.format(datetime.datetime.date(datetime.datetime.now()))
+        """
+        Create a text file to save the dialog.
+        """
+        # Get the time to use it in the name of the text file
+        t0 = datetime.datetime.now()
+        t_string ='{}{}{}-{}:{}'.format(t0.year, t0.month, t0.day, t0.hour, t0.minute)
+        filename = 'MultiQuizz_dialog_{}.txt'.format(t_string)
+        # Create the text file and write the first message
         f = open(filename, "w+")
         f.write(msg)
         f.close()
