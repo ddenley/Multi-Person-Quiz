@@ -93,7 +93,7 @@ class Actions:
         self.__previousAction = 'checkAns'
         if ans.casefold() == self.__QManager.getCurrentFlag().casefold():
             self.__QManager.nbSuccess += 1
-            msg = self.sendTTS("Well done, it's right ! Would you like to continue to play ?")
+            msg = self.sendTTS("You agreed on {}. Well done, it's right ! Would you like to continue to play ?".format(ans))
             return msg
         else:
             msg = self.sendTTS("Unfortunately it's not the right answer. This is the flag of {} ! Would you like to try "
