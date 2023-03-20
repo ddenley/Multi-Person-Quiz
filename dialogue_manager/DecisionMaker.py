@@ -13,7 +13,7 @@ class DecisionMaker:
         self.__questionAsked = False
         self.__currentAnswer0 = None    # Current answer of the player labeled as player 0
         self.__currentAnswer1 = None    # Current answer of the player labeled as player 1
-        self.__currentAnswer = None
+        self.__currentAnswer = "WrongAnswer"
         self.pRandom = 0.4              # Probability to ask a confirmation for the final answer before checking the
                                         # answer
         self.nbDisagree = 0             # Number of turns where the players disagree on a same question
@@ -47,6 +47,10 @@ class DecisionMaker:
             if previousAct == 'confirm_ans':
                 if currentUtt[0] == 'yes':
                     msg = self.__Action.checkAnswer(self.__currentAnswer)
+                    # Reset the current answer of each person to None
+                    self.__currentAnswer0 = None
+                    self.__currentAnswer1 = None
+                    # Reset the boolean
                     self.__questionAsked = False
 
         # if a question has been asked : check for agreement
@@ -91,13 +95,25 @@ class DecisionMaker:
                         msg = self.__Action.confirm(ans=self.__currentAnswer)
                     else:
                         msg = self.__Action.checkAnswer(self.__currentAnswer0)
+                        # Reset the current answer of each person to None
+                        self.__currentAnswer0 = None
+                        self.__currentAnswer1 = None
+                        # Reset the boolean
                         self.__questionAsked = False
             elif currentUtt[0] == 'agree':
                 if (person == 0) and (self.__currentAnswer1 is not None):
                     msg = self.__Action.checkAnswer(self.__currentAnswer1)
+                    # Reset the current answer of each person to None
+                    self.__currentAnswer0 = None
+                    self.__currentAnswer1 = None
+                    # Reset the boolean
                     self.__questionAsked = False
                 elif (person == 1) and (self.__currentAnswer0 is not None):
                     msg = self.__Action.checkAnswer(self.__currentAnswer0)
+                    # Reset the current answer of each person to None
+                    self.__currentAnswer0 = None
+                    self.__currentAnswer1 = None
+                    # Reset the boolean
                     self.__questionAsked = False
             elif currentUtt[0] == 'disagree':
                 self.nbDisagree += 1
