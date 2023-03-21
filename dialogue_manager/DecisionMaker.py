@@ -88,7 +88,7 @@ class DecisionMaker:
                             if p < self.pRandom:
                                 msg = self.__Action.confirm(ans=self.__currentAnswer)
                             else:
-                                msg = self.__Action.checkAnswer(self.__currentAnswer0)
+                                msg = self.__Action.checkAnswer(self.__currentAnswer)
                                 # Reset the current answer of each person to None
                                 self.__currentAnswer0 = None
                                 self.__currentAnswer1 = None
@@ -131,7 +131,7 @@ class DecisionMaker:
                     if p < self.pRandom:
                         msg = self.__Action.confirm(ans=self.__currentAnswer)
                     else:
-                        msg = self.__Action.checkAnswer(self.__currentAnswer0)
+                        msg = self.__Action.checkAnswer(self.__currentAnswer)
                         # Reset the current answer of each person to None
                         self.__currentAnswer0 = None
                         self.__currentAnswer1 = None
