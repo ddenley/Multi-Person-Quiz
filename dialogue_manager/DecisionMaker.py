@@ -82,25 +82,26 @@ class DecisionMaker:
                         else:
                             self.__currentAnswer1 = currentUtt[2][0]
                     # Check if disagreement or agreement
-                    if (self.__currentAnswer1 is not None) and (self.__currentAnswer0 is not None) and (self.__currentAnswer0.casefold() != self.__currentAnswer1.casefold()):
-                        self.nbDisagree += 1
-                        # If too many disagreements, propose to skip a question
-                        if self.nbDisagree >= self.nbLimitDisagree:
-                            msg = self.__Action.proposeClue()
-                            self.nbDisagree = 0
-                    elif (self.__currentAnswer1 is not None) and (self.__currentAnswer0 is not None) and (self.__currentAnswer0.casefold() == self.__currentAnswer1.casefold()):
-                        # Agreement : ask a confirmation with a probability of pRandom
-                        self.__currentAnswer = self.__currentAnswer0
-                        p = random.random()
-                        if p < self.pRandom:
-                            msg = self.__Action.confirm(ans=self.__currentAnswer)
+                    elif (self.__currentAnswer1 is not None) and (self.__currentAnswer0 is not None):
+                        if self.__currentAnswer0.casefold() == self.__currentAnswer1.casefold():
+                            # Agreement : ask a confirmation with a probability of pRandom
+                            self.__currentAnswer = self.__currentAnswer0
+                            p = random.random()
+                            if p < self.pRandom:
+                                msg = self.__Action.confirm(ans=self.__currentAnswer)
+                            else:
+                                msg = self.__Action.checkAnswer(self.__currentAnswer0)
+                                # Reset the current answer of each person to None
+                                self.__currentAnswer0 = None
+                                self.__currentAnswer1 = None
+                                # Reset the boolean
+                                self.__questionAsked = False
                         else:
-                            msg = self.__Action.checkAnswer(self.__currentAnswer0)
-                            # Reset the current answer of each person to None
-                            self.__currentAnswer0 = None
-                            self.__currentAnswer1 = None
-                            # Reset the boolean
-                            self.__questionAsked = False
+                            self.nbDisagree += 1
+                            # If too many disagreements, propose to skip a question
+                            if self.nbDisagree >= self.nbLimitDisagree:
+                                msg = self.__Action.proposeClue()
+                                self.nbDisagree = 0
             elif currentUtt[0] == 'agree':
                 if (person == 0) and (self.__currentAnswer1 is not None):
                     msg = self.__Action.checkAnswer(self.__currentAnswer1)
