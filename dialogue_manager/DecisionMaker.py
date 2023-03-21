@@ -9,12 +9,14 @@ class DecisionMaker:
     """
 
     def __init__(self):
+        self.previousAnswer = None
         self.__Action = Actions.Actions()
         self.__questionAsked = False
         self.__currentAnswer0 = None    # Current answer of the player labeled as player 0
         self.__currentAnswer1 = None    # Current answer of the player labeled as player 1
         self.__currentAnswer = "WrongAnswer"
-        self.pRandom = 0.4              # Probability to ask a confirmation for the final answer before checking the
+        self.countAnswers = 0
+        self.pRandom = 1              # Probability to ask a confirmation for the final answer before checking the
                                         # answer
         self.nbDisagree = 0             # Number of turns where the players disagree on a same question
         self.nbLimitDisagree = 4        # Limit of number of disagreements before proposing to skip the question
@@ -67,7 +69,7 @@ class DecisionMaker:
             elif currentUtt[0] == 'skip_question':
                 msg1 = self.__Action.confirm(skip=True)
                 msg2 = self.__Action.askQuestion()
-                msg = msg1 + ' ' +msg2
+                msg = msg1 + ' '+msg2
                 self.nbDisagree = 0
             elif currentUtt[0] == 'repeat_question':
                 msg = self.__Action.repeatQuestion()
@@ -77,15 +79,11 @@ class DecisionMaker:
                 # Update the current answer of the player 0 if its answer is in the MultipleChoices
                 if currentUtt[2][0] is not None:
                     if currentUtt[2][0].casefold() in [x.casefold() for x in self.__Action.getQManager().getMultipleChoices()]:
-                        if person == 0:
-                            self.__currentAnswer0 = currentUtt[2][0]
-                        else:
-                            self.__currentAnswer1 = currentUtt[2][0]
-                    # Check if disagreement or agreement
-                    elif (self.__currentAnswer1 is not None) and (self.__currentAnswer0 is not None):
-                        if self.__currentAnswer0.casefold() == self.__currentAnswer1.casefold():
-                            # Agreement : ask a confirmation with a probability of pRandom
-                            self.__currentAnswer = self.__currentAnswer0
+                        # Update the number of consecutive give_answers
+                        self.countAnswers += 1
+                        self.previousAnswer = self.__currentAnswer
+                        self.__currentAnswer = currentUtt[2][0]
+                        if self.countAnswers >= 3 and (self.previousAnswer.casefold() == self.__currentAnswer.casefold()):
                             p = random.random()
                             if p < self.pRandom:
                                 msg = self.__Action.confirm(ans=self.__currentAnswer)
@@ -96,27 +94,64 @@ class DecisionMaker:
                                 self.__currentAnswer1 = None
                                 # Reset the boolean
                                 self.__questionAsked = False
-                        else:
+                        elif self.previousAnswer.casefold() != self.__currentAnswer.casefold():
                             self.nbDisagree += 1
                             # If too many disagreements, propose to skip a question
                             if self.nbDisagree >= self.nbLimitDisagree:
                                 msg = self.__Action.proposeClue()
                                 self.nbDisagree = 0
+                        # if person == 0:
+                        #     self.__currentAnswer0 = currentUtt[2][0]
+                        # else:
+                        #     self.__currentAnswer1 = currentUtt[2][0]
+                    # Check if disagreement or agreement
+                    # elif (self.__currentAnswer1 is not None) and (self.__currentAnswer0 is not None):
+                    #     if self.__currentAnswer0.casefold() == self.__currentAnswer1.casefold():
+                    #         # Agreement : ask a confirmation with a probability of pRandom
+                    #         self.__currentAnswer = self.__currentAnswer0
+                    #         p = random.random()
+                    #         if p < self.pRandom:
+                    #             msg = self.__Action.confirm(ans=self.__currentAnswer)
+                    #         else:
+                    #             msg = self.__Action.checkAnswer(self.__currentAnswer0)
+                    #             # Reset the current answer of each person to None
+                    #             self.__currentAnswer0 = None
+                    #             self.__currentAnswer1 = None
+                    #             # Reset the boolean
+                    #             self.__questionAsked = False
+                    #     else:
+                    #         self.nbDisagree += 1
+                    #         # If too many disagreements, propose to skip a question
+                    #         if self.nbDisagree >= self.nbLimitDisagree:
+                    #             msg = self.__Action.proposeClue()
+                    #             self.nbDisagree = 0
             elif currentUtt[0] == 'agree':
-                if (person == 0) and (self.__currentAnswer1 is not None):
-                    msg = self.__Action.checkAnswer(self.__currentAnswer1)
-                    # Reset the current answer of each person to None
-                    self.__currentAnswer0 = None
-                    self.__currentAnswer1 = None
-                    # Reset the boolean
-                    self.__questionAsked = False
-                elif (person == 1) and (self.__currentAnswer0 is not None):
-                    msg = self.__Action.checkAnswer(self.__currentAnswer0)
-                    # Reset the current answer of each person to None
-                    self.__currentAnswer0 = None
-                    self.__currentAnswer1 = None
-                    # Reset the boolean
-                    self.__questionAsked = False
+                if self.__currentAnswer is not None:
+                    p = random.random()
+                    if p < self.pRandom:
+                        msg = self.__Action.confirm(ans=self.__currentAnswer)
+                    else:
+                        msg = self.__Action.checkAnswer(self.__currentAnswer0)
+                        # Reset the current answer of each person to None
+                        self.__currentAnswer0 = None
+                        self.__currentAnswer1 = None
+                        # Reset the boolean
+                        self.__questionAsked = False
+
+                # if (person == 0) and (self.__currentAnswer1 is not None):
+                #     msg = self.__Action.checkAnswer(self.__currentAnswer1)
+                #     # Reset the current answer of each person to None
+                #     self.__currentAnswer0 = None
+                #     self.__currentAnswer1 = None
+                #     # Reset the boolean
+                #     self.__questionAsked = False
+                # elif (person == 1) and (self.__currentAnswer0 is not None):
+                #     msg = self.__Action.checkAnswer(self.__currentAnswer0)
+                #     # Reset the current answer of each person to None
+                #     self.__currentAnswer0 = None
+                #     self.__currentAnswer1 = None
+                #     # Reset the boolean
+                #     self.__questionAsked = False
             elif currentUtt[0] == 'disagree':
                 self.nbDisagree += 1
                 # If too many disagreements, propose to skip a question
