@@ -81,13 +81,13 @@ class DecisionMaker:
                     else:
                         self.__currentAnswer1 = currentUtt[2][0]
                 # Check if disagreement or agreement
-                if (self.__currentAnswer1 is not None) and (self.__currentAnswer0 is not None) and (self.__currentAnswer0 != self.__currentAnswer1):
+                if (self.__currentAnswer1 is not None) and (self.__currentAnswer0 is not None) and (self.__currentAnswer0.casefold() != self.__currentAnswer1.casefold()):
                     self.nbDisagree += 1
                     # If too many disagreements, propose to skip a question
                     if self.nbDisagree >= self.nbLimitDisagree:
                         msg = self.__Action.proposeClue()
                         self.nbDisagree = 0
-                elif (self.__currentAnswer1 is not None) and (self.__currentAnswer0 is not None) and (self.__currentAnswer0 == self.__currentAnswer1):
+                elif (self.__currentAnswer1 is not None) and (self.__currentAnswer0 is not None) and (self.__currentAnswer0.casefold() == self.__currentAnswer1.casefold()):
                     # Agreement : ask a confirmation with a probability of pRandom
                     self.__currentAnswer = self.__currentAnswer0
                     p = random.random()
