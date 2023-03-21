@@ -17,7 +17,7 @@ class DecisionMaker:
         self.pRandom = 0.4              # Probability to ask a confirmation for the final answer before checking the
                                         # answer
         self.nbDisagree = 0             # Number of turns where the players disagree on a same question
-        self.nbLimitDisagree = 5        # Limit of number of disagreements before proposing to skip the question
+        self.nbLimitDisagree = 4        # Limit of number of disagreements before proposing to skip the question
 
     def executeRelevantAction(self, currentUtt: list, person: int) -> (bool, ):
         """
@@ -75,7 +75,7 @@ class DecisionMaker:
             # Use the intent to update the current answer of each player to determine if they agree or not
             elif currentUtt[0] == 'give_answer':
                 # Update the current answer of the player 0 if its answer is in the MultipleChoices
-                if currentUtt[2][0] in [x.casefold() for x in self.__Action.getQManager().getMultipleChoices()]:
+                if currentUtt[2][0].casefold() in [x.casefold() for x in self.__Action.getQManager().getMultipleChoices()]:
                     if person == 0:
                         self.__currentAnswer0 = currentUtt[2][0]
                     else:
