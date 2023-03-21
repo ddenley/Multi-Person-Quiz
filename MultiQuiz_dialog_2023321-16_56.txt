@@ -1,0 +1,15 @@
+Would you like to take a chance? Can you identify the country by the flag?
+ P2 : formula 60  ['give_answer', [None], [None]] 
+S : What flag is coming up next in the lineup? Is this the flag of Benin, Anguilla, Tonga or Guernsey? Work together and give me the name of the country that you think it is. 
+ P1 : I think it's Tonga play sport  ['give_answer', ['GPE'], ['Tonga']] 
+S :  
+ P2 : stronger  ['agree', [None], [None]] 
+S : So, is Tonga your final answer ? 
+ P1 : yes yes yes  ['yes', [None], [None]] 
+S : Unfortunately it's not the right answer. This is the flag of Anguilla ! Would you like to try another flag ? 
+ P2 : yes please  ['yes', [None], [None]] 
+S : Can you identify the upcoming flag? Is this the flag of US Virgin Islands, Turks and Caicos Islands, Thailand or Azerbaijan? Take a few moments to confer with your team and offer the name of the country you think it is. 
+ P2 : it's Thailand  ['give_answer', ['GPE'], ['Thailand']] 
+S :  
+ P2 : VB yes I agreed statement  ['give_answer', ['GPE'], ['statement']] 
+S :  

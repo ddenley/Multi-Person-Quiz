@@ -1,0 +1,5 @@
+Are you game for a game? Show us your skills by matching the flag to its country.
+ P1 : yes  ['yes', [None], [None]] 
+S : Which country's banner will be raised next? Is this the flag of Palestine, Andorra, Trinidad and Tobago or Svalbardand Jan Mayen? Discuss it with your quiz team and give me the country you think it is. 
+ P2 : makeup  ['give_answer', ['GPE'], ['makeup']] 
+S :  

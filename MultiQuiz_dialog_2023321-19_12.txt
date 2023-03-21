@@ -1,0 +1,41 @@
+Are you ready? See if you can recognize the country from the flag!
+ P2 : yes  ['yes', [None], [None]] 
+S : What is the flag that will be displayed immediately following this? Is this the flag of Papua New Guinea, Ukraine, The Cayman Islands or The Gambia? Let's hear your team's prediction on which country it might be. 
+ P2 : I think it's the Cayman Islands  ['give_answer', ['GPE'], ['Cayman Islands']] 
+S :  
+ P2 : yes I agree  ['agree', [None], [None]] 
+S : So, is WrongAnswer your final answer ? 
+ P2 : Wentz  ['nlu_fallback', ['GPE'], ['Wentz']] 
+S :  
+ P1 : yes  ['yes', [None], [None]] 
+S : Unfortunately it's not the right answer. This is the flag of Papua New Guinea ! Would you like to try another flag ? 
+ P1 : yes please  ['yes', [None], [None]] 
+S : Do you recognize the flag that is about to be revealed? Is this the flag of The Congo, The Philippines, Mayotte or Bangladesh? I want to hear your team's most calculated guess after some discussion. 
+ P2 : it's the Philippines  ['give_answer', ['GPE'], ['Philippines']] 
+S :  
+ P2 : yes I agree  ['agree', [None], [None]] 
+S : So, is WrongAnswer your final answer ? 
+ P2 : yes  ['yes', [None], [None]] 
+S : Unfortunately it's not the right answer. This is the flag of The Philippines ! Would you like to try another flag ? 
+ P2 : Zuppa soup for you  ['nlu_fallback', [None], [None]] 
+S :  
+ P2 : yes please  ['yes', [None], [None]] 
+S : Which flag is the next to be revealed? Is this the flag of Bhutan, Kenya, Micronesia or Norway? Take a few moments to confer with your team and offer your most accurate country guess. 
+ P2 : it's Micronesia  ['give_answer', ['GPE'], ['Micronesia']] 
+S :  
+ P1 : it's bitten  ['give_answer', ['GPE'], ['bitten']] 
+S :  
+ P2 : turn on Bluetooth  ['give_answer', ['GPE'], ['Bluetooth']] 
+S :  
+ P2 : it's Kenya  ['give_answer', ['GPE'], ['Kenya']] 
+S :  
+ P2 : Bhutan  ['give_answer', ['GPE'], ['Bhutan']] 
+S :  
+ P2 : I agree  ['agree', [None], [None]] 
+S : So, is Bhutan your final answer ? 
+ P2 : what's possible yes  ['give_answer', [None], [None]] 
+S :  
+ P2 : yes  ['yes', [None], [None]] 
+S : Unfortunately it's not the right answer. This is the flag of Micronesia ! Would you like to try another flag ? 
+ P2 : Tonga island in Florida.  ['give_answer', ['GPE'], ['Tonga island']] 
+S : Can you guess the flag that will be displayed immediately after this one? Is this the flag of Finland, Colombia, Aruba or Sudan? Take a moment to discuss with your team and share the country you think it is. 
