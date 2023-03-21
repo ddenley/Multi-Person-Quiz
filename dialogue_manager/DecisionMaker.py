@@ -54,6 +54,9 @@ class DecisionMaker:
                     self.__currentAnswer1 = None
                     # Reset the boolean
                     self.__questionAsked = False
+                    self.countAnswers = 0
+                else:
+                    self.countAnswers = 0
 
         # if a question has been asked : check for agreement
         else:
@@ -94,6 +97,7 @@ class DecisionMaker:
                                 self.__currentAnswer1 = None
                                 # Reset the boolean
                                 self.__questionAsked = False
+                                self.countAnswers = 0
                         elif self.previousAnswer.casefold() != self.__currentAnswer.casefold():
                             self.nbDisagree += 1
                             # If too many disagreements, propose to skip a question
@@ -137,6 +141,7 @@ class DecisionMaker:
                         self.__currentAnswer1 = None
                         # Reset the boolean
                         self.__questionAsked = False
+                        self.countAnswers = 0
 
                 # if (person == 0) and (self.__currentAnswer1 is not None):
                 #     msg = self.__Action.checkAnswer(self.__currentAnswer1)
