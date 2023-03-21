@@ -3,7 +3,9 @@ import pyaudio
 from google.cloud import speech
 import os
 from queue import Queue, Empty
+import numpy as np
 
+volume = 100
 
 # This class will handle the stream of audio data to be transcribed
 # Acts as a generator method
@@ -65,8 +67,18 @@ class MicrophoneStream:
         # Return out data and port audio callback flag return code
         return None, pyaudio.paContinue
 
+    def audio_datalist_set_volume(self, datalist):
+        """ Change value of list of audio chunks 
+        https://stackoverflow.com/questions/36664121/modify-volume-while-streaming-with-pyaudio"""
+        global volume
+        for i in range(len(datalist)):
+            chunk = np.fromstring(datalist[i], np.int16)
+            chunk = chunk * volume
+            datalist[i] = chunk.astype(np.int16)
+
     # Yields the audio data as bytes for later use in the API calls
     def generator(self):
+        global volume
         # Keep yielding until instance is closed via instance.close = True
         while not self.closed:
             data = []
@@ -74,6 +86,8 @@ class MicrophoneStream:
             # If chunk is none end iteration of the generator
             if data_chunk is None:
                 return
+            if volume == 0:
+                data_chunk *= 0
             data.append(data_chunk)
             # Consume from the buffer any data left
             while True:
@@ -81,6 +95,8 @@ class MicrophoneStream:
                     data_chunk = self.buffer.get(block=False)
                     if data_chunk is None:
                         return
+                    if volume == 0:
+                        data_chunk *= 0
                     data.append(data_chunk)
                 except queue.Empty:
                     break
@@ -139,6 +155,7 @@ class Transcribe:
 
     def print_responses_testing(self, api_responses):
         prev_dialog_len = 0
+
         for response in api_responses:
             if not response.results:
                 continue
@@ -197,3 +214,6 @@ class Transcribe:
             contents = None
         return contents
 
+    def mute_mic(self, vol=0):
+        global volume
+        volume = vol
