@@ -1,12 +1,15 @@
 import random
 
 
-def question_options(options: list) -> str:
+def question_options(options: list, multipleChoices: bool) -> str:
     """
     Return a random question string from the list available.
     This chooses a random start and end phrase to create a large number of unique question formulations.
     """
-    middle = f"Is this the flag of {options[0]}, {options[1]}, {options[2]} or {options[3]}?"
+    if multipleChoices:
+        middle = f"Is this the flag of {options[0]}, {options[1]}, {options[2]} or {options[3]}?"
+    else:
+        middle = ''
     return f"{__questions[random.randint(0, len(__questions) - 1)]} {middle} " \
            f"{__end_phrase[random.randint(0, len(__end_phrase) - 1)]}"
 

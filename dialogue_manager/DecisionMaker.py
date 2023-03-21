@@ -8,9 +8,12 @@ class DecisionMaker:
     the NLU (intents, entities,..).
     """
 
-    def __init__(self):
+    def __init__(self, multipleChoices):
+
+        self.multipleChoices = multipleChoices
+
         self.previousAnswer = None
-        self.__Action = Actions.Actions()
+        self.__Action = Actions.Actions(self.multipleChoices)
         self.__questionAsked = False
         self.__currentAnswer0 = None    # Current answer of the player labeled as player 0
         self.__currentAnswer1 = None    # Current answer of the player labeled as player 1
@@ -79,31 +82,19 @@ class DecisionMaker:
             # Otherwise (no special case) :
             # Use the intent to update the current answer of each player to determine if they agree or not
             elif currentUtt[0] == 'give_answer':
-                # Update the current answer of the player 0 if its answer is in the MultipleChoices
                 if currentUtt[2][0] is not None:
-                    if currentUtt[2][0].casefold() in [x.casefold() for x in self.__Action.getQManager().getMultipleChoices()]:
-                        # Update the number of consecutive give_answers
+                    if not self.multipleChoices:
+                        # If we don't use multiple choices, update the answer without checking they are in a proposed list
                         self.countAnswers += 1
                         self.previousAnswer = self.__currentAnswer
                         self.__currentAnswer = currentUtt[2][0]
-                        if self.countAnswers >= 3 and (self.previousAnswer.casefold() == self.__currentAnswer.casefold()):
-                            p = random.random()
-                            if p < self.pRandom:
-                                msg = self.__Action.confirm(ans=self.__currentAnswer)
-                            else:
-                                msg = self.__Action.checkAnswer(self.__currentAnswer)
-                                # Reset the current answer of each person to None
-                                self.__currentAnswer0 = None
-                                self.__currentAnswer1 = None
-                                # Reset the boolean
-                                self.__questionAsked = False
-                                self.countAnswers = 0
-                        elif self.previousAnswer.casefold() != self.__currentAnswer.casefold():
-                            self.nbDisagree += 1
-                            # If too many disagreements, propose to skip a question
-                            if self.nbDisagree >= self.nbLimitDisagree:
-                                msg = self.__Action.proposeClue()
-                                self.nbDisagree = 0
+                        msg = self.checkAgreement()
+                    elif currentUtt[2][0].casefold() in [x.casefold() for x in self.__Action.getQManager().getMultipleChoices()]:
+                        # If we use multiple choices and the given answer is in the proposed list -> update the current answer
+                        self.countAnswers += 1
+                        self.previousAnswer = self.__currentAnswer
+                        self.__currentAnswer = currentUtt[2][0]
+                        msg = self.checkAgreement()
                         # if person == 0:
                         #     self.__currentAnswer0 = currentUtt[2][0]
                         # else:
@@ -165,6 +156,32 @@ class DecisionMaker:
                     self.nbDisagree = 0
         return onGoing, msg
 
+    def checkAgreement(self):
+        """
+        Check agreement between players - without using the diarization
+        :return: msg - the message sent to the TTS (empty if no messages are sent)
+        """
+        msg = ''
+        if self.countAnswers >= 3 and (self.previousAnswer.casefold() == self.__currentAnswer.casefold()):
+            p = random.random()
+            if p < self.pRandom:
+                msg = self.__Action.confirm(ans=self.__currentAnswer)
+            else:
+                msg = self.__Action.checkAnswer(self.__currentAnswer)
+                # Reset the current answer of each person to None
+                self.__currentAnswer0 = None
+                self.__currentAnswer1 = None
+                # Reset the boolean
+                self.__questionAsked = False
+                self.countAnswers = 0
+        elif self.previousAnswer.casefold() != self.__currentAnswer.casefold():
+            self.nbDisagree += 1
+            # If too many disagreements, propose to skip a question
+            if self.nbDisagree >= self.nbLimitDisagree:
+                msg = self.__Action.proposeClue()
+                self.nbDisagree = 0
+        return msg
+
     # Getters
     def getAction(self):
         return self.__Action
@@ -174,7 +191,7 @@ class DecisionMaker:
 
 
 if __name__=='__main__':
-    DecMaker = DecisionMaker()
+    DecMaker = DecisionMaker(multipleChoices=True)
     DecMaker.getAction().introduceQuizz()
     DecMaker.executeRelevantAction(['agree', [], []], 0)
     mChoices = DecMaker.getAction().getQManager().getMultipleChoices()
