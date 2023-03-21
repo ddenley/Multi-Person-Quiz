@@ -94,8 +94,8 @@ class MainDM:
         """
         # Get the time to use it in the name of the text file
         t0 = datetime.datetime.now()
-        t_string ='{}{}{}-{}:{}'.format(t0.year, t0.month, t0.day, t0.hour, t0.minute)
-        filename = 'MultiQuizz_dialog_{}.txt'.format(t_string)
+        filename = 'MultiQuiz_dialog_{}{}{}-{}_{}.txt'.format(t0.year, t0.month, t0.day, t0.hour, t0.minute)
+        print(filename)
         # Create the text file and write the first message
         f = open(filename, "w+")
         f.write(msg)
