@@ -1,0 +1,57 @@
+Up for a team challenge? Let's see if you can match each flag to its country!
+ P2 : yes  ['yes', [None], [None]] 
+S : Can you identify the upcoming flag? Is this the flag of Bosnia and Herzegovina, Panama, Guinea or French Guiana? Let's hear your team's most confident country guess after some collaboration. 
+ P2 : I think it's Bosnia and Herzegovina  ['give_answer', ['GPE'], ['Bosnia and Herzegovina']] 
+S :  
+ P2 : vintage French Guiana  ['give_answer', ['GPE'], ['vintage']] 
+S :  
+ P1 : no I think it's Janelle  ['give_answer', ['GPE'], ['Janelle']] 
+S :  
+ P2 : India  ['give_answer', ['GPE'], ['India']] 
+S :  
+ P2 : Panama  ['give_answer', ['GPE'], ['Panama']] 
+S :  
+ P2 : yeah I agree  ['agree', [None], [None]] 
+S : So, is Panama your final answer ? 
+ P2 : yes  ['yes', [None], [None]] 
+S : Unfortunately it's not the right answer. This is the flag of French Guiana ! Would you like to try another flag ? 
+ P2 : yes please  ['yes', [None], [None]] 
+S : What flag will be raised next? Is this the flag of Seychelles, Dominica, Uzbekistan or French Polynesia? It's time to huddle up and come up with your most confident guess on the country. 
+ P2 : I'm sure it is Dominica  ['give_answer', ['GPE'], ['Dominica']] 
+S :  
+ P2 : no it's special  ['agree', [None], [None]] 
+S : So, is Dominica your final answer ? 
+ P2 : nice pictures you make lemon  ['give_answer', ['GPE'], ['lemon']] 
+S :  
+ P2 : yes  ['yes', [None], [None]] 
+S : You agreed on Dominica. Well done, it's right ! Would you like to continue to play ? 
+ P2 : yes  ['yes', [None], [None]] 
+S : What is the next country's flag to be shown? Is this the flag of Sudan, The Dominican Republic, Kenya or Switzerland? Let's hear your team's most calculated guess on the country after some collaboration. 
+ P1 : it's pencil and  ['give_answer', ['GPE'], ['and']] 
+S :  
+ P1 : it's Switzerland  ['give_answer', ['GPE'], ['Switzerland']] 
+S :  
+ P1 : we just cross I'm sure it is the Dominican Republic  ['give_answer', ['GPE'], ['the Dominican Republic']] 
+S :  
+ P1 : Kenya  ['give_answer', ['GPE'], ['Kenya']] 
+S :  
+ P1 : France versus Sweden  ['give_answer', ['GPE'], ['France']] 
+S :  
+ P1 : no it's Superman  ['give_answer', ['GPE'], ['Superman']] 
+S :  
+ P1 : Brunei sultan  ['give_answer', ['GPE'], ['Brunei']] 
+S :  
+ P1 : Windows 16  ['give_answer', ['GPE'], ['Windows']] 
+S :  
+ P1 : Switzerland  ['give_answer', ['GPE'], ['Switzerland']] 
+S : This is a tough one, would you like a clue? ? 
+ P1 : yes please  ['yes', [None], [None]] 
+S : Think about this hint. We are talking about Caribbean country sharing an island with Haiti 
+ P1 : the Dominican Republic  ['give_answer', ['GPE'], ['the Dominican Republic']] 
+S :  
+ P1 : yeah it's right  ['agree', [None], [None]] 
+S : So, is the Dominican Republic your final answer ? 
+ P2 : yes  ['yes', [None], [None]] 
+S : You agreed on the Dominican Republic. Well done, it's right ! Would you like to continue to play ? 
+ P2 : yes  ['yes', [None], [None]] 
+S : What country's flag will be shown next? Is this the flag of San Marino, South Africa, The Democratic Republic of The Congo or Nigeria? It's time to combine your knowledge and make your best collective guess. 

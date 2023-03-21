@@ -1,0 +1,9 @@
+Are you ready? See if you can recognize the country from the flag!
+ P2 : yes  ['yes', [None], [None]] 
+S : Which flag is next in the sequence? Is this the flag of Eswatini, Afghanistan, The Republic of Korea or The Bahamas? Collaborate and give me your team's most informed country guess. 
+ P2 : I think it's the Republic of Korea  ['give_answer', ['GPE'], ['the Republic of Korea']] 
+S :  
+ P2 : you're so rude  ['agree', [None], [None]] 
+S : So, is the Republic of Korea your final answer ? 
+ P2 : new  ['give_answer', ['GPE'], ['new']] 
+S :  

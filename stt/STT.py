@@ -17,8 +17,8 @@ class MicrophoneStream:
         os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "zeta-buckeye-377214-7075b17aba9f.json"
         self.rate = 16000
         #Potentiall alyter chuck size to reduce latency
-        #self.chunk = int(self.rate / 10)
-        self.chunk = 3200
+        self.chunk = int(self.rate / 10)
+        # self.chunk = 4800
         self.buffer = Queue()
         self.closed = True
         # ***** CHANGE THIS VARIABLE DEPENDING ON DEVICE
@@ -99,7 +99,7 @@ class Transcribe:
         phrase_list = lines
 
         self.transcription_queue = Queue()
-        self.language_code = 'en-UK'
+        self.language_code = 'en-US'
         self.rate = 16000
         self.diar_config = speech.SpeakerDiarizationConfig(
             enable_speaker_diarization=True,
@@ -149,7 +149,6 @@ class Transcribe:
             result = response.results[0]
             if not result.alternatives:
                 continue
-
             if not result.is_final:
                 pass
 

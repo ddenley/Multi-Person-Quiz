@@ -1,0 +1,23 @@
+Would you like to try a game? See if you figure out the country of each flag.
+ P1 : yes  ['yes', [None], [None]] 
+S : What flag will be raised next? Is this the flag of Puerto Rico, Monaco, Turks and Caicos Islands or United States Minor Outlying Islands? Let's hear your team's most accurate country selection after some collaboration. 
+ P2 : it definitely Monaco  ['give_answer', ['GPE'], ['Monaco']] 
+S :  
+ P2 : Puerto Rico Puerto Rico  ['give_answer', ['GPE'], ['Puerto Rico']] 
+S :  
+ P1 : talk  ['agree', [None], [None]] 
+S : Unfortunately it's not the right answer. This is the flag of Monaco ! Would you like to try another flag ? 
+ P2 : yeah  ['agree', [None], [None]] 
+S : What is the next national flag to be displayed? Is this the flag of United Kingdom, Antigua and Barbuda, Bouvet Island or Marshall Islands? After some deliberation, I want to know your team's estimation of the country. 
+ P1 : Antigua and Barbuda  ['give_answer', ['GPE'], ['Antigua and Barbuda']] 
+S :  
+ P1 : something bus  ['give_answer', [None], [None]] 
+S :  
+ P2 : is it the Marshall Islands  ['give_answer', ['GPE'], ['the']] 
+S :  
+ P2 : United Kingdom I'm pretty sure  ['give_answer', ['GPE'], ['United Kingdom']] 
+S :  
+ P1 : they Ireland  ['give_answer', ['GPE'], ['Ireland']] 
+S : This is a tough one, would you like a clue? ? 
+ P1 : United Kingdom I'm pretty sure they Ireland  ['give_answer', ['GPE'], ['United Kingdom']] 
+S : None 
