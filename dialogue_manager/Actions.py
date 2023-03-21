@@ -12,10 +12,11 @@ class Actions:
     # TODO : Add a repository of different ways to says each message to introduce random message with the same meaning
     """
 
-    def __init__(self):
+    def __init__(self, multipleChoices):
         """
         Constructor of the class Actions, instantiation of the QuestionManager class
         """
+        self.multipleChoices = multipleChoices
         self.__previousAction = None
         self.__QManager = QuestionManager.QuestionManager()
 
@@ -42,6 +43,8 @@ class Actions:
         :param choices:
         :return:
         """
+        if not self.multipleChoices:
+            choices = ['', '', '', '']
         code = cm.gui_post(img_path, choices)
         if code != 200:
             print("Error sending path to GUI module.")
@@ -66,7 +69,7 @@ class Actions:
 
         # Send flag image to the GUI server
         self.sendGUI(self.__QManager.getFlagPath(), self.__QManager.getMultipleChoices())
-        msg = self.sendTTS(do.question_options(self.__QManager.getMultipleChoices()))
+        msg = self.sendTTS(do.question_options(self.__QManager.getMultipleChoices(), self.multipleChoices))
 
         return msg
 
@@ -78,7 +81,7 @@ class Actions:
         :return:
         """
         msg1 = self.sendTTS('Absolutely, I can repeat the different choices.')
-        msg2 = self.sendTTS(do.question_options(self.__QManager.getMultipleChoices()))
+        msg2 = self.sendTTS(do.question_options(self.__QManager.getMultipleChoices(), self.multipleChoices))
         return msg1+''+msg2
     def checkAgreement(self):
         # NB : This methode seems to be replaced by the methode executeRelevantAction of MainDM class
