@@ -1,5 +1,6 @@
 import Actions
 import random
+import numpy as np
 
 class DecisionMaker:
     """
@@ -90,12 +91,17 @@ class DecisionMaker:
                         self.previousAnswer = self.__currentAnswer
                         self.__currentAnswer = currentUtt[2][0]
                         msg = self.checkAgreement()
-                    elif currentUtt[2][0].casefold() in [x.casefold() for x in self.__Action.getQManager().getMultipleChoices()]:
-                        # If we use multiple choices and the given answer is in the proposed list -> update the current answer
-                        self.countAnswers += 1
-                        self.previousAnswer = self.__currentAnswer
-                        self.__currentAnswer = currentUtt[2][0]
-                        msg = self.checkAgreement()
+                    #elif currentUtt[2][0].casefold() in [x.casefold() for x in self.__Action.getQManager().getMultipleChoices()]:
+                    else:
+                        idx_match = np.array([currentUtt[2][0].casefold() in x.casefold() for x in self.__Action.getQManager().getMultipleChoices()])
+                        # Get the index of the list where an element is True (i.e. the entity answer is in an element of the multiple choices)
+                        idx_True = np.where(np.array(idx_match)==True)[0]
+                        if idx_True.size:
+                            # If there is at least one element -> Update the current answer to this element (the first one)
+                            self.countAnswers += 1
+                            self.previousAnswer = self.__currentAnswer
+                            self.__currentAnswer = self.__Action.getQManager().getMultipleChoices()[idx_True[0]]
+                            msg = self.checkAgreement()
                         # if person == 0:
                         #     self.__currentAnswer0 = currentUtt[2][0]
                         # else:

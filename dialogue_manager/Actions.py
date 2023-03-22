@@ -99,8 +99,8 @@ class Actions:
             msg = self.sendTTS("You agreed on {}. Well done, it's right ! Would you like to continue to play ?".format(ans))
             return msg
         else:
-            msg = self.sendTTS("Unfortunately it's not the right answer. This is the flag of {} ! Would you like to try "
-                         "another flag ?".format(self.__QManager.getCurrentFlag()))
+            msg = self.sendTTS("You agreed on {}. Unfortunately it's not the right answer. This is the flag of {} ! Would you like to try "
+                         "another flag ?".format(ans, self.__QManager.getCurrentFlag()))
             return msg
     def ask_finalAnswer(self, ans):
         msg = self.sendTTS("So, is {} your final answer ?".format(ans))
