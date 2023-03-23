@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa7e869-f7a2-4e94-8fa2-47810de31b95" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/nlu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/nlu.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +70,7 @@
       <workItem from="1678364617377" duration="656000" />
       <workItem from="1678959623406" duration="2464000" />
       <workItem from="1679083730719" duration="2743000" />
-      <workItem from="1679565962471" duration="2756000" />
+      <workItem from="1679565962471" duration="3415000" />
     </task>
     <servers />
   </component>

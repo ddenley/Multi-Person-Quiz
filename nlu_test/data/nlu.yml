@@ -23,6 +23,7 @@ nlu:
 - intent: no
   examples: |
     - no
+
 - intent: agree
   examples: |
     - i agree
@@ -51,6 +52,26 @@ nlu:
     - definitely
     - yeah definitely
     - let's do it
+    - yes it is
+    
+    
+    - I agree with you 100 percent.
+    - I couldn't agree with you more.
+    - That's so true.
+    - That's for sure.
+    - Tell me about it!
+    - You're absolutely right.
+    - Absolutely.
+    - That's exactly how I feel.
+    - Exactly.
+    -  I'm afraid I agree with you.
+    - I have to side with you on this one.
+    - No doubt about it.
+    - I suppose so.
+    - I guess so.
+    - You have a point there.
+    - I was just going to say that.
+
 
 
 - intent: disagree
@@ -73,25 +94,37 @@ nlu:
     - no it's not the right answer
     - hmm i am not sure about it
     - i have a doubt about that
+    
+    - I don't think so.
+    - No way.
+    - I'm afraid I disagree.
+    - I totally disagree.
+    - I beg to differ.
+    - I'd say the exact opposite.
+    - Not necessarily.
+    - That's not always true.
+    - That's not always the case.
+    - No, I'm not so sure about that.
+
 
 - intent: skip_question
   examples: |
-    - Can we skip the question 
+    - Can we skip the question
     - please lets skip
-    - can we move to the next question 
-    - skip this question 
-    - next question 
+    - can we move to the next question
+    - skip this question
+    - next question
     - next question please
-    - I think we should skip this question 
-    - No idea, let us skip it 
-    - just skip the question  
+    - I think we should skip this question
+    - No idea, let us skip it
+    - just skip the question
     - another question please
 
 - intent: repeat_question
   examples : |
-    - I did not hear that 
+    - I did not hear that
     - I didn't hear the question
-    - can you repeat the question 
+    - can you repeat the question
     - what was the question again
     - can you come again
     - pardon
