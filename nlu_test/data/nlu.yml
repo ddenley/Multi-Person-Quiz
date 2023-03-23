@@ -437,34 +437,34 @@ nlu:
     - i think not, it must be [Bonaire](GPE:positive)
     - it cannot be [Malta](GPE:positive)
     - Arabic kind of writing on the flag, and so I'm suspecting [Oman](GPE:positive) or [Brunei](GPE:positive)
-    - Ohh I know it's not [Senegal](GPE:positive)
-    - I don't think it is [Peru](GPE:positive), I feel like [Peru](GPE:positive) has a green in it, and I think it is horizontal
+    - Ohh I know it's not [Senegal](GPE:negative)
+    - I don't think it is [Peru](GPE:negative), I feel like [Peru](GPE:positive) has a green in it, and I think it is horizontal
     - Why don't, um, I think it is [Australia](GPE:positive), but I don't know like shouldn't the other flag be like in the corner, right? Shouldn't be in the background.
     - it is because [Australia](GPE:positive) is still a number of the Commonwealth I believe. They and [New Zealand](GPE:positive)
-    - it's not [Israel](GPE:positive) or [option A](GPE:positive)
-    - It's not [Israel](GPE:positive) and [Algeria](GPE:positive) should be green
-    - The only country I know it is not is [Serbia](GPE:positive)
+    - it's not [Israel](GPE:negative) or [option A](GPE:negative)
+    - It's not [Israel](GPE:negative) and [Algeria](GPE:positive) should be green
+    - The only country I know it is not is [Serbia](GPE:negative)
     - ohh neither none of these nations are Carribean or right like it's not somewhere in the Middle East to eastern Asia
     - [Mongolia](GPE:positive) is above [China](GPE:positive) I believe 
     - And [Guyana](GPE:positive) is somewhere north of [Australia](GPE:positive)
     - But I don't know anything about [Turkmenistan](GPE:positive), so it could just be that and I've I have no idea.
     - I'm going to pretend this doesn't matter to me
-    - It’s not [Ireland](GPE:positive)
-    - I don't think it's [Sudan](GPE:positive) either
+    - It’s not [Ireland](GPE:negative)
+    - I don't think it's [Sudan](GPE:negative) either
     - I don't believe it is that either, so our options are the [Gambia](GPE:positive) or [Saint Kitts and Nevis](GPE:positive)
     - Besides [Egypt](GPE:positive), [Egypt](GPE:positive) is different. For some reason, um South
-    - And yet I don't feel like it is [Saint Kitts and Nevis](GPE:positive)
-    - It's not [Israel](GPE:positive). It's definitely not [Congo](GPE:positive)
-    - It's not [Bangladesh](GPE:positive) either
+    - And yet I don't feel like it is [Saint Kitts and Nevis](GPE:negative)
+    - It's not [Israel](GPE:negative). It's definitely not [Congo](GPE:negative)
+    - It's not [Bangladesh](GPE:negative) either
     - Yeah I don't think that's it either
-    - Because I’m Nigerian, I know that’s not [Nigeria](GPE:positive)
-    - Nice, I also, I'm almost certain it's not [Haiti](GPE:positive) either
-    - questions are [Haiti](GPE:positive), [Maldives](GPE:positive) or [Honduras](GPE:positive)? I don't think it's [Honduras](GPE:positive). I feel like [Honduras](GPE:positive) is blue and white for some reason.
-    - It’s definitely not [Mexico](GPE:positive) or [Ukraine](GPE:positive)
+    - Because I’m Nigerian, I know that’s not [Nigeria](GPE:negative)
+    - Nice, I also, I'm almost certain it's not [Haiti](GPE:negative) either
+    - questions are [Haiti](GPE:positive), [Maldives](GPE:positive) or [Honduras](GPE:positive)? I don't think it's [Honduras](GPE:negative). I feel like [Honduras](GPE:positive) is blue and white for some reason.
+    - It’s definitely not [Mexico](GPE:negative) or [Ukraine](GPE:negative)
     - It seems like an actually a bit of an easier one based on the options
-    - We've just seen [Colombia](GPE:positive), so we know it's not that
-    - It’s not [Switzerland](GPE:positive) either
-    - I don’t think it’s [Indonesia](GPE:positive)
+    - We've just seen [Colombia](GPE:negative), so we know it's not that
+    - It’s not [Switzerland](GPE:negative) either
+    - I don’t think it’s [Indonesia](GPE:negative)
 
     - you are wrong, it is [Afghanistan](GPE:positive)
     - you are wrong, it is [Armenia](GPE:positive)
@@ -616,56 +616,56 @@ nlu:
     - i think not, it must be [Timor-Leste](GPE:positive)
     - i think not, it must be [Uganda](GPE:positive)
     - i think not, it must be [Vietnam](GPE:positive)
-    - it is not [Afghanistan](GPE:positive), but rather [Papua New Guinea](GPE:positive)
-    - it is not [Armenia](GPE:positive), but rather [Kyrgyzstan](GPE:positive)
-    - it is not [Belgium](GPE:positive), but rather [Mozambique](GPE:positive)
-    - it is not [Brazil](GPE:positive), but rather [Timor-Leste](GPE:positive)
-    - it is not [The Cayman Islands](GPE:positive), but rather [The Gambia](GPE:positive)
-    - it is not [The Congo](GPE:positive), but rather [Kyrgyzstan](GPE:positive)
-    - it is not [Djibouti](GPE:positive), but rather [Armenia](GPE:positive)
-    - it is not [Ethiopia](GPE:positive), but rather [Mauritius](GPE:positive)
-    - it is not [The Gambia](GPE:positive), but rather [Papua New Guinea](GPE:positive)
-    - it is not [Guatemala](GPE:positive), but rather [Belgium](GPE:positive)
-    - it is not [Hungary](GPE:positive), but rather [Mozambique](GPE:positive)
-    - it is not [Jamaica](GPE:positive), but rather [Vietnam](GPE:positive)
-    - it is not [Kyrgyzstan](GPE:positive), but rather [Macao](GPE:positive)
-    - it is not [Macao](GPE:positive), but rather [Uganda](GPE:positive)
-    - it is not [Mauritius](GPE:positive), but rather [Mozambique](GPE:positive)
-    - it is not [Mozambique](GPE:positive), but rather [Mauritius](GPE:positive)
-    - it is not [Nigeria](GPE:positive), but rather [Sudan](GPE:positive)
-    - it is not [Papua New Guinea](GPE:positive), but rather [Vietnam](GPE:positive)
-    - it is not [Romania](GPE:positive), but rather [Ethiopia](GPE:positive)
-    - it is not [Saint Vincent and the Grenadines](GPE:positive), but rather [Timor-Leste](GPE:positive)
-    - it is not [Dutch Sint Maarten](GPE:positive), but rather [Vietnam](GPE:positive)
-    - it is not [Sudan](GPE:positive), but rather [Afghanistan](GPE:positive)
-    - it is not [Timor-Leste](GPE:positive), but rather [Romania](GPE:positive)
-    - it is not [Uganda](GPE:positive), but rather [Hungary](GPE:positive)
-    - it is not [Vietnam](GPE:positive), but rather [Jamaica](GPE:positive)
-    - i don't think it is [Afghanistan](GPE:positive), but rather [Mozambique](GPE:positive)
-    - i don't think it is [Armenia](GPE:positive), but rather [Guatemala](GPE:positive)
-    - i don't think it is [Belgium](GPE:positive), but rather [Romania](GPE:positive)
-    - i don't think it is [Brazil](GPE:positive), but rather [Uganda](GPE:positive)
-    - i don't think it is [The Cayman Islands](GPE:positive), but rather [Mauritius](GPE:positive)
-    - i don't think it is [The Congo](GPE:positive), but rather [Guatemala](GPE:positive)
-    - i don't think it is [Djibouti](GPE:positive), but rather [Uganda](GPE:positive)
-    - i don't think it is [Ethiopia](GPE:positive), but rather [The Gambia](GPE:positive)
-    - i don't think it is [The Gambia](GPE:positive), but rather [Dutch Sint Maarten](GPE:positive)
-    - i don't think it is [Guatemala](GPE:positive), but rather [Sudan](GPE:positive)
-    - i don't think it is [Hungary](GPE:positive), but rather [Timor-Leste](GPE:positive)
-    - i don't think it is [Jamaica](GPE:positive), but rather [Armenia](GPE:positive)
-    - i don't think it is [Kyrgyzstan](GPE:positive), but rather [Timor-Leste](GPE:positive)
-    - i don't think it is [Macao](GPE:positive), but rather [The Congo](GPE:positive)
-    - i don't think it is [Mauritius](GPE:positive), but rather [Djibouti](GPE:positive)
-    - i don't think it is [Mozambique](GPE:positive), but rather [Nigeria](GPE:positive)
-    - i don't think it is [Nigeria](GPE:positive), but rather [Dutch Sint Maarten](GPE:positive)
-    - i don't think it is [Papua New Guinea](GPE:positive), but rather [Romania](GPE:positive)
-    - i don't think it is [Romania](GPE:positive), but rather [Saint Vincent and the Grenadines](GPE:positive)
-    - i don't think it is [Saint Vincent and the Grenadines](GPE:positive), but rather [The Gambia](GPE:positive)
-    - i don't think it is [Dutch Sint Maarten](GPE:positive), but rather [Sudan](GPE:positive)
-    - i don't think it is [Sudan](GPE:positive), but rather [Papua New Guinea](GPE:positive)
-    - i don't think it is [Timor-Leste](GPE:positive), but rather [Uganda](GPE:positive)
-    - i don't think it is [Uganda](GPE:positive), but rather [Afghanistan](GPE:positive)
-    - i don't think it is [Vietnam](GPE:positive), but rather [The Congo](GPE:positive)
+    - it is not [Afghanistan](GPE:negative), but rather [Papua New Guinea](GPE:positive)
+    - it is not [Armenia](GPE:negative), but rather [Kyrgyzstan](GPE:positive)
+    - it is not [Belgium](GPE:negative), but rather [Mozambique](GPE:positive)
+    - it is not [Brazil](GPE:negative), but rather [Timor-Leste](GPE:positive)
+    - it is not [The Cayman Islands](GPE:negative), but rather [The Gambia](GPE:positive)
+    - it is not [The Congo](GPE:negative), but rather [Kyrgyzstan](GPE:positive)
+    - it is not [Djibouti](GPE:negative), but rather [Armenia](GPE:positive)
+    - it is not [Ethiopia](GPE:negative), but rather [Mauritius](GPE:positive)
+    - it is not [The Gambia](GPE:negative), but rather [Papua New Guinea](GPE:positive)
+    - it is not [Guatemala](GPE:negative), but rather [Belgium](GPE:positive)
+    - it is not [Hungary](GPE:negative), but rather [Mozambique](GPE:positive)
+    - it is not [Jamaica](GPE:negative), but rather [Vietnam](GPE:positive)
+    - it is not [Kyrgyzstan](GPE:negative), but rather [Macao](GPE:positive)
+    - it is not [Macao](GPE:negative), but rather [Uganda](GPE:positive)
+    - it is not [Mauritius](GPE:negative), but rather [Mozambique](GPE:positive)
+    - it is not [Mozambique](GPE:negative), but rather [Mauritius](GPE:positive)
+    - it is not [Nigeria](GPE:negative), but rather [Sudan](GPE:positive)
+    - it is not [Papua New Guinea](GPE:negative), but rather [Vietnam](GPE:positive)
+    - it is not [Romania](GPE:negative), but rather [Ethiopia](GPE:positive)
+    - it is not [Saint Vincent and the Grenadines](GPE:negative), but rather [Timor-Leste](GPE:positive)
+    - it is not [Dutch Sint Maarten](GPE:negative), but rather [Vietnam](GPE:positive)
+    - it is not [Sudan](GPE:negative), but rather [Afghanistan](GPE:positive)
+    - it is not [Timor-Leste](GPE:negative), but rather [Romania](GPE:positive)
+    - it is not [Uganda](GPE:negative), but rather [Hungary](GPE:positive)
+    - it is not [Vietnam](GPE:negative), but rather [Jamaica](GPE:positive)
+    - i don't think it is [Afghanistan](GPE:negative), but rather [Mozambique](GPE:positive)
+    - i don't think it is [Armenia](GPE:negative), but rather [Guatemala](GPE:positive)
+    - i don't think it is [Belgium](GPE:negative), but rather [Romania](GPE:positive)
+    - i don't think it is [Brazil](GPE:negative), but rather [Uganda](GPE:positive)
+    - i don't think it is [The Cayman Islands](GPE:negative), but rather [Mauritius](GPE:positive)
+    - i don't think it is [The Congo](GPE:negative), but rather [Guatemala](GPE:positive)
+    - i don't think it is [Djibouti](GPE:negative), but rather [Uganda](GPE:positive)
+    - i don't think it is [Ethiopia](GPE:negative), but rather [The Gambia](GPE:positive)
+    - i don't think it is [The Gambia](GPE:negative), but rather [Dutch Sint Maarten](GPE:positive)
+    - i don't think it is [Guatemala](GPE:negative), but rather [Sudan](GPE:positive)
+    - i don't think it is [Hungary](GPE:negative), but rather [Timor-Leste](GPE:positive)
+    - i don't think it is [Jamaica](GPE:negative), but rather [Armenia](GPE:positive)
+    - i don't think it is [Kyrgyzstan](GPE:negative), but rather [Timor-Leste](GPE:positive)
+    - i don't think it is [Macao](GPE:negative), but rather [The Congo](GPE:positive)
+    - i don't think it is [Mauritius](GPE:negative), but rather [Djibouti](GPE:positive)
+    - i don't think it is [Mozambique](GPE:negative), but rather [Nigeria](GPE:positive)
+    - i don't think it is [Nigeria](GPE:negative), but rather [Dutch Sint Maarten](GPE:positive)
+    - i don't think it is [Papua New Guinea](GPE:negative), but rather [Romania](GPE:positive)
+    - i don't think it is [Romania](GPE:negative), but rather [Saint Vincent and the Grenadines](GPE:positive)
+    - i don't think it is [Saint Vincent and the Grenadines](GPE:negative), but rather [The Gambia](GPE:positive)
+    - i don't think it is [Dutch Sint Maarten](GPE:negative), but rather [Sudan](GPE:positive)
+    - i don't think it is [Sudan](GPE:negative), but rather [Papua New Guinea](GPE:positive)
+    - i don't think it is [Timor-Leste](GPE:negative), but rather [Uganda](GPE:positive)
+    - i don't think it is [Uganda](GPE:negative), but rather [Afghanistan](GPE:positive)
+    - i don't think it is [Vietnam](GPE:negative), but rather [The Congo](GPE:positive)
     - you are wrong, it is [option A](GPE:positive)
     - you are wrong, it is [option B](GPE:positive)
     - you are wrong, it is [option C](GPE:positive)
@@ -686,50 +686,50 @@ nlu:
     - you are mistaken, it is [option B](GPE:positive)
     - you are mistaken, it is [option C](GPE:positive)
     - you are mistaken, it is [option D](GPE:positive)
-    - it is not [option A](GPE:positive), but rather [option B](GPE:positive)
-    - it is not [option B](GPE:positive), but rather [option C](GPE:positive)
-    - it is not [option C](GPE:positive), but rather [option D](GPE:positive)
-    - it is not [option D](GPE:positive), but rather [option A](GPE:positive)
-    - i don't think it is [option A](GPE:positive), but rather [option B](GPE:positive)
-    - i don't think it is [option B](GPE:positive), but rather [option C](GPE:positive)
-    - i don't think it is [option C](GPE:positive), but rather [option D](GPE:positive)
-    - i don't think it is [option D](GPE:positive), but rather [option A](GPE:positive)
-    - It is not [Bahrain](GPE:positive)
-    - It is not [British Indian Ocean Territory](GPE:positive)
-    - It is not [The Cocos Keeling Islands](GPE:positive)
-    - It is not [Dominica](GPE:positive)
-    - It is not [French Guiana](GPE:positive)
-    - It is not [Guernsey](GPE:positive)
-    - It is not [Ireland](GPE:positive)
-    - It is not [Lao People's Democratic Republic](GPE:positive)
-    - It is not [Malta](GPE:positive)
-    - It is not [Myanmar](GPE:positive)
-    - It is not [Pakistan](GPE:positive)
-    - It is not [Russia](GPE:positive)
-    - It is not [Serbia](GPE:positive)
-    - It is not [Suriname](GPE:positive)
-    - It is not [Turkey](GPE:positive)
-    - It is not [British Virgin Islands](GPE:positive)
-    - Ohh I know it's not [American Samoa](GPE:positive)
-    - I don't think it is [Antigua and Barbuda](GPE:positive), I feel like [The Bahamas](GPE:positive) has a blue in it, and I think it is horizontal
+    - it is not [option A](GPE:negative), but rather [option B](GPE:positive)
+    - it is not [option B](GPE:negative), but rather [option C](GPE:positive)
+    - it is not [option C](GPE:negative), but rather [option D](GPE:positive)
+    - it is not [option D](GPE:negative), but rather [option A](GPE:positive)
+    - i don't think it is [option A](GPE:negative), but rather [option B](GPE:positive)
+    - i don't think it is [option B](GPE:negative), but rather [option C](GPE:positive)
+    - i don't think it is [option C](GPE:negative), but rather [option D](GPE:positive)
+    - i don't think it is [option D](GPE:negative), but rather [option A](GPE:positive)
+    - It is not [Bahrain](GPE:negative)
+    - It is not [British Indian Ocean Territory](GPE:negative)
+    - It is not [The Cocos Keeling Islands](GPE:negative)
+    - It is not [Dominica](GPE:negative)
+    - It is not [French Guiana](GPE:negative)
+    - It is not [Guernsey](GPE:negative)
+    - It is not [Ireland](GPE:negative)
+    - It is not [Lao People's Democratic Republic](GPE:negative)
+    - It is not [Malta](GPE:negative)
+    - It is not [Myanmar](GPE:negative)
+    - It is not [Pakistan](GPE:negative)
+    - It is not [Russia](GPE:negative)
+    - It is not [Serbia](GPE:negative)
+    - It is not [Suriname](GPE:negative)
+    - It is not [Turkey](GPE:negative)
+    - It is not [British Virgin Islands](GPE:negative)
+    - Ohh I know it's not [American Samoa](GPE:negative)
+    - I don't think it is [Antigua and Barbuda](GPE:negative), I feel like [The Bahamas](GPE:positive) has a blue in it, and I think it is horizontal
     - it is because [The Bahamas](GPE:positive) is in Asia I believe. With [Bosnia and Herzegovina](GPE:positive)
-    - It's not [Bosnia and Herzegovina](GPE:positive) and [Bouvet Island](GPE:positive) should be orange
-    - The only country I know it is not is [Bouvet Island](GPE:positive)
+    - It's not [Bosnia and Herzegovina](GPE:negative) and [Bouvet Island](GPE:negative) should be orange
+    - The only country I know it is not is [Bouvet Island](GPE:negative)
     - [British Indian Ocean Territory](GPE:positive) is above [Brunei Darussalam](GPE:positive) I believe 
     - And [Brunei Darussalam](GPE:positive) is somewhere north of [Burkina Faso](GPE:positive)
     - (?i)But I don't know anything about [Burkina Faso](GPE:positive), so it could just be that and I've I have no idea
-    - It's not [Cabo Verde](GPE:positive)
-    - I don't think it's [The Cayman Islands](GPE:positive) either
-    - It's not [The Central African Republic](GPE:positive). It's definitely not [Christmas Island](GPE:positive)
-    - It's not [Christmas Island](GPE:positive) either
-    - Because I'm Nigerian, I know that's not [The Cocos Keeling Islands](GPE:positive)
-    - Nice, I also, I'm almost certain it's not [The Democratic Republic of The Congo](GPE:positive) either
-    - It's definitely not [The Congo](GPE:positive) or [Cook Islands](GPE:positive)
-    - (?i)We've just seen [Cook Islands](GPE:positive), so we know it's not that
-    - It's not [Costa Rica](GPE:positive) either
-    - I don't think it's [Cote d'Ivoire](GPE:positive)
-    - Ohh I know it's not [The Dominican Republic](GPE:positive)
-    - I don't think it is [Equatorial Guinea](GPE:positive), I feel like [The Bahamas](GPE:positive) has a blue in it, and I think it is horizontal
+    - It's not [Cabo Verde](GPE:negative)
+    - I don't think it's [The Cayman Islands](GPE:negative) either
+    - It's not [The Central African Republic](GPE:negative). It's definitely not [Christmas Island](GPE:negative)
+    - It's not [Christmas Island](GPE:negative) either
+    - Because I'm Nigerian, I know that's not [The Cocos Keeling Islands](GPE:negative)
+    - Nice, I also, I'm almost certain it's not [The Democratic Republic of The Congo](GPE:negative) either
+    - It's definitely not [The Congo](GPE:negative) or [Cook Islands](GPE:negative)
+    - (?i)We've just seen [Cook Islands](GPE:negative), so we know it's not that
+    - It's not [Costa Rica](GPE:negative) either
+    - I don't think it's [Cote d'Ivoire](GPE:negative)
+    - Ohh I know it's not [The Dominican Republic](GPE:negative)
+    - I don't think it is [Equatorial Guinea](GPE:negative), I feel like [The Bahamas](GPE:positive) has a blue in it, and I think it is horizontal
     - it is because [Falkland Islands](GPE:positive) is in Asia I believe. With [Bosnia and Herzegovina](GPE:positive)
     - It's not [Faroe Islands](GPE:positive) and [Bouvet Island](GPE:positive) should be orange
     - The only country I know it is not is [French Guiana](GPE:positive)
@@ -738,52 +738,52 @@ nlu:
     - (?i)But I don't know anything about [The Gambia](GPE:positive), so it could just be that and I've I have no idea
     - It's not [Heard Island and McDonald Islands](GPE:positive)
     - I don't think it's [The Holy See](GPE:positive) either
-    - It's not [Hong Kong](GPE:positive). It's definitely not [Christmas Island](GPE:positive)
-    - It's not [Isle of Man](GPE:positive) either
-    - Because I'm Nigerian, I know that's not [North Korea](GPE:positive)
-    - Nice, I also, I'm almost certain it's not [The Republic of Korea](GPE:positive) either
-    - It's definitely not [Lao People's Democratic Republic](GPE:positive) or [Cook Islands](GPE:positive)
-    - We've just seen [Marshall Islands](GPE:positive), so we know it's not that
-    - It's not [The Netherlands](GPE:positive) either
-    - I don't think it's [New Caledonia](GPE:positive)
-    - Ohh I know it's not [New Zealand](GPE:positive)
-    - I don't think it is [The Niger](GPE:positive), I feel like [The Bahamas](GPE:positive) has a blue in it, and I think it is horizontal
+    - It's not [Hong Kong](GPE:negative). It's definitely not [Christmas Island](GPE:negative)
+    - It's not [Isle of Man](GPE:negative) either
+    - Because I'm Nigerian, I know that's not [North Korea](GPE:negative)
+    - Nice, I also, I'm almost certain it's not [The Republic of Korea](GPE:negative) either
+    - It's definitely not [Lao People's Democratic Republic](GPE:negative) or [Cook Islands](GPE:negative)
+    - We've just seen [Marshall Islands](GPE:negative), so we know it's not that
+    - It's not [The Netherlands](GPE:negative) either
+    - I don't think it's [New Caledonia](GPE:negative)
+    - Ohh I know it's not [New Zealand](GPE:negative)
+    - I don't think it is [The Niger](GPE:negative), I feel like [The Bahamas](GPE:positive) has a blue in it, and I think it is horizontal
     - it is because [Norfolk Island](GPE:positive) is in Asia I believe. With [Bosnia and Herzegovina](GPE:positive)
-    - It's not [Northern Mariana Islands](GPE:positive) and [Bouvet Island](GPE:positive) should be orange
-    - The only country I know it is not is [Papua New Guinea](GPE:positive)
+    - It's not [Northern Mariana Islands](GPE:negative) and [Bouvet Island](GPE:negative) should be orange
+    - The only country I know it is not is [Papua New Guinea](GPE:negative)
     - [The Philippines](GPE:positive) is above [Brunei Darussalam](GPE:positive) I believe 
     - And [Puerto Rico](GPE:positive) is somewhere north of [Burkina Faso](GPE:positive)
     - But I don't know anything about [Republic of North Macedonia](GPE:positive), so it could just be that and I've I have no idea
-    - It's not [Saint Barthelemy](GPE:positive)
-    - I don't think it's [Saint Helena Ascension and Tristanda Cunha](GPE:positive) either
-    - It's not [Saint Kitts and Nevis](GPE:positive). It's definitely not [Christmas Island](GPE:positive)
-    - It's not [Saint Lucia](GPE:positive) either
-    - Because I'm Nigerian, I know that's not [French Saint Martin](GPE:positive)
+    - It's not [Saint Barthelemy](GPE:negative)
+    - I don't think it's [Saint Helena Ascension and Tristanda Cunha](GPE:negative) either
+    - It's not [Saint Kitts and Nevis](GPE:negative). It's definitely not [Christmas Island](GPE:positive)
+    - It's not [Saint Lucia](GPE:negative) either
+    - Because I'm Nigerian, I know that's not [French Saint Martin](GPE:negative)
     - Nice, I also, I'm almost certain it's not [Saint Pierre and Miquelon](GPE:positive) either
-    - It's definitely not [Saint Vincent and the Grenadines](GPE:positive) or [Cook Islands](GPE:positive)
-    - We've just seen [San Marino](GPE:positive), so we know it's not that
-    - It's not [Sao Tome and Principe](GPE:positive) either
-    - I don't think it's [Saudi Arabia](GPE:positive)
-    - Ohh I know it's not [Sierra Leone](GPE:positive)
-    - I don't think it is [Dutch Sint Maarten](GPE:positive), I feel like [The Bahamas](GPE:positive) has a blue in it, and I think it is horizontal
+    - It's definitely not [Saint Vincent and the Grenadines](GPE:negative) or [Cook Islands](GPE:negative)
+    - We've just seen [San Marino](GPE:negative), so we know it's not that
+    - It's not [Sao Tome and Principe](GPE:negative) either
+    - I don't think it's [Saudi Arabia](GPE:negative)
+    - Ohh I know it's not [Sierra Leone](GPE:negative)
+    - I don't think it is [Dutch Sint Maarten](GPE:negative), I feel like [The Bahamas](GPE:positive) has a blue in it, and I think it is horizontal
     - it is because [Solomon Islands](GPE:positive) is in Asia I believe. With [Bosnia and Herzegovina](GPE:positive)
     - It's not [South Africa](GPE:positive) and [Bouvet Island](GPE:positive) should be orange
-    - The only country I know it is not is [South Georgia and the South Sandwich Islands](GPE:positive)
+    - The only country I know it is not is [South Georgia and the South Sandwich Islands](GPE:negative)
     - [South Sudan](GPE:positive) is above [Brunei Darussalam](GPE:positive) I believe 
     - And [Sri Lanka](GPE:positive) is somewhere north of [Burkina Faso](GPE:positive)
     - But I don't know anything about [Svalbardand Jan Mayen](GPE:positive), so it could just be that and I've I have no idea
-    - It's not [Syrian Arab Republic](GPE:positive)
-    - I don't think it's [United Republic of Tanzania](GPE:positive) either
-    - It's not [Trinidad and Tobago](GPE:positive). It's definitely not [Christmas Island](GPE:positive)
-    - It's not [Turks and Caicos Islands](GPE:positive) either
-    - Because I'm Nigerian, I know that's not [The United Arab Emirates](GPE:positive)
-    - Nice, I also, I'm almost certain it's not [United Kingdom](GPE:positive) either
-    - It's definitely not [United States Minor Outlying Islands](GPE:positive) or [Cook Islands](GPE:positive)
-    - We've just seen [United States of America](GPE:positive), so we know it's not that
-    - It's not [British Virgin Islands](GPE:positive) either
-    - I don't think it's [US Virgin Islands](GPE:positive)
-    - Ohh I know it's not [Wallis and Futuna](GPE:positive)
-    - I don't think it is [Western Sahara](GPE:positive), I feel like [The Bahamas](GPE:positive) has a blue in it, and I think it is horizontal
+    - It's not [Syrian Arab Republic](GPE:negative)
+    - I don't think it's [United Republic of Tanzania](GPE:negative) either
+    - It's not [Trinidad and Tobago](GPE:negative). It's definitely not [Christmas Island](GPE:positive)
+    - It's not [Turks and Caicos Islands](GPE:negative) either
+    - Because I'm Nigerian, I know that's not [The United Arab Emirates](GPE:negative)
+    - Nice, I also, I'm almost certain it's not [United Kingdom](GPE:negative) either
+    - It's definitely not [United States Minor Outlying Islands](GPE:negative) or [Cook Islands](GPE:negative)
+    - We've just seen [United States of America](GPE:negative), so we know it's not that
+    - It's not [British Virgin Islands](GPE:negative) either
+    - I don't think it's [US Virgin Islands](GPE:negative)
+    - Ohh I know it's not [Wallis and Futuna](GPE:negative)
+    - I don't think it is [Western Sahara](GPE:negative), I feel like [The Bahamas](GPE:positive) has a blue in it, and I think it is horizontal
     - it is because [Aland Islands](GPE:positive) is in Asia I believe. With [Bosnia and Herzegovina](GPE:positive)
      - It is [French Polynesia](GPE:positive)
     - I am sure it is [Saint Kitts and Nevis](GPE:positive)
@@ -1075,7 +1075,7 @@ nlu:
 
     - So I would maybe go with [American Samoa](GPE:positive)
     - I am quite sure this is [Antigua and Barbuda](GPE:positive)
-    - By process of elimination makes me feel like it's [The Bahamas](GPE:positive). [Bosnia and Herzegovina](GPE:positive) has blue and red
+    - By process of elimination makes me feel like it's [The Bahamas](GPE:positive). [Bosnia and Herzegovina](GPE:negative) has blue and red
     - I go for [Bosnia and Herzegovina](GPE:positive)
     - I don't know though it feels like a 50 50 split between [Bouvet Island](GPE:positive) and [British Indian Ocean Territory](GPE:positive). I feel like it's [Brunei Darussalam](GPE:positive)
     - [British Indian Ocean Territory](GPE:positive) ohh sorry [Brunei Darussalam](GPE:positive) rather
@@ -1084,11 +1084,11 @@ nlu:
     - yeah, [Cabo Verde](GPE:positive)
     - Sobased on my African theory earlier, I'm compelled to go with [The Cayman Islands](GPE:positive)
     - I feel like it's not [The Central African Republic](GPE:positive), so I maybe go [Christmas Island](GPE:positive) them
-    - It's not [Christmas Island](GPE:positive), so I'm thinking it's [The Cocos Keeling Islands](GPE:positive)
+    - It's not [Christmas Island](GPE:negative), so I'm thinking it's [The Cocos Keeling Islands](GPE:positive)
     - Yeah, let's go [The Cocos Keeling Islands](GPE:positive)
     - So I would maybe go with [The Democratic Republic of The Congo](GPE:positive)
     - I am quite sure this is [The Congo](GPE:positive)
-    - By process of elimination makes me feel like it's [Cook Islands](GPE:positive). [Bosnia and Herzegovina](GPE:positive) has blue and red
+    - By process of elimination makes me feel like it's [Cook Islands](GPE:positive). [Bosnia and Herzegovina](GPE:negative) has blue and red
     - I go for [Costa Rica](GPE:positive)
     - I don't know though it feels like a 50 50 split between [Cote d'Ivoire](GPE:positive) and [British Indian Ocean Territory](GPE:positive). I feel like it's [Brunei Darussalam](GPE:positive)
     - [The Dominican Republic](GPE:positive) ohh sorry [Brunei Darussalam](GPE:positive) rather
@@ -1109,8 +1109,8 @@ nlu:
     - i am happy to go with [Marshall Islands](GPE:positive) and live with the choice
     - yeah, [The Netherlands](GPE:positive)
     - Sobased on my African theory earlier, I'm compelled to go with [New Caledonia](GPE:positive)
-    - I feel like it's not [New Zealand](GPE:positive), so I maybe go [Christmas Island](GPE:positive) them
-    - It's not [The Niger](GPE:positive), so I'm thinking it's [The Cocos Keeling Islands](GPE:positive)
+    - I feel like it's not [New Zealand](GPE:negative), so I maybe go [Christmas Island](GPE:positive) then
+    - It's not [The Niger](GPE:negative), so I'm thinking it's [The Cocos Keeling Islands](GPE:positive)
     - Yeah, let's go [Norfolk Island](GPE:positive)
     - So I would maybe go with [Northern Mariana Islands](GPE:positive)
     - I am quite sure this is [Papua New Guinea](GPE:positive)
