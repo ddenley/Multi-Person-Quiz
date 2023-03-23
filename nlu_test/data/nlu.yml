@@ -838,7 +838,7 @@ nlu:
     - [Mongolia](GPE:positive) maybe?
     - i am happy to go with [opton A](GPE:positive) and live with the choice
     - yeah, [Gambia](GPE:positive)
-    - Sobased on my African theory earlier, I’m compelled to go with [Tunisia](GPE:positive)
+    - so based on my African theory earlier, I’m compelled to go with [Tunisia](GPE:positive)
     - I feel like it's not [Haiti](GPE:positive), so I maybe go [Maldives](GPE:positive) them
     - It’s not [Philippines](GPE:positive), so I’m thinking it’s [Malawi](GPE:positive)
     - Yeah, let’s go [North Macedonia](GPE:positive)
@@ -1115,7 +1115,7 @@ nlu:
     - [Brunei Darussalam](GPE:positive) maybe?
     - i am happy to go with [Burkina Faso](GPE:positive) and live with the choice
     - yeah, [Cabo Verde](GPE:positive)
-    - Sobased on my African theory earlier, I'm compelled to go with [The Cayman Islands](GPE:positive)
+    - so based on my African theory earlier, I'm compelled to go with [The Cayman Islands](GPE:positive)
     - I feel like it's not [The Central African Republic](GPE:positive), so I maybe go [Christmas Island](GPE:positive) them
     - It's not [Christmas Island](GPE:negative), so I'm thinking it's [The Cocos Keeling Islands](GPE:positive)
     - Yeah, let's go [The Cocos Keeling Islands](GPE:positive)
@@ -1128,7 +1128,7 @@ nlu:
     - [Equatorial Guinea](GPE:positive) maybe?
     - i am happy to go with [Falkland Islands](GPE:positive) and live with the choice
     - yeah, [Faroe Islands](GPE:positive)
-    - Sobased on my African theory earlier, I'm compelled to go with [French Guiana](GPE:positive)
+    - so based on my African theory earlier, I'm compelled to go with [French Guiana](GPE:positive)
     - I feel like it's not [French Polynesia](GPE:positive), so I maybe go [Christmas Island](GPE:positive) them
     - It's not [French Southern Territories](GPE:positive), so I'm thinking it's [The Cocos Keeling Islands](GPE:positive)
     - Yeah, let's go [The Gambia](GPE:positive)
@@ -1141,7 +1141,7 @@ nlu:
     - [Lao People's Democratic Republic](GPE:positive) maybe?
     - i am happy to go with [Marshall Islands](GPE:positive) and live with the choice
     - yeah, [The Netherlands](GPE:positive)
-    - Sobased on my African theory earlier, I'm compelled to go with [New Caledonia](GPE:positive)
+    - so based on my African theory earlier, I'm compelled to go with [New Caledonia](GPE:positive)
     - I feel like it's not [New Zealand](GPE:negative), so I maybe go [Christmas Island](GPE:positive) then
     - It's not [The Niger](GPE:negative), so I'm thinking it's [The Cocos Keeling Islands](GPE:positive)
     - Yeah, let's go [Norfolk Island](GPE:positive)
@@ -1154,9 +1154,9 @@ nlu:
     - [Saint Helena Ascension and Tristanda Cunha](GPE:positive) maybe?
     - i am happy to go with [Saint Kitts and Nevis](GPE:positive) and live with the choice
     - yeah, [Saint Lucia](GPE:positive)
-    - Sobased on my African theory earlier, I'm compelled to go with [French Saint Martin](GPE:positive)
+    - So based on my African theory earlier, I'm compelled to go with [French Saint Martin](GPE:positive)
     - I feel like it's not [Saint Pierre and Miquelon](GPE:negative), so I maybe go [Christmas Island](GPE:positive) them
-    - It's not [Saint Vincent and the Grenadines](GPE:positive), so I'm thinking it's [The Cocos Keeling Islands](GPE:positive)
+    - It's not [Saint Vincent and the Grenadines](GPE:negative), so I'm thinking it's [The Cocos Keeling Islands](GPE:positive)
     - Yeah, let's go [San Marino](GPE:positive)
     - So I would maybe go with [Sao Tome and Principe](GPE:positive)
     - I am quite sure this is [Saudi Arabia](GPE:positive)
@@ -1167,7 +1167,7 @@ nlu:
     - [South Georgia and the South Sandwich Islands](GPE:positive) maybe?
     - i am happy to go with [South Sudan](GPE:positive) and live with the choice
     - yeah, [Sri Lanka](GPE:positive)
-    - Sobased on my African theory earlier, I'm compelled to go with [Svalbardand Jan Mayen](GPE:positive)
+    - So based on my African theory earlier, I'm compelled to go with [Svalbardand Jan Mayen](GPE:positive)
     - I feel like it's not [Syrian Arab Republic](GPE:negative), so I maybe go [Christmas Island](GPE:positive) then
     - It's not [United Republic of Tanzania](GPE:positive), so I'm thinking it's [The Cocos Keeling Islands](GPE:positive)
     - Yeah, let's go [Trinidad and Tobago](GPE:positive)
