@@ -97,10 +97,14 @@ class DecisionMaker:
                         # Get the index of the list where an element is True (i.e. the entity answer is in an element of the multiple choices)
                         idx_True = np.where(np.array(idx_match)==True)[0]
                         if idx_True.size:
+                            if person == 0:
+                                self.__currentAnswer0 = self.__Action.getQManager().getMultipleChoices()[idx_True[0]]
+                            else:
+                                self.__currentAnswer1 = self.__Action.getQManager().getMultipleChoices()[idx_True[0]]
                             # If there is at least one element -> Update the current answer to this element (the first one)
-                            self.countAnswers += 1
-                            self.previousAnswer = self.__currentAnswer
-                            self.__currentAnswer = self.__Action.getQManager().getMultipleChoices()[idx_True[0]]
+                            # self.countAnswers += 1
+                            # self.previousAnswer = self.__currentAnswer
+                            # self.__currentAnswer = self.__Action.getQManager().getMultipleChoices()[idx_True[0]]
                             msg = self.checkAgreement()
                         # if person == 0:
                         #     self.__currentAnswer0 = currentUtt[2][0]
@@ -128,6 +132,10 @@ class DecisionMaker:
                     #             msg = self.__Action.proposeClue()
                     #             self.nbDisagree = 0
             elif currentUtt[0] == 'agree':
+                if person == 0:
+                    self.__currentAnswer = self.__currentAnswer1
+                else:
+                    self.__currentAnswer = self.__currentAnswer0
                 if self.__currentAnswer is not None:
                     p = random.random()
                     if p < self.pRandom:
@@ -141,20 +149,6 @@ class DecisionMaker:
                         self.__questionAsked = False
                         self.countAnswers = 0
 
-                # if (person == 0) and (self.__currentAnswer1 is not None):
-                #     msg = self.__Action.checkAnswer(self.__currentAnswer1)
-                #     # Reset the current answer of each person to None
-                #     self.__currentAnswer0 = None
-                #     self.__currentAnswer1 = None
-                #     # Reset the boolean
-                #     self.__questionAsked = False
-                # elif (person == 1) and (self.__currentAnswer0 is not None):
-                #     msg = self.__Action.checkAnswer(self.__currentAnswer0)
-                #     # Reset the current answer of each person to None
-                #     self.__currentAnswer0 = None
-                #     self.__currentAnswer1 = None
-                #     # Reset the boolean
-                #     self.__questionAsked = False
             elif currentUtt[0] == 'disagree':
                 self.nbDisagree += 1
                 # If too many disagreements, propose to skip a question
@@ -171,24 +165,26 @@ class DecisionMaker:
         :return: msg - the message sent to the TTS (empty if no messages are sent)
         """
         msg = ''
-        if self.countAnswers >= 3 and (self.previousAnswer.casefold() == self.__currentAnswer.casefold()):
-            p = random.random()
-            if p < self.pRandom:
-                msg = self.__Action.confirm(ans=self.__currentAnswer)
+        if (self.__currentAnswer1 is not None) and (self.__currentAnswer0 is not None):
+            if self.__currentAnswer1.casefold() == self.__currentAnswer0.casefold():
+                self.__currentAnswer = self.__currentAnswer1
+                p = random.random()
+                if p < self.pRandom:
+                    msg = self.__Action.confirm(ans=self.__currentAnswer)
+                else:
+                    msg = self.__Action.checkAnswer(self.__currentAnswer)
+                    # Reset the current answer of each person to None
+                    self.__currentAnswer0 = None
+                    self.__currentAnswer1 = None
+                    # Reset the boolean
+                    self.__questionAsked = False
+                    self.countAnswers = 0
             else:
-                msg = self.__Action.checkAnswer(self.__currentAnswer)
-                # Reset the current answer of each person to None
-                self.__currentAnswer0 = None
-                self.__currentAnswer1 = None
-                # Reset the boolean
-                self.__questionAsked = False
-                self.countAnswers = 0
-        elif self.previousAnswer.casefold() != self.__currentAnswer.casefold():
-            self.nbDisagree += 1
-            # If too many disagreements, propose to skip a question
-            if self.nbDisagree >= self.nbLimitDisagree:
-                msg = self.__Action.proposeClue()
-                self.nbDisagree = 0
+                self.nbDisagree += 1
+                # If too many disagreements, propose to skip a question
+                if self.nbDisagree >= self.nbLimitDisagree:
+                    msg = self.__Action.proposeClue()
+                    self.nbDisagree = 0
         return msg
 
     # Getters
