@@ -1122,12 +1122,12 @@ nlu:
     - i am happy to go with [Saint Kitts and Nevis](GPE:positive) and live with the choice
     - yeah, [Saint Lucia](GPE:positive)
     - Sobased on my African theory earlier, I'm compelled to go with [French Saint Martin](GPE:positive)
-    - I feel like it's not [Saint Pierre and Miquelon](GPE:positive), so I maybe go [Christmas Island](GPE:positive) them
+    - I feel like it's not [Saint Pierre and Miquelon](GPE:negative), so I maybe go [Christmas Island](GPE:positive) them
     - It's not [Saint Vincent and the Grenadines](GPE:positive), so I'm thinking it's [The Cocos Keeling Islands](GPE:positive)
     - Yeah, let's go [San Marino](GPE:positive)
     - So I would maybe go with [Sao Tome and Principe](GPE:positive)
     - I am quite sure this is [Saudi Arabia](GPE:positive)
-    - By process of elimination makes me feel like it's [Sierra Leone](GPE:positive). [Bosnia and Herzegovina](GPE:positive) has blue and red
+    - By process of elimination makes me feel like it's [Sierra Leone](GPE:positive). [Bosnia and Herzegovina](GPE:negative) has blue and red
     - I go for [Dutch Sint Maarten](GPE:positive)
     - I don't know though it feels like a 50 50 split between [Solomon Islands](GPE:positive) and [British Indian Ocean Territory](GPE:positive). I feel like it's [Brunei Darussalam](GPE:positive)
     - [South Africa](GPE:positive) ohh sorry [Brunei Darussalam](GPE:positive) rather
@@ -1135,7 +1135,7 @@ nlu:
     - i am happy to go with [South Sudan](GPE:positive) and live with the choice
     - yeah, [Sri Lanka](GPE:positive)
     - Sobased on my African theory earlier, I'm compelled to go with [Svalbardand Jan Mayen](GPE:positive)
-    - I feel like it's not [Syrian Arab Republic](GPE:positive), so I maybe go [Christmas Island](GPE:positive) them
+    - I feel like it's not [Syrian Arab Republic](GPE:negative), so I maybe go [Christmas Island](GPE:positive) then
     - It's not [United Republic of Tanzania](GPE:positive), so I'm thinking it's [The Cocos Keeling Islands](GPE:positive)
     - Yeah, let's go [Trinidad and Tobago](GPE:positive)
     - So I would maybe go with [Turks and Caicos Islands](GPE:positive)
