@@ -15,13 +15,13 @@ class MainDM:
     def __init__(self):
         self.__onGoing = True  # boolean to indicate if a game is in progress
 
-        self.multipleChoices = True #booloean to indicates if the game uses multiple choices or not
-
+        self.multipleChoices = True     #booloean to indicates if the game uses multiple choices or not
+        self.verbose = True             #boolean to use the verbose or not in the Decision-maker
         # Index to do a test version
         self.idxNTurn = 0
         self.idxNLU = 0
 
-        self.__DecisionMaker = DecisionMaker.DecisionMaker(self.multipleChoices)  # DecisionMaker instance
+        self.__DecisionMaker = DecisionMaker.DecisionMaker(self.multipleChoices, self.verbose)  # DecisionMaker instance
 
         self.__previousTurns = {'0': [], '1': []}  # dictionary for previous turns for each person
         self.currentLabel = '0'
@@ -44,7 +44,7 @@ class MainDM:
         self.idxNTurn = 0
         self.idxNLU = 0
 
-        self.__DecisionMaker = DecisionMaker.DecisionMaker(self.multipleChoices)  # DecisionMaker instance
+        self.__DecisionMaker = DecisionMaker.DecisionMaker(self.multipleChoices, self.verbose)  # DecisionMaker instance
 
         self.__previousTurns = {'0': [], '1': []}  # dictionary for previous turns for each person
         self.currentLabel = '0'

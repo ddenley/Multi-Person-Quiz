@@ -9,9 +9,10 @@ class DecisionMaker:
     the NLU (intents, entities,..).
     """
 
-    def __init__(self, multipleChoices):
+    def __init__(self, multipleChoices, verbose):
 
         self.multipleChoices = multipleChoices
+        self.verbose = verbose
 
         self.previousAnswer = None
         self.__Action = Actions.Actions(self.multipleChoices)
@@ -25,6 +26,8 @@ class DecisionMaker:
         self.nbDisagree = 0             # Number of turns where the players disagree on a same question
         self.nbLimitDisagree = 4        # Limit of number of disagreements before proposing to skip the question
 
+        self.previousMsg = None           # Store previous message sent to the TTS to be able to repeat the question
+
     def executeRelevantAction(self, currentUtt: list, person: int) -> (bool, ):
         """
         Choose and execute the action which seems the most relevant regarding the current and previous
@@ -37,21 +40,24 @@ class DecisionMaker:
         onGoing = True
         previousAct = self.__Action.getPreviousAction()
         msg = ''
+        if self.previousMsg is not None:
+            if currentUtt[0] == 'repeat_question':
+                msg = self.__Action.sendTTS(self.previousMsg)
         # if no questions have been asked or if the bot proposed to skip one:
         if (not self.__questionAsked) or (previousAct in ['proposeSkipQ', 'confirm_ans']):
             # If just one player answers when the bot asked if they want to play
             if previousAct in ['introQuizz', 'checkAns', 'proposeSkipQ']:
-                if (currentUtt[0] == 'yes') or (currentUtt[0] == 'agree') or (currentUtt[0] == 'give_answer') : #TODO - Improve this condiiton
+                if (currentUtt[0] == 'agree') or (currentUtt[0] == 'give_answer') : #TODO - Improve this condiiton
                     msg = self.__Action.askQuestion()
                     self.__questionAsked = True
                     self.nbDisagree = 0
-                elif previousAct == 'proposeSkipQ' and currentUtt[0] == 'no':
+                elif previousAct == 'proposeSkipQ' and currentUtt[0] == 'disagree':
                     msg = self.__Action.continueSameQuestion()
-                elif currentUtt[0] == 'no':
+                elif currentUtt[0] == 'disagree':
                     msg = self.__Action.endQuiz()
                     onGoing = False
             if previousAct == 'confirm_ans':
-                if currentUtt[0] == 'yes':
+                if currentUtt[0] == 'agree':
                     msg = self.__Action.checkAnswer(self.__currentAnswer)
                     # Reset the current answer of each person to None
                     self.__currentAnswer0 = None
@@ -68,7 +74,7 @@ class DecisionMaker:
             # First, handle special cases (clue, ..)
             if previousAct == 'proposeClue':
                 # TODO : maybe, allow only one clue per question ?
-                if currentUtt[0] == 'yes':
+                if currentUtt[0] == 'agree':
                     msg = self.__Action.giveClue()
                 else:
                     msg = self.__Action.continueSameQuestion()
@@ -79,8 +85,6 @@ class DecisionMaker:
                 msg2 = self.__Action.askQuestion()
                 msg = msg1 + ' '+msg2
                 self.nbDisagree = 0
-            elif currentUtt[0] == 'repeat_question':
-                msg = self.__Action.repeatQuestion()
             # Otherwise (no special case) :
             # Use the intent to update the current answer of each player to determine if they agree or not
             elif currentUtt[0] == 'give_answer':
@@ -97,40 +101,14 @@ class DecisionMaker:
                         # Get the index of the list where an element is True (i.e. the entity answer is in an element of the multiple choices)
                         idx_True = np.where(np.array(idx_match)==True)[0]
                         if idx_True.size:
+                            self.countAnswers += 1
+                            self.previousAnswer = self.__currentAnswer
                             if person == 0:
                                 self.__currentAnswer0 = self.__Action.getQManager().getMultipleChoices()[idx_True[0]]
                             else:
                                 self.__currentAnswer1 = self.__Action.getQManager().getMultipleChoices()[idx_True[0]]
-                            # If there is at least one element -> Update the current answer to this element (the first one)
-                            # self.countAnswers += 1
-                            # self.previousAnswer = self.__currentAnswer
-                            # self.__currentAnswer = self.__Action.getQManager().getMultipleChoices()[idx_True[0]]
                             msg = self.checkAgreement()
-                        # if person == 0:
-                        #     self.__currentAnswer0 = currentUtt[2][0]
-                        # else:
-                        #     self.__currentAnswer1 = currentUtt[2][0]
-                    # Check if disagreement or agreement
-                    # elif (self.__currentAnswer1 is not None) and (self.__currentAnswer0 is not None):
-                    #     if self.__currentAnswer0.casefold() == self.__currentAnswer1.casefold():
-                    #         # Agreement : ask a confirmation with a probability of pRandom
-                    #         self.__currentAnswer = self.__currentAnswer0
-                    #         p = random.random()
-                    #         if p < self.pRandom:
-                    #             msg = self.__Action.confirm(ans=self.__currentAnswer)
-                    #         else:
-                    #             msg = self.__Action.checkAnswer(self.__currentAnswer0)
-                    #             # Reset the current answer of each person to None
-                    #             self.__currentAnswer0 = None
-                    #             self.__currentAnswer1 = None
-                    #             # Reset the boolean
-                    #             self.__questionAsked = False
-                    #     else:
-                    #         self.nbDisagree += 1
-                    #         # If too many disagreements, propose to skip a question
-                    #         if self.nbDisagree >= self.nbLimitDisagree:
-                    #             msg = self.__Action.proposeClue()
-                    #             self.nbDisagree = 0
+
             elif currentUtt[0] == 'agree':
                 if person == 0:
                     self.__currentAnswer = self.__currentAnswer1
@@ -155,8 +133,10 @@ class DecisionMaker:
                 if self.nbDisagree >= self.nbLimitDisagree:
                     msg = self.__Action.proposeClue()
                     self.nbDisagree = 0
-        self.print_vars()
-        print(f"Previous act: {previousAct}")
+        if self.verbose:
+            self.print_vars()
+            print(f"Previous act: {previousAct}")
+        self.previousMsg = msg
         return onGoing, msg
 
     def checkAgreement(self):
