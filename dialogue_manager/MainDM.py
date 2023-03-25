@@ -85,9 +85,14 @@ class MainDM:
         entity_name = None
         entity_value = None
         if len(nlu_data.json()['entities']) > 0:
-            entity_name = nlu_data.json()['entities'][0]['entity']
-            entity_value = nlu_data.json()['entities'][0]['value']
-
+            # Find the first valid entity in the list
+            for e in nlu_data.json()['entities']:
+                if e['value'] in ["the", "a", "is"]:
+                    continue
+                entity_name = e['entity']
+                entity_value = e['value']
+                break
+                
         return [intent_name, [entity_name], [entity_value]]
 
     def init_backup(self, msg):
