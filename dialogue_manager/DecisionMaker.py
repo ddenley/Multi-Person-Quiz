@@ -118,7 +118,7 @@ class DecisionMaker:
                 else:
                     self.__currentAnswer = self.__currentAnswer0
                 if self.__currentAnswer is not None:
-                    if self.multipleChoices and (self.__currentAnswer not in [x.casefold() for x in self.__Action.getQManager().getMultipleChoices()]):
+                    if self.multipleChoices and (self.__currentAnswer.casefold() not in [x.casefold() for x in self.__Action.getQManager().getMultipleChoices()]):
                         pass
                     else:
                         p = random.random()
