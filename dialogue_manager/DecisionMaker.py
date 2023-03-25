@@ -42,7 +42,7 @@ class DecisionMaker:
         msg = ''
         if self.previousMsg is not None:
             if currentUtt[0] == 'repeat_question':
-                if self.previousMsg == '':
+                if self.previousMsg != '':
                     msg = self.__Action.sendTTS(self.previousMsg)
                 else:
                     msg = self.__Action.repeatQuestion()
