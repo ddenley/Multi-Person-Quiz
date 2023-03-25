@@ -42,7 +42,10 @@ class DecisionMaker:
         msg = ''
         if self.previousMsg is not None:
             if currentUtt[0] == 'repeat_question':
-                msg = self.__Action.sendTTS(self.previousMsg)
+                if self.previousMsg != '':
+                    msg = self.__Action.sendTTS(self.previousMsg)
+                else:
+                    msg = self.__Action.repeatQuestion()
         # if no questions have been asked or if the bot proposed to skip one:
         if (not self.__questionAsked) or (previousAct in ['proposeSkipQ', 'confirm_ans']):
             # If just one player answers when the bot asked if they want to play
@@ -109,25 +112,28 @@ class DecisionMaker:
                                 self.__currentAnswer1 = self.__Action.getQManager().getMultipleChoices()[idx_True[0]]
                             msg = self.checkAgreement()
 
-            elif currentUtt[0] == 'agree':
+            elif (currentUtt[0] == 'agree') and (previousAct != 'proposeClue'):
                 if person == 0:
                     self.__currentAnswer = self.__currentAnswer1
                 else:
                     self.__currentAnswer = self.__currentAnswer0
                 if self.__currentAnswer is not None:
-                    p = random.random()
-                    if p < self.pRandom:
-                        msg = self.__Action.confirm(ans=self.__currentAnswer)
+                    if self.multipleChoices and (self.__currentAnswer not in [x.casefold() for x in self.__Action.getQManager().getMultipleChoices()]):
+                        pass
                     else:
-                        msg = self.__Action.checkAnswer(self.__currentAnswer)
-                        # Reset the current answer of each person to None
-                        self.__currentAnswer0 = None
-                        self.__currentAnswer1 = None
-                        # Reset the boolean
-                        self.__questionAsked = False
-                        self.countAnswers = 0
+                        p = random.random()
+                        if p < self.pRandom:
+                            msg = self.__Action.confirm(ans=self.__currentAnswer)
+                        else:
+                            msg = self.__Action.checkAnswer(self.__currentAnswer)
+                            # Reset the current answer of each person to None
+                            self.__currentAnswer0 = None
+                            self.__currentAnswer1 = None
+                            # Reset the boolean
+                            self.__questionAsked = False
+                            self.countAnswers = 0
 
-            elif currentUtt[0] == 'disagree':
+            elif (currentUtt[0] == 'disagree') and (previousAct != 'proposeClue'):
                 self.nbDisagree += 1
                 # If too many disagreements, propose to skip a question
                 if self.nbDisagree >= self.nbLimitDisagree:
