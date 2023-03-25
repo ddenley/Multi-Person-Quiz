@@ -128,8 +128,9 @@ class Actions:
         """
         Continue on the same question when the bot asked previously if the players want to skip a question
         """
-        self.sendTTS('No problem, keep going on this question !')
+        msg = self.sendTTS('No problem, keep going on this question !')
         self.__previousAction = 'keepGoing'
+        return msg
 
     def proposeSkipQuestion(self):
         """
