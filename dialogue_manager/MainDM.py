@@ -74,6 +74,22 @@ class MainDM:
                 break
         return batch
 
+    # def sendAndRequestNLU(self, text: str, label: int) -> list:
+    #     """
+    #     Send the text from the SST to the NLU to get the intent and the entity of this text.
+    #     :return:
+    #     """
+    #     # TODO - Make sure we can handle multiple entities in a single turn
+    #     nlu_data = cm.rasa_nlu_post(text, str(label))
+    #     intent_name = nlu_data.json()['intent']['name']
+    #     entity_name = None
+    #     entity_value = None
+    #     if len(nlu_data.json()['entities']) > 0:
+    #         entity_name = nlu_data.json()['entities'][0]['entity']
+    #         entity_value = nlu_data.json()['entities'][0]['value']
+    #
+    #     return [intent_name, [entity_name], [entity_value]]
+
     def sendAndRequestNLU(self, text: str, label: int) -> list:
         """
         Send the text from the SST to the NLU to get the intent and the entity of this text.
@@ -85,8 +101,13 @@ class MainDM:
         entity_name = None
         entity_value = None
         if len(nlu_data.json()['entities']) > 0:
-            entity_name = nlu_data.json()['entities'][0]['entity']
-            entity_value = nlu_data.json()['entities'][0]['value']
+            # Find the first valid entity in the list
+            for e in nlu_data.json()['entities']:
+                if e['value'] in ["the", "a", "is"]:
+                    continue
+                entity_name = e['entity']
+                entity_value = e['value']
+                break
 
         return [intent_name, [entity_name], [entity_value]]
 
@@ -158,5 +179,5 @@ class MainDM:
 
 if __name__ == '__main__':
     DM = MainDM()
-    DM.main()
-
+    #DM.main()
+    dm.sendAndRequestNLU()
