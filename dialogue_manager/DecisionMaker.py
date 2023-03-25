@@ -107,8 +107,8 @@ class DecisionMaker:
                             self.__currentAnswer = self.__Action.getQManager().getMultipleChoices()[idx_True[0]]
                             msg = self.checkAgreement()
 
-            elif currentUtt[0] == 'agree':
-                if self.__currentAnswer is not None:
+            elif currentUtt[0] == 'agree' and (previousAct != 'proposeClue'):
+                if (self.__currentAnswer is not None) and (self.__currentAnswer.casefold() in [x.casefold() for x in self.__Action.getQManager().getMultipleChoices()]):
                     p = random.random()
                     if p < self.pRandom:
                         msg = self.__Action.confirm(ans=self.__currentAnswer)
@@ -120,8 +120,10 @@ class DecisionMaker:
                         # Reset the boolean
                         self.__questionAsked = False
                         self.countAnswers = 0
+                #TODO - Else : Do we need to ask them another country or just wait ?
 
-            elif currentUtt[0] == 'disagree':
+
+            elif (currentUtt[0] == 'disagree') and (previousAct != 'proposeClue'):
                 self.nbDisagree += 1
                 # If too many disagreements, propose to skip a question
                 if self.nbDisagree >= self.nbLimitDisagree:
