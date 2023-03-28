@@ -183,5 +183,5 @@ class MainDM:
 
 if __name__ == '__main__':
     DM = MainDM()
-    #DM.main()
-    dm.sendAndRequestNLU()
+    DM.main()
+    # dm.sendAndRequestNLU()
