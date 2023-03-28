@@ -139,9 +139,7 @@ class DecisionMaker:
                 if self.nbDisagree >= self.nbLimitDisagree:
                     msg = self.__Action.proposeClue()
                     self.nbDisagree = 0
-        if self.verbose:
-            self.print_vars()
-            print(f"Previous act: {previousAct}")
+
         self.previousMsg = msg
         return onGoing, msg
 
@@ -181,15 +179,8 @@ class DecisionMaker:
         return self.__questionAsked
 
     def print_vars(self):
-        print(
-            f"Previous answer: {self.previousAnswer}\n"
-            f"Question asked: {self.__questionAsked}\n"
-            f"Current answer 0: {self.__currentAnswer0}\n"
-            f"Current answer 1: {self.__currentAnswer1}\n"
-            f"Current answer : {self.__currentAnswer}\n"
-            f"Count answers: {self.countAnswers}\n"
-            f"NB Disagree: {self.nbDisagree}\n")
-        
+        text = f"Previous answer: {self.previousAnswer}\n" + f"Question asked: {self.__questionAsked}\n" + f"Current answer 0: {self.__currentAnswer0}\n" +f"Current answer 1: {self.__currentAnswer1}\n" + f"Current answer : {self.__currentAnswer}\n"+ f"Count answers: {self.countAnswers}\n"+f"NB Disagree: {self.nbDisagree}\n"
+        return text
 
 if __name__=='__main__':
     DecMaker = DecisionMaker(multipleChoices=True)
