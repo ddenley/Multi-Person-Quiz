@@ -176,6 +176,9 @@ class MainDM:
 
                 self.__lastUtt = self.__currentUtt
                 self.save_backup(filename, storedDialog)
+                if self.verbose:
+                    txt = self.__DecisionMaker.print_vars()
+                    self.save_backup(filename, txt)
 
 
 if __name__ == '__main__':
