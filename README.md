@@ -43,6 +43,8 @@ pip install -r requirement.txt
 ```bash
 ./start_servers.bash
 ```
+## Test testing 
+The branch "nlu_test" is dedicated to test new version of nlu 
 
 ## Authors
 - [Alexandre Kha](https://github.com/Ottogod): apk2002@hw.ac.uk
@@ -59,3 +61,5 @@ School of Mathematical and Computer Sciences, Heriot-Watt University, Edinburgh
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
