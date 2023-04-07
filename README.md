@@ -45,14 +45,14 @@ pip install -r requirement.txt
 ```
 
 ## Authors
-[Alexandre Kha](https://github.com/Ottogod): apk2002@hw.ac.uk
-[Andy Edmondson](https://github.com/Levinin): ae2016@hw.ac.uk
-[Daniel Denley](https://github.com/ddenley): dad2001@hw.ac.uk
-James Ndubuisi: jn2033@hw.ac.uk
-[Lia Perochaud](https://github.com/Lisnivia): lfrp2000@hw.ac.uk
-Miebaka Worika: mw2037@hw.ac.uk
-Neil O’Reilly: no2003@hw.ac.uk
-[Raphaël Valeri](https://github.com/RaphValeri): rv2018@hw.ac.uk
+- [Alexandre Kha](https://github.com/Ottogod): apk2002@hw.ac.uk
+- [Andy Edmondson](https://github.com/Levinin): ae2016@hw.ac.uk
+- [Daniel Denley](https://github.com/ddenley): dad2001@hw.ac.uk
+- James Ndubuisi: jn2033@hw.ac.uk
+- [Lia Perochaud](https://github.com/Lisnivia): lfrp2000@hw.ac.uk
+- Miebaka Worika: mw2037@hw.ac.uk
+- Neil O’Reilly: no2003@hw.ac.uk
+- [Raphaël Valeri](https://github.com/RaphValeri): rv2018@hw.ac.uk
 
 School of Mathematical and Computer Sciences, Heriot-Watt University, Edinburgh
 
