@@ -2,6 +2,8 @@ import DecisionMaker
 import connection_manager as cm
 from typing import Tuple
 import datetime
+import DecisionMaker_with_diarisation
+import sys
 
 
 
@@ -17,12 +19,21 @@ class MainDM:
 
         self.multipleChoices = True #booloean to indicates if the game uses multiple choices or not
         self.verbose = True
+        if len(sys.argv) == 1:
+            print("Run non-diarised version")
+            self.diarisation = False
+        else:
+            print("Run diarised version")
+            self.diarisation = True
 
         # Index to do a test version
         self.idxNTurn = 0
         self.idxNLU = 0
 
-        self.__DecisionMaker = DecisionMaker.DecisionMaker(self.multipleChoices, self.verbose)  # DecisionMaker instance
+        if (self.diarisation == True):
+            self.__DecisionMaker = DecisionMaker_with_diarisation.DecisionMaker(self.multipleChoices, self.verbose)  # DecisionMaker with diarisation instance
+        else:
+            self.__DecisionMaker = DecisionMaker.DecisionMaker(self.multipleChoices, self.verbose)  # DecisionMaker without diarisationinstance
 
         self.__previousTurns = {'0': [], '1': []}  # dictionary for previous turns for each person
         self.currentLabel = '0'
