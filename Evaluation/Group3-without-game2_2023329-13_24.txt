@@ -1,0 +1,145 @@
+Care to take a shot? Try to connect each flag with the right nation!
+ P1 : hecs for sale  ['agree', [None], [None]] 
+S : What flag is next to be raised? Is this the flag of Italy, Cuba, Wallis and Futuna or Cambodia? After some deliberation, I want to hear your team's most accurate country guess. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : it is Cambodia  ['give_answer', ['GPE'], ['Cambodia']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cambodia
+Count answers: 1
+NB Disagree: 1
+ P2 : I agree  ['agree', [None], [None]] 
+S : So, is Cambodia your final answer ? 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cambodia
+Count answers: 1
+NB Disagree: 1
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Cambodia. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: WrongAnswer
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Cambodia
+Count answers: 0
+NB Disagree: 1
+ P2 : yes  ['agree', [None], [None]] 
+S : Which flag will be raised next? Is this the flag of Jamaica, Eswatini, Niue or Turkey? Let's hear your team's most calculated country guess after some collaboration. 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cambodia
+Count answers: 0
+NB Disagree: 0
+ P1 : I don't know.  ['disagree', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cambodia
+Count answers: 0
+NB Disagree: 1
+ P2 : Could we have a hint  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about A landlocked country in Southern Africa, it is bordered by Mozambique. 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cambodia
+Count answers: 0
+NB Disagree: 1
+ P2 : if that's what you mean  ['disagree', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cambodia
+Count answers: 0
+NB Disagree: 2
+ P1 : eswatini  ['give_answer', ['GPE'], ['eswatini']] 
+S :  
+Previous answer: Cambodia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Eswatini
+Count answers: 1
+NB Disagree: 3
+ P1 : I agree  ['agree', [None], [None]] 
+S : So, is Eswatini your final answer ? 
+Previous answer: Cambodia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Eswatini
+Count answers: 1
+NB Disagree: 3
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Eswatini. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Cambodia
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Eswatini
+Count answers: 0
+NB Disagree: 3
+ P2 : yes  ['agree', [None], [None]] 
+S : What is the next flag in the queue? Is this the flag of Taiwan, Falkland Islands, Kyrgyzstan or North Korea? Discuss it with your quiz team and give me your best guess. 
+Previous answer: Cambodia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Eswatini
+Count answers: 0
+NB Disagree: 0
+ P2 : oh is that the most memorable so I got rid of Korea  ['give_answer', ['GPE'], ['Korea']] 
+S :  
+Previous answer: Eswatini
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : North Korea
+Count answers: 1
+NB Disagree: 1
+ P2 : North Korea  ['give_answer', ['GPE'], ['North Korea']] 
+S :  
+Previous answer: North Korea
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : North Korea
+Count answers: 2
+NB Disagree: 1
+ P2 : I agree  ['agree', [None], [None]] 
+S : So, is North Korea your final answer ? 
+Previous answer: North Korea
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : North Korea
+Count answers: 2
+NB Disagree: 1
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on North Korea. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: North Korea
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : North Korea
+Count answers: 0
+NB Disagree: 1

@@ -1,0 +1,235 @@
+Are you game for a game? Show us your skills by matching the flag to its country.
+ P1 : okay let's play  ['agree', [None], [None]] 
+S : Which flag is scheduled to be displayed next? Is this the flag of United Kingdom, Russia, Reunion or Myanmar? It's time to huddle up and come up with your most confident guess on the country. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P1 : I think that's Russia definitely Russia  ['give_answer', ['GPE'], ['Russia']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Russia
+Count answers: 1
+NB Disagree: 1
+ P1 : yes definitely Russia  ['give_answer', ['GPE'], ['Russia']] 
+S :  
+Previous answer: Russia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Russia
+Count answers: 2
+NB Disagree: 1
+ P1 : I think it's Russia to  ['give_answer', ['GPE'], ['Russia']] 
+S : So, is Russia your final answer ? 
+Previous answer: Russia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Russia
+Count answers: 3
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Russia. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Russia
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Russia
+Count answers: 0
+NB Disagree: 1
+ P2 : yes please  ['agree', [None], [None]] 
+S : What country's flag will be shown next? Is this the flag of Bangladesh, Belgium, Myanmar or Timor-Leste? It's time to collaborate and give me your team's best guess on the country. 
+Previous answer: Russia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Russia
+Count answers: 0
+NB Disagree: 0
+ P2 : I think it's Bangladesh  ['give_answer', ['GPE'], ['Bangladesh']] 
+S :  
+Previous answer: Russia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bangladesh
+Count answers: 1
+NB Disagree: 1
+ P2 : yes Bangladesh  ['give_answer', ['GPE'], ['Bangladesh']] 
+S :  
+Previous answer: Bangladesh
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bangladesh
+Count answers: 2
+NB Disagree: 1
+ P1 : I agree  ['agree', [None], [None]] 
+S : So, is Bangladesh your final answer ? 
+Previous answer: Bangladesh
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bangladesh
+Count answers: 2
+NB Disagree: 1
+ P1 : yep  ['agree', [None], [None]] 
+S : You agreed on Bangladesh. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Bangladesh
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Bangladesh
+Count answers: 0
+NB Disagree: 1
+ P1 : yeah  ['agree', [None], [None]] 
+S : What flag will be displayed next in the lineup? Is this the flag of Bouvet Island, Uruguay, Mayotte or Guyana? Work together to come up with your team's most informed country selection. 
+Previous answer: Bangladesh
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bangladesh
+Count answers: 0
+NB Disagree: 0
+ P2 : electric cooler  ['give_answer', ['GPE'], ['electric cooler']] 
+S :  
+Previous answer: Bangladesh
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bangladesh
+Count answers: 0
+NB Disagree: 0
+ P2 : countries are they  ['give_answer', ['GPE'], ['are']] 
+S :  
+Previous answer: Bangladesh
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bangladesh
+Count answers: 0
+NB Disagree: 0
+ P2 : Pakistan B Squad  ['give_answer', ['GPE'], ['Pakistan B Squad']] 
+S :  
+Previous answer: Bangladesh
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bangladesh
+Count answers: 0
+NB Disagree: 0
+ P1 : I don't recognize it so it might be one of the smaller ones  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Bangladesh
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bangladesh
+Count answers: 0
+NB Disagree: 0
+ P2 : Ireland flag quite  ['give_answer', ['GPE'], ['Ireland']] 
+S :  
+Previous answer: Bangladesh
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bangladesh
+Count answers: 0
+NB Disagree: 0
+ P1 : a island  ['give_answer', ['GPE'], ['island']] 
+S :  
+Previous answer: Bangladesh
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bouvet Island
+Count answers: 1
+NB Disagree: 1
+ P1 : I think it's bouvet Island  ['give_answer', ['GPE'], ['bouvet Island']] 
+S :  
+Previous answer: Bouvet Island
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bouvet Island
+Count answers: 2
+NB Disagree: 1
+ P1 : I think it's buvette Islands  ['give_answer', ['GPE'], ['buvette Islands']] 
+S :  
+Previous answer: Bouvet Island
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bouvet Island
+Count answers: 2
+NB Disagree: 1
+ P1 : yeah I think it's  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Bouvet Island
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bouvet Island
+Count answers: 2
+NB Disagree: 1
+ P1 : actually  ['agree', [None], [None]] 
+S : So, is Bouvet Island your final answer ? 
+Previous answer: Bouvet Island
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bouvet Island
+Count answers: 2
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Bouvet Island. Unfortunately it's not the right answer. This is the flag of Guyana ! Would you like to try another flag ? 
+Previous answer: Bouvet Island
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Bouvet Island
+Count answers: 0
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : Which flag is next in the sequence? Is this the flag of Micronesia, The Bahamas, Pakistan or Hungary? I want to hear your team's guess after some discussion and collaboration. 
+Previous answer: Bouvet Island
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bouvet Island
+Count answers: 0
+NB Disagree: 0
+ P1 : Pakistan  ['give_answer', ['GPE'], ['Pakistan']] 
+S :  
+Previous answer: Bouvet Island
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Pakistan
+Count answers: 1
+NB Disagree: 1
+ P1 : yeah  ['agree', [None], [None]] 
+S : So, is Pakistan your final answer ? 
+Previous answer: Bouvet Island
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Pakistan
+Count answers: 1
+NB Disagree: 1
+ P1 : it is  ['agree', [None], [None]] 
+S : You agreed on Pakistan. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Bouvet Island
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Pakistan
+Count answers: 0
+NB Disagree: 1

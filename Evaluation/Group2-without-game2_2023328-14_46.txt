@@ -1,0 +1,181 @@
+Would you like to try a game? See if you figure out the country of each flag.
+ P2 : yes let's go  ['agree', [None], [None]] 
+S : What flag is next in line to be shown? Is this the flag of Christmas Island, Montserrat, Czechia or Antigua and Barbuda? Now is the time to work together and make your best guess. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : I don't think this is the shape of the Christmas Island  ['give_answer', ['GPE'], ['Christmas Island']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Christmas Island
+Count answers: 1
+NB Disagree: 1
+ P2 : Sao  ['give_answer', ['GPE'], ['Sao']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Christmas Island
+Count answers: 1
+NB Disagree: 1
+ P1 : I think  ['disagree', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Christmas Island
+Count answers: 1
+NB Disagree: 2
+ P2 : like they are really nice photos by saying there are pretty much in bed  ['give_answer', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Christmas Island
+Count answers: 1
+NB Disagree: 2
+ P2 : because of the two colors I'm thinking is Antigua and Barbuda  ['give_answer', ['GPE'], ['Antigua and Barbuda']] 
+S :  
+Previous answer: Christmas Island
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Antigua and Barbuda
+Count answers: 2
+NB Disagree: 3
+ P2 : and I was going to but I wish I was in one country will go with Antigua and Barbuda  ['give_answer', ['GPE'], ['Antigua and Barbuda']] 
+S : So, is Antigua and Barbuda your final answer ? 
+Previous answer: Antigua and Barbuda
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Antigua and Barbuda
+Count answers: 3
+NB Disagree: 3
+ P2 : yes it is  ['agree', [None], [None]] 
+S : You agreed on Antigua and Barbuda. Unfortunately it's not the right answer. This is the flag of Christmas Island ! Would you like to try another flag ? 
+Previous answer: Antigua and Barbuda
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Antigua and Barbuda
+Count answers: 0
+NB Disagree: 3
+ P2 : Thailand  ['give_answer', ['GPE'], ['Thailand']] 
+S : What is the next flag that will be raised up? Is this the flag of Tonga, Hong Kong, Mozambique or Liberia? After some deliberation, I want to hear your team's most informed guess. 
+Previous answer: Antigua and Barbuda
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Antigua and Barbuda
+Count answers: 0
+NB Disagree: 0
+ P2 : I don't think it's Hong Kong  ['give_answer', ['GPE'], ['Hong Kong']] 
+S :  
+Previous answer: Antigua and Barbuda
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Hong Kong
+Count answers: 1
+NB Disagree: 1
+ P2 : or Liberia  ['give_answer', ['GPE'], ['Liberia']] 
+S :  
+Previous answer: Hong Kong
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Liberia
+Count answers: 2
+NB Disagree: 2
+ P2 : I agree  ['agree', [None], [None]] 
+S : So, is Liberia your final answer ? 
+Previous answer: Hong Kong
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Liberia
+Count answers: 2
+NB Disagree: 2
+ P2 : Maybe  ['agree', [None], [None]] 
+S : You agreed on Liberia. Unfortunately it's not the right answer. This is the flag of Tonga ! Would you like to try another flag ? 
+Previous answer: Hong Kong
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Liberia
+Count answers: 0
+NB Disagree: 2
+ P1 : yes  ['agree', [None], [None]] 
+S : Which flag is next in the sequence? Is this the flag of Botswana, Bolivia, Hong Kong or Comoros? Let's hear your team's most calculated country guess after some collaboration. 
+Previous answer: Hong Kong
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Liberia
+Count answers: 0
+NB Disagree: 0
+ P2 : SMS  ['give_answer', ['GPE'], ['SMS']] 
+S :  
+Previous answer: Hong Kong
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Liberia
+Count answers: 0
+NB Disagree: 0
+ P2 : can we have a hint  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about Large African country bordering South Africa 
+Previous answer: Hong Kong
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Liberia
+Count answers: 0
+NB Disagree: 0
+ P2 : my best guess is  ['agree', [None], [None]] 
+S :  
+Previous answer: Hong Kong
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Liberia
+Count answers: 0
+NB Disagree: 0
+ P1 : Botswana  ['give_answer', ['GPE'], ['Botswana']] 
+S :  
+Previous answer: Liberia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Botswana
+Count answers: 1
+NB Disagree: 1
+ P1 : yeah I agree  ['agree', [None], [None]] 
+S : So, is Botswana your final answer ? 
+Previous answer: Liberia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Botswana
+Count answers: 1
+NB Disagree: 1
+ P1 : yes it is  ['agree', [None], [None]] 
+S : You agreed on Botswana. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Liberia
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Botswana
+Count answers: 0
+NB Disagree: 1

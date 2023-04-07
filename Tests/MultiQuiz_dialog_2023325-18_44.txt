@@ -1,0 +1,37 @@
+Shall we start? See if your knowledge is up to par by matching each flag to its home nation!
+ P1 : let's play  ['agree', [None], [None]] 
+S : What is the next flag that will be raised up? Is this the flag of Bermuda, The Central African Republic, Switzerland or North Korea? Let's hear your team's most educated guess on the country after some deliberation. 
+ P2 : I'm pretty sure that note.  ['disagree', [None], [None]] 
+S :  
+ P2 : Yeah it's 230 North Korea  ['give_answer', ['GPE'], ['North Korea']] 
+S :  
+ P1 : I agree  ['agree', [None], [None]] 
+S : So, is North Korea your final answer ? 
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on North Korea. Well done, it's right ! Would you like to continue to play ? 
+ P1 : yes please  ['agree', [None], [None]] 
+S : Which flag will be unveiled after this one? Is this the flag of Bolivia, Albania, Lao People's Democratic Republic or The Dominican Republic? Let's hear your team's prediction after a little bit of brainstorming. 
+ P2 : could we have a clue  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about A South American country 
+ P1 : can you repeat  ['repeat_question', [None], [None]] 
+S : Think about this hint. We are talking about A South American country 
+ P1 : I think it must be Bolivia  ['give_answer', ['GPE'], ['Bolivia']] 
+S :  
+ P1 : yeah I think you're right  ['agree', [None], [None]] 
+S :  
+ P1 : is must be believe you  ['agree', [None], [None]] 
+S :  
+ P1 : yes it's your Bolivia  ['give_answer', ['GPE'], ['Bolivia']] 
+S :  
+ P1 : yeah you're right  ['agree', [None], [None]] 
+S :  
+ P1 : and we might got that final answer  ['agree', [None], [None]] 
+S :  
+ P1 : can we skip the question  ['skip_question', [None], [None]] 
+S : Ok, let's skip this question ! What is the flag that is coming up next? Is this the flag of Belize, Malaysia, Grenada or Ireland? Take a few moments to confer with your team and offer your most confident guess. 
+ P2 : I think it's Malaysia  ['give_answer', ['GPE'], ['Malaysia']] 
+S :  
+ P1 : yeah I agree  ['agree', [None], [None]] 
+S : So, is Malaysia your final answer ? 
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Malaysia. Unfortunately it's not the right answer. This is the flag of Belize ! Would you like to try another flag ? 

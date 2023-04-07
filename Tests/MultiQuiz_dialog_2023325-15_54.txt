@@ -1,0 +1,61 @@
+Up for a team challenge? Let's see if you can match each flag to its country!
+ P1 : let's go  ['agree', [None], [None]] 
+S : Which flag will be up right after this one? Is this the flag of Saint Kitts and Nevis, Samoa, Albania or Belarus? Let's hear your team's most accurate country selection after some collaboration. 
+ P1 : I think it's maybe since Kitts and Nevis  ['give_answer', ['GPE'], ['Kitts and Nevis']] 
+S :  
+ P1 : it's maybe Albania  ['give_answer', ['GPE'], ['Albania']] 
+S :  
+ P1 : I think it's similar  ['disagree', [None], [None]] 
+S :  
+ P1 : it's Samoa  ['give_answer', ['GPE'], ['Samoa']] 
+S : This is a tough one, would you like a clue? ? 
+ P1 : yes please  ['agree', [None], [None]] 
+S : Think about this hint. We are talking about Polynesian country in the South Pacific 
+ P1 : maybe it's Belarus  ['give_answer', ['GPE'], ['Belarus']] 
+S :  
+ P2 : I think it's Monica  ['give_answer', ['GPE'], ['Monica']] 
+S :  
+ P2 : no it's Italy  ['give_answer', ['GPE'], ['Italy']] 
+S :  
+ P2 : the right is Frost  ['agree', ['GPE'], ['Frost']] 
+S : So, is Belarus your final answer ? 
+ P2 : no  ['disagree', [None], [None]] 
+S : None 
+ P2 : maybe it's Saint Kitts and Nevis  ['give_answer', ['GPE'], ['Saint Kitts and Nevis']] 
+S :  
+ P2 : yeah your rights  ['agree', [None], [None]] 
+S : So, is Saint Kitts and Nevis your final answer ? 
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Saint Kitts and Nevis. Unfortunately it's not the right answer. This is the flag of Samoa ! Would you like to try another flag ? 
+ P2 : yes  ['agree', [None], [None]] 
+S : What is the flag that is coming up next? Is this the flag of Togo, Nigeria, Bonaire or Mauritania? Work together to give me the name of the country that you think it is. 
+ P2 : I think it's to go  ['disagree', [None], [None]] 
+S :  
+ P2 : no it's Monday cheerio  ['give_answer', ['GPE'], ['Monday']] 
+S :  
+ P2 : I think it's Nigeria  ['give_answer', ['GPE'], ['Nigeria']] 
+S :  
+ P2 : or it's to go  ['agree', [None], [None]] 
+S : So, is Nigeria your final answer ? 
+ P2 : nope  ['disagree', [None], [None]] 
+S : None 
+ P2 : can you repeat the question  ['repeat_question', [None], [None]] 
+S :  
+ P2 : repeat please  ['repeat_question', [None], [None]] 
+S :  
+ P2 : it's to go  ['disagree', [None], [None]] 
+S :  
+ P2 : Togo  ['give_answer', ['GPE'], ['Togo']] 
+S : This is a tough one, would you like a clue? ? 
+ P2 : yes please  ['agree', [None], [None]] 
+S : Think about this hint. We are talking about Northwest African nation 
+ P2 : maybe it's Bonaire  ['give_answer', ['GPE'], ['Bonaire']] 
+S :  
+ P2 : I think it's Google  ['give_answer', ['GPE'], ['Google']] 
+S :  
+ P2 : Togo  ['give_answer', ['GPE'], ['Togo']] 
+S :  
+ P2 : yeah it's still go  ['agree', [None], [None]] 
+S : So, is Togo your final answer ? 
+ P2 : yeah it's still go  ['agree', [None], [None]] 
+S : You agreed on Togo. Unfortunately it's not the right answer. This is the flag of Mauritania ! Would you like to try another flag ? 

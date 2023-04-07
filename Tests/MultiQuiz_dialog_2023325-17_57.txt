@@ -1,0 +1,17 @@
+Would you like to try a game? See if you figure out the country of each flag.
+ P1 : yes let's say  ['agree', [None], [None]] 
+S : What is the next country's flag to be shown? Is this the flag of Sweden, Tunisia, Turkey or Saint Pierre and Miquelon? Let's hear your team's most confident country guess after some collaboration. 
+ P1 : I think this is the flag of Tunisia  ['give_answer', ['GPE'], ['Tunisia']] 
+S :  
+ P2 : no it's just like a fruity  ['give_answer', [None], [None]] 
+S :  
+ P1 : oh yes you're right it's Becky  ['agree', [None], [None]] 
+S : So, is Tunisia your final answer ? 
+ P1 : no  ['disagree', [None], [None]] 
+S : No problem, keep going on this question ! 
+ P2 : I think it's turkey  ['give_answer', ['GPE'], ['turkey']] 
+S :  
+ P1 : yes I agree it's it's Becky  ['agree', ['GPE'], ['Becky']] 
+S : So, is Turkey your final answer ? 
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Turkey. Unfortunately it's not the right answer. This is the flag of Tunisia ! Would you like to try another flag ? 

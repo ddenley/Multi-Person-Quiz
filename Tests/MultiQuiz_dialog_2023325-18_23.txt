@@ -1,0 +1,21 @@
+Would you like to take a chance? Can you identify the country by the flag?
+ P1 : let's play  ['agree', [None], [None]] 
+S : Do you know the flag that will be displayed next? Is this the flag of Nepal, Libya, Christmas Island or The Cayman Islands? I want to know your team's prediction after a little bit of group discussion. 
+ P2 : it's definitely Nepal  ['give_answer', ['GPE'], ['Nepal']] 
+S :  
+ P1 : yeah I agree  ['agree', [None], [None]] 
+S : So, is Nepal your final answer ? 
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Nepal. Well done, it's right ! Would you like to continue to play ? 
+ P1 : yes please  ['agree', [None], [None]] 
+S : Can you guess the next flag that will be shown? Is this the flag of Azerbaijan, Vanuatu, Afghanistan or Cyprus? Let's hear your team's most confident country guess after some collaboration. 
+ P1 : I'm not sure we have a clue please  ['disagree', [None], [None]] 
+S :  
+ P2 : can you give us a 2  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about This small island nation is situated in the South Pacific Ocean, east of Australia 
+ P1 : can you read it please  ['disagree', [None], [None]] 
+S :  
+ P1 : do East of Australia it must be  ['give_answer', ['GPE'], ['Australia']] 
+S :  
+ P2 : yeah I think is bandar at 2  ['give_answer', [None], [None]] 
+S :  

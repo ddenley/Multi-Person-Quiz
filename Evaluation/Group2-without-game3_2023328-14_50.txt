@@ -1,0 +1,253 @@
+Do you think you can do it? Connect the flag with the correct country!
+ P1 : yes let's play  ['agree', [None], [None]] 
+S : Which flag is next in the lineup? Is this the flag of Panama, Cyprus, French Guiana or Bhutan? I want to hear your team's guess after some discussion and collaboration. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : guess what is it Cypress  ['give_answer', ['GPE'], ['Cypress']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : this is Georgia country  ['give_answer', ['GPE'], ['Georgia']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P1 : we agree on Cypress  ['give_answer', ['GPE'], ['Cypress']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : yep we both think it's Cypress  ['give_answer', ['GPE'], ['Cypress']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : final answer is Cyprus  ['give_answer', ['GPE'], ['Cyprus']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 1
+NB Disagree: 1
+ P1 : we think it's Cypress  ['give_answer', ['GPE'], ['Cypress']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 1
+NB Disagree: 1
+ P2 : I agree it's Cypress  ['give_answer', ['GPE'], ['Cypress']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 1
+NB Disagree: 1
+ P1 : we want to go with me  ['give_answer', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 1
+NB Disagree: 1
+ P1 : our final answer is Cyprus  ['agree', ['GPE'], ['Cyprus']] 
+S : So, is Cyprus your final answer ? 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 1
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Cyprus. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: WrongAnswer
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 0
+NB Disagree: 1
+ P2 : yep  ['agree', [None], [None]] 
+S : Which flag is about to be unveiled? Is this the flag of The Philippines, Malta, The Holy See or Djibouti? After a little bit of brainstorming, I want to hear your team's prediction. 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 0
+NB Disagree: 0
+ P2 : I know it's not the Philippines but the earlier the Holy See seems like a good name for the sky  ['give_answer', ['GPE'], ['Philippines']] 
+S :  
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Philippines
+Count answers: 1
+NB Disagree: 1
+ P2 : I don't think it's such a booty but I don't know what the flag of Malta  ['give_answer', ['GPE'], ['Malta']] 
+S :  
+Previous answer: The Philippines
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Malta
+Count answers: 2
+NB Disagree: 2
+ P2 : we'll go with the Holy See  ['give_answer', ['GPE'], ['Holy See']] 
+S :  
+Previous answer: Malta
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Holy See
+Count answers: 3
+NB Disagree: 3
+ P2 : yeah we will go with the Holy See  ['give_answer', ['GPE'], ['Holy See']] 
+S : So, is The Holy See your final answer ? 
+Previous answer: The Holy See
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Holy See
+Count answers: 4
+NB Disagree: 3
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on The Holy See. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: The Holy See
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : The Holy See
+Count answers: 0
+NB Disagree: 3
+ P2 : yet we would like to play another one  ['give_answer', [None], [None]] 
+S : Which flag will be displayed after this one is taken down? Is this the flag of Puerto Rico, Montserrat, Indonesia or The Dominican Republic? Discuss it with your quiz team and give me the country you think it is. 
+Previous answer: The Holy See
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Holy See
+Count answers: 0
+NB Disagree: 0
+ P1 : you know  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about Southeast Asian island nation 
+Previous answer: The Holy See
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Holy See
+Count answers: 0
+NB Disagree: 0
+ P2 : this is the flag of Indonesia  ['give_answer', ['GPE'], ['Indonesia']] 
+S :  
+Previous answer: The Holy See
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Indonesia
+Count answers: 1
+NB Disagree: 1
+ P2 : is the flag of Indonesia  ['give_answer', ['GPE'], ['Indonesia']] 
+S :  
+Previous answer: Indonesia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Indonesia
+Count answers: 2
+NB Disagree: 1
+ P2 : I agree our answer is Indonesia  ['give_answer', ['GPE'], ['Indonesia']] 
+S : So, is Indonesia your final answer ? 
+Previous answer: Indonesia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Indonesia
+Count answers: 3
+NB Disagree: 1
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Indonesia. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Indonesia
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Indonesia
+Count answers: 0
+NB Disagree: 1
+ P2 : I know I know  ['give_answer', [None], [None]] 
+S : What flag is coming up next in the lineup? Is this the flag of Samoa, Switzerland, Turkmenistan or Oman? Discuss it with your quiz team and give me your most informed guess on the country. 
+Previous answer: Indonesia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Indonesia
+Count answers: 0
+NB Disagree: 0
+ P2 : Turkmenistan  ['give_answer', ['GPE'], ['Turkmenistan']] 
+S :  
+Previous answer: Indonesia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Turkmenistan
+Count answers: 1
+NB Disagree: 1
+ P2 : our final answer is Turkmenistan  ['give_answer', ['GPE'], ['Turkmenistan']] 
+S :  
+Previous answer: Turkmenistan
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Turkmenistan
+Count answers: 2
+NB Disagree: 1
+ P2 : I agree  ['agree', [None], [None]] 
+S : So, is Turkmenistan your final answer ? 
+Previous answer: Turkmenistan
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Turkmenistan
+Count answers: 2
+NB Disagree: 1
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Turkmenistan. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Turkmenistan
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Turkmenistan
+Count answers: 0
+NB Disagree: 1

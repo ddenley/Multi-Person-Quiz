@@ -1,0 +1,289 @@
+Would you like to try a game? See if you figure out the country of each flag.
+ P1 : let's play  ['agree', [None], [None]] 
+S : What flag will be displayed next in the lineup? Is this the flag of Eritrea, Nigeria, Saint Helena Ascension and Tristanda Cunha or Mongolia? Let's hear your team's prediction after a little bit of brainstorming. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : Eritrea  ['give_answer', ['GPE'], ['Eritrea']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Eritrea
+Count answers: 1
+NB Disagree: 1
+ P1 : it's safe  ['agree', [None], [None]] 
+S : So, is Eritrea your final answer ? 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Eritrea
+Count answers: 1
+NB Disagree: 1
+ P2 : Saint Helena Ascension and tristanda cunha  ['give_answer', ['GPE'], ['Saint Helena Ascension and tristanda cunha']] 
+S : No problem, keep going on this question ! 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Eritrea
+Count answers: 0
+NB Disagree: 1
+ P1 : itzy  ['agree', [None], [None]] 
+S : So, is Eritrea your final answer ? 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Eritrea
+Count answers: 0
+NB Disagree: 1
+ P1 : no  ['disagree', [None], [None]] 
+S : No problem, keep going on this question ! 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Eritrea
+Count answers: 0
+NB Disagree: 1
+ P1 : Saint Helena Ascension estrogen Acuna  ['give_answer', ['GPE'], ['Saint Helena Ascension estrogen Acuna']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Eritrea
+Count answers: 0
+NB Disagree: 1
+ P2 : we think it's c  ['give_answer', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Eritrea
+Count answers: 0
+NB Disagree: 1
+ P2 : we think it's Saint Helena Ascension estrogen and Christina funeral  ['give_answer', ['GPE'], ['Saint Helena Ascension']] 
+S :  
+Previous answer: Eritrea
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 1
+NB Disagree: 2
+ P2 : did you try to say it again we think it's Saint Helena Ascension and tristanda cunha  ['give_answer', ['GPE'], ['Saint Helena Ascension and tristanda cunha']] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 2
+NB Disagree: 2
+ P2 : we think it is Saint Helena Ascension and Tristan da cunha  ['give_answer', ['GPE'], ['Saint Helena Ascension and Tristan da cunha']] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 2
+NB Disagree: 2
+ P2 : if that's not even right  ['disagree', [None], [None]] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 2
+NB Disagree: 3
+ P2 : it's Saint Helena Ascension and Tristan da cunha  ['give_answer', ['GPE'], ['Saint Helena Ascension and Tristan da cunha']] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 2
+NB Disagree: 3
+ P2 : I meant to say the wrong is just  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 2
+NB Disagree: 3
+ P2 : it's Mongolia  ['give_answer', ['GPE'], ['Mongolia']] 
+S : This is a tough one, would you like a clue? ? 
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Mongolia
+Count answers: 3
+NB Disagree: 0
+ P2 : it's no longer here  ['give_answer', [None], [None]] 
+S : No problem, keep going on this question ! 
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Mongolia
+Count answers: 3
+NB Disagree: 0
+ P2 : is Eritrea  ['give_answer', ['GPE'], ['Eritrea']] 
+S :  
+Previous answer: Mongolia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Eritrea
+Count answers: 4
+NB Disagree: 1
+ P2 : it's Saint Helena Ascension and Tristan da cunha  ['give_answer', ['GPE'], ['Saint Helena Ascension and Tristan da cunha']] 
+S :  
+Previous answer: Mongolia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Eritrea
+Count answers: 4
+NB Disagree: 1
+ P1 : we think it's Mongolia  ['give_answer', ['GPE'], ['Mongolia']] 
+S :  
+Previous answer: Eritrea
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Mongolia
+Count answers: 5
+NB Disagree: 2
+ P2 : we think it's a night in Nigeria  ['give_answer', ['GPE'], ['Nigeria']] 
+S :  
+Previous answer: Mongolia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Nigeria
+Count answers: 6
+NB Disagree: 3
+ P2 : we think it's Mongolia  ['give_answer', ['GPE'], ['Mongolia']] 
+S : This is a tough one, would you like a clue? ? 
+Previous answer: Nigeria
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Mongolia
+Count answers: 7
+NB Disagree: 0
+ P1 : yes please  ['agree', [None], [None]] 
+S : Think about this hint. We are talking about Island group in the South Atlantic Ocean 
+Previous answer: Nigeria
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Mongolia
+Count answers: 7
+NB Disagree: 0
+ P2 : can sugar help me anyway  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about Island group in the South Atlantic Ocean 
+Previous answer: Nigeria
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Mongolia
+Count answers: 7
+NB Disagree: 0
+ P2 : we think it's Mongolia  ['give_answer', ['GPE'], ['Mongolia']] 
+S : So, is Mongolia your final answer ? 
+Previous answer: Mongolia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Mongolia
+Count answers: 8
+NB Disagree: 0
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Mongolia. Unfortunately it's not the right answer. This is the flag of Saint Helena Ascension and Tristanda Cunha ! Would you like to try another flag ? 
+Previous answer: Mongolia
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Mongolia
+Count answers: 0
+NB Disagree: 0
+ P2 : yes  ['agree', [None], [None]] 
+S : Which flag will be up right after this one? Is this the flag of North Korea, Albania, Seychelles or Kuwait? Take a few moments to discuss with your team before offering your most confident guess. 
+Previous answer: Mongolia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Mongolia
+Count answers: 0
+NB Disagree: 0
+ P1 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: Mongolia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Mongolia
+Count answers: 0
+NB Disagree: 0
+ P2 : it's Albania  ['give_answer', ['GPE'], ['Albania']] 
+S :  
+Previous answer: Mongolia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Albania
+Count answers: 1
+NB Disagree: 1
+ P2 : we think the answer is Albania  ['give_answer', ['GPE'], ['Albania']] 
+S :  
+Previous answer: Albania
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Albania
+Count answers: 2
+NB Disagree: 1
+ P2 : Albania  ['give_answer', ['GPE'], ['Albania']] 
+S : So, is Albania your final answer ? 
+Previous answer: Albania
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Albania
+Count answers: 3
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Albania. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Albania
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Albania
+Count answers: 0
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : Which flag will be unveiled after this one? Is this the flag of Greece, Trinidad and Tobago, Macao or Bolivia? After some discussion, I want to know your team's most thoughtful country estimation. 
+Previous answer: Albania
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Albania
+Count answers: 0
+NB Disagree: 0

@@ -1,0 +1,33 @@
+Feeling up for a group game? See if you can identify the country by the flag!
+ P2 : let's go  ['agree', [None], [None]] 
+S : What is the next country's flag to be shown? Is this the flag of Brunei Darussalam, Niue, Portugal or Guyana? Collaborate and give me the country name that you think it is. 
+ P2 : Portugal  ['give_answer', ['GPE'], ['Portugal']] 
+S :  
+ P1 : I'm sure to Brunei darussalam  ['give_answer', ['GPE'], ['Brunei darussalam']] 
+S :  
+ P2 : I think it's Portugal  ['give_answer', ['GPE'], ['Portugal']] 
+S :  
+ P2 : are synthesized  ['give_answer', ['GPE'], ['synthesized']] 
+S :  
+ P2 : Jenna  ['give_answer', ['GPE'], ['Jenna']] 
+S :  
+ P2 : I sent you this  ['agree', [None], [None]] 
+S :  
+ P2 : maybe it's the Portugal  ['give_answer', ['GPE'], ['Portugal']] 
+S :  
+ P2 : Brunei darussalam  ['give_answer', ['GPE'], ['Brunei darussalam']] 
+S : So, is Brunei Darussalam your final answer ? 
+ P2 : new  ['ask_clue', ['GPE'], ['new']] 
+S : No problem, keep going on this question ! 
+ P2 : it's totally Portugal  ['give_answer', ['GPE'], ['Portugal']] 
+S : This is a tough one, would you like a clue? ? 
+ P2 : yes please  ['agree', [None], [None]] 
+S : Think about this hint. We are talking about West European nation 
+ P2 : Portugal  ['give_answer', ['GPE'], ['Portugal']] 
+S :  
+ P1 : yeah you're right  ['agree', [None], [None]] 
+S :  
+ P2 : so yeah and reorder version  ['give_answer', ['GPE'], ['version']] 
+S :  
+ P2 : 1  ['agree', [None], [None]] 
+S :  

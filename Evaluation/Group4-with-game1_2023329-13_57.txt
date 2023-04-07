@@ -1,0 +1,361 @@
+Feeling up for a group game? See if you can identify the country by the flag!
+ P1 : Saudi  ['give_answer', ['GPE'], ['Saudi']] 
+S : Which flag is next in the lineup? Is this the flag of Oman, Guam, United Kingdom or Canada? After some deliberation, I want to know your team's estimation of the country. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P1 : probably form  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 0
+ P1 : I feel like I'm going to say that before and I do see the flag on the moon  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 0
+ P1 : I think it's Grandma  ['give_answer', ['GPE'], ['Grandma']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 0
+ P1 : I Dre  ['agree', ['GPE'], ['Dre']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 0
+ P1 : it's Guam  ['give_answer', ['GPE'], ['Guam']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Guam
+Current answer 1: None
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P1 : Guam Guam  ['give_answer', ['GPE'], ['Guam Guam']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Guam
+Current answer 1: None
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P1 : Guam  ['give_answer', ['GPE'], ['Guam']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Guam
+Current answer 1: None
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P1 : I think it's Guang to  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Guam
+Current answer 1: None
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P2 : what about Canada  ['give_answer', ['GPE'], ['Canada']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Guam
+Current answer 1: Canada
+Current answer : None
+Count answers: 3
+NB Disagree: 1
+ P1 : yeah sure let's go  ['agree', [None], [None]] 
+S : So, is Canada your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: Guam
+Current answer 1: Canada
+Current answer : Canada
+Count answers: 3
+NB Disagree: 1
+ P1 : yes yes  ['agree', [None], [None]] 
+S : You agreed on Canada. Unfortunately it's not the right answer. This is the flag of Oman ! Would you like to try another flag ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Canada
+Count answers: 0
+NB Disagree: 1
+ P1 : I think it was the guns look like 2 hours a month so I don't know why  ['give_answer', [None], [None]] 
+S : Can you identify the flag that will be displayed next? Is this the flag of Qatar, Australia, Palau or Austria? Let's hear your team's prediction after a little bit of brainstorming. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Canada
+Count answers: 0
+NB Disagree: 0
+ P1 : it's Austria Austria  ['give_answer', ['GPE'], ['Austria']] 
+S :  
+Previous answer: Canada
+Question asked: True
+Current answer 0: Austria
+Current answer 1: None
+Current answer : Canada
+Count answers: 1
+NB Disagree: 0
+ P1 : we think it's Austria  ['give_answer', ['GPE'], ['Austria']] 
+S :  
+Previous answer: Canada
+Question asked: True
+Current answer 0: Austria
+Current answer 1: None
+Current answer : Canada
+Count answers: 2
+NB Disagree: 0
+ P1 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: Canada
+Question asked: True
+Current answer 0: Austria
+Current answer 1: None
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P1 : Austria  ['give_answer', ['GPE'], ['Austria']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Austria
+Current answer 1: None
+Current answer : None
+Count answers: 3
+NB Disagree: 0
+ P1 : it's Austria  ['give_answer', ['GPE'], ['Austria']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Austria
+Current answer 1: None
+Current answer : None
+Count answers: 4
+NB Disagree: 0
+ P1 : yes Australia  ['give_answer', ['GPE'], ['Australia']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Australia
+Current answer 1: None
+Current answer : None
+Count answers: 5
+NB Disagree: 0
+ P1 : maybe Australia  ['give_answer', ['GPE'], ['Australia']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Australia
+Current answer 1: None
+Current answer : None
+Count answers: 6
+NB Disagree: 0
+ P1 : Australia  ['give_answer', ['GPE'], ['Australia']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Australia
+Current answer 1: None
+Current answer : None
+Count answers: 7
+NB Disagree: 0
+ P1 : Thailand  ['give_answer', ['GPE'], ['Thailand']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Australia
+Current answer 1: None
+Current answer : None
+Count answers: 7
+NB Disagree: 0
+ P1 : hello  ['agree', ['GPE'], ['hello']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Australia
+Current answer 1: None
+Current answer : None
+Count answers: 7
+NB Disagree: 0
+ P1 : can I go for Palau  ['give_answer', ['GPE'], ['Palau']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Palau
+Current answer 1: None
+Current answer : None
+Count answers: 8
+NB Disagree: 0
+ P1 : that leaves us with one more.  ['disagree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Palau
+Current answer 1: None
+Current answer : None
+Count answers: 8
+NB Disagree: 1
+ P1 : can I go for a guitar  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about Central European country 
+Previous answer: None
+Question asked: True
+Current answer 0: Palau
+Current answer 1: None
+Current answer : None
+Count answers: 8
+NB Disagree: 1
+ P1 : guitar guitar  ['give_answer', ['GPE'], ['guitar']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Palau
+Current answer 1: None
+Current answer : None
+Count answers: 8
+NB Disagree: 1
+ P2 : okay maybe I'll straight up  ['agree', [None], [None]] 
+S : So, is Palau your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: Palau
+Current answer 1: None
+Current answer : Palau
+Count answers: 8
+NB Disagree: 1
+ P2 : yes yes  ['agree', [None], [None]] 
+S : You agreed on Palau. Unfortunately it's not the right answer. This is the flag of Austria ! Would you like to try another flag ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Palau
+Count answers: 0
+NB Disagree: 1
+ P2 : yes  ['agree', [None], [None]] 
+S : Can you identify the flag that will be displayed next? Is this the flag of Saint Pierre and Miquelon, Myanmar, Isle of Man or Vietnam? Take a few moments to confer with your team and offer your most well-informed country guess. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Palau
+Count answers: 0
+NB Disagree: 0
+ P1 : it's a lot of mine  ['nlu_fallback', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Palau
+Count answers: 0
+NB Disagree: 0
+ P2 : really  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 0
+ P2 : wow yeah I'll agree with that Isle of Man  ['give_answer', ['GPE'], ['Isle of Man']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Isle of Man
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P2 : the Isle of Man  ['give_answer', ['GPE'], ['the Isle of Man']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Isle of Man
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Isle of Man
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P2 : I think the Isle of Man  ['give_answer', ['GPE'], ['Isle of Man']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Isle of Man
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P2 : I agree is the Isle of Man  ['give_answer', ['GPE'], ['Isle of Man']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Isle of Man
+Current answer : None
+Count answers: 3
+NB Disagree: 0
+ P2 : yes the Isle of Man maybe it's the Vietnam  ['give_answer', ['GPE'], ['Isle of Man']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Isle of Man
+Current answer : None
+Count answers: 4
+NB Disagree: 0
+ P2 : I think Vietnam  ['give_answer', ['GPE'], ['Vietnam']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Vietnam
+Current answer : None
+Count answers: 5
+NB Disagree: 0
+ P2 : Vietnam  ['give_answer', ['GPE'], ['Vietnam']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Vietnam
+Current answer : None
+Count answers: 6
+NB Disagree: 0

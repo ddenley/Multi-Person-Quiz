@@ -1,0 +1,49 @@
+Do you think you can do it? Connect the flag with the correct country!
+ P2 : yes  ['yes', [None], [None]] 
+S : Which country's flag is next on the list? Is this the flag of Angola, Moldova, American Samoa or Nepal? Talk amongst yourselves and then share your team's most educated guess. 
+ P2 : new polo  ['give_answer', ['GPE'], ['new polo']] 
+S :  
+ P2 : yeah I'm a bit angry  ['give_answer', [None], [None]] 
+S :  
+ P2 : it's maybe Angela  ['give_answer', ['GPE'], ['Angela']] 
+S :  
+ P2 : the American Samoa  ['give_answer', ['GPE'], ['the']] 
+S :  
+ P2 : I think it's Moldova  ['give_answer', ['GPE'], ['Moldova']] 
+S :  
+ P2 : I'm pretty sure it's Angela  ['give_answer', ['GPE'], ['Angela']] 
+S :  
+ P2 : Nepal  ['give_answer', ['GPE'], ['Nepal']] 
+S :  
+ P2 : yeah I agree it's Nicole  ['give_answer', ['GPE'], ['Nicole']] 
+S :  
+ P2 : every it's nipple  ['give_answer', ['GPE'], ['nipple']] 
+S :  
+ P2 : nipple  ['give_answer', ['GPE'], ['nipple']] 
+S :  
+ P2 : Anguilla  ['give_answer', ['GPE'], ['Anguilla']] 
+S :  
+ P2 : are you it's Angela  ['give_answer', ['GPE'], ['Angela']] 
+S :  
+ P2 : turn off living room  ['give_answer', [None], [None]] 
+S :  
+ P2 : Anguilla  ['give_answer', ['GPE'], ['Anguilla']] 
+S :  
+ P2 : yes I agree it's Angela  ['give_answer', ['GPE'], ['Angela']] 
+S :  
+ P2 : Google  ['give_answer', ['GPE'], ['Google']] 
+S :  
+ P2 : I agree with you  ['agree', [None], [None]] 
+S : So, is Nepal your final answer ? 
+ P2 : yes  ['yes', [None], [None]] 
+S : Unfortunately it's not the right answer. This is the flag of Angola ! Would you like to try another flag ? 
+ P2 : yes  ['yes', [None], [None]] 
+S : What flag is next to be raised? Is this the flag of French Polynesia, Mauritania, Senegal or Falkland Islands? Take a few moments to confer with your team and offer your most well-informed country guess. 
+ P2 : Falkland Island  ['give_answer', ['GPE'], ['Falkland Island']] 
+S :  
+ P2 : how much do  ['agree', [None], [None]] 
+S : So, is Nepal your final answer ? 
+ P2 : no  ['no', [None], [None]] 
+S :  
+ P2 : no  ['no', [None], [None]] 
+S :  

@@ -1,0 +1,181 @@
+Shall we give it a go? Pick which country each flag represents!
+ P1 : Pats Place  ['give_answer', ['GPE'], ['Pats Place']] 
+S : Which flag is next in the lineup? Is this the flag of Mozambique, Cyprus, Barbados or Angola? Work together to give me the name of the country that you think it is. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : Cypress at Cypress  ['give_answer', ['GPE'], ['Cypress']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : I think it's Cypress  ['give_answer', ['GPE'], ['Cypress']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : Cyprus  ['give_answer', ['GPE'], ['Cyprus']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 1
+NB Disagree: 1
+ P2 : it's Cypress  ['give_answer', ['GPE'], ['Cypress']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 1
+NB Disagree: 1
+ P2 : Cyprus  ['give_answer', ['GPE'], ['Cyprus']] 
+S :  
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 2
+NB Disagree: 1
+ P2 : it could be suppressed by it's definitely Cypress yes you're right  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 2
+NB Disagree: 1
+ P2 : maybe Barbados  ['give_answer', ['GPE'], ['Barbados']] 
+S :  
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Barbados
+Count answers: 3
+NB Disagree: 2
+ P2 : yes  ['agree', [None], [None]] 
+S : So, is Barbados your final answer ? 
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Barbados
+Count answers: 3
+NB Disagree: 2
+ P2 : I think yeah let's go with that yes  ['agree', [None], [None]] 
+S : You agreed on Barbados. Unfortunately it's not the right answer. This is the flag of Cyprus ! Would you like to try another flag ? 
+Previous answer: Cyprus
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Barbados
+Count answers: 0
+NB Disagree: 2
+ P2 : yes please  ['agree', [None], [None]] 
+S : What flag will be raised next? Is this the flag of Australia, Malaysia, Switzerland or Kyrgyzstan? Collaborate and offer your team's most thoughtful country selection. 
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Barbados
+Count answers: 0
+NB Disagree: 0
+ P2 : process of elimination  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Barbados
+Count answers: 0
+NB Disagree: 0
+ P2 : Kyrgyzstan  ['give_answer', ['GPE'], ['Kyrgyzstan']] 
+S :  
+Previous answer: Barbados
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kyrgyzstan
+Count answers: 1
+NB Disagree: 1
+ P1 : I agree  ['agree', [None], [None]] 
+S : So, is Kyrgyzstan your final answer ? 
+Previous answer: Barbados
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kyrgyzstan
+Count answers: 1
+NB Disagree: 1
+ P1 : yes yes  ['agree', [None], [None]] 
+S : You agreed on Kyrgyzstan. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Barbados
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Kyrgyzstan
+Count answers: 0
+NB Disagree: 1
+ P2 : yes please  ['agree', [None], [None]] 
+S : Which country's flag comes after this one? Is this the flag of Chile, Dominica, Slovakia or Monaco? Take a few moments to confer with your team and offer your most well-informed country guess. 
+Previous answer: Barbados
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kyrgyzstan
+Count answers: 0
+NB Disagree: 0
+ P1 : Chile  ['give_answer', ['GPE'], ['Chile']] 
+S :  
+Previous answer: Kyrgyzstan
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Chile
+Count answers: 1
+NB Disagree: 1
+ P1 : a great chili  ['agree', ['GPE'], ['chili']] 
+S : So, is Chile your final answer ? 
+Previous answer: Kyrgyzstan
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Chile
+Count answers: 1
+NB Disagree: 1
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Chile. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Kyrgyzstan
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Chile
+Count answers: 0
+NB Disagree: 1

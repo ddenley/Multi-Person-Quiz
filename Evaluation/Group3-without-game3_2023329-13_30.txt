@@ -1,0 +1,226 @@
+Are you ready? See if you can connect the flag to its home nation!
+ P1 : yes but play  ['agree', [None], [None]] 
+S : Which national flag is scheduled to be shown next? Is this the flag of Sao Tome and Principe, Saint Barthelemy, Germany or Oman? After some discussion, I want to know your team's most thoughtful country estimation. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : can we have a hint  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about Sultanate on the Arabian Peninsula 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : I think it's a month  ['disagree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 1
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 1
+ P2 : it's omen  ['agree', ['GPE'], ['omen']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 1
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 1
+ P2 : it's omen  ['agree', ['GPE'], ['omen']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 1
+ P2 : Oman  ['give_answer', ['GPE'], ['Oman']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Oman
+Count answers: 1
+NB Disagree: 2
+ P2 : I agree  ['agree', [None], [None]] 
+S : So, is Oman your final answer ? 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Oman
+Count answers: 1
+NB Disagree: 2
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Oman. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: WrongAnswer
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Oman
+Count answers: 0
+NB Disagree: 2
+ P2 : yes  ['agree', [None], [None]] 
+S : What flag is next to be raised? Is this the flag of Kiribati, Kazakhstan, Ethiopia or Luxembourg? After some deliberation, I want to hear your team's most calculated guess. 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Oman
+Count answers: 0
+NB Disagree: 0
+ P1 : Kiribati  ['give_answer', ['GPE'], ['Kiribati']] 
+S :  
+Previous answer: Oman
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 1
+NB Disagree: 1
+ P2 : we think it's care about you  ['disagree', [None], [None]] 
+S :  
+Previous answer: Oman
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 1
+NB Disagree: 2
+ P2 : I think it's carabasi  ['give_answer', ['GPE'], ['carabasi']] 
+S :  
+Previous answer: Oman
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 1
+NB Disagree: 2
+ P2 : the answer carabasi  ['disagree', [None], [None]] 
+S :  
+Previous answer: Oman
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 1
+NB Disagree: 3
+ P2 : she agrees  ['agree', [None], [None]] 
+S : So, is Kiribati your final answer ? 
+Previous answer: Oman
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 1
+NB Disagree: 3
+ P1 : yes yes  ['agree', [None], [None]] 
+S : You agreed on Kiribati. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Oman
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 0
+NB Disagree: 3
+ P2 : Kiribati is when I said  ['give_answer', ['GPE'], ['Kiribati']] 
+S : What is the flag that is coming up next? Is this the flag of Germany, British Virgin Islands, Bulgaria or Tajikistan? It's time to put your heads together and come up with a well-informed guess. 
+Previous answer: Oman
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 0
+NB Disagree: 0
+ P1 : yes it  ['agree', [None], [None]] 
+S :  
+Previous answer: Oman
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 0
+NB Disagree: 0
+ P2 : is baby  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Oman
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 0
+NB Disagree: 0
+ P2 : British Virgin Islands  ['give_answer', ['GPE'], ['British Virgin Islands']] 
+S :  
+Previous answer: Kiribati
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : British Virgin Islands
+Count answers: 1
+NB Disagree: 1
+ P2 : British Virgin Islands  ['give_answer', ['GPE'], ['British Virgin Islands']] 
+S :  
+Previous answer: British Virgin Islands
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : British Virgin Islands
+Count answers: 2
+NB Disagree: 1
+ P2 : which is the British Virgin Isles  ['give_answer', ['GPE'], ['British Virgin Isles']] 
+S :  
+Previous answer: British Virgin Islands
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : British Virgin Islands
+Count answers: 2
+NB Disagree: 1
+ P2 : we think it's the British Virgin Islands  ['give_answer', ['GPE'], ['British Virgin Islands']] 
+S : So, is British Virgin Islands your final answer ? 
+Previous answer: British Virgin Islands
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : British Virgin Islands
+Count answers: 3
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on British Virgin Islands. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: British Virgin Islands
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : British Virgin Islands
+Count answers: 0
+NB Disagree: 1

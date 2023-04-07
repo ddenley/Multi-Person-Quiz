@@ -1,0 +1,244 @@
+Would you be daring enough to try? Uncover the nation hidden behind the flag!
+ P1 : yes  ['agree', [None], [None]] 
+S : What is the next flag in the queue? Is this the flag of Saint Kitts and Nevis, Bonaire, Kazakhstan or The Cocos Keeling Islands? After some deliberation, I want to know your team's estimation of the country. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P1 : I'm feeling.  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P1 : Why just  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : divide the right  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : why  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : just like the  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P1 : colors I'm feeling in the Cocos Keeling Islands I feel like dying  ['give_answer', ['GPE'], ['Cocos Keeling Islands']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Cocos Keeling Islands
+Count answers: 1
+NB Disagree: 1
+ P1 : play my mind  ['agree', [None], [None]] 
+S : So, is The Cocos Keeling Islands your final answer ? 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Cocos Keeling Islands
+Count answers: 1
+NB Disagree: 1
+ P2 : could be I don't think it's Kazakhstan cuz I don't think it's think it's either yes probably  ['give_answer', ['GPE'], ['Kazakhstan']] 
+S : No problem, keep going on this question ! 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Cocos Keeling Islands
+Count answers: 0
+NB Disagree: 1
+ P1 : do you want to go  ['disagree', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Cocos Keeling Islands
+Count answers: 0
+NB Disagree: 2
+ P2 : okay it must be born are then  ['give_answer', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Cocos Keeling Islands
+Count answers: 0
+NB Disagree: 2
+ P2 : come get him  ['repeat_question', [None], [None]] 
+S : Absolutely, I can repeat the different choices.Which flag is next in the lineup? Is this the flag of Saint Kitts and Nevis, Bonaire, Kazakhstan or The Cocos Keeling Islands? Take a few moments to confer with your team and offer your most accurate country guess. 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Cocos Keeling Islands
+Count answers: 0
+NB Disagree: 2
+ P2 : the Cocos Keeling Islands  ['give_answer', ['GPE'], ['the Cocos Keeling Islands']] 
+S :  
+Previous answer: The Cocos Keeling Islands
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Cocos Keeling Islands
+Count answers: 1
+NB Disagree: 2
+ P2 : you said something I didn't know I thought we said oh oh okay okay the Cocos Keeling Islands  ['give_answer', ['GPE'], ['said']] 
+S :  
+Previous answer: The Cocos Keeling Islands
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Cocos Keeling Islands
+Count answers: 1
+NB Disagree: 2
+ P1 : yeah the Cocos Keeling Islands  ['give_answer', ['GPE'], ['Cocos Keeling Islands']] 
+S :  
+Previous answer: The Cocos Keeling Islands
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Cocos Keeling Islands
+Count answers: 2
+NB Disagree: 2
+ P1 : I think it's the Cocos Keeling Islands  ['give_answer', ['GPE'], ['Cocos Keeling Islands']] 
+S : So, is The Cocos Keeling Islands your final answer ? 
+Previous answer: The Cocos Keeling Islands
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Cocos Keeling Islands
+Count answers: 3
+NB Disagree: 2
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on The Cocos Keeling Islands. Unfortunately it's not the right answer. This is the flag of Kazakhstan ! Would you like to try another flag ? 
+Previous answer: The Cocos Keeling Islands
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : The Cocos Keeling Islands
+Count answers: 0
+NB Disagree: 2
+ P1 : yes please  ['agree', [None], [None]] 
+S : What is the next flag that will be unveiled? Is this the flag of Italy, Eritrea, Guernsey or Mongolia? Collaborate and give me the country name that you think it is. 
+Previous answer: The Cocos Keeling Islands
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : The Cocos Keeling Islands
+Count answers: 0
+NB Disagree: 0
+ P1 : Golia  ['give_answer', ['GPE'], ['Golia']] 
+S :  
+Previous answer: The Cocos Keeling Islands
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Mongolia
+Count answers: 1
+NB Disagree: 1
+ P2 : actually no Italy  ['give_answer', ['GPE'], ['Italy']] 
+S :  
+Previous answer: Mongolia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Italy
+Count answers: 2
+NB Disagree: 2
+ P2 : I think it's Italy  ['give_answer', ['GPE'], ['Italy']] 
+S : So, is Italy your final answer ? 
+Previous answer: Italy
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Italy
+Count answers: 3
+NB Disagree: 2
+ P2 : yes yes  ['agree', [None], [None]] 
+S : You agreed on Italy. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Italy
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Italy
+Count answers: 0
+NB Disagree: 2
+ P2 : yes yes please  ['agree', [None], [None]] 
+S : What country's flag will be shown next? Is this the flag of Chad, Ukraine, Tajikistan or Togo? After some deliberation, I want to know your team's estimation of the country. 
+Previous answer: Italy
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Italy
+Count answers: 0
+NB Disagree: 0
+ P1 : Ukraine  ['give_answer', ['GPE'], ['Ukraine']] 
+S :  
+Previous answer: Italy
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Ukraine
+Count answers: 1
+NB Disagree: 1
+ P2 : I think it's Ukraine  ['give_answer', ['GPE'], ['Ukraine']] 
+S :  
+Previous answer: Ukraine
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Ukraine
+Count answers: 2
+NB Disagree: 1
+ P2 : I also think it's Ukraine  ['give_answer', ['GPE'], ['Ukraine']] 
+S : So, is Ukraine your final answer ? 
+Previous answer: Ukraine
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Ukraine
+Count answers: 3
+NB Disagree: 1
+ P2 : yep  ['agree', [None], [None]] 
+S : You agreed on Ukraine. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Ukraine
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Ukraine
+Count answers: 0
+NB Disagree: 1

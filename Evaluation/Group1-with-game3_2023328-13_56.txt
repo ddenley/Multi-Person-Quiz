@@ -1,0 +1,361 @@
+Want to give it a shot? Link each flag with its corresponding country!
+ P2 : yeah let's play  ['agree', [None], [None]] 
+S : Which flag will be up right after this one? Is this the flag of Andorra, The United Arab Emirates, Jordan or Cyprus? Collaborate and offer your team's most thoughtful country selection. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : Cyprus  ['give_answer', ['GPE'], ['Cyprus']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Cyprus
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 0
+ P2 : I agree it Cypress  ['give_answer', ['GPE'], ['Cypress']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Cyprus
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 0
+ P2 : yeah I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Cyprus
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Cyprus
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P2 : Cyprus  ['give_answer', ['GPE'], ['Cyprus']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Cyprus
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P2 : I agree it Cypress  ['give_answer', ['GPE'], ['Cypress']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Cyprus
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P2 : it is Cypress  ['give_answer', ['GPE'], ['Cypress']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Cyprus
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P1 : I think that one Cypress  ['give_answer', ['GPE'], ['Cypress']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Cyprus
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : So, is Cyprus your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Cyprus
+Current answer : Cyprus
+Count answers: 2
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Cyprus. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 0
+NB Disagree: 0
+ P2 : yes  ['agree', [None], [None]] 
+S : Which country's banner will be raised next? Is this the flag of Montserrat, Eritrea, Mayotte or Luxembourg? Work together to give me the name of the country that you think it is. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 0
+NB Disagree: 0
+ P2 : that's really obscure so I think it might be Arc  ['give_answer', ['GPE'], ['Arc']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 0
+NB Disagree: 0
+ P2 : I've said smiling up at 4  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 0
+NB Disagree: 0
+ P2 : Montserrat yeah it could be  ['give_answer', ['GPE'], ['Montserrat']] 
+S :  
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: Montserrat
+Current answer : Cyprus
+Count answers: 1
+NB Disagree: 0
+ P2 : can I get a hint  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about East African nation on the Red Sea 
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: Montserrat
+Current answer : Cyprus
+Count answers: 1
+NB Disagree: 0
+ P2 : help me finish.  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about East African nation on the Red Sea 
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: Montserrat
+Current answer : Cyprus
+Count answers: 1
+NB Disagree: 0
+ P2 : Let's go set a rick free Eritrea  ['give_answer', ['GPE'], ['Eritrea']] 
+S :  
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: Eritrea
+Current answer : Cyprus
+Count answers: 2
+NB Disagree: 0
+ P2 : I agree I think it's Eritrea  ['give_answer', ['GPE'], ['Eritrea']] 
+S :  
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: Eritrea
+Current answer : Cyprus
+Count answers: 3
+NB Disagree: 0
+ P2 : it's Eritrea I agree  ['give_answer', ['GPE'], ['Eritrea']] 
+S :  
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: Eritrea
+Current answer : Cyprus
+Count answers: 4
+NB Disagree: 0
+ P2 : I think I think it Eritrea  ['give_answer', ['GPE'], ['Eritrea']] 
+S :  
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: Eritrea
+Current answer : Cyprus
+Count answers: 5
+NB Disagree: 0
+ P2 : I agree is Eritrea  ['give_answer', ['GPE'], ['Eritrea']] 
+S :  
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: Eritrea
+Current answer : Cyprus
+Count answers: 6
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : So, is Eritrea your final answer ? 
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: Eritrea
+Current answer : Eritrea
+Count answers: 6
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Eritrea. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Cyprus
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Eritrea
+Count answers: 0
+NB Disagree: 0
+ P1 : yes please  ['agree', [None], [None]] 
+S : Can you identify the flag that will be shown after this? Is this the flag of Senegal, Tuvalu, Norway or Kazakhstan? Work together to come up with your team's most informed country selection. 
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Eritrea
+Count answers: 0
+NB Disagree: 0
+ P1 : that's probably tuvalu because that's in the  ['give_answer', ['GPE'], ['tuvalu']] 
+S :  
+Previous answer: Eritrea
+Question asked: True
+Current answer 0: Tuvalu
+Current answer 1: None
+Current answer : Eritrea
+Count answers: 1
+NB Disagree: 0
+ P1 : really  ['agree', [None], [None]] 
+S :  
+Previous answer: Eritrea
+Question asked: True
+Current answer 0: Tuvalu
+Current answer 1: None
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P1 : I think it's tuvalu  ['give_answer', ['GPE'], ['tuvalu']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Tuvalu
+Current answer 1: None
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P1 : let's go with tuvalu  ['give_answer', ['GPE'], ['tuvalu']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Tuvalu
+Current answer 1: None
+Current answer : None
+Count answers: 3
+NB Disagree: 0
+ P1 : yes I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Tuvalu
+Current answer 1: None
+Current answer : None
+Count answers: 3
+NB Disagree: 0
+ P1 : tuvalu I think the answer is tuvalu  ['give_answer', ['GPE'], ['tuvalu']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Tuvalu
+Current answer 1: None
+Current answer : None
+Count answers: 4
+NB Disagree: 0
+ P1 : can we get a hint  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about This small island nation is located near the equator in the Pacific Ocean 
+Previous answer: None
+Question asked: True
+Current answer 0: Tuvalu
+Current answer 1: None
+Current answer : None
+Count answers: 4
+NB Disagree: 0
+ P1 : it's definitely tuvalu  ['give_answer', ['GPE'], ['tuvalu']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Tuvalu
+Current answer 1: None
+Current answer : None
+Count answers: 5
+NB Disagree: 0
+ P2 : I think it's too early  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Tuvalu
+Current answer 1: None
+Current answer : None
+Count answers: 5
+NB Disagree: 0
+ P1 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Tuvalu
+Current answer 1: None
+Current answer : None
+Count answers: 5
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Tuvalu
+Current answer 1: None
+Current answer : None
+Count answers: 5
+NB Disagree: 0
+ P1 : tuvalu  ['give_answer', ['GPE'], ['tuvalu']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Tuvalu
+Current answer 1: None
+Current answer : None
+Count answers: 6
+NB Disagree: 0
+ P2 : yes  ['agree', [None], [None]] 
+S : So, is Tuvalu your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: Tuvalu
+Current answer 1: None
+Current answer : Tuvalu
+Count answers: 6
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Tuvalu. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Tuvalu
+Count answers: 0
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : What flag will be shown after this one? Is this the flag of Djibouti, Jamaica, Israel or Greece? It's time to combine your knowledge and make your best collective guess. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Tuvalu
+Count answers: 0
+NB Disagree: 0

@@ -1,0 +1,334 @@
+Would you like to play? Match the flag with the corresponding country to complete the puzzle!
+ P2 : yes  ['agree', [None], [None]] 
+S : Can you identify the flag that will be shown after this? Is this the flag of Puerto Rico, Egypt, Solomon Islands or The Philippines? After a little bit of brainstorming, I want to hear your team's prediction. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : Solomon Islands  ['give_answer', ['GPE'], ['Solomon Islands']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Solomon Islands
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 0
+ P2 : Solomon Islands  ['give_answer', ['GPE'], ['Solomon Islands']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Solomon Islands
+Current answer : WrongAnswer
+Count answers: 2
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Solomon Islands
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P2 : I think it's Solomon Islands  ['give_answer', ['GPE'], ['Solomon Islands']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Solomon Islands
+Current answer : None
+Count answers: 3
+NB Disagree: 0
+ P2 : I think it's I think it's oven Islands  ['give_answer', ['GPE'], ['Islands']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Solomon Islands
+Current answer : None
+Count answers: 4
+NB Disagree: 0
+ P1 : Solomon Islands  ['give_answer', ['GPE'], ['Solomon Islands']] 
+S : So, is Solomon Islands your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: Solomon Islands
+Current answer 1: Solomon Islands
+Current answer : Solomon Islands
+Count answers: 5
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Solomon Islands. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Solomon Islands
+Count answers: 0
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : Can you identify the upcoming flag? Is this the flag of Afghanistan, Uruguay, Japan or Faroe Islands? Now is the time to work together and make your best guess. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Solomon Islands
+Count answers: 0
+NB Disagree: 0
+ P1 : current events yesterday I  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 0
+ P2 : agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 0
+ P2 : I think it's Japan  ['give_answer', ['GPE'], ['Japan']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Japan
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P1 : I think it's the pain I want to try cream cheese keep getting these things  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Japan
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P2 : I think it's Japan  ['give_answer', ['GPE'], ['Japan']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Japan
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P1 : I think it's Japan  ['give_answer', ['GPE'], ['Japan']] 
+S : So, is Japan your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: Japan
+Current answer 1: Japan
+Current answer : Japan
+Count answers: 3
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S : You agreed on Japan. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Japan
+Count answers: 0
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : Can you predict the next flag to be shown? Is this the flag of Curacao, Czechia, Vietnam or US Virgin Islands? It's time to put your heads together and come up with a thoughtful guess. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Japan
+Count answers: 0
+NB Disagree: 0
+ P2 : US Virgin Islands I agree  ['give_answer', ['GPE'], ['US Virgin Islands']] 
+S :  
+Previous answer: Japan
+Question asked: True
+Current answer 0: None
+Current answer 1: US Virgin Islands
+Current answer : Japan
+Count answers: 1
+NB Disagree: 0
+ P2 : because it is it US Virgin Islands faster or the United States Virgin Islands Virgin Islands  ['give_answer', ['GPE'], ['US Virgin Islands']] 
+S :  
+Previous answer: Japan
+Question asked: True
+Current answer 0: None
+Current answer 1: US Virgin Islands
+Current answer : Japan
+Count answers: 2
+NB Disagree: 0
+ P2 : US Virgin Islands  ['give_answer', ['GPE'], ['US Virgin Islands']] 
+S :  
+Previous answer: Japan
+Question asked: True
+Current answer 0: None
+Current answer 1: US Virgin Islands
+Current answer : Japan
+Count answers: 3
+NB Disagree: 0
+ P1 : US Virgin Islands  ['give_answer', ['GPE'], ['US Virgin Islands']] 
+S : So, is US Virgin Islands your final answer ? 
+Previous answer: Japan
+Question asked: True
+Current answer 0: US Virgin Islands
+Current answer 1: US Virgin Islands
+Current answer : US Virgin Islands
+Count answers: 4
+NB Disagree: 0
+ P2 : yes yes  ['agree', [None], [None]] 
+S : You agreed on US Virgin Islands. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Japan
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : US Virgin Islands
+Count answers: 0
+NB Disagree: 0
+ P2 : yes  ['agree', [None], [None]] 
+S : What is the flag that is coming up next? Is this the flag of Nepal, Qatar, Argentina or Japan? It's time to put your heads together and come up with your most informed country selection. 
+Previous answer: Japan
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : US Virgin Islands
+Count answers: 0
+NB Disagree: 0
+ P2 : u.s. debt  ['nlu_fallback', [None], [None]] 
+S :  
+Previous answer: Japan
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : US Virgin Islands
+Count answers: 0
+NB Disagree: 0
+ P2 : I think it's guitar  ['give_answer', ['GPE'], ['guitar']] 
+S :  
+Previous answer: Japan
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : US Virgin Islands
+Count answers: 0
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: Japan
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 0
+ P2 : Qatar  ['give_answer', ['GPE'], ['Qatar']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Qatar
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P1 : I agree I'm not really struggle to talk  ['agree', [None], [None]] 
+S : So, is Qatar your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Qatar
+Current answer : Qatar
+Count answers: 1
+NB Disagree: 0
+ P2 : guitar  ['give_answer', ['GPE'], ['guitar']] 
+S : No problem, keep going on this question ! 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Qatar
+Current answer : Qatar
+Count answers: 0
+NB Disagree: 0
+ P2 : I think it's Qatar  ['give_answer', ['GPE'], ['Qatar']] 
+S :  
+Previous answer: Qatar
+Question asked: True
+Current answer 0: None
+Current answer 1: Qatar
+Current answer : Qatar
+Count answers: 1
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: Qatar
+Question asked: True
+Current answer 0: None
+Current answer 1: Qatar
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P2 : I think guitar  ['give_answer', ['GPE'], ['guitar']] 
+S :  
+Previous answer: Qatar
+Question asked: True
+Current answer 0: None
+Current answer 1: Qatar
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P2 : I think I agree  ['disagree', [None], [None]] 
+S :  
+Previous answer: Qatar
+Question asked: True
+Current answer 0: None
+Current answer 1: Qatar
+Current answer : None
+Count answers: 1
+NB Disagree: 1
+ P2 : I think Qatar  ['give_answer', ['GPE'], ['Qatar']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Qatar
+Current answer : None
+Count answers: 2
+NB Disagree: 1
+ P2 : Qatar  ['give_answer', ['GPE'], ['Qatar']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Qatar
+Current answer : None
+Count answers: 3
+NB Disagree: 1
+ P1 : can I definitely can read that I agree  ['agree', [None], [None]] 
+S : So, is Qatar your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Qatar
+Current answer : Qatar
+Count answers: 3
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Qatar. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Qatar
+Count answers: 0
+NB Disagree: 1

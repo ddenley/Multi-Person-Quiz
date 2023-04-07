@@ -1,0 +1,217 @@
+Would you like to play? Match the flag with the corresponding country to complete the puzzle!
+ P2 : yes  ['agree', [None], [None]] 
+S : Which flag will be on display next? Is this the flag of Guadeloupe, Equatorial Guinea, San Marino or The Democratic Republic of The Congo? Work together to come up with your team's most informed country selection. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : San Marino  ['give_answer', ['GPE'], ['San Marino']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: San Marino
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: San Marino
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P2 : San Marino  ['give_answer', ['GPE'], ['San Marino']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: San Marino
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: San Marino
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P2 : San Marino  ['give_answer', ['GPE'], ['San Marino']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: San Marino
+Current answer : None
+Count answers: 3
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: San Marino
+Current answer : None
+Count answers: 3
+NB Disagree: 0
+ P2 : I think it's San Marino  ['give_answer', ['GPE'], ['San Marino']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: San Marino
+Current answer : None
+Count answers: 4
+NB Disagree: 0
+ P1 : I think San Marino  ['give_answer', ['GPE'], ['San Marino']] 
+S : So, is San Marino your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: San Marino
+Current answer 1: San Marino
+Current answer : San Marino
+Count answers: 5
+NB Disagree: 0
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on San Marino. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : San Marino
+Count answers: 0
+NB Disagree: 0
+ P2 : yes  ['agree', [None], [None]] 
+S : Which flag is next in the order? Is this the flag of Micronesia, Saint Kitts and Nevis, Morocco or Kenya? Talk amongst yourselves and then share your team's most educated guess. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : San Marino
+Count answers: 0
+NB Disagree: 0
+ P1 : get some notice for collection  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : San Marino
+Count answers: 0
+NB Disagree: 0
+ P1 : it's Saint Kitts and Nevis  ['give_answer', ['GPE'], ['Saint Kitts and Nevis']] 
+S :  
+Previous answer: San Marino
+Question asked: True
+Current answer 0: Saint Kitts and Nevis
+Current answer 1: None
+Current answer : San Marino
+Count answers: 1
+NB Disagree: 0
+ P1 : Saint Kitts and Nevis  ['give_answer', ['GPE'], ['Saint Kitts and Nevis']] 
+S :  
+Previous answer: San Marino
+Question asked: True
+Current answer 0: Saint Kitts and Nevis
+Current answer 1: None
+Current answer : San Marino
+Count answers: 2
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S : So, is Saint Kitts and Nevis your final answer ? 
+Previous answer: San Marino
+Question asked: True
+Current answer 0: Saint Kitts and Nevis
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 2
+NB Disagree: 0
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Saint Kitts and Nevis. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: San Marino
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 0
+NB Disagree: 0
+ P2 : yes  ['agree', [None], [None]] 
+S : What flag is next in line to be shown? Is this the flag of Peru, Guyana, Namibia or Vanuatu? After some deliberation, I want to hear your team's most accurate estimation of the country. 
+Previous answer: San Marino
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 0
+NB Disagree: 0
+ P2 : H-E-B Peru but I'm not 100%.  ['give_answer', ['GPE'], ['H-E-B']] 
+S :  
+Previous answer: San Marino
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 0
+NB Disagree: 0
+ P2 : can I have a hint please  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about South American nation 
+Previous answer: San Marino
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 0
+NB Disagree: 0
+ P2 : we think it's Peru  ['give_answer', ['GPE'], ['Peru']] 
+S :  
+Previous answer: Saint Kitts and Nevis
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : Saint Kitts and Nevis
+Count answers: 1
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: Saint Kitts and Nevis
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P2 : we think it's true  ['agree', [None], [None]] 
+S :  
+Previous answer: Saint Kitts and Nevis
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P1 : I agree  ['agree', [None], [None]] 
+S : So, is Peru your final answer ? 
+Previous answer: Saint Kitts and Nevis
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : Peru
+Count answers: 1
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Peru. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Saint Kitts and Nevis
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Peru
+Count answers: 0
+NB Disagree: 0

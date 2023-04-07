@@ -1,0 +1,298 @@
+Are you game? See if you can identify the flag's country of origin!
+ P2 : so you can see display or Jensen  ['give_answer', ['GPE'], ['Jensen']] 
+S : Can you identify the flag that will be displayed next? Is this the flag of Slovenia, Singapore, The Congo or Northern Mariana Islands? It's time to combine your knowledge and make your best collective guess. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : yeah I mean I don't think it's going to be me or Singapore what do you think  ['give_answer', ['GPE'], ['Singapore']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Singapore
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 0
+ P1 : yeah I agree it's not snowing you  ['disagree', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Singapore
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 1
+ P2 : my best guess would be the Congo  ['give_answer', ['GPE'], ['the Congo']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: The Congo
+Current answer : WrongAnswer
+Count answers: 2
+NB Disagree: 1
+ P2 : it will go with Congo  ['give_answer', ['GPE'], ['Congo']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: The Congo
+Current answer : WrongAnswer
+Count answers: 3
+NB Disagree: 1
+ P2 : our final answer to see the Congo  ['give_answer', ['GPE'], ['Congo']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: The Congo
+Current answer : WrongAnswer
+Count answers: 4
+NB Disagree: 1
+ P2 : hello  ['agree', ['GPE'], ['hello']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: The Congo
+Current answer : None
+Count answers: 4
+NB Disagree: 1
+ P1 : Iceland to see the Congo  ['give_answer', ['GPE'], ['Iceland']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: The Congo
+Current answer : None
+Count answers: 4
+NB Disagree: 1
+ P2 : what's  ['agree', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: The Congo
+Current answer : None
+Count answers: 4
+NB Disagree: 1
+ P1 : get this question then  ['repeat_question', [None], [None]] 
+S : Absolutely, I can repeat the different choices.Which nation's banner will be shown next? Is this the flag of Slovenia, Singapore, The Congo or Northern Mariana Islands? Let's hear your team's most educated guess on the country after some deliberation. 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: The Congo
+Current answer : None
+Count answers: 4
+NB Disagree: 1
+ P2 : it's in the Congo  ['give_answer', ['GPE'], ['the Congo']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: The Congo
+Current answer : None
+Count answers: 5
+NB Disagree: 1
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: The Congo
+Current answer : None
+Count answers: 5
+NB Disagree: 1
+ P2 : this doesn't mean it's the wrong answer I'll change my attitude in Northern Mariana Islands  ['give_answer', ['GPE'], ['Northern Mariana Islands']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Northern Mariana Islands
+Current answer : None
+Count answers: 6
+NB Disagree: 1
+ P2 : show me skip this question  ['skip_question', [None], [None]] 
+S : Ok, let's skip this question ! What country's flag will be shown next? Is this the flag of Iran, Bhutan, Uganda or Slovenia? Work together to come up with your team's most informed country selection. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Northern Mariana Islands
+Current answer : None
+Count answers: 6
+NB Disagree: 0
+ P2 : I'm pretty sure the answer is Bhutan I think so too  ['give_answer', ['GPE'], ['Bhutan']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Bhutan
+Current answer : None
+Count answers: 7
+NB Disagree: 0
+ P1 : we agree on what time then  ['agree', [None], [None]] 
+S : So, is Bhutan your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Bhutan
+Current answer : Bhutan
+Count answers: 7
+NB Disagree: 0
+ P2 : yep yes  ['agree', [None], [None]] 
+S : You agreed on Bhutan. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Bhutan
+Count answers: 0
+NB Disagree: 0
+ P2 : yes  ['agree', [None], [None]] 
+S : Which flag is the next to be revealed? Is this the flag of Georgia, Belarus, The United Arab Emirates or Russia? Take a few moments to confer with your team and offer your most accurate country guess. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bhutan
+Count answers: 0
+NB Disagree: 0
+ P1 : do you know the song  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bhutan
+Count answers: 0
+NB Disagree: 0
+ P2 : I didn't know but judging from your I agree  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Bhutan
+Count answers: 0
+NB Disagree: 0
+ P1 : yeah I think it see the United Arab Emirates  ['give_answer', ['GPE'], ['United Arab Emirates']] 
+S :  
+Previous answer: Bhutan
+Question asked: True
+Current answer 0: The United Arab Emirates
+Current answer 1: None
+Current answer : Bhutan
+Count answers: 1
+NB Disagree: 0
+ P2 : I think so too  ['disagree', [None], [None]] 
+S :  
+Previous answer: Bhutan
+Question asked: True
+Current answer 0: The United Arab Emirates
+Current answer 1: None
+Current answer : Bhutan
+Count answers: 1
+NB Disagree: 1
+ P2 : dancers the UAE the United Arab Emirates  ['give_answer', ['GPE'], ['the UAE the United Arab Emirates']] 
+S :  
+Previous answer: Bhutan
+Question asked: True
+Current answer 0: The United Arab Emirates
+Current answer 1: None
+Current answer : Bhutan
+Count answers: 1
+NB Disagree: 1
+ P2 : see  ['give_answer', ['GPE'], ['see']] 
+S :  
+Previous answer: Bhutan
+Question asked: True
+Current answer 0: The United Arab Emirates
+Current answer 1: None
+Current answer : Bhutan
+Count answers: 1
+NB Disagree: 1
+ P2 : we discussed and we both decided  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Bhutan
+Question asked: True
+Current answer 0: The United Arab Emirates
+Current answer 1: None
+Current answer : Bhutan
+Count answers: 1
+NB Disagree: 1
+ P2 : will skip this question then  ['skip_question', [None], [None]] 
+S : Ok, let's skip this question ! What flag will be shown after this one? Is this the flag of India, Slovakia, Liberia or Oman? Take a few moments to confer with your team and offer your most confident guess. 
+Previous answer: Bhutan
+Question asked: True
+Current answer 0: The United Arab Emirates
+Current answer 1: None
+Current answer : Bhutan
+Count answers: 1
+NB Disagree: 0
+ P1 : you know  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about Large, South Asian nation 
+Previous answer: Bhutan
+Question asked: True
+Current answer 0: The United Arab Emirates
+Current answer 1: None
+Current answer : Bhutan
+Count answers: 1
+NB Disagree: 0
+ P2 : I think I do it might be Indian  ['disagree', [None], [None]] 
+S :  
+Previous answer: Bhutan
+Question asked: True
+Current answer 0: The United Arab Emirates
+Current answer 1: None
+Current answer : Bhutan
+Count answers: 1
+NB Disagree: 1
+ P2 : yes it is it India  ['give_answer', ['GPE'], ['India']] 
+S :  
+Previous answer: Bhutan
+Question asked: True
+Current answer 0: The United Arab Emirates
+Current answer 1: India
+Current answer : Bhutan
+Count answers: 2
+NB Disagree: 2
+ P2 : our final answer is India  ['agree', ['GPE'], ['India']] 
+S :  
+Previous answer: Bhutan
+Question asked: True
+Current answer 0: The United Arab Emirates
+Current answer 1: India
+Current answer : The United Arab Emirates
+Count answers: 2
+NB Disagree: 2
+ P1 : can we have another hint  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about Large, South Asian nation 
+Previous answer: Bhutan
+Question asked: True
+Current answer 0: The United Arab Emirates
+Current answer 1: India
+Current answer : The United Arab Emirates
+Count answers: 2
+NB Disagree: 2
+ P2 : okay then it's India  ['give_answer', ['GPE'], ['India']] 
+S :  
+Previous answer: The United Arab Emirates
+Question asked: True
+Current answer 0: The United Arab Emirates
+Current answer 1: India
+Current answer : The United Arab Emirates
+Count answers: 3
+NB Disagree: 3
+ P2 : okay then it's India  ['give_answer', ['GPE'], ['India']] 
+S : This is a tough one, would you like a clue? ? 
+Previous answer: The United Arab Emirates
+Question asked: True
+Current answer 0: The United Arab Emirates
+Current answer 1: India
+Current answer : The United Arab Emirates
+Count answers: 4
+NB Disagree: 0

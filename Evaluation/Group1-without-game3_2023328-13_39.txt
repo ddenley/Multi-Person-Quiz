@@ -1,0 +1,208 @@
+Up for a challenge? Try to recognize each flag's country!
+ P2 : yeah let's play  ['agree', [None], [None]] 
+S : What flag will be shown after this one? Is this the flag of Jordan, Anguilla, Fiji or Germany? I want to hear your team's guess after some discussion and collaboration. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : I think it could be peachy Ron Kia  ['give_answer', ['GPE'], ['Ron Kia']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : you see I was  ['disagree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 1
+ P1 : what can alcohol withdrawal  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about British overseas territory in the Caribbean Sea 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 1
+ P1 : oh Caribbean okay it must be Anguilla  ['give_answer', ['GPE'], ['Anguilla']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Anguilla
+Count answers: 1
+NB Disagree: 2
+ P1 : yeah I think it's angry  ['give_answer', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Anguilla
+Count answers: 1
+NB Disagree: 2
+ P1 : I agree  ['agree', [None], [None]] 
+S : So, is Anguilla your final answer ? 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Anguilla
+Count answers: 1
+NB Disagree: 2
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Anguilla. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: WrongAnswer
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Anguilla
+Count answers: 0
+NB Disagree: 2
+ P2 : yes please  ['agree', [None], [None]] 
+S : Can you identify the flag that will be displayed next? Is this the flag of British Indian Ocean Territory, Latvia, Cyprus or Australia? Discuss it with your quiz team and give me your best guess. 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Anguilla
+Count answers: 0
+NB Disagree: 0
+ P2 : that Cyprus  ['give_answer', ['GPE'], ['Cyprus']] 
+S :  
+Previous answer: Anguilla
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 1
+NB Disagree: 1
+ P1 : yeah let's go.  ['agree', [None], [None]] 
+S : So, is Cyprus your final answer ? 
+Previous answer: Anguilla
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 1
+NB Disagree: 1
+ P1 : Yeah  ['agree', [None], [None]] 
+S : You agreed on Cyprus. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Anguilla
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 0
+NB Disagree: 1
+ P1 : yes please  ['agree', [None], [None]] 
+S : Can you identify the flag that will be displayed next? Is this the flag of Cambodia, Lao People's Democratic Republic, Morocco or Saint Kitts and Nevis? Discuss it with your quiz team and share your most well-reasoned country selection. 
+Previous answer: Anguilla
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cyprus
+Count answers: 0
+NB Disagree: 0
+ P2 : it's either Cambodia or allow I was going to go as well okay you want to say hello  ['give_answer', ['GPE'], ['Cambodia']] 
+S :  
+Previous answer: Cyprus
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Cambodia
+Count answers: 1
+NB Disagree: 1
+ P2 : yeah Lao people's Democratic Republic I agree  ['give_answer', ['GPE'], ["Lao people's Democratic Republic"]] 
+S :  
+Previous answer: Cambodia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Lao People's Democratic Republic
+Count answers: 2
+NB Disagree: 2
+ P2 : are the stars on Google to do  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Cambodia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Lao People's Democratic Republic
+Count answers: 2
+NB Disagree: 2
+ P2 : yellow  ['agree', [None], [None]] 
+S : So, is Lao People's Democratic Republic your final answer ? 
+Previous answer: Cambodia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Lao People's Democratic Republic
+Count answers: 2
+NB Disagree: 2
+ P2 : Lao Tzu  ['give_answer', ['GPE'], ['Lao Tzu']] 
+S : No problem, keep going on this question ! 
+Previous answer: Cambodia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Lao People's Democratic Republic
+Count answers: 0
+NB Disagree: 2
+ P2 : all right  ['agree', [None], [None]] 
+S : So, is Lao People's Democratic Republic your final answer ? 
+Previous answer: Cambodia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Lao People's Democratic Republic
+Count answers: 0
+NB Disagree: 2
+ P1 : Lao people  ['give_answer', ['GPE'], ['Lao people']] 
+S : No problem, keep going on this question ! 
+Previous answer: Cambodia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Lao People's Democratic Republic
+Count answers: 0
+NB Disagree: 2
+ P2 : yes Lao people's Democratic Republic  ['give_answer', ['GPE'], ["Lao people's Democratic Republic"]] 
+S :  
+Previous answer: Lao People's Democratic Republic
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Lao People's Democratic Republic
+Count answers: 1
+NB Disagree: 2
+ P2 : I agree  ['agree', [None], [None]] 
+S : So, is Lao People's Democratic Republic your final answer ? 
+Previous answer: Lao People's Democratic Republic
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Lao People's Democratic Republic
+Count answers: 1
+NB Disagree: 2
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Lao People's Democratic Republic. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Lao People's Democratic Republic
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Lao People's Democratic Republic
+Count answers: 0
+NB Disagree: 2

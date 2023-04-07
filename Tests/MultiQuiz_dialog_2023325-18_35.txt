@@ -1,0 +1,25 @@
+Are you game? See if you can identify the flag's country of origin!
+ P1 : let's play  ['agree', [None], [None]] 
+S : What flag will be shown after this one? Is this the flag of Latvia, Gabon, South Sudan or Azerbaijan? Collaborate and give me your team's most informed country guess. 
+ P2 : I think it's Azerbaijan  ['give_answer', ['GPE'], ['Azerbaijan']] 
+S :  
+ P2 : yes I agree  ['agree', [None], [None]] 
+S :  
+ P1 : yes definitely Azerbaijan  ['give_answer', ['GPE'], ['Azerbaijan']] 
+S : So, is Azerbaijan your final answer ? 
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Azerbaijan. Well done, it's right ! Would you like to continue to play ? 
+ P1 : yes please  ['agree', [None], [None]] 
+S : Which nation's banner will be displayed next? Is this the flag of Burkina Faso, Uruguay, Sierra Leone or Equatorial Guinea? After some discussion, I want to know your team's most confident estimation of the country. 
+ P2 : I'm really not sure what could we have a clay  ['disagree', [None], [None]] 
+S :  
+ P2 : can you give us a clue  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about This is a West African nation, South of Mali 
+ P1 : okay and I haven't sell  ['give_answer', [None], [None]] 
+S :  
+ P2 : could you repeat that  ['repeat_question', [None], [None]] 
+S : Absolutely, I can repeat the different choices.Which flag is next in the order? Is this the flag of Burkina Faso, Uruguay, Sierra Leone or Equatorial Guinea? Collaborate and give me your team's most informed country guess. 
+ P2 : text Christy  ['agree', ['GPE'], ['Christy']] 
+S :  
+ P2 : can we skip  ['skip_question', [None], [None]] 
+S : Ok, let's skip this question ! What is the flag that will be shown next? Is this the flag of Czechia, Sweden, Reunion or Namibia? Work together to make your most accurate guess and share it with me. 

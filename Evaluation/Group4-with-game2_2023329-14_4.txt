@@ -1,0 +1,136 @@
+Are you game? See if you can identify the flag's country of origin!
+ P1 : voice recording the microphone Siri  ['give_answer', ['GPE'], ['the microphone Siri']] 
+S : What flag is next to be raised? Is this the flag of Monaco, Tajikistan, Guatemala or South Georgia and the South Sandwich Islands? Take a few moments to confer with your team and offer your most well-informed country guess. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : places for Guatemala  ['give_answer', ['GPE'], ['Guatemala']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Guatemala
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 0
+ P2 : yeah I think Guatemala  ['give_answer', ['GPE'], ['Guatemala']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Guatemala
+Current answer : WrongAnswer
+Count answers: 2
+NB Disagree: 0
+ P2 : I want to try to say that I think it's safe to Georgia and the South Sandwich Islands  ['give_answer', ['GPE'], ['Georgia and the']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: South Georgia and the South Sandwich Islands
+Current answer : WrongAnswer
+Count answers: 3
+NB Disagree: 0
+ P1 : yes I think so too I think it I will still think it's South Georgia and the South Sandwich Islands  ['give_answer', ['GPE'], ['South Georgia and the']] 
+S : So, is South Georgia and the South Sandwich Islands your final answer ? 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: South Georgia and the South Sandwich Islands
+Current answer 1: South Georgia and the South Sandwich Islands
+Current answer : South Georgia and the South Sandwich Islands
+Count answers: 4
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on South Georgia and the South Sandwich Islands. Unfortunately it's not the right answer. This is the flag of Guatemala ! Would you like to try another flag ? 
+Previous answer: WrongAnswer
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : South Georgia and the South Sandwich Islands
+Count answers: 0
+NB Disagree: 0
+ P1 : yes is that mean there's also a North Sandwich Islands  ['give_answer', ['GPE'], ['North Sandwich Islands']] 
+S : What is the upcoming flag to be displayed? Is this the flag of French Southern Territories, British Indian Ocean Territory, Turkmenistan or Czechia? It's time to combine your knowledge and make your best collective guess. 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : South Georgia and the South Sandwich Islands
+Count answers: 0
+NB Disagree: 0
+ P1 : how to take a wild guess and say it's French Southern  ['give_answer', ['GPE'], ['French Southern']] 
+S :  
+Previous answer: South Georgia and the South Sandwich Islands
+Question asked: True
+Current answer 0: French Southern Territories
+Current answer 1: None
+Current answer : South Georgia and the South Sandwich Islands
+Count answers: 1
+NB Disagree: 0
+ P2 : territories  ['give_answer', ['GPE'], ['territories']] 
+S : So, is French Southern Territories your final answer ? 
+Previous answer: South Georgia and the South Sandwich Islands
+Question asked: True
+Current answer 0: French Southern Territories
+Current answer 1: French Southern Territories
+Current answer : French Southern Territories
+Count answers: 2
+NB Disagree: 0
+ P1 : I think it's yes yes  ['agree', [None], [None]] 
+S : You agreed on French Southern Territories. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: South Georgia and the South Sandwich Islands
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : French Southern Territories
+Count answers: 0
+NB Disagree: 0
+ P1 : I'd love to yes  ['agree', [None], [None]] 
+S : Which country's banner is up next? Is this the flag of Norway, Peru, Monaco or Tajikistan? Let's hear your team's most calculated guess on the country after some collaboration. 
+Previous answer: South Georgia and the South Sandwich Islands
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : French Southern Territories
+Count answers: 0
+NB Disagree: 0
+ P2 : okay yeah  ['agree', [None], [None]] 
+S :  
+Previous answer: South Georgia and the South Sandwich Islands
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 0
+ P1 : Monaco  ['give_answer', ['GPE'], ['Monaco']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Monaco
+Current answer 1: None
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S : So, is Monaco your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: Monaco
+Current answer 1: None
+Current answer : Monaco
+Count answers: 1
+NB Disagree: 0
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Monaco. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Monaco
+Count answers: 0
+NB Disagree: 0

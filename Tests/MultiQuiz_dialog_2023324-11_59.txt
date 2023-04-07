@@ -1,0 +1,21 @@
+Would you like to take a chance? Can you identify the country by the flag?
+ P2 : yes please  ['yes', [None], [None]] 
+S : What is the next national flag to be displayed? Is this the flag of Estonia, French Southern Territories, Malaysia or Djibouti? After a little bit of brainstorming, I want to hear your team's prediction. 
+ P2 : I think it's Estonia  ['give_answer', ['GPE'], ['Estonia']] 
+S :  
+ P2 : Djibouti  ['give_answer', ['GPE'], ['Djibouti']] 
+S :  
+ P2 : I  ['agree', [None], [None]] 
+S : So, is Djibouti your final answer ? 
+ P1 : think it's in Malaysia  ['give_answer', ['GPE'], ['Malaysia']] 
+S : None 
+ P1 : Greece  ['give_answer', ['GPE'], ['Greece']] 
+S :  
+ P2 : Santorini  ['give_answer', ['GPE'], ['Santorini']] 
+S :  
+ P1 : I'm pretty sure it's Tanya  ['give_answer', ['GPE'], ['Tanya']] 
+S :  
+ P1 : Singapore  ['give_answer', ['GPE'], ['Singapore']] 
+S :  
+ P1 : sleeper sofa  ['give_answer', ['GPE'], ['sleeper sofa']] 
+S :  

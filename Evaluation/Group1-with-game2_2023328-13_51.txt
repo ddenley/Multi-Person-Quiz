@@ -1,0 +1,271 @@
+Shall we give it a go? Pick which country each flag represents!
+ P2 : yeah let's play  ['agree', [None], [None]] 
+S : What flag is coming up next in the lineup? Is this the flag of Panama, The Congo, Lao People's Democratic Republic or Benin? Discuss it with your quiz team and offer the name of the country you think it is. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : Panama City Panama I think it might be Panama it's definitely not see I think Panama  ['give_answer', ['GPE'], ['Panama']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Panama
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 0
+ P2 : yeah yeah I think is Panama  ['give_answer', ['GPE'], ['Panama']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Panama
+Current answer : WrongAnswer
+Count answers: 2
+NB Disagree: 0
+ P2 : I agree Panama  ['give_answer', ['GPE'], ['Panama']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Panama
+Current answer : WrongAnswer
+Count answers: 3
+NB Disagree: 0
+ P2 : is Panama  ['give_answer', ['GPE'], ['Panama']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Panama
+Current answer : WrongAnswer
+Count answers: 4
+NB Disagree: 0
+ P1 : I think the answer is Panama  ['give_answer', ['GPE'], ['Panama']] 
+S : So, is Panama your final answer ? 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: Panama
+Current answer 1: Panama
+Current answer : Panama
+Count answers: 5
+NB Disagree: 0
+ P1 : yeah  ['agree', [None], [None]] 
+S : You agreed on Panama. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: WrongAnswer
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Panama
+Count answers: 0
+NB Disagree: 0
+ P1 : yes please  ['agree', [None], [None]] 
+S : What is the upcoming flag to be displayed? Is this the flag of Saint Pierre and Miquelon, Guyana, Hungary or French Saint Martin? Take a few moments to discuss with your team before offering your most confident guess. 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Panama
+Count answers: 0
+NB Disagree: 0
+ P1 : I think that's hungry  ['give_answer', ['GPE'], ['hungry']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Panama
+Count answers: 0
+NB Disagree: 0
+ P1 : okay let's go with Hungary  ['give_answer', ['GPE'], ['Hungary']] 
+S :  
+Previous answer: Panama
+Question asked: True
+Current answer 0: Hungary
+Current answer 1: None
+Current answer : Panama
+Count answers: 1
+NB Disagree: 0
+ P1 : Hungary  ['give_answer', ['GPE'], ['Hungary']] 
+S :  
+Previous answer: Panama
+Question asked: True
+Current answer 0: Hungary
+Current answer 1: None
+Current answer : Panama
+Count answers: 2
+NB Disagree: 0
+ P1 : I think it's Hungary  ['give_answer', ['GPE'], ['Hungary']] 
+S :  
+Previous answer: Panama
+Question asked: True
+Current answer 0: Hungary
+Current answer 1: None
+Current answer : Panama
+Count answers: 3
+NB Disagree: 0
+ P1 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: Panama
+Question asked: True
+Current answer 0: Hungary
+Current answer 1: None
+Current answer : None
+Count answers: 3
+NB Disagree: 0
+ P2 : don't be on there  ['disagree', [None], [None]] 
+S :  
+Previous answer: Panama
+Question asked: True
+Current answer 0: Hungary
+Current answer 1: None
+Current answer : None
+Count answers: 3
+NB Disagree: 1
+ P1 : it's not Diana.  ['give_answer', ['GPE'], ['Diana']] 
+S :  
+Previous answer: Panama
+Question asked: True
+Current answer 0: Hungary
+Current answer 1: None
+Current answer : None
+Count answers: 3
+NB Disagree: 1
+ P1 : Yeah it's hungry  ['give_answer', ['GPE'], ['hungry']] 
+S :  
+Previous answer: Panama
+Question asked: True
+Current answer 0: Hungary
+Current answer 1: None
+Current answer : None
+Count answers: 3
+NB Disagree: 1
+ P1 : I think it's hungry  ['give_answer', ['GPE'], ['hungry']] 
+S :  
+Previous answer: Panama
+Question asked: True
+Current answer 0: Hungary
+Current answer 1: None
+Current answer : None
+Count answers: 3
+NB Disagree: 1
+ P1 : I think it's Hungary  ['give_answer', ['GPE'], ['Hungary']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Hungary
+Current answer 1: None
+Current answer : None
+Count answers: 4
+NB Disagree: 1
+ P1 : I think it's hungry I agree  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Hungary
+Current answer 1: None
+Current answer : None
+Count answers: 4
+NB Disagree: 1
+ P1 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Hungary
+Current answer 1: None
+Current answer : None
+Count answers: 4
+NB Disagree: 1
+ P2 : I agree  ['agree', [None], [None]] 
+S : So, is Hungary your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: Hungary
+Current answer 1: None
+Current answer : Hungary
+Count answers: 4
+NB Disagree: 1
+ P1 : yeah  ['agree', [None], [None]] 
+S : You agreed on Hungary. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Hungary
+Count answers: 0
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : Which flag will be displayed after this one is taken down? Is this the flag of New Zealand, Mali, Georgia or Ecuador? I want to hear your team's most calculated guess after some discussion. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Hungary
+Count answers: 0
+NB Disagree: 0
+ P1 : Bahrain  ['give_answer', ['GPE'], ['Bahrain']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Hungary
+Count answers: 0
+NB Disagree: 0
+ P1 : can we skip this question  ['skip_question', [None], [None]] 
+S : Ok, let's skip this question ! What is the flag that will be shown immediately after this? Is this the flag of Nepal, Chad, Sudan or Saint Vincent and the Grenadines? Take a moment to discuss with your team and share the country you think it is. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Hungary
+Count answers: 0
+NB Disagree: 0
+ P1 : I think it's Nepal yes I think so too  ['give_answer', ['GPE'], ['Nepal']] 
+S :  
+Previous answer: Hungary
+Question asked: True
+Current answer 0: Nepal
+Current answer 1: None
+Current answer : Hungary
+Count answers: 1
+NB Disagree: 0
+ P1 : Nepal  ['give_answer', ['GPE'], ['Nepal']] 
+S :  
+Previous answer: Hungary
+Question asked: True
+Current answer 0: Nepal
+Current answer 1: None
+Current answer : Hungary
+Count answers: 2
+NB Disagree: 0
+ P1 : I think it's the poll  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Hungary
+Question asked: True
+Current answer 0: Nepal
+Current answer 1: None
+Current answer : Hungary
+Count answers: 2
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S : So, is Nepal your final answer ? 
+Previous answer: Hungary
+Question asked: True
+Current answer 0: Nepal
+Current answer 1: None
+Current answer : Nepal
+Count answers: 2
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Nepal. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Hungary
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Nepal
+Count answers: 0
+NB Disagree: 0

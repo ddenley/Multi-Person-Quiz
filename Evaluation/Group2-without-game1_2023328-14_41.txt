@@ -1,0 +1,217 @@
+Would you like to take a chance? Can you identify the country by the flag?
+ P1 : yes let's play  ['agree', [None], [None]] 
+S : What country's flag will be shown next? Is this the flag of Spain, Croatia, Somalia or American Samoa? After some discussion, I want to know your team's most confident estimation of the country. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P1 : it's not Spain Recreation American Samoa  ['give_answer', ['GPE'], ['Spain']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Spain
+Count answers: 1
+NB Disagree: 1
+ P1 : a final answer is American Samoa  ['give_answer', ['GPE'], ['American Samoa']] 
+S :  
+Previous answer: Spain
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : American Samoa
+Count answers: 2
+NB Disagree: 2
+ P1 : yep we both agree on  ['agree', [None], [None]] 
+S : So, is American Samoa your final answer ? 
+Previous answer: Spain
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : American Samoa
+Count answers: 2
+NB Disagree: 2
+ P2 : American Samoa  ['give_answer', ['GPE'], ['American Samoa']] 
+S : No problem, keep going on this question ! 
+Previous answer: Spain
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : American Samoa
+Count answers: 0
+NB Disagree: 2
+ P2 : her final answer is American Samoa  ['give_answer', ['GPE'], ['American Samoa']] 
+S :  
+Previous answer: American Samoa
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : American Samoa
+Count answers: 1
+NB Disagree: 2
+ P1 : yeah I agree  ['agree', [None], [None]] 
+S : So, is American Samoa your final answer ? 
+Previous answer: American Samoa
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : American Samoa
+Count answers: 1
+NB Disagree: 2
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on American Samoa. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: American Samoa
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : American Samoa
+Count answers: 0
+NB Disagree: 2
+ P2 : yeah  ['agree', [None], [None]] 
+S : Can you identify the upcoming flag? Is this the flag of Belgium, Kiribati, Cook Islands or Poland? It's time to combine your knowledge and make your best collective guess. 
+Previous answer: American Samoa
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : American Samoa
+Count answers: 0
+NB Disagree: 0
+ P1 : I know it's about Belgium or Poland  ['give_answer', ['GPE'], ['Belgium']] 
+S :  
+Previous answer: American Samoa
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Belgium
+Count answers: 1
+NB Disagree: 1
+ P1 : I agree but then again  ['repeat_question', [None], [None]] 
+S : Absolutely, I can repeat the different choices.Which flag will be displayed after this one is taken down? Is this the flag of Belgium, Kiribati, Cook Islands or Poland? Let's hear your team's most calculated country guess after some collaboration. 
+Previous answer: American Samoa
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Belgium
+Count answers: 1
+NB Disagree: 1
+ P2 : could we have a hint  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about Island nation in Micronesia, composed of numerous islands 
+Previous answer: American Samoa
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Belgium
+Count answers: 1
+NB Disagree: 1
+ P2 : I guess it's the Cook Islands then  ['give_answer', ['GPE'], ['Cook Islands then']] 
+S :  
+Previous answer: American Samoa
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Belgium
+Count answers: 1
+NB Disagree: 1
+ P1 : I think it's Kiribati  ['give_answer', ['GPE'], ['Kiribati']] 
+S :  
+Previous answer: Belgium
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 2
+NB Disagree: 2
+ P1 : are you sure are you then  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Belgium
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 2
+NB Disagree: 2
+ P1 : I agree we'll go with charabaty  ['give_answer', ['GPE'], ['charabaty']] 
+S :  
+Previous answer: Belgium
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 2
+NB Disagree: 2
+ P1 : a b c d will go with Kara bus  ['give_answer', ['GPE'], ['Kara']] 
+S :  
+Previous answer: Belgium
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 2
+NB Disagree: 2
+ P1 : I agree  ['agree', [None], [None]] 
+S : So, is Kiribati your final answer ? 
+Previous answer: Belgium
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 2
+NB Disagree: 2
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Kiribati. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Belgium
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 0
+NB Disagree: 2
+ P2 : yes  ['agree', [None], [None]] 
+S : Can you guess the flag that will be displayed immediately after this one? Is this the flag of The Republic of Korea, Japan, British Indian Ocean Territory or Macao? Let's hear your team's most calculated country guess after some collaboration. 
+Previous answer: Belgium
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 0
+NB Disagree: 0
+ P1 : or no survey yes we'd like to play  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Belgium
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Kiribati
+Count answers: 0
+NB Disagree: 0
+ P1 : you know that I think the answer is Japan I agree  ['give_answer', ['GPE'], ['Japan']] 
+S :  
+Previous answer: Kiribati
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Japan
+Count answers: 1
+NB Disagree: 1
+ P2 : our final answer is Japan  ['agree', ['GPE'], ['Japan']] 
+S : So, is Japan your final answer ? 
+Previous answer: Kiribati
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Japan
+Count answers: 1
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Japan. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Kiribati
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Japan
+Count answers: 0
+NB Disagree: 1

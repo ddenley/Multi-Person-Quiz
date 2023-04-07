@@ -1,0 +1,29 @@
+Want to give it a shot? Link each flag with its corresponding country!
+ P1 : let's go  ['agree', [None], [None]] 
+S : What is the next flag in the queue? Is this the flag of Algeria, Finland, Bhutan or Macao? Talk amongst yourselves and then share your team's country selection. 
+ P2 : I think with the graston technique  ['give_answer', ['GPE'], ['technique']] 
+S :  
+ P2 : read the red maybe it's Finland  ['give_answer', ['GPE'], ['Finland']] 
+S :  
+ P2 : maybe Algeria  ['give_answer', ['GPE'], ['Algeria']] 
+S :  
+ P2 : I think it's Finland  ['give_answer', ['GPE'], ['Finland']] 
+S :  
+ P2 : I think I'm going back to my first I think yeah with the Crescent I think it through time  ['give_answer', ['GPE'], ['Crescent']] 
+S :  
+ P1 : no I think it's different it's your Finland  ['give_answer', ['GPE'], ['Finland']] 
+S : So, is Finland your final answer ? 
+ P1 : nope  ['disagree', [None], [None]] 
+S : No problem, keep going on this question ! 
+ P2 : I could be your time I'm thinking  ['give_answer', [None], [None]] 
+S :  
+ P2 : Algeria Nigeria  ['give_answer', ['GPE'], ['Algeria']] 
+S : This is a tough one, would you like a clue? ? 
+ P1 : yes please  ['agree', [None], [None]] 
+S : Think about this hint. We are talking about Country bordering Libya and Tunisia in the southern Mediterranean coast of North Africa 
+ P1 : in that case I think it's Algeria  ['give_answer', ['GPE'], ['Algeria']] 
+S :  
+ P2 : yes I agree Algeria  ['give_answer', ['GPE'], ['Algeria']] 
+S : So, is Algeria your final answer ? 
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Algeria. Well done, it's right ! Would you like to continue to play ? 

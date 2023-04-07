@@ -1,0 +1,235 @@
+Care to join in? Match the flag with its respective country and let's see how you do!
+ P2 : yes we'd like to play  ['give_answer', [None], [None]] 
+S : Which flag will be unveiled after this one? Is this the flag of Vanuatu, French Polynesia, France or Iraq? Collaborate and give me the name of the country that you think it is. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P1 : I think we can rule out fence in your eye  ['nlu_fallback', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P1 : I have never heard about  ['ask_clue', ['GPE'], ['heard']] 
+S : Think about this hint. We are talking about Islands in the South Pacific Ocean known for their blue-water lagoons 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : I know that I just said I  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P1 : will go with Vanuatu  ['give_answer', ['GPE'], ['Vanuatu']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: Vanuatu
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 0
+ P1 : yep I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: Vanuatu
+Current answer 1: None
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P1 : can you give us a hint again  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about Islands in the South Pacific Ocean known for their blue-water lagoons 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: Vanuatu
+Current answer 1: None
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P1 : I'm going to guess French Polynesia  ['give_answer', ['GPE'], ['French Polynesia']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: French Polynesia
+Current answer 1: None
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P1 : yep I agree I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: French Polynesia
+Current answer 1: None
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P1 : will go with French Polynesia as a final answer  ['give_answer', ['GPE'], ['French Polynesia']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: French Polynesia
+Current answer 1: None
+Current answer : None
+Count answers: 3
+NB Disagree: 0
+ P2 : do you agree  ['agree', [None], [None]] 
+S : So, is French Polynesia your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: French Polynesia
+Current answer 1: None
+Current answer : French Polynesia
+Count answers: 3
+NB Disagree: 0
+ P1 : yes I agree we would like to go with French Polynesia  ['give_answer', ['GPE'], ['French Polynesia']] 
+S : No problem, keep going on this question ! 
+Previous answer: None
+Question asked: True
+Current answer 0: French Polynesia
+Current answer 1: None
+Current answer : French Polynesia
+Count answers: 0
+NB Disagree: 0
+ P1 : our final answer is French Polynesia  ['give_answer', ['GPE'], ['French Polynesia']] 
+S :  
+Previous answer: French Polynesia
+Question asked: True
+Current answer 0: French Polynesia
+Current answer 1: None
+Current answer : French Polynesia
+Count answers: 1
+NB Disagree: 0
+ P1 : answer is French Polynesia  ['give_answer', ['GPE'], ['French Polynesia']] 
+S :  
+Previous answer: French Polynesia
+Question asked: True
+Current answer 0: French Polynesia
+Current answer 1: None
+Current answer : French Polynesia
+Count answers: 2
+NB Disagree: 0
+ P1 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: French Polynesia
+Question asked: True
+Current answer 0: French Polynesia
+Current answer 1: None
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P1 : we both think it's French Polynesia  ['give_answer', ['GPE'], ['French Polynesia']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: French Polynesia
+Current answer 1: None
+Current answer : None
+Count answers: 3
+NB Disagree: 0
+ P2 : we would like to look in French Polynesia  ['give_answer', ['GPE'], ['French Polynesia']] 
+S : So, is French Polynesia your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: French Polynesia
+Current answer 1: French Polynesia
+Current answer : French Polynesia
+Count answers: 4
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on French Polynesia. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : French Polynesia
+Count answers: 0
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : Which flag is about to be unveiled? Is this the flag of Jamaica, Barbados, Germany or Latvia? Take a few moments to confer with your team and offer the name of the country you think it is. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : French Polynesia
+Count answers: 0
+NB Disagree: 0
+ P2 : I think it's Jamaica  ['give_answer', ['GPE'], ['Jamaica']] 
+S :  
+Previous answer: French Polynesia
+Question asked: True
+Current answer 0: None
+Current answer 1: Jamaica
+Current answer : French Polynesia
+Count answers: 1
+NB Disagree: 0
+ P1 : will go with Jamaica  ['give_answer', ['GPE'], ['Jamaica']] 
+S : So, is Jamaica your final answer ? 
+Previous answer: French Polynesia
+Question asked: True
+Current answer 0: Jamaica
+Current answer 1: Jamaica
+Current answer : Jamaica
+Count answers: 2
+NB Disagree: 0
+ P1 : yes it is  ['agree', [None], [None]] 
+S : You agreed on Jamaica. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: French Polynesia
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Jamaica
+Count answers: 0
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : What is the flag that will be shown next? Is this the flag of Gibraltar, Haiti, The Philippines or Kuwait? I want to hear your team's most calculated guess after some discussion. 
+Previous answer: French Polynesia
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Jamaica
+Count answers: 0
+NB Disagree: 0
+ P1 : my guess is the Philippines  ['give_answer', ['GPE'], ['Philippines']] 
+S :  
+Previous answer: Jamaica
+Question asked: True
+Current answer 0: The Philippines
+Current answer 1: None
+Current answer : Jamaica
+Count answers: 1
+NB Disagree: 0
+ P2 : okay are you sure let's go with the Philippines  ['give_answer', ['GPE'], ['Philippines']] 
+S : So, is The Philippines your final answer ? 
+Previous answer: Jamaica
+Question asked: True
+Current answer 0: The Philippines
+Current answer 1: The Philippines
+Current answer : The Philippines
+Count answers: 2
+NB Disagree: 0
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on The Philippines. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Jamaica
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : The Philippines
+Count answers: 0
+NB Disagree: 0

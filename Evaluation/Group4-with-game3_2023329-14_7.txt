@@ -1,0 +1,316 @@
+Would you be daring enough to try? Uncover the nation hidden behind the flag!
+ P1 : hey there  ['agree', [None], [None]] 
+S : What's the next country flag that will be displayed? Is this the flag of Botswana, Mali, Saint Kitts and Nevis or United Kingdom? It's time to collaborate and come to a consensus before making your guess. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P1 : what do you think I think you could be Molly. I think it's Miley  ['give_answer', ['GPE'], ['Miley']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P1 : Mali  ['give_answer', ['GPE'], ['Mali']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: Mali
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 0
+ P1 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: Mali
+Current answer 1: None
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P1 : I think the Alex is Molly  ['give_answer', ['GPE'], ['Molly']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: Mali
+Current answer 1: None
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P2 : we think it's Molly  ['give_answer', ['GPE'], ['Molly']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: Mali
+Current answer 1: None
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P1 : maybe Botswana  ['give_answer', ['GPE'], ['Botswana']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Botswana
+Current answer 1: None
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P2 : yes I think Botswana  ['give_answer', ['GPE'], ['Botswana']] 
+S : So, is Botswana your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: Botswana
+Current answer 1: Botswana
+Current answer : Botswana
+Count answers: 3
+NB Disagree: 0
+ P2 : no  ['disagree', [None], [None]] 
+S : No problem, keep going on this question ! 
+Previous answer: None
+Question asked: True
+Current answer 0: Botswana
+Current answer 1: Botswana
+Current answer : Botswana
+Count answers: 0
+NB Disagree: 0
+ P2 : maybe it's maybe Saint Kitts and Nevis  ['give_answer', ['GPE'], ['Saint Kitts and Nevis']] 
+S :  
+Previous answer: Botswana
+Question asked: True
+Current answer 0: Botswana
+Current answer 1: Saint Kitts and Nevis
+Current answer : Botswana
+Count answers: 1
+NB Disagree: 1
+ P1 : I think it's Saint Kitts and Nevis  ['give_answer', ['GPE'], ['Saint Kitts and Nevis']] 
+S : So, is Saint Kitts and Nevis your final answer ? 
+Previous answer: Botswana
+Question asked: True
+Current answer 0: Saint Kitts and Nevis
+Current answer 1: Saint Kitts and Nevis
+Current answer : Saint Kitts and Nevis
+Count answers: 2
+NB Disagree: 1
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Saint Kitts and Nevis. Unfortunately it's not the right answer. This is the flag of United Kingdom ! Would you like to try another flag ? 
+Previous answer: Botswana
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 0
+NB Disagree: 1
+ P1 : yes please  ['agree', [None], [None]] 
+S : Which flag is next in the sequence? Is this the flag of The Gambia, Saint Helena Ascension and Tristanda Cunha, Romania or South Africa? It's time to collaborate and come to a consensus before making your guess. 
+Previous answer: Botswana
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 0
+NB Disagree: 0
+ P2 : what you think I think it's Saint Helena Ascension  ['give_answer', ['GPE'], ['Saint Helena Ascension']] 
+S :  
+Previous answer: Saint Kitts and Nevis
+Question asked: True
+Current answer 0: None
+Current answer 1: Saint Helena Ascension and Tristanda Cunha
+Current answer : Saint Kitts and Nevis
+Count answers: 1
+NB Disagree: 0
+ P1 : and tristanda  ['give_answer', ['GPE'], ['and tristanda']] 
+S : So, is Saint Helena Ascension and Tristanda Cunha your final answer ? 
+Previous answer: Saint Kitts and Nevis
+Question asked: True
+Current answer 0: Saint Helena Ascension and Tristanda Cunha
+Current answer 1: Saint Helena Ascension and Tristanda Cunha
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 2
+NB Disagree: 0
+ P2 : no I think it's Romania  ['give_answer', ['GPE'], ['Romania']] 
+S : No problem, keep going on this question ! 
+Previous answer: Saint Kitts and Nevis
+Question asked: True
+Current answer 0: Saint Helena Ascension and Tristanda Cunha
+Current answer 1: Saint Helena Ascension and Tristanda Cunha
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 0
+NB Disagree: 0
+ P1 : I think it's Romania  ['give_answer', ['GPE'], ['Romania']] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Romania
+Current answer 1: Saint Helena Ascension and Tristanda Cunha
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 1
+NB Disagree: 1
+ P1 : I agree  ['agree', [None], [None]] 
+S : So, is Saint Helena Ascension and Tristanda Cunha your final answer ? 
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Romania
+Current answer 1: Saint Helena Ascension and Tristanda Cunha
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 1
+NB Disagree: 1
+ P1 : no Romania is our final answer  ['give_answer', ['GPE'], ['Romania']] 
+S : No problem, keep going on this question ! 
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Romania
+Current answer 1: Saint Helena Ascension and Tristanda Cunha
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 0
+NB Disagree: 1
+ P1 : we think it's Romania  ['give_answer', ['GPE'], ['Romania']] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Romania
+Current answer 1: Saint Helena Ascension and Tristanda Cunha
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 1
+NB Disagree: 2
+ P1 : yes Romania  ['give_answer', ['GPE'], ['Romania']] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Romania
+Current answer 1: Saint Helena Ascension and Tristanda Cunha
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 2
+NB Disagree: 3
+ P1 : I think it's from menu  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Romania
+Current answer 1: Saint Helena Ascension and Tristanda Cunha
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 2
+NB Disagree: 3
+ P1 : Samantha met with.  ['give_answer', ['GPE'], ['Samantha']] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Romania
+Current answer 1: Saint Helena Ascension and Tristanda Cunha
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 2
+NB Disagree: 3
+ P1 : Let's try go again for Saint Helena Ascension and Tristan da cunha  ['give_answer', ['GPE'], ['Saint Helena Ascension and Tristan']] 
+S : So, is Saint Helena Ascension and Tristanda Cunha your final answer ? 
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Saint Helena Ascension and Tristanda Cunha
+Current answer 1: Saint Helena Ascension and Tristanda Cunha
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 3
+NB Disagree: 3
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Saint Helena Ascension and Tristanda Cunha. Unfortunately it's not the right answer. This is the flag of Romania ! Would you like to try another flag ? 
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 0
+NB Disagree: 3
+ P1 : yes please  ['agree', [None], [None]] 
+S : Which national flag is scheduled to be shown next? Is this the flag of Georgia, Djibouti, Nepal or Kiribati? Let's hear your team's most confident country guess after some collaboration. 
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 0
+NB Disagree: 0
+ P1 : got my listing looks like an NFL logo to send alcohol tax Nepal  ['give_answer', ['GPE'], ['Nepal']] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Nepal
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 1
+NB Disagree: 0
+ P1 : Saint Kitts Nepal  ['give_answer', ['GPE'], ['Saint Kitts Nepal']] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Nepal
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 1
+NB Disagree: 0
+ P1 : I think I agree  ['disagree', [None], [None]] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Nepal
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 1
+NB Disagree: 1
+ P2 : maybe it's not  ['disagree', [None], [None]] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Nepal
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 1
+NB Disagree: 2
+ P1 : maybe it's kind of bossy  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Nepal
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 1
+NB Disagree: 2
+ P1 : yes Tara.  ['give_answer', ['GPE'], ['Tara']] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Nepal
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 1
+NB Disagree: 2
+ P1 : About Djibouti  ['give_answer', ['GPE'], ['Djibouti']] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Djibouti
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 2
+NB Disagree: 2
+ P2 : play Brook Benton t.i.  ['give_answer', ['GPE'], ['Brook']] 
+S :  
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Djibouti
+Current answer 1: None
+Current answer : Saint Helena Ascension and Tristanda Cunha
+Count answers: 2
+NB Disagree: 2
+ P2 : About Djibouti play Brook Benton t.i.  ['give_answer', ['GPE'], ['Djibouti']] 
+S : So, is Djibouti your final answer ? 
+Previous answer: Saint Helena Ascension and Tristanda Cunha
+Question asked: True
+Current answer 0: Djibouti
+Current answer 1: Djibouti
+Current answer : Djibouti
+Count answers: 3
+NB Disagree: 2

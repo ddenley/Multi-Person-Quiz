@@ -1,0 +1,307 @@
+Are you ready? See if you can connect the flag to its home nation!
+ P2 : we would like to play the game  ['give_answer', [None], [None]] 
+S : Do you know the flag that will be displayed next? Is this the flag of Norfolk Island, Dominica, Indonesia or United Kingdom? After some deliberation, I want to hear your team's most accurate estimation of the country. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : I don't think we need celebration it's the United Kingdom  ['give_answer', ['GPE'], ['celebration']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P1 : our final answer is the United Kingdom  ['give_answer', ['GPE'], ['United Kingdom']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: United Kingdom
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 0
+ P2 : I have the same opinion  ['give_answer', ['GPE'], ['opinion']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: United Kingdom
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 0
+ P2 : we both we both say it's the the United Kingdom  ['give_answer', ['GPE'], ['the the']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: United Kingdom
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 0
+ P2 : I agree our final answer is United Kingdom  ['give_answer', ['GPE'], ['United Kingdom']] 
+S : So, is United Kingdom your final answer ? 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: United Kingdom
+Current answer 1: United Kingdom
+Current answer : United Kingdom
+Count answers: 2
+NB Disagree: 0
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on United Kingdom. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: WrongAnswer
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : United Kingdom
+Count answers: 0
+NB Disagree: 0
+ P1 : yes please  ['agree', [None], [None]] 
+S : What flag will be shown after this one? Is this the flag of Isle of Man, Canada, Bermuda or Georgia? It's time to combine your knowledge and make your best collective guess. 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : United Kingdom
+Count answers: 0
+NB Disagree: 0
+ P1 : the flag of Canada  ['give_answer', ['GPE'], ['Canada']] 
+S :  
+Previous answer: United Kingdom
+Question asked: True
+Current answer 0: Canada
+Current answer 1: None
+Current answer : United Kingdom
+Count answers: 1
+NB Disagree: 0
+ P2 : we both think it's B Canada  ['give_answer', ['GPE'], ['B']] 
+S :  
+Previous answer: United Kingdom
+Question asked: True
+Current answer 0: Canada
+Current answer 1: Bermuda
+Current answer : United Kingdom
+Count answers: 2
+NB Disagree: 1
+ P1 : yep I agree  ['agree', [None], [None]] 
+S : So, is Bermuda your final answer ? 
+Previous answer: United Kingdom
+Question asked: True
+Current answer 0: Canada
+Current answer 1: Bermuda
+Current answer : Bermuda
+Count answers: 2
+NB Disagree: 1
+ P1 : no it's not our answer is B Canada  ['give_answer', ['GPE'], ['B']] 
+S : No problem, keep going on this question ! 
+Previous answer: United Kingdom
+Question asked: True
+Current answer 0: Canada
+Current answer 1: Bermuda
+Current answer : Bermuda
+Count answers: 0
+NB Disagree: 1
+ P1 : our answer is Canada  ['give_answer', ['GPE'], ['Canada']] 
+S :  
+Previous answer: Bermuda
+Question asked: True
+Current answer 0: Canada
+Current answer 1: Bermuda
+Current answer : Bermuda
+Count answers: 1
+NB Disagree: 2
+ P1 : Migos Canada  ['give_answer', ['GPE'], ['Migos']] 
+S :  
+Previous answer: Bermuda
+Question asked: True
+Current answer 0: Canada
+Current answer 1: Bermuda
+Current answer : Bermuda
+Count answers: 1
+NB Disagree: 2
+ P2 : we would like to answer Canada  ['give_answer', ['GPE'], ['Canada']] 
+S : So, is Canada your final answer ? 
+Previous answer: Bermuda
+Question asked: True
+Current answer 0: Canada
+Current answer 1: Canada
+Current answer : Canada
+Count answers: 2
+NB Disagree: 2
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Canada. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Bermuda
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Canada
+Count answers: 0
+NB Disagree: 2
+ P1 : yes please  ['agree', [None], [None]] 
+S : Which flag is scheduled to be displayed next? Is this the flag of South Sudan, Kuwait, Barbados or Madagascar? Discuss it with your quiz team and offer the name of the country you think it is. 
+Previous answer: Bermuda
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Canada
+Count answers: 0
+NB Disagree: 0
+ P2 : I know it's at South Sudan  ['give_answer', ['GPE'], ['South Sudan']] 
+S :  
+Previous answer: Canada
+Question asked: True
+Current answer 0: None
+Current answer 1: South Sudan
+Current answer : Canada
+Count answers: 1
+NB Disagree: 0
+ P2 : okay  ['agree', [None], [None]] 
+S :  
+Previous answer: Canada
+Question asked: True
+Current answer 0: None
+Current answer 1: South Sudan
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P2 : I'm stuck between Barbados and other cats purr  ['give_answer', ['GPE'], ['Barbados']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Barbados
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P1 : I have no idea I don't even know where  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Barbados
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P2 : the walkers  ['give_answer', ['GPE'], ['the walkers']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Barbados
+Current answer : None
+Count answers: 2
+NB Disagree: 0
+ P2 : that's very salty stop my best guess is Barbados  ['give_answer', ['GPE'], ['Barbados']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Barbados
+Current answer : None
+Count answers: 3
+NB Disagree: 0
+ P2 : we think the answer is Barbados  ['give_answer', ['GPE'], ['Barbados']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Barbados
+Current answer : None
+Count answers: 4
+NB Disagree: 0
+ P2 : you would like to go and see Barbados please  ['give_answer', ['GPE'], ['Barbados']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Barbados
+Current answer : None
+Count answers: 5
+NB Disagree: 0
+ P2 : I would look like to look in the answer Barbados please  ['give_answer', ['GPE'], ['Barbados']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Barbados
+Current answer : None
+Count answers: 6
+NB Disagree: 0
+ P1 : hello  ['agree', ['GPE'], ['hello']] 
+S : So, is Barbados your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Barbados
+Current answer : Barbados
+Count answers: 6
+NB Disagree: 0
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Barbados. Unfortunately it's not the right answer. This is the flag of Madagascar ! Would you like to try another flag ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Barbados
+Count answers: 0
+NB Disagree: 0
+ P2 : I know  ['agree', [None], [None]] 
+S : What flag is next to be raised? Is this the flag of Iraq, Myanmar, Nicaragua or The Democratic Republic of The Congo? Take a few moments to confer with your team and offer your most confident guess. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Barbados
+Count answers: 0
+NB Disagree: 0
+ P2 : this is an easy one  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Barbados
+Count answers: 0
+NB Disagree: 0
+ P1 : I  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 0
+ P2 : will go and see Nicaragua  ['give_answer', ['GPE'], ['Nicaragua']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Nicaragua
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P2 : yep I agree let's go  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Nicaragua
+Current answer : None
+Count answers: 1
+NB Disagree: 0
+ P2 : yep I agree let's go  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Nicaragua
+Current answer : None
+Count answers: 1
+NB Disagree: 0

@@ -1,0 +1,154 @@
+Are you game for a game? Show us your skills by matching the flag to its country.
+ P1 : let's go  ['agree', [None], [None]] 
+S : What is the flag that will be shown immediately after this? Is this the flag of United Republic of Tanzania, Cuba, Malawi or Equatorial Guinea? After some discussion, I want to know your team's most confident estimation of the country. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : I think it's Malawi  ['give_answer', ['GPE'], ['Malawi']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Malawi
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 0
+ P2 : note is difference in Cuba  ['give_answer', ['GPE'], ['Cuba']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Cuba
+Current answer : WrongAnswer
+Count answers: 2
+NB Disagree: 0
+ P2 : maybe the equatorial Virginia  ['give_answer', ['GPE'], ['equatorial Virginia']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Cuba
+Current answer : WrongAnswer
+Count answers: 2
+NB Disagree: 0
+ P2 : Grenada  ['give_answer', ['GPE'], ['Grenada']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Cuba
+Current answer : WrongAnswer
+Count answers: 2
+NB Disagree: 0
+ P2 : Guinea  ['give_answer', ['GPE'], ['Guinea']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Equatorial Guinea
+Current answer : WrongAnswer
+Count answers: 3
+NB Disagree: 0
+ P1 : could you have a  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about Famous Caribbean island. 
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Equatorial Guinea
+Current answer : WrongAnswer
+Count answers: 3
+NB Disagree: 0
+ P2 : oh I think it's Equatorial Guinea  ['give_answer', ['GPE'], ['Equatorial Guinea']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Equatorial Guinea
+Current answer : WrongAnswer
+Count answers: 4
+NB Disagree: 0
+ P2 : Armada chuba  ['give_answer', ['GPE'], ['Armada']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Equatorial Guinea
+Current answer : WrongAnswer
+Count answers: 4
+NB Disagree: 0
+ P2 : I'm the true  ['agree', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Equatorial Guinea
+Current answer : None
+Count answers: 4
+NB Disagree: 0
+ P1 : Cuba  ['give_answer', ['GPE'], ['Cuba']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Cuba
+Current answer 1: Equatorial Guinea
+Current answer : None
+Count answers: 5
+NB Disagree: 1
+ P2 : no it's Equatorial Guinea  ['give_answer', ['GPE'], ['Equatorial Guinea']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: Cuba
+Current answer 1: Equatorial Guinea
+Current answer : None
+Count answers: 6
+NB Disagree: 2
+ P2 : Cuba  ['give_answer', ['GPE'], ['Cuba']] 
+S : So, is Cuba your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: Cuba
+Current answer 1: Cuba
+Current answer : Cuba
+Count answers: 7
+NB Disagree: 2
+ P2 : no  ['disagree', [None], [None]] 
+S : No problem, keep going on this question ! 
+Previous answer: None
+Question asked: True
+Current answer 0: Cuba
+Current answer 1: Cuba
+Current answer : Cuba
+Count answers: 0
+NB Disagree: 2
+ P2 : it's definitely Malawi  ['give_answer', ['GPE'], ['Malawi']] 
+S :  
+Previous answer: Cuba
+Question asked: True
+Current answer 0: Cuba
+Current answer 1: Malawi
+Current answer : Cuba
+Count answers: 1
+NB Disagree: 3
+ P2 : yeah I agree  ['agree', [None], [None]] 
+S : So, is Cuba your final answer ? 
+Previous answer: Cuba
+Question asked: True
+Current answer 0: Cuba
+Current answer 1: Malawi
+Current answer : Cuba
+Count answers: 1
+NB Disagree: 3
+ P2 : yes  ['agree', [None], [None]] 
+S : You agreed on Cuba. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Cuba
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Cuba
+Count answers: 0
+NB Disagree: 3

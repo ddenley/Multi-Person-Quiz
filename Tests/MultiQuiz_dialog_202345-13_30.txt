@@ -1,0 +1,10 @@
+Care to take a shot? Try to connect each flag with the right nation!
+ P1 : yes  ['agree', [None], [None]] 
+S : Can you guess the flag that will be displayed immediately after this one? Is this the flag of Colombia, Jamaica, Cote d'Ivoire or Falkland Islands? Work together and give me the name of the country that you think it is. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0

@@ -1,0 +1,352 @@
+Up for a challenge? Try to recognize each flag's country!
+ P2 : okay let's play  ['agree', [None], [None]] 
+S : Which flag is next in the sequence? Is this the flag of Trinidad and Tobago, Vanuatu, Peru or Sudan? I want to hear your team's most calculated guess after some discussion. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : I think that might be Trinidad and Tobago but I'm not sure  ['give_answer', ['GPE'], ['Trinidad and Tobago']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Trinidad and Tobago
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 0
+ P2 : I think I've seen it before I feel like we can go.  ['give_answer', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Trinidad and Tobago
+Current answer : WrongAnswer
+Count answers: 1
+NB Disagree: 0
+ P2 : It's definitely not sit down or Peru  ['give_answer', ['GPE'], ['Peru']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : WrongAnswer
+Count answers: 2
+NB Disagree: 0
+ P2 : yeah it's definitely Trinidad and Tobago  ['give_answer', ['GPE'], ['Trinidad and Tobago']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Trinidad and Tobago
+Current answer : WrongAnswer
+Count answers: 3
+NB Disagree: 0
+ P2 : Trinidad and Tobago is our answer please  ['give_answer', ['GPE'], ['Trinidad and Tobago']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Trinidad and Tobago
+Current answer : WrongAnswer
+Count answers: 4
+NB Disagree: 0
+ P2 : Trinidad and Tobago is the answer  ['give_answer', ['GPE'], ['Trinidad and Tobago']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Trinidad and Tobago
+Current answer : WrongAnswer
+Count answers: 5
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: Trinidad and Tobago
+Current answer : None
+Count answers: 5
+NB Disagree: 0
+ P2 : I think it's Trinidad and Tobago  ['give_answer', ['GPE'], ['Trinidad and Tobago']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Trinidad and Tobago
+Current answer : None
+Count answers: 6
+NB Disagree: 0
+ P2 : I think it's Trinidad and Tobago  ['give_answer', ['GPE'], ['Trinidad and Tobago']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Trinidad and Tobago
+Current answer : None
+Count answers: 7
+NB Disagree: 0
+ P2 : he said it's like a different I think it's Trinidad and Tobago  ['give_answer', ['GPE'], ['Trinidad and Tobago']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Trinidad and Tobago
+Current answer : None
+Count answers: 8
+NB Disagree: 0
+ P2 : I think it's Peru  ['give_answer', ['GPE'], ['Peru']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 9
+NB Disagree: 0
+ P2 : yeah let's go through  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 9
+NB Disagree: 0
+ P2 : I think it's Peru  ['give_answer', ['GPE'], ['Peru']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 10
+NB Disagree: 0
+ P2 : I think it's Peru  ['give_answer', ['GPE'], ['Peru']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 11
+NB Disagree: 0
+ P2 : I think it's true  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 11
+NB Disagree: 0
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 11
+NB Disagree: 0
+ P2 : I think it's Peru  ['give_answer', ['GPE'], ['Peru']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 12
+NB Disagree: 0
+ P2 : yes  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 12
+NB Disagree: 0
+ P2 : I think it's Peru  ['give_answer', ['GPE'], ['Peru']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 13
+NB Disagree: 0
+ P2 : I think it's a done  ['disagree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 13
+NB Disagree: 1
+ P2 : okay let's go with sedan  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 13
+NB Disagree: 1
+ P2 : can we please get the question  ['repeat_question', [None], [None]] 
+S : Absolutely, I can repeat the different choices.Can you guess the flag that will be displayed immediately after this one? Is this the flag of Trinidad and Tobago, Vanuatu, Peru or Sudan? After some discussion, I want to know your team's most confident estimation of the country. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 13
+NB Disagree: 1
+ P2 : what do you think it is  ['disagree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 13
+NB Disagree: 2
+ P2 : I think it's Saddam  ['give_answer', ['GPE'], ['Saddam']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 13
+NB Disagree: 2
+ P2 : I also think it's done  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Peru
+Current answer : None
+Count answers: 13
+NB Disagree: 2
+ P2 : I agree it is Sudan  ['give_answer', ['GPE'], ['Sudan']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Sudan
+Current answer : None
+Count answers: 14
+NB Disagree: 2
+ P2 : yes I person a to also agree that is too.  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Sudan
+Current answer : None
+Count answers: 14
+NB Disagree: 2
+ P2 : I think it's Sudan  ['give_answer', ['GPE'], ['Sudan']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Sudan
+Current answer : None
+Count answers: 15
+NB Disagree: 2
+ P1 : can we skip  ['skip_question', [None], [None]] 
+S : Ok, let's skip this question ! What is the next flag in the queue? Is this the flag of Guadeloupe, The United Arab Emirates, South Georgia and the South Sandwich Islands or Kiribati? After some discussion, I want to hear your team's best guess on the country. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Sudan
+Current answer : None
+Count answers: 15
+NB Disagree: 0
+ P2 : the first Captain doesn't really narrow it down  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Sudan
+Current answer : None
+Count answers: 15
+NB Disagree: 0
+ P2 : it's not how I remember it  ['disagree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Sudan
+Current answer : None
+Count answers: 15
+NB Disagree: 1
+ P2 : can we get a hint please  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about This British Overseas Territory consists of an archipelago in the Southern Atlantic Ocean 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Sudan
+Current answer : None
+Count answers: 15
+NB Disagree: 1
+ P2 : flag of so it could be C  ['give_answer', ['GPE'], ['C']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: South Georgia and the South Sandwich Islands
+Current answer : None
+Count answers: 16
+NB Disagree: 1
+ P2 : yeah South Georgia and the South Sandwich Islands  ['give_answer', ['GPE'], ['South Georgia and the South Sandwich Islands']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: South Georgia and the South Sandwich Islands
+Current answer : None
+Count answers: 17
+NB Disagree: 1
+ P1 : I agree it's South Georgia and the South Sandwich Islands  ['give_answer', ['GPE'], ['South Georgia and the']] 
+S : So, is South Georgia and the South Sandwich Islands your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: South Georgia and the South Sandwich Islands
+Current answer 1: South Georgia and the South Sandwich Islands
+Current answer : South Georgia and the South Sandwich Islands
+Count answers: 18
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on South Georgia and the South Sandwich Islands. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : South Georgia and the South Sandwich Islands
+Count answers: 0
+NB Disagree: 1
+ P1 : yes please  ['agree', [None], [None]] 
+S : Can you identify the flag that will be displayed next? Is this the flag of Papua New Guinea, Romania, Gibraltar or Morocco? It's time to combine your knowledge and make your best collective guess. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : South Georgia and the South Sandwich Islands
+Count answers: 0
+NB Disagree: 0
+ P1 : yes please  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 0

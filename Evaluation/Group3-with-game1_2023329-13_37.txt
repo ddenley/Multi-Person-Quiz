@@ -1,0 +1,280 @@
+Feeling up for a group game? See if you can identify the country by the flag!
+ P2 : okay  ['agree', [None], [None]] 
+S : Which flag will be up next? Is this the flag of Latvia, Mayotte, Northern Mariana Islands or US Virgin Islands? Collaborate and give me the name of the country that you think it is. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : how do you  ['disagree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 1
+ P1 : say  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 1
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 1
+ P2 : my auntie  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 1
+ P1 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 1
+ P2 : Mayotte can you repeat the question  ['repeat_question', [None], [None]] 
+S : Absolutely, I can repeat the different choices.What's the next country flag that will be displayed? Is this the flag of Latvia, Mayotte, Northern Mariana Islands or US Virgin Islands? After some deliberation, I want to hear your team's best country guess. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 1
+ P2 : we think it's my agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 1
+ P2 : music is my art  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 1
+ P2 : reason you smile  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 1
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 1
+ P2 : we think it is my  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 1
+ P2 : I agree  ['agree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 1
+ P2 : Mayotte  ['give_answer', ['GPE'], ['Mayotte']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Mayotte
+Current answer : None
+Count answers: 1
+NB Disagree: 1
+ P1 : I agree  ['agree', [None], [None]] 
+S : So, is Mayotte your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: Mayotte
+Current answer : Mayotte
+Count answers: 1
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Mayotte. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Mayotte
+Count answers: 0
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : What is the flag that will be shown next? Is this the flag of The Cocos Keeling Islands, Micronesia, Suriname or Norfolk Island? Collaborate and give me the name of the country that you think it is. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Mayotte
+Count answers: 0
+NB Disagree: 0
+ P1 : cuz we have a hint  ['ask_clue', [None], [None]] 
+S : Think about this hint. We are talking about Island in the South Pacific 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Mayotte
+Count answers: 0
+NB Disagree: 0
+ P2 : what do you want to go  ['disagree', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Mayotte
+Count answers: 0
+NB Disagree: 1
+ P2 : Norfolk Island cuz he's just wanted to say I think it's Norfolk Island  ['give_answer', ['GPE'], ['Norfolk Island']] 
+S :  
+Previous answer: Mayotte
+Question asked: True
+Current answer 0: None
+Current answer 1: Norfolk Island
+Current answer : Mayotte
+Count answers: 1
+NB Disagree: 1
+ P1 : I think it's Norfolk Island  ['give_answer', ['GPE'], ['Norfolk Island']] 
+S : So, is Norfolk Island your final answer ? 
+Previous answer: Mayotte
+Question asked: True
+Current answer 0: Norfolk Island
+Current answer 1: Norfolk Island
+Current answer : Norfolk Island
+Count answers: 2
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Norfolk Island. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Mayotte
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Norfolk Island
+Count answers: 0
+NB Disagree: 1
+ P2 : Egypt  ['give_answer', ['GPE'], ['Egypt']] 
+S : Which flag will be on display next? Is this the flag of French Saint Martin, Belize, Luxembourg or Afghanistan? Take a few moments to confer with your team and offer the name of the country you think it is. 
+Previous answer: Mayotte
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Norfolk Island
+Count answers: 0
+NB Disagree: 0
+ P2 : I know this is a demonstration because babies with different things  ['give_answer', ['GPE'], ['demonstration']] 
+S :  
+Previous answer: Mayotte
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Norfolk Island
+Count answers: 0
+NB Disagree: 0
+ P1 : pretty sure and that's it  ['agree', [None], [None]] 
+S :  
+Previous answer: Mayotte
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 0
+ P2 : I'm pretty sure I said Martin  ['give_answer', ['GPE'], ['said Martin']] 
+S :  
+Previous answer: Mayotte
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 0
+ P2 : I don't know  ['disagree', [None], [None]] 
+S :  
+Previous answer: Mayotte
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 1
+ P1 : Lawton okay  ['give_answer', ['GPE'], ['Lawton']] 
+S :  
+Previous answer: Mayotte
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : None
+Count answers: 0
+NB Disagree: 1
+ P2 : it looks like we think it's French Saint Martin  ['give_answer', ['GPE'], ['French Saint Martin']] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: French Saint Martin
+Current answer : None
+Count answers: 1
+NB Disagree: 1
+ P1 : French Saint Martin  ['give_answer', ['GPE'], ['French Saint Martin']] 
+S : So, is French Saint Martin your final answer ? 
+Previous answer: None
+Question asked: True
+Current answer 0: French Saint Martin
+Current answer 1: French Saint Martin
+Current answer : French Saint Martin
+Count answers: 2
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on French Saint Martin. Unfortunately it's not the right answer. This is the flag of Belize ! Would you like to try another flag ? 
+Previous answer: None
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : French Saint Martin
+Count answers: 0
+NB Disagree: 1

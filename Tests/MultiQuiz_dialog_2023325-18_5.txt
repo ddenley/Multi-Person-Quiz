@@ -1,0 +1,29 @@
+Are you game for a game? Show us your skills by matching the flag to its country.
+ P1 : let's play  ['agree', [None], [None]] 
+S : Which flag is next in the order? Is this the flag of Mayotte, Tonga, Martinique or The Cayman Islands? It's time to combine your knowledge and make your best collective guess. 
+ P2 : I think this is the Cayman Islands  ['give_answer', ['GPE'], ['the']] 
+S :  
+ P1 : yeah I agree with you I think it's a scam and item  ['give_answer', [None], [None]] 
+S :  
+ P1 : yeah for sure it's the Cayman Islands  ['give_answer', ['GPE'], ['Cayman Islands']] 
+S :  
+ P1 : yes you're right  ['agree', [None], [None]] 
+S : So, is The Cayman Islands your final answer ? 
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on The Cayman Islands. Well done, it's right ! Would you like to continue to play ? 
+ P1 : yes  ['agree', [None], [None]] 
+S : Can you guess the flag that will be displayed immediately after this one? Is this the flag of Gibraltar, South Sudan, Iceland or Marshall Islands? After some deliberation, I want to hear your team's best country guess. 
+ P1 : I'm pretty sure this one is Iceland  ['give_answer', ['GPE'], ['Iceland']] 
+S :  
+ P1 : maybe Gibraltar  ['give_answer', ['GPE'], ['Gibraltar']] 
+S :  
+ P1 : it keeps kicking you repeat the question  ['repeat_question', [None], [None]] 
+S : Absolutely, I can repeat the different choices.What is the next national flag to be displayed? Is this the flag of Gibraltar, South Sudan, Iceland or Marshall Islands? It's time to put your heads together and come up with your most informed country selection. 
+ P1 : a Dyson  ['give_answer', ['GPE'], ['Dyson']] 
+S :  
+ P2 : I think it's Iceland  ['give_answer', ['GPE'], ['Iceland']] 
+S :  
+ P1 : definitely I send yes I agree  ['agree', [None], [None]] 
+S : So, is Iceland your final answer ? 
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Iceland. Well done, it's right ! Would you like to continue to play ? 

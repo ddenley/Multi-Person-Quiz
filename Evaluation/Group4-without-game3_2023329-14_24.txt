@@ -1,0 +1,208 @@
+Would you like to take a chance? Can you identify the country by the flag?
+ P2 : let's play  ['agree', [None], [None]] 
+S : Which flag is next in the lineup? Is this the flag of Russia, Finland, British Virgin Islands or The Netherlands? Let's hear your team's prediction on which country it might be. 
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : I think it's been it's been long  ['give_answer', [None], [None]] 
+S :  
+Previous answer: None
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : WrongAnswer
+Count answers: 0
+NB Disagree: 0
+ P2 : Finland  ['give_answer', ['GPE'], ['Finland']] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Finland
+Count answers: 1
+NB Disagree: 1
+ P2 : you think it's been one  ['give_answer', [None], [None]] 
+S :  
+Previous answer: WrongAnswer
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Finland
+Count answers: 1
+NB Disagree: 1
+ P2 : Finland  ['give_answer', ['GPE'], ['Finland']] 
+S :  
+Previous answer: Finland
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Finland
+Count answers: 2
+NB Disagree: 1
+ P2 : what about Finland  ['give_answer', ['GPE'], ['Finland']] 
+S : So, is Finland your final answer ? 
+Previous answer: Finland
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Finland
+Count answers: 3
+NB Disagree: 1
+ P2 : yeah I agree  ['agree', [None], [None]] 
+S : You agreed on Finland. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Finland
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Finland
+Count answers: 0
+NB Disagree: 1
+ P2 : yes  ['agree', [None], [None]] 
+S : Can you identify the upcoming flag? Is this the flag of Israel, Cote d'Ivoire, Saint Kitts and Nevis or Yemen? Discuss it with your quiz team and give me your most educated country selection. 
+Previous answer: Finland
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Finland
+Count answers: 0
+NB Disagree: 0
+ P2 : I think it's Saint Kitts and Nevis  ['give_answer', ['GPE'], ['Saint Kitts and Nevis']] 
+S :  
+Previous answer: Finland
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 1
+NB Disagree: 1
+ P2 : yeah I guess we'll go with that  ['agree', [None], [None]] 
+S : So, is Saint Kitts and Nevis your final answer ? 
+Previous answer: Finland
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 1
+NB Disagree: 1
+ P2 : yes yes  ['agree', [None], [None]] 
+S : You agreed on Saint Kitts and Nevis. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Finland
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 0
+NB Disagree: 1
+ P2 : yes  ['agree', [None], [None]] 
+S : Which flag will be up right after this one? Is this the flag of Slovakia, Tajikistan, Antigua and Barbuda or Saudi Arabia? Let's hear your team's prediction after a little bit of brainstorming. 
+Previous answer: Finland
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 0
+NB Disagree: 0
+ P1 : I think I asked me to take a storm the great one  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Finland
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 0
+NB Disagree: 0
+ P1 : Olympics  ['give_answer', ['GPE'], ['Olympics']] 
+S :  
+Previous answer: Finland
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 0
+NB Disagree: 0
+ P1 : Senegal umbrella in the middle  ['give_answer', ['GPE'], ['Senegal']] 
+S :  
+Previous answer: Finland
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 0
+NB Disagree: 0
+ P1 : start stands known for their umbrellas  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Finland
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 0
+NB Disagree: 0
+ P1 : I think to just get some  ['give_answer', [None], [None]] 
+S :  
+Previous answer: Finland
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Saint Kitts and Nevis
+Count answers: 0
+NB Disagree: 0
+ P1 : do you think is Tajikistan  ['give_answer', ['GPE'], ['Tajikistan']] 
+S :  
+Previous answer: Saint Kitts and Nevis
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Tajikistan
+Count answers: 1
+NB Disagree: 1
+ P1 : how about Tajikistan Tahiti Stan what about  ['give_answer', ['GPE'], ['Tajikistan']] 
+S :  
+Previous answer: Tajikistan
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Tajikistan
+Count answers: 2
+NB Disagree: 1
+ P1 : Tajikistan  ['give_answer', ['GPE'], ['Tajikistan']] 
+S : So, is Tajikistan your final answer ? 
+Previous answer: Tajikistan
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Tajikistan
+Count answers: 3
+NB Disagree: 1
+ P1 : Pakistan that's the one yes  ['give_answer', ['GPE'], ['Pakistan']] 
+S : No problem, keep going on this question ! 
+Previous answer: Tajikistan
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Tajikistan
+Count answers: 0
+NB Disagree: 1
+ P1 : yes yes to take it done  ['agree', [None], [None]] 
+S : So, is Tajikistan your final answer ? 
+Previous answer: Tajikistan
+Question asked: True
+Current answer 0: None
+Current answer 1: None
+Current answer : Tajikistan
+Count answers: 0
+NB Disagree: 1
+ P1 : yes  ['agree', [None], [None]] 
+S : You agreed on Tajikistan. Well done, it's right ! Would you like to continue to play ? 
+Previous answer: Tajikistan
+Question asked: False
+Current answer 0: None
+Current answer 1: None
+Current answer : Tajikistan
+Count answers: 0
+NB Disagree: 1
