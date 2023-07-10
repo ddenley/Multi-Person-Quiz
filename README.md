@@ -13,7 +13,7 @@ Install all the libraries:
 ```bash
 pip install -r requirement.txt
 ```
-Add your API credentials in the file [google_api_credentials](oogle_api_credentials.json) for STT and TTS of google
+Add your API credentials in the file [google_api_credentials](google_api_credentials.json) for STT and TTS of google
 - [Google STT](https://cloud.google.com/speech-to-text)
 - [Google TTS](https://cloud.google.com/text-to-speech)
 
