@@ -7,7 +7,7 @@ import pyaudio
 
 
 def speech_to_text(text):
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "zeta-buckeye-377214-7075b17aba9f.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "google_api_credentials.json"
 
     client = texttospeech.TextToSpeechClient()
 

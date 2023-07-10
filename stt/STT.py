@@ -16,7 +16,7 @@ volume = 100
 class MicrophoneStream:
 
     def __init__(self):
-        os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "zeta-buckeye-377214-7075b17aba9f.json"
+        os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "../google_api_credentials.json"
         self.rate = 16000
         #Potentiall alyter chuck size to reduce latency
         self.chunk = int(self.rate / 10)
@@ -138,7 +138,7 @@ class Transcribe:
         )
         self.dialogue = Queue()
         # Could be refactored - use in creation of client instead
-        os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "zeta-buckeye-377214-7075b17aba9f.json"
+        os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "../google_api_credentials.json"
 
     def start_trans(self):
         audio_stream = MicrophoneStream()
