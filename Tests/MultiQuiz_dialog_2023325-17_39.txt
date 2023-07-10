@@ -1,3 +1,0 @@
-Are you game for a game? Show us your skills by matching the flag to its country.
- P1 : let's play  ['yes', [None], [None]] 
-S :  
